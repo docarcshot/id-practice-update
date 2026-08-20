@@ -20,6 +20,7 @@
       <nav class="nav" aria-label="Primary">
         <a href="#latest">Latest</a>
         <a href="#archive">Archive</a>
+        <a href="#quick-references">References</a>
         <a href="#about">About</a>
       </nav>
     </div>
@@ -48,7 +49,39 @@
         </div>
         <p id="last-updated" class="last-updated"></p>
       </div>
-      <div id="latest-list" class="article-list" aria-live="polite"></div>
+
+      <div class="latest-layout">
+        <div id="latest-list" class="article-list" aria-live="polite"></div>
+
+        <aside id="quick-references" class="quick-references" aria-label="Quick infectious diseases references">
+          <details id="quick-ref-panel" class="quick-ref-panel" open>
+            <summary>Quick references</summary>
+            <div class="quick-ref-list">
+              <a class="quick-ref-link" href="https://www.uptodate.com/contents/table-of-contents/infectious-diseases" target="_blank" rel="noopener">
+                <span>UpToDate ID</span><small>Infectious diseases contents</small>
+              </a>
+              <a class="quick-ref-link" href="https://www.unboundmedicine.com/ucentral" target="_blank" rel="noopener">
+                <span>uCentral / Hopkins ABX</span><small>Point-of-care antimicrobial guide</small>
+              </a>
+              <a class="quick-ref-link" href="https://www.idsociety.org/practice-guideline/all-practice-guidelines/" target="_blank" rel="noopener">
+                <span>IDSA Guidelines</span><small>Current A-Z guideline library</small>
+              </a>
+              <a class="quick-ref-link" href="https://www.cdc.gov/yellow-book/hcp/contents/index.html" target="_blank" rel="noopener">
+                <span>CDC Yellow Book</span><small>Travel medicine for clinicians</small>
+              </a>
+              <a class="quick-ref-link" href="https://clinicalinfo.hiv.gov/en/guidelines" target="_blank" rel="noopener">
+                <span>NIH HIV Guidelines</span><small>ART and opportunistic infections</small>
+              </a>
+              <a class="quick-ref-link" href="https://www.cdc.gov/sti/hcp/clinical-guidance/index.html" target="_blank" rel="noopener">
+                <span>CDC STI Guidance</span><small>Diagnosis and treatment guidance</small>
+              </a>
+              <a class="quick-ref-link" href="https://www.cdc.gov/vaccines/hcp/imz-schedules/" target="_blank" rel="noopener">
+                <span>CDC Immunization Schedules</span><small>Adult schedules and indications</small>
+              </a>
+            </div>
+          </details>
+        </aside>
+      </div>
     </section>
 
     <section id="archive" class="section archive-section">
@@ -56,7 +89,7 @@
         <div class="section-heading archive-heading">
           <div>
             <p class="eyebrow">Archive</p>
-            <h2>Search by syndrome or practice area</h2>
+            <h2>Search by syndrome, practice area, or study type</h2>
           </div>
           <p id="result-count" class="result-count"></p>
         </div>
@@ -66,7 +99,16 @@
             <span class="sr-only">Search articles</span>
             <input id="search-input" type="search" placeholder="Search title, syndrome, drug, diagnostic..." autocomplete="off" />
           </label>
-          <div id="filter-bar" class="filter-bar" aria-label="Filter articles by category"></div>
+
+          <div class="filter-group">
+            <span class="filter-label">Clinical area</span>
+            <div id="filter-bar" class="filter-bar" aria-label="Filter articles by clinical area"></div>
+          </div>
+
+          <div class="filter-group">
+            <span class="filter-label">Article type</span>
+            <div id="type-filter-bar" class="filter-bar type-filter-bar" aria-label="Filter articles by article type"></div>
+          </div>
         </div>
 
         <div id="archive-list" class="article-list"></div>
