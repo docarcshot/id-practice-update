@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="High-value infectious diseases literature for inpatient and outpatient practice." />
+  <title>ID Practice Update</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="ID Practice Update home">
+        <span class="brand-mark" aria-hidden="true">ID</span>
+        <span>
+          <span class="brand-title">ID Practice Update</span>
+          <span class="brand-subtitle">Literature worth changing practice for</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#latest">Latest</a>
+        <a href="#archive">Archive</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Independent infectious diseases literature digest</p>
+          <h1>What should actually change what you do?</h1>
+          <p class="hero-copy">A selective review of new guidelines, major reviews, diagnostics, and treatment studies with direct inpatient or outpatient ID relevance.</p>
+        </div>
+        <div class="hero-note">
+          <span class="hero-note-label">Selection threshold</span>
+          <p>Practice-changing first. Practice-informing when the paper resolves a real clinical uncertainty. No filler when there is nothing worth reading.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="latest" class="section wrap">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Latest</p>
+          <h2>Most recent high-value reads</h2>
+        </div>
+        <p id="last-updated" class="last-updated"></p>
+      </div>
+      <div id="latest-list" class="article-list" aria-live="polite"></div>
+    </section>
+
+    <section id="archive" class="section archive-section">
+      <div class="wrap">
+        <div class="section-heading archive-heading">
+          <div>
+            <p class="eyebrow">Archive</p>
+            <h2>Search by syndrome or practice area</h2>
+          </div>
+          <p id="result-count" class="result-count"></p>
+        </div>
+
+        <div class="controls" role="search">
+          <label class="search-box">
+            <span class="sr-only">Search articles</span>
+            <input id="search-input" type="search" placeholder="Search title, syndrome, drug, diagnostic..." autocomplete="off" />
+          </label>
+          <div id="filter-bar" class="filter-bar" aria-label="Filter articles by category"></div>
+        </div>
+
+        <div id="archive-list" class="article-list"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section wrap about-grid">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2>What gets included</h2>
+      </div>
+      <div class="about-copy">
+        <p>This site prioritizes new infectious diseases literature that can affect diagnosis, antimicrobial selection, dosing, duration, route, source control, interpretation of microbiology, monitoring, follow-up, OPAT, stewardship, or infection prevention.</p>
+        <p>Primary sources are verified before inclusion. Social media and curated feeds may identify papers, but they are treated as discovery signals rather than evidence. HIV is included only for major practice-changing developments.</p>
+        <p>Impact labels are editorial judgments, not formal guideline grades. The summaries are educational and should be read alongside the original publication and patient-specific clinical context.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span>ID Practice Update</span>
+      <span>Primary sources linked for every entry</span>
+    </div>
+  </footer>
+
+  <script src="data/articles.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
