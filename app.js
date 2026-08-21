@@ -29,55 +29,56 @@
     return 'Other';
   }
 
-  const domainOrder = [
-    'Bloodstream & Sepsis',
-    'Respiratory',
-    'GU & Sexual Health',
-    'Bone, Joint & SSTI',
-    'CNS & Hardware',
-    'HIV & Viral Hepatitis',
-    'Immunocompromised & Transplant',
-    'Mycobacteria, Fungi & Tropical',
-    'Diagnostics & Infection Prevention',
-    'Antimicrobials & Stewardship',
-    'General ID'
+  const laneOrder = [
+    'Inpatient ID',
+    'Outpatient ID',
+    'OPAT / Oral Step-down',
+    'Stewardship',
+    'Infection Prevention',
+    'Diagnostics / Microbiology',
+    'HIV / Viral Hepatitis',
+    'Immunocompromised / Transplant',
+    'Bone & Joint',
+    'Mycobacteria / Fungi / Tropical'
   ];
 
-  function broadDomains(article) {
-    const tags = new Set((article.tags || []).map(t => String(t).toLowerCase()));
-    const has = (...terms) => terms.some(term => tags.has(term.toLowerCase()));
-    const domains = [];
+  function practiceLanes(article) {
+    const rawTags = (article.tags || []).map(t => String(t).toLowerCase());
+    const tags = new Set(rawTags);
+    const text = [article.title, article.summary, article.change, article.takeaway, ...rawTags].join(' ').toLowerCase();
+    const hasTag = (...terms) => terms.some(term => tags.has(term.toLowerCase()));
+    const hasText = (...terms) => terms.some(term => text.includes(term.toLowerCase()));
+    const lanes = [];
 
-    if (has('Bacteremia','Sepsis','Endocarditis')) domains.push('Bloodstream & Sepsis');
-    if (has('Pneumonia','Respiratory')) domains.push('Respiratory');
-    if (has('UTI','Prostatitis','STI','Women\'s health')) domains.push('GU & Sexual Health');
-    if (has('Bone & Joint','PJI','Diabetic foot','SSTI')) domains.push('Bone, Joint & SSTI');
-    if (has('CNS','Hardware infection')) domains.push('CNS & Hardware');
-    if (has('HIV','Viral hepatitis','HDV')) domains.push('HIV & Viral Hepatitis');
-    if (has('Immunocompromised host','Transplant ID')) domains.push('Immunocompromised & Transplant');
-    if (has('Mycology','NTM','Mycobacterium abscessus','Tuberculosis','Travel & tropical','Chagas disease')) domains.push('Mycobacteria, Fungi & Tropical');
-    if (has('Diagnostics','Infection prevention','Occupational health','Exposure management','Imaging')) domains.push('Diagnostics & Infection Prevention');
-    if (has('Stewardship','Antimicrobial therapy','Antimicrobial duration','Oral therapy','Antibiotic allergy','Surgical prophylaxis','PK/PD','Antiviral therapy')) domains.push('Antimicrobials & Stewardship');
-    if (!domains.length || has('FUO')) domains.push('General ID');
+    if (hasTag('Inpatient ID','Critical care') || hasText('hospitalized','inpatient','sepsis','bacteremia','bloodstream infection')) lanes.push('Inpatient ID');
+    if (hasTag('Outpatient ID') || hasText('ambulatory','outpatient')) lanes.push('Outpatient ID');
+    if (hasTag('Oral therapy','Antimicrobial duration','Bone & Joint','PJI','Diabetic foot') || hasText('oral step-down','oral transitional','opat','outpatient parenteral')) lanes.push('OPAT / Oral Step-down');
+    if (hasTag('Stewardship','Antibiotic allergy','Surgical prophylaxis','PK/PD') || hasText('de-escalation','antibiotic exposure','stewardship')) lanes.push('Stewardship');
+    if (hasTag('Infection prevention','Occupational health','Exposure management') || hasText('infection prevention','healthcare-associated','transmission')) lanes.push('Infection Prevention');
+    if (hasTag('Diagnostics','Imaging') || hasText('diagnostic','molecular test','pcr','culture strategy','microbiology')) lanes.push('Diagnostics / Microbiology');
+    if (hasTag('HIV','Viral hepatitis','HDV','Antiretroviral therapy') || hasText('hiv','hepatitis')) lanes.push('HIV / Viral Hepatitis');
+    if (hasTag('Immunocompromised host','Transplant ID') || hasText('transplant','immunocompromised','immunosuppressed')) lanes.push('Immunocompromised / Transplant');
+    if (hasTag('Bone & Joint','PJI','Diabetic foot','Hardware infection') || hasText('osteomyelitis','prosthetic joint','arthroplasty')) lanes.push('Bone & Joint');
+    if (hasTag('Mycology','NTM','Mycobacterium abscessus','Tuberculosis','Travel & tropical','Chagas disease') || hasText('fungal','mucormycosis','tuberculosis','mycobacter','chagas','travel medicine')) lanes.push('Mycobacteria / Fungi / Tropical');
 
-    return domainOrder.filter(domain => domains.includes(domain));
+    return laneOrder.filter(lane => lanes.includes(lane));
   }
 
-  const availableDomains = new Set(articles.flatMap(broadDomains));
-  const categories = ['All', ...domainOrder.filter(d => availableDomains.has(d))];
+  const availableLanes = new Set(articles.flatMap(practiceLanes));
+  const categories = ['All', ...laneOrder.filter(lane => availableLanes.has(lane))];
   const typeOrder = ['Guideline / consensus','Regulatory update','Systematic review / meta-analysis','Trial','Diagnostic study','Observational study','Implementation study','Review / viewpoint','Other'];
   const availableTypes = new Set(articles.map(typeBucket));
   const articleTypes = ['All', ...typeOrder.filter(t => availableTypes.has(t))];
 
   function card(article, featured=false) {
     const doi = article.doi ? `<a href="https://doi.org/${esc(article.doi)}" target="_blank" rel="noopener">DOI</a>` : '';
-    const displayDomains = broadDomains(article).slice(0,2);
+    const displayLanes = practiceLanes(article).slice(0,2);
     return `<article class="article-card${featured ? ' featured' : ''}">
       <div class="article-main">
         <div class="article-meta"><span class="badge ${badgeClass(article.impact)}">${esc(article.impact)}</span><span>${fmtDate(article.date)}</span><span>${esc(article.type)}</span><span>${esc(article.journal)}</span></div>
         <h3 class="article-title"><a href="${esc(article.link)}" target="_blank" rel="noopener">${esc(article.title)}</a></h3>
         <p class="article-summary">${esc(article.summary)}</p>
-        <div class="tags">${displayDomains.map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
+        <div class="tags">${displayLanes.map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
       </div>
       <div class="article-details">
         <details><summary>What changed</summary><p>${esc(article.change)}</p></details>
@@ -105,7 +106,7 @@
   function renderArchive() {
     const q = searchInput.value.trim().toLowerCase();
     const filtered = articles.filter(a => {
-      const categoryMatch = activeFilter === 'All' || broadDomains(a).includes(activeFilter);
+      const categoryMatch = activeFilter === 'All' || practiceLanes(a).includes(activeFilter);
       const typeMatch = activeType === 'All' || typeBucket(a) === activeType;
       const haystack = [a.title,a.type,a.journal,a.impact,a.summary,a.change,a.takeaway,...a.tags].join(' ').toLowerCase();
       return categoryMatch && typeMatch && (!q || haystack.includes(q));
