@@ -1,5 +1,6 @@
 (() => {
   const articles = [...(window.ID_ARTICLES || [])].sort((a,b) => b.date.localeCompare(a.date));
+  const status = window.ID_STATUS || {};
   const latestList = document.getElementById('latest-list');
   const archiveList = document.getElementById('archive-list');
   const filterBar = document.getElementById('filter-bar');
@@ -91,7 +92,10 @@
 
   function renderLatest() {
     latestList.innerHTML = articles.slice(0,3).map((a,i) => card(a,i===0)).join('');
-    if (articles[0]) lastUpdated.textContent = `Last article added ${fmtDate(articles[0].date)} · Literature checked every other day`;
+    if (articles[0]) {
+      const checked = status.lastReviewed ? ` · Literature checked ${fmtDate(status.lastReviewed)}` : ' · Literature checked every other day';
+      lastUpdated.textContent = `Last article added ${fmtDate(articles[0].date)}${checked}`;
+    }
   }
 
   function buttons(items, active, attr) {
