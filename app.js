@@ -91,7 +91,7 @@
 
   function renderLatest() {
     latestList.innerHTML = articles.slice(0,3).map((a,i) => card(a,i===0)).join('');
-    if (articles[0]) lastUpdated.textContent = `Latest entry ${fmtDate(articles[0].date)}`;
+    if (articles[0]) lastUpdated.textContent = `Last article added ${fmtDate(articles[0].date)} · Literature checked every other day`;
   }
 
   function buttons(items, active, attr) {
