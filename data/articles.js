@@ -15,6 +15,21 @@ window.ID_ARTICLES = [
     doi: "10.1093/cid/ciag479"
   },
   {
+    id: "cefadroxil-gpc-bsi-2026",
+    date: "2026-08-10",
+    title: "Cefadroxil as Oral Transitional Therapy for Gram-Positive Bacteremia With or Without Non-Vertebral Osteomyelitis: A Multicenter Retrospective Cohort Study",
+    type: "Multicenter retrospective cohort",
+    journal: "Open Forum Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Bacteremia", "Bone & Joint", "Oral therapy", "Antimicrobial therapy", "Stewardship"],
+    summary: "Among 323 adults with susceptible gram-positive bacteremia, with or without nonvertebral osteomyelitis, 90-day treatment success was similar with cefadroxil transitional therapy, IV-only therapy, and other oral agents.",
+    change: "The study adds direct multicenter clinical data supporting cefadroxil as an oral step-down option for selected lower-risk gram-positive bloodstream infections, including some bone and joint infections, rather than assuming these patients require prolonged IV therapy.",
+    takeaway: "Cefadroxil is a reasonable oral transitional option when the isolate is susceptible, the patient is clinically stable, and high-risk foci have been excluded. Do not extrapolate these data to endocarditis, vertebral osteomyelitis, prosthetic infection, CNS infection, or other settings excluded from the cohort.",
+    limitations: "This was retrospective and subject to confounding by indication. Only 58 patients received cefadroxil, and the cefadroxil group included fewer S. aureus cases than the IV group. High-risk infection syndromes were deliberately excluded.",
+    link: "https://academic.oup.com/ofid/article/13/8/ofag413/8753193",
+    doi: "10.1093/ofid/ofag413"
+  },
+  {
     id: "balance-anaerobic-2026",
     date: "2026-08-04",
     title: "Association of anti-anaerobic antibiotics with mortality and the gut microbiome: a sub-study of the BALANCE randomized clinical trial",
@@ -88,5 +103,35 @@ window.ID_ARTICLES = [
     limitations: "There is no randomized dose-comparison trial. Evidence is particularly limited for CNS disease, refractory infection, and species-specific scenarios.",
     link: "https://academic.oup.com/jid/advance-article-abstract/doi/10.1093/infdis/jiag336/8739229",
     doi: "10.1093/infdis/jiag336"
+  },
+  {
+    id: "balance-pct-duration-2026",
+    date: "2026-06-29",
+    title: "Procalcitonin to Guide 7 vs 14 Days of Antibiotics in Bloodstream Infections: A Secondary Analysis of the BALANCE Trial",
+    type: "Secondary analysis / cohort study",
+    journal: "JAMA Network Open",
+    impact: "Practice informing",
+    tags: ["Bacteremia", "Antimicrobial duration", "Diagnostics", "Stewardship", "Inpatient ID"],
+    summary: "In 125 BALANCE participants with day-7 procalcitonin measured, a persistently elevated value identified a higher-risk group but did not identify patients who benefited from extending antibiotic therapy from 7 to 14 days.",
+    change: "An elevated procalcitonin at the end of an otherwise adequate short course should not automatically trigger more antibiotic days. Prognostic information and antibiotic-duration guidance are not the same thing.",
+    takeaway: "For uncomplicated bacteremia otherwise appropriate for a 7-day course, do not prolong therapy solely because procalcitonin remains elevated. Reassess the patient and source if the clinical trajectory is concerning rather than treating the biomarker itself.",
+    limitations: "Only 125 participants had day-7 procalcitonin available, and subgroup comparisons were small. This secondary analysis was not powered to establish noninferiority within the high-procalcitonin subgroup.",
+    link: "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2850944",
+    doi: "10.1001/jamanetworkopen.2026.20973"
+  },
+  {
+    id: "ssc-sepsis-2026",
+    date: "2026-03-23",
+    title: "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2026",
+    type: "International guideline",
+    journal: "Critical Care Medicine / Intensive Care Medicine",
+    impact: "Practice changing",
+    tags: ["Sepsis", "Antimicrobial therapy", "Stewardship", "Source control", "Diagnostics", "Inpatient ID"],
+    summary: "The 2026 Surviving Sepsis Campaign updates adult sepsis and septic shock management with 129 statements, including 46 new statements, and several antimicrobial-stewardship recommendations directly relevant to ID practice.",
+    change: "Key ID-facing recommendations include early source control, ideally within 6 hours when required; avoiding unnecessary MDR, anaerobic, and antifungal coverage in low-risk patients; prolonged-infusion beta-lactam maintenance after a loading dose; active antimicrobial de-escalation even when cultures remain negative; shorter rather than longer therapy after adequate source control; and using procalcitonin only with clinical assessment when duration remains genuinely unclear, not to decide whether to start antibiotics.",
+    takeaway: "Use the 2026 SSC recommendations to support aggressive early treatment of true sepsis while making de-escalation, source control, beta-lactam administration strategy, and shorter duration explicit parts of the plan once the initial diagnostic picture clarifies.",
+    limitations: "Many antimicrobial recommendations remain conditional and are supported by low or very low certainty evidence. The guideline spans all of sepsis care, so syndrome-specific ID guidance should still supersede general sepsis recommendations when applicable.",
+    link: "https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026",
+    doi: "10.1097/CCM.0000000000007075"
   }
 ];
