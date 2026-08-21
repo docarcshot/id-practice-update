@@ -11,14 +11,17 @@
   let activeFilter = 'All';
   let activeType = 'All';
 
-  const esc = s => String(s ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+  const esc = s => String(s ?? '').replace(/[&<>'\"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','\"':'&quot;'}[c]));
   const fmtDate = value => new Intl.DateTimeFormat('en-US',{year:'numeric',month:'short',day:'numeric'}).format(new Date(`${value}T12:00:00`));
   const badgeClass = impact => impact === 'Practice changing' ? 'badge-changing' : impact === 'Practice informing' ? 'badge-informing' : 'badge-knowing';
 
   function typeBucket(article) {
     const t = String(article.type || '').toLowerCase();
     if (t.includes('guideline') || t.includes('guidance') || t.includes('consensus')) return 'Guideline / consensus';
+    if (t.includes('regulatory') || t.includes('approval')) return 'Regulatory update';
     if (t.includes('systematic') || t.includes('meta-analysis') || t.includes('meta analysis')) return 'Systematic review / meta-analysis';
+    if (t.includes('target trial emulation')) return 'Observational study';
+    if (t.includes('implementation')) return 'Implementation study';
     if (t.includes('random') || t.includes('trial') || t.includes('phase ')) return 'Trial';
     if (t.includes('diagnostic')) return 'Diagnostic study';
     if (t.includes('observational') || t.includes('cohort') || t.includes('case-control') || t.includes('case control')) return 'Observational study';
@@ -27,7 +30,7 @@
   }
 
   const categories = ['All', ...new Set(articles.flatMap(a => a.tags))];
-  const typeOrder = ['Guideline / consensus','Systematic review / meta-analysis','Trial','Diagnostic study','Observational study','Review / viewpoint','Other'];
+  const typeOrder = ['Guideline / consensus','Regulatory update','Systematic review / meta-analysis','Trial','Diagnostic study','Observational study','Implementation study','Review / viewpoint','Other'];
   const availableTypes = new Set(articles.map(typeBucket));
   const articleTypes = ['All', ...typeOrder.filter(t => availableTypes.has(t))];
 
