@@ -1,5 +1,35 @@
 window.ID_ARTICLES = [
   {
+    id: "progress-ddpcr-sepsis-2026",
+    date: "2026-08-20",
+    title: "Diagnostic performance and antibiotic impact of droplet digital PCR in suspected sepsis: the PROGRESS trial",
+    type: "Multicenter randomized trial",
+    journal: "Nature Communications",
+    impact: "Practice informing",
+    tags: ["Sepsis", "Diagnostics", "Molecular diagnostics", "Antimicrobial therapy", "Inpatient ID"],
+    summary: "In 1,373 patients with suspected sepsis at 14 centers, a droplet digital PCR strategy detected pathogens more often and faster than conventional testing and increased appropriate antimicrobial coverage.",
+    change: "Rapid broad molecular bloodstream diagnostics are moving beyond higher detection rates toward demonstrated effects on antimicrobial decisions. The platform may be particularly useful when cultures are negative or compromised by prior antibiotics, but detected DNA still requires clinical interpretation.",
+    takeaway: "For severe sepsis with negative or low-yield conventional cultures, ddPCR-type platforms are becoming clinically relevant adjuncts when available. Do not use pathogen-load cutoffs or a positive molecular result in isolation to determine causality or prognosis yet.",
+    limitations: "This was a Chinese multicenter study using a specific platform. Increased molecular detection can identify DNA that is not the cause of the current illness, and the mortality analyses do not by themselves prove that the diagnostic strategy improves survival.",
+    link: "https://www.nature.com/articles/s41467-026-76767-y",
+    doi: "10.1038/s41467-026-76767-y"
+  },
+  {
+    id: "ipt-tb-household-contacts-2026",
+    date: "2026-08-17",
+    title: "Impact of Isoniazid Preventive Therapy on Tuberculosis Infection and Disease Progression",
+    type: "Longitudinal household-contact cohort",
+    journal: "Clinical Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Tuberculosis", "Prevention", "Outpatient ID", "Public health"],
+    summary: "Among household contacts of patients with pulmonary TB in Lima, isoniazid preventive therapy was not associated with less TST conversion in children under 5 but was associated with substantially less progression to active TB disease.",
+    change: "The study clarifies what preventive therapy is accomplishing clinically: it reduces progression from infection or exposure to disease rather than reliably preventing acquisition of M. tuberculosis after exposure.",
+    takeaway: "A newly positive or converted TST despite appropriate preventive therapy should not be interpreted as treatment failure. The benefit of preventive therapy is prevention of TB disease, especially in young children and other high-risk contacts.",
+    limitations: "This was observational rather than randomized, treatment selection was not random, TST conversion is an imperfect surrogate for acquisition, and the study was conducted in a high-transmission setting.",
+    link: "https://academic.oup.com/cid/advance-article-abstract/doi/10.1093/cid/ciag483/8762113",
+    doi: "10.1093/cid/ciag483"
+  },
+  {
     id: "urine-qpcr-ruti-2026",
     date: "2026-08-13",
     title: "Quantitative PCR Bacterial Levels Cannot Distinguish Recurrent UTI from Other Non-infectious Urinary Symptoms",
