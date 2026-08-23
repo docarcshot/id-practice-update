@@ -1,6 +1,7 @@
 (() => {
   const articles = [...(window.ID_ARTICLES || [])].sort((a,b) => b.date.localeCompare(a.date));
   const status = window.ID_STATUS || {};
+  const commentsConfig = window.ID_COMMENTS || {};
   const latestList = document.getElementById('latest-list');
   const archiveList = document.getElementById('archive-list');
   const filterBar = document.getElementById('filter-bar');
@@ -11,6 +12,7 @@
   const quickRefPanel = document.getElementById('quick-ref-panel');
   let activeFilter = 'All';
   let activeType = 'All';
+  let hyvorScriptPromise = null;
 
   const esc = s => String(s ?? '').replace(/[&<>'\"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
   const fmtDate = value => new Intl.DateTimeFormat('en-US',{year:'numeric',month:'short',day:'numeric'}).format(new Date(`${value}T12:00:00`));
@@ -74,7 +76,7 @@
   function card(article, featured=false) {
     const doi = article.doi ? `<a href="https://doi.org/${esc(article.doi)}" target="_blank" rel="noopener">DOI</a>` : '';
     const displayLanes = practiceLanes(article).slice(0,2);
-    return `<article class="article-card${featured ? ' featured' : ''}">
+    return `<article class="article-card${featured ? ' featured' : ''}" data-article-id="${esc(article.id)}">
       <div class="article-main">
         <div class="article-meta"><span class="badge ${badgeClass(article.impact)}">${esc(article.impact)}</span><span>${fmtDate(article.date)}</span><span>${esc(article.type)}</span><span>${esc(article.journal)}</span></div>
         <h3 class="article-title"><a href="${esc(article.link)}" target="_blank" rel="noopener">${esc(article.title)}</a></h3>
@@ -85,9 +87,54 @@
         <details><summary>What changed</summary><p>${esc(article.change)}</p></details>
         <details><summary>What I would do</summary><p>${esc(article.takeaway)}</p></details>
         <details><summary>Limitations</summary><p>${esc(article.limitations)}</p></details>
-        <div class="article-links"><a href="${esc(article.link)}" target="_blank" rel="noopener">Primary source</a>${doi}</div>
+        <div class="article-links"><a href="${esc(article.link)}" target="_blank" rel="noopener">Primary source</a>${doi}<button class="comments-toggle" type="button" data-comments-toggle aria-expanded="false">Comments</button></div>
+        <div class="comments-panel" data-comments-panel hidden></div>
       </div>
     </article>`;
+  }
+
+  function loadHyvorScript() {
+    if (customElements.get('hyvor-talk-comments')) return Promise.resolve();
+    if (hyvorScriptPromise) return hyvorScriptPromise;
+    hyvorScriptPromise = new Promise((resolve, reject) => {
+      const script = document.createElement('script');
+      script.type = 'module';
+      script.src = 'https://talk.hyvor.com/embed/embed.js';
+      script.addEventListener('load', () => customElements.whenDefined('hyvor-talk-comments').then(resolve));
+      script.addEventListener('error', reject);
+      document.head.appendChild(script);
+    });
+    return hyvorScriptPromise;
+  }
+
+  async function openComments(cardEl, button, panel) {
+    panel.hidden = false;
+    button.setAttribute('aria-expanded', 'true');
+    button.textContent = 'Hide comments';
+
+    if (panel.dataset.loaded === 'true') return;
+
+    const articleId = cardEl.dataset.articleId;
+    if (!commentsConfig.websiteId) {
+      panel.innerHTML = '<p class="comments-setup">Comments are not active yet.</p>';
+      return;
+    }
+
+    panel.innerHTML = '<p class="comments-loading">Loading comments...</p>';
+    try {
+      await loadHyvorScript();
+      panel.replaceChildren();
+      const comments = document.createElement('hyvor-talk-comments');
+      comments.setAttribute('website-id', String(commentsConfig.websiteId));
+      comments.setAttribute('page-id', articleId);
+      comments.setAttribute('page-title', cardEl.querySelector('.article-title')?.textContent?.trim() || articleId);
+      comments.setAttribute('page-url', `${location.origin}${location.pathname}#${articleId}`);
+      comments.setAttribute('t-as-guest', 'Comment without account');
+      panel.appendChild(comments);
+      panel.dataset.loaded = 'true';
+    } catch (error) {
+      panel.innerHTML = '<p class="comments-error">Comments could not be loaded. Please try again.</p>';
+    }
   }
 
   function renderLatest() {
@@ -118,6 +165,23 @@
     resultCount.textContent = `${filtered.length} ${filtered.length===1?'entry':'entries'}`;
     archiveList.innerHTML = filtered.length ? filtered.map(a => card(a)).join('') : '<div class="empty-state">No entries match these filters.</div>';
   }
+
+  document.addEventListener('click', e => {
+    const button = e.target.closest('[data-comments-toggle]');
+    if (!button) return;
+    const cardEl = button.closest('.article-card');
+    const panel = cardEl?.querySelector('[data-comments-panel]');
+    if (!cardEl || !panel) return;
+
+    if (!panel.hidden) {
+      panel.hidden = true;
+      button.setAttribute('aria-expanded', 'false');
+      button.textContent = 'Comments';
+      return;
+    }
+
+    openComments(cardEl, button, panel);
+  });
 
   filterBar.addEventListener('click', e => {
     const b=e.target.closest('[data-filter]');
