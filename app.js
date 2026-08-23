@@ -1,5 +1,5 @@
 (() => {
-  const articles = [...(window.ID_ARTICLES || [])].sort((a,b) => b.date.localeCompare(a.date));
+  const articles = [...(window.ID_ARTICLES || [])];
   const status = window.ID_STATUS || {};
   const commentsConfig = window.ID_COMMENTS || {};
   const latestList = document.getElementById('latest-list');
@@ -140,8 +140,8 @@
   function renderLatest() {
     latestList.innerHTML = articles.slice(0,3).map((a,i) => card(a,i===0)).join('');
     if (articles[0]) {
-      const checked = status.lastReviewed ? ` · Literature checked ${fmtDate(status.lastReviewed)}` : ' · Literature checked every other day';
-      lastUpdated.textContent = `Last article added ${fmtDate(articles[0].date)}${checked}`;
+      const checked = status.lastReviewed ? `Literature checked ${fmtDate(status.lastReviewed)}` : 'Literature checked every other day';
+      lastUpdated.textContent = `Most recently added to site · ${checked}`;
     }
   }
 
