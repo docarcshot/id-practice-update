@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "cdi-atypical-dysmotility-2026",
+    date: "2026-08-25",
+    title: "A New Paradigm for Clostridioides difficile Infection: Atypical Presentations Correlating to Acute Gastrointestinal Dysmotility Are Associated With Increased Mortality",
+    type: "Retrospective cohort study",
+    journal: "Clinical Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Clostridioides difficile", "Diagnostics", "Inpatient ID", "Antimicrobial therapy"],
+    summary: "In 467 hospitalized adult CDI episodes, 91 (19.5%) had at least 24 hours of CDI-associated symptoms before diarrhea. Compared with typical diarrheal presentations, atypical cases had more delayed diagnoses (39.6% vs 4.3%, P<.001), longer time to CDI-directed treatment (median 4 vs 2 days, P<.001), and higher 90-day all-cause mortality (24.2% vs 9.6%; adjusted HR 2.62, 95% CI 1.51-4.57, P=.001). Gastrointestinal dysmotility was present in 32% at diagnosis and small-bowel involvement was seen on baseline imaging in 16.3% (44/270).",
+    change: "This cohort identifies a clinically important CDI phenotype in which vomiting, constipation, ileus, abdominal pain, or radiologic dysmotility can precede diarrhea. Missed diagnoses resulting in death occurred in 6.6% of atypical versus 0.5% of typical presentations (P=.001), suggesting that requiring diarrhea before considering CDI can create a meaningful diagnostic delay in selected hospitalized patients.",
+    takeaway: "Do not use absence of initial diarrhea to exclude CDI when a high-risk hospitalized patient has otherwise unexplained acute ileus, constipation, vomiting, abdominal pain, or compatible radiologic dysmotility. In a compatible severe or fulminant syndrome, pursue CDI-directed diagnostic evaluation and treatment without waiting for diarrhea. This does not support indiscriminate C. difficile testing of asymptomatic patients or formed stool outside a compatible clinical syndrome.",
+    limitations: "This was a single-center retrospective Australian cohort and the atypical phenotype was defined retrospectively. Associations with mortality may reflect residual confounding, greater baseline illness, or delayed recognition rather than a direct causal effect of dysmotility. The study does not validate routine testing in patients without a compatible CDI syndrome and does not establish a new diagnostic test threshold.",
+    link: "https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciag463/8769916",
+    doi: "10.1093/cid/ciag463"
+  },
+  {
     id: "cdc-malaria-al-5day-2026",
     date: "2026-08-19",
     title: "Extending the Duration of Artemether-Lumefantrine Treatment for Uncomplicated Plasmodium falciparum Malaria: Updated US Centers for Disease Control and Prevention Guidance Based on Review of Surveillance, Consultations, and Published Data",
