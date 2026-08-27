@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "idsa-sepsis-hospital-strategies-2026",
+    date: "2026-08-25",
+    title: "IDSA/ACEP/ASM/PIDS/SCCM/SHEA/SHM/SIDP Multisociety Position Paper: Hospital Strategies to Improve Sepsis Outcomes",
+    type: "Multisociety position paper / consensus guidance",
+    journal: "Clinical Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Sepsis", "Stewardship", "Diagnostics", "Antimicrobial therapy", "Infection prevention", "Inpatient ID"],
+    summary: "An IDSA-led panel endorsed by eight professional societies provides a hospital-level framework for infection-related sepsis care. Tier 1 priorities include multiplex nucleic acid amplification testing on positive blood cultures paired with active stewardship, workflows targeting first antibiotics within 1 hour of septic-shock recognition and infusion start within 30 minutes of ordering, and default prolonged-infusion antipseudomonal beta-lactams after a loading dose in critically ill patients with sepsis.",
+    change: "The paper moves several practices from individual clinician preference toward explicit hospital-system recommendations. It also recommends tracking inadequate and unnecessarily broad empiric therapy, de-escalation, and timeliness of source control; using protocols for corticosteroids in severe community-acquired pneumonia; and standardizing daily toothbrushing to reduce hospital-acquired pneumonia. This is consensus guidance rather than a comparative trial, so there is no single patient cohort or effect estimate.",
+    takeaway: "For hospital sepsis programs, build operational defaults around rapid blood-culture diagnostics plus stewardship, beta-lactam-first workflow when broad empiric therapy is ordered, timely antibiotic administration for septic shock, and prolonged beta-lactam infusion in critically ill patients. Track antibiotic appropriateness, de-escalation, and source-control timing as program metrics rather than focusing only on SEP-1 completion.",
+    limitations: "This is an evidence-informed multisociety position paper, not a randomized trial or formal GRADE guideline. Recommendations draw on evidence of variable certainty, and some are systems-level implementation strategies rather than interventions with direct outcome trials. Pediatric evidence is less robust for several recommendations, and neonatal sepsis is outside the paper's scope.",
+    link: "https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciag438/8769592",
+    doi: "10.1093/cid/ciag438"
+  },
+  {
     id: "cdi-atypical-dysmotility-2026",
     date: "2026-08-25",
     title: "A New Paradigm for Clostridioides difficile Infection: Atypical Presentations Correlating to Acute Gastrointestinal Dysmotility Are Associated With Increased Mortality",
