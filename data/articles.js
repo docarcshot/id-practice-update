@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "poet2-response-tailored-endocarditis-2026",
+    date: "2026-08-28",
+    title: "Response-Tailored or Standard-Duration Antibiotic Treatment for Infective Endocarditis",
+    type: "International open-label randomized trial",
+    journal: "New England Journal of Medicine",
+    impact: "Practice informing",
+    tags: ["Endocarditis", "Bacteremia", "Antimicrobial duration", "Stewardship", "Inpatient ID"],
+    summary: "In POET II, 508 clinically stable adults with left-sided infective endocarditis due to Staphylococcus aureus, Enterococcus faecalis, or streptococci were randomized after at least 2-4 weeks of antibiotic therapy to stop treatment or continue the standard total 4-6 weeks. Response-tailored therapy increased median days alive without antibiotics within 6 months from 169 to 183 days (estimated difference 13 days, 95% CI 12-13; P<.001) and met the prespecified noninferiority criterion for death, unplanned cardiac surgery, or symptomatic embolism (8.2% vs 10.7%; absolute difference -2.4 percentage points, 95% CI -7.7 to 2.7; P<.001 for noninferiority).",
+    change: "Selected clinically stable patients could stop antibiotics after the prespecified 2-4 week initial course without an excess in the composite major safety outcome, but relapse of bacteremia or endocarditis was significantly more frequent with shortened treatment: 13/255 (5.1%) versus 4/253 (1.6%), P=.04. The trial therefore challenges routine 4-6 week treatment for every stabilized patient while showing a clinically important tradeoff between less antibiotic exposure and higher relapse risk.",
+    takeaway: "Do not broadly shorten left-sided endocarditis treatment based on this trial alone. In carefully selected, clinically stable patients who have already completed 2-4 weeks and meet the POET II stabilization criteria, a response-tailored shorter course is now evidence-based enough to discuss, but the roughly threefold higher observed relapse rate makes organism, anatomy, source control, surgical plan, and follow-up reliability central to the decision.",
+    limitations: "The trial was open-label and enrolled only clinically stable patients after substantial initial therapy, so results do not apply to unstable disease, uncontrolled infection, or early treatment. The noninferiority margin for the composite safety outcome was 7.5 percentage points, and relapse was significantly more common with shortened therapy despite noninferiority for the composite endpoint. The eligible organisms were limited to S. aureus, E. faecalis, and streptococci.",
+    link: "https://www.nejm.org/doi/full/10.1056/NEJMoa2607887",
+    doi: "10.1056/NEJMoa2607887"
+  },
+  {
     id: "idsa-sepsis-hospital-strategies-2026",
     date: "2026-08-25",
     title: "IDSA/ACEP/ASM/PIDS/SCCM/SHEA/SHM/SIDP Multisociety Position Paper: Hospital Strategies to Improve Sepsis Outcomes",
