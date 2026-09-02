@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "recover-vital-paxlovid-long-covid-2026",
+    date: "2026-08-31",
+    title: "Nirmatrelvir–ritonavir targeting viral persistence in post-COVID-19 condition (long COVID) in the USA (RECOVER-VITAL): a randomised, double-blind, placebo-controlled, phase 2 trial",
+    type: "Randomized double-blind placebo-controlled phase 2 trial",
+    journal: "The Lancet Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["COVID-19", "Long COVID", "Antiviral therapy", "Outpatient ID", "Antimicrobial therapy"],
+    summary: "RECOVER-VITAL randomized 964 adults with long COVID at 69 US sites; 959 were included in the modified intention-to-treat population across cognitive (n=332), autonomic (n=334), and exercise/post-exertional malaise (n=332) phenotypes. Compared with placebo-ritonavir, neither 25 nor 15 days of nirmatrelvir-ritonavir improved the day-90 phenotype-specific primary outcomes: cognitive adjusted differences 3.2% (95% CI -10.4 to 16.8; P=.65) and -2.2% (-15.5 to 11.1; P=.74), autonomic -6.4% (-18.5 to 5.7; P=.30) and -0.1% (-12.5 to 12.3; P=.99), and exercise -7.8% (-19.5 to 3.8; P=.19) and 0.9% (-11.4 to 13.2; P=.88), respectively.",
+    change: "A large NIH-funded randomized trial now provides direct evidence against empirically extending nirmatrelvir-ritonavir to 15 or 25 days for established long COVID based solely on a presumed viral-persistence mechanism. Secondary phenotype-specific performance outcomes also did not differ. There were no deaths; 52 serious adverse events occurred in 42 of 963 randomized participants (4%), without a treatment-related safety signal.",
+    takeaway: "Do not prescribe a 15- or 25-day course of nirmatrelvir-ritonavir as routine treatment for established long COVID. The trial does not address standard 5-day treatment of acute COVID, whether acute antiviral therapy prevents long COVID, or whether a future biomarker-defined subgroup with demonstrable viral persistence could benefit.",
+    limitations: "Participants were selected by symptom phenotype rather than by laboratory evidence of persistent SARS-CoV-2, so the negative result tests empiric antiviral treatment of long COVID rather than definitively excluding viral persistence as a mechanism in every patient. Primary endpoints were phenotype-specific patient-reported improvement measures, and results should not be extrapolated to different antiviral agents, dosing strategies, or biomarker-selected populations.",
+    link: "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00406-8/fulltext",
+    doi: "10.1016/S1473-3099(26)00406-8"
+  },
+  {
     id: "poet2-response-tailored-endocarditis-2026",
     date: "2026-08-28",
     title: "Response-Tailored or Standard-Duration Antibiotic Treatment for Infective Endocarditis",
