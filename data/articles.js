@@ -1,5 +1,34 @@
 window.ID_ARTICLES = [
   {
+    id: "idsa-2026-respiratory-vaccine-immunocompromised",
+    date: "2026-09-02",
+    title: "IDSA 2026 Guidelines on the Use of Vaccines for the Prevention of Seasonal COVID-19, Influenza, and RSV Infections in Immunocompromised Patients",
+    type: "Rapid guideline update",
+    journal: "IDSA",
+    impact: "Practice informing",
+    tags: ["Immunocompromised host", "Vaccination", "COVID-19", "Influenza", "RSV", "Transplant"],
+    summary: "IDSA updated its 2026-2027 respiratory-vaccine guidance for immunocompromised patients using GRADE. COVID-19 vaccination was associated with lower hospitalization in two cohort studies (pooled VE 48%, 95% CI 43-53%) and six test-negative studies (VE 36%, 95% CI 28-42%); influenza vaccination reduced influenza-associated hospitalization by 32% (95% CI 7-50%) in immunocompromised adults; and pooled RSV vaccine effectiveness against hospitalization was 68% (95% CI 64-72%) across five studies in immunocompromised patients.",
+    change: "The panel gives strong recommendations with moderate certainty for 2026-2027 COVID-19 and influenza vaccination in immunocompromised adults and children and RSV vaccination in immunocompromised adults and adolescents. COVID-19 vaccination also reduced critical illness by 40% (95% CI 26-51%) and COVID-related mortality by 61% (95% CI 36-77%, low-certainty evidence). RSV vaccination carried a small Guillain-Barre signal in one self-controlled series (IRR 2.1, 95% CI 1.5-2.9; about 11.2 excess cases per million doses), while randomized trials showed no increase in overall serious adverse events (RR 1.03, 95% CI 0.97-1.09).",
+    takeaway: "For immunocompromised adults, use the current-season COVID-19 and influenza vaccines and give RSV vaccine broadly rather than limiting it only by age-based criteria. Time vaccination around transplant, chemotherapy, CAR-T, or B-cell depletion when feasible, but do not miss vaccination solely because ideal timing is unavailable. COVID-19, influenza, and RSV vaccines can be coadministered; a second 2026-2027 COVID-19 dose may be considered 2-6 months later based on risk and transmission.",
+    limitations: "Most effectiveness evidence is observational and heterogeneous across immune conditions, vaccine products, seasons, and time since vaccination. Influenza safety and several effectiveness outcomes rely partly on indirect evidence from older adults, follow-up after COVID vaccination was often short, and RSV data in immunocompromised adolescents remain limited. The guideline does not include patients whose only risk is chronic organ dysfunction such as dialysis, cirrhosis, or end-stage heart disease.",
+    link: "https://www.idsociety.org/practice-guideline/Seasonal-RTI-Vaccinations-in-Immunocompromised-Patients/"
+  },
+  {
+    id: "pritelivir-foscarnet-refractory-hsv-2026",
+    date: "2026-08-31",
+    title: "Efficacy and Safety of Pritelivir Versus Foscarnet for the Treatment of Acyclovir-Refractory Herpes Simplex Virus Infection in Immunocompromised Adults: A Randomized, Open-Label Phase 2 Trial",
+    type: "Randomized open-label phase 2 trial",
+    journal: "Open Forum Infectious Diseases",
+    impact: "Worth knowing",
+    tags: ["HSV", "Antiviral therapy", "Immunocompromised host", "Transplant", "HIV", "Oral therapy"],
+    summary: "PRIOH-1 randomized 22 immunocompromised adults with acyclovir-refractory mucocutaneous HSV 2:1 to oral pritelivir or IV foscarnet. Median time to healing was 26 days with pritelivir versus not estimable with foscarnet (HR 2.7, 95% CI 0.33-21.8; P=.34); investigator-assessed healing occurred in 14/15 (93%) versus 4/7 (57%), an absolute difference of 36.2 percentage points (95% CI -10.1 to 74.1; P=.077). Post-baseline HSV DNA detection was 34.8% versus 50.0% (P=.42).",
+    change: "Pritelivir provides the first randomized comparative signal that an oral helicase-primase inhibitor may be a viable alternative to IV foscarnet for acyclovir-refractory HSV in immunocompromised adults, but the trial did not demonstrate statistically significant superiority. Treatment-emergent adverse events occurred in 60% with pritelivir versus 100% with foscarnet. In a separate open-label cohort of eight patients with foscarnet-refractory or -intolerant HSV, median healing time with pritelivir was 19 days and 5/8 (63%) healed.",
+    takeaway: "Do not treat this small phase 2 trial as proof that pritelivir is superior to foscarnet. It is a meaningful efficacy and tolerability signal for a potential oral option in a setting where foscarnet toxicity and IV administration are major problems, and it supports the ongoing phase 3 program rather than changing current standard therapy today.",
+    limitations: "Only 22 patients were randomized, with just seven assigned to foscarnet, producing extremely wide confidence intervals and inadequate power for comparative efficacy. The trial was open-label, the primary endpoint was lesion healing, the drug remains investigational, and several authors were employees of or consultants to the manufacturer. The eight-patient foscarnet-refractory/intolerant cohort was uncontrolled.",
+    link: "https://academic.oup.com/ofid/advance-article/doi/10.1093/ofid/ofag539/8769029",
+    doi: "10.1093/ofid/ofag539"
+  },
+  {
     id: "recover-vital-paxlovid-long-covid-2026",
     date: "2026-08-31",
     title: "Nirmatrelvir–ritonavir targeting viral persistence in post-COVID-19 condition (long COVID) in the USA (RECOVER-VITAL): a randomised, double-blind, placebo-controlled, phase 2 trial",
