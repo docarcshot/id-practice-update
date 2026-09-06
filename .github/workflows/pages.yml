@@ -23,6 +23,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Generate publication metadata
+        run: node scripts/prepare-site.mjs
+      - name: Validate content and publication assets
+        run: node scripts/validate-site.mjs
+      - name: Check catch-up and filtering behavior
+        run: node --test scripts/ui-core.test.mjs
       - name: Generate RSS feed
         run: node scripts/generate-rss.mjs
       - name: Configure Pages

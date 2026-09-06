@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="High-value infectious diseases literature for inpatient and outpatient practice." />
   <title>ID Practice Update</title>
-  <link rel="stylesheet" href="styles.css?v=20260906-162723" />
-  <link rel="stylesheet" href="rss.css?v=20260906-162723" />
+  <link rel="stylesheet" href="styles.css?v=20260906T164146Z" />
+  <link rel="stylesheet" href="rss.css?v=20260906T164146Z" />
+  <link rel="stylesheet" href="ui.css?v=20260906T164146Z" />
   <link rel="alternate" type="application/rss+xml" title="ID Practice Update RSS" href="rss.xml" />
 </head>
 <body>
@@ -21,8 +22,8 @@
       </a>
       <nav class="nav" aria-label="Primary">
         <a href="#latest">Latest</a>
+        <a href="#archive" data-search-nav>Search</a>
         <a href="#archive">Archive</a>
-        <a href="#about">About</a>
       </nav>
     </div>
   </header>
@@ -50,14 +51,24 @@
         </div>
         <div class="latest-status">
           <p id="last-updated" class="last-updated"></p>
+          <p id="review-outcome" class="review-outcome"></p>
+          <p id="review-next" class="review-next"></p>
           <a class="rss-button" href="rss.xml" type="application/rss+xml" aria-label="Open the ID Practice Update RSS feed">RSS feed</a>
         </div>
       </div>
 
+      <p id="review-notice" class="review-notice" role="status" hidden></p>
+      <div class="catchup-controls" aria-label="Filter by date added">
+        <button type="button" class="filter-button active" data-time-filter="all" aria-pressed="true">All additions</button>
+        <button type="button" class="filter-button" data-time-filter="new" aria-pressed="false">Since your last visit<span id="new-count"></span></button>
+        <button type="button" class="filter-button" data-time-filter="7" aria-pressed="false">Past 7 days</button>
+        <button type="button" class="filter-button" data-time-filter="30" aria-pressed="false">Past 30 days</button>
+      </div>
+      <p id="visit-note" class="visit-note"></p>
       <div class="latest-layout">
         <div class="latest-feed">
           <div id="latest-list" class="article-list" aria-live="polite"></div>
-          <button id="latest-toggle" class="latest-toggle" type="button" aria-expanded="false" hidden>Show more recent</button>
+          <div class="latest-actions"><button id="latest-toggle" class="latest-toggle" type="button" aria-expanded="false" hidden>Show more recent</button><a id="latest-all" href="#archive" hidden>View all matching entries</a></div>
         </div>
 
         <aside id="quick-references" class="quick-references" aria-label="Quick infectious diseases references">
@@ -82,12 +93,18 @@
         <div class="section-heading archive-heading">
           <div>
             <p class="eyebrow">Archive</p>
-            <h2>Search all entries, most recently added first</h2>
+            <h2>Search all entries</h2>
           </div>
           <p id="result-count" class="result-count"></p>
         </div>
 
         <div class="controls" role="search">
+          <div class="archive-options">
+            <label for="impact-filter">Impact<select id="impact-filter"><option value="All">All impact levels</option><option>Practice changing</option><option>Practice informing</option><option>Worth knowing</option></select></label>
+            <label for="date-filter">Added<select id="date-filter"><option value="all">Any time</option><option value="new">Since your last visit</option><option value="7">Past 7 days</option><option value="30">Past 30 days</option></select></label>
+            <label for="sort-order">Sort by<select id="sort-order"><option value="added">Date added, newest first</option><option value="published">Publication date, newest first</option></select></label>
+            <button class="clear-filters" type="button" data-clear-filters>Clear filters</button>
+          </div>
           <label class="search-box">
             <span class="sr-only">Search articles</span>
             <input id="search-input" type="search" placeholder="Search title, syndrome, organism, drug, diagnostic..." autocomplete="off" />
@@ -122,6 +139,13 @@
     </section>
   </main>
 
+  <p id="copy-feedback" class="copy-feedback" role="status" aria-live="polite"></p>
+  <dialog id="copy-dialog" class="copy-dialog" aria-labelledby="copy-dialog-title">
+    <h2 id="copy-dialog-title">Copy link</h2>
+    <label for="copy-value">Select and copy the text below</label>
+    <textarea id="copy-value" readonly rows="5"></textarea>
+    <button type="button" id="copy-dialog-close">Close</button>
+  </dialog>
   <footer class="footer">
     <div class="wrap footer-inner">
       <span>ID Practice Update</span>
@@ -130,14 +154,16 @@
     </div>
   </footer>
 
-  <script src="data/articles.js?v=20260906-162723"></script>
-  <script src="data/backfill-2026-jul.js?v=20260906-162723"></script>
-  <script src="data/backfill-2026-apr-may.js?v=20260906-162723"></script>
-  <script src="data/backfill-2026-mar.js?v=20260906-162723"></script>
-  <script src="data/backfill-2026-jan-feb.js?v=20260906-162723"></script>
-  <script src="data/status.js?v=20260906-162723"></script>
-  <script src="data/comments-config.js?v=20260906-162723"></script>
-  <script src="app.js?v=20260906-162723"></script>
-  <script src="latest.js?v=20260906-162723"></script>
+  <script src="data/articles.js?v=20260906T164146Z"></script>
+  <script src="data/backfill-2026-jul.js?v=20260906T164146Z"></script>
+  <script src="data/backfill-2026-apr-may.js?v=20260906T164146Z"></script>
+  <script src="data/backfill-2026-mar.js?v=20260906T164146Z"></script>
+  <script src="data/backfill-2026-jan-feb.js?v=20260906T164146Z"></script>
+  <script src="data/article-metadata.js?v=20260906T164146Z"></script>
+  <script src="data/status.js?v=20260906T164146Z"></script>
+  <script src="data/comments-config.js?v=20260906T164146Z"></script>
+  <script src="ui-core.js?v=20260906T164146Z"></script>
+  <script src="app.js?v=20260906T164146Z"></script>
+  <script src="latest.js?v=20260906T164146Z"></script>
 </body>
 </html>
