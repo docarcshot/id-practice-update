@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "cab-rpv-viremia-rct-2026",
+    date: "2026-09-01",
+    title: "Direct Initiation of Long-Acting Cabotegravir Plus Rilpivirine in People with HIV and Suboptimal Virologic Suppression: A Randomized Trial",
+    type: "Multicenter open-label randomized trial",
+    journal: "Clinical Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["HIV", "Antiretroviral therapy", "Long-acting therapy", "Adherence", "Outpatient ID"],
+    summary: "In a multicenter randomized trial of ART-experienced people with HIV and viremia related to adherence challenges, 45 eligible participants were analyzed after randomization. At week 24, HIV-1 RNA <200 copies/mL was achieved in 22/25 (88%) assigned to immediate long-acting cabotegravir/rilpivirine versus 11/20 (55%) continuing oral ART before delayed switch. The relative risk for failure to suppress was 0.27 (95% CI 0.08-0.86; P=.026), and the treatment effect persisted through week 52.",
+    change: "This provides randomized evidence that immediate LA CAB/RPV can improve suppression in selected patients who are viremic because of oral adherence barriers, extending evidence beyond the currently approved virally suppressed population. Participants had HIV-1 RNA >=200 copies/mL and no known CAB- or RPV-resistance mutations.",
+    takeaway: "For a patient with persistent viremia driven by oral adherence who has no CAB/RPV resistance and can reliably return for injections, LA CAB/RPV is now supported by randomized data as a treatment strategy rather than requiring suppression first. Do not generalize this to patients with relevant resistance, unreliable injection follow-up, or without careful resistance review.",
+    limitations: "The trial was small and open-label. Although 61 participants were randomized, only 45 met eligibility criteria and were included in the analysis, creating an important post-randomization exclusion concern. Ninety-one percent were male, the primary endpoint was HIV-1 RNA <200 rather than <50 copies/mL, and the study population and implementation setting may not generalize broadly.",
+    link: "https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciag504/8778539",
+    doi: "10.1093/cid/ciag504"
+  },
+  {
     id: "idsa-2026-respiratory-vaccine-immunocompromised",
     date: "2026-09-02",
     title: "IDSA 2026 Guidelines on the Use of Vaccines for the Prevention of Seasonal COVID-19, Influenza, and RSV Infections in Immunocompromised Patients",
