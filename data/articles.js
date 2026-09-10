@@ -1,5 +1,34 @@
 window.ID_ARTICLES = [
   {
+    id: "idsa-escmid-sab-consensus-2026",
+    date: "2026-09-09",
+    title: "IDSA/ESCMID 2026 Consensus Statements on Staphylococcus aureus Bacteremia: Risk Stratification, Diagnostic Evaluation, and Management of Adults and Children",
+    type: "Multisociety consensus statements",
+    journal: "IDSA / ESCMID",
+    impact: "Practice informing",
+    tags: ["Bacteremia", "Staphylococcus aureus", "Antimicrobial duration", "Diagnostics", "Imaging", "Endocarditis", "Source control", "Stewardship", "Inpatient ID"],
+    summary: "Part 1 replaces the binary uncomplicated/complicated SAB framework with dynamic low-risk versus increased-risk stratification followed by diagnostic classification as SAB with or without a deep-seated or metastatic focus. The panel supports 14 days from documented blood-culture clearance, or potentially from later source removal, for low-risk SAB and also for selected initially increased-risk patients whose tailored evaluation remains negative and whose signs and symptoms resolve. Evidence for duration is limited: in low-risk cohorts, relapse occurred in 3/38 (8%) treated for <14 days versus 0/73 treated for >=14 days (P=.04); among broader increased-risk cohorts, recurrence was 8.5% with <=14 days versus 3.8% with >14 days (P=.12), and another cohort found RR 0.68 (95% CI 0.44-1.04) for recurrence with <14 versus >14 days.",
+    change: "All adults should generally receive TTE and at least two follow-up blood-culture sets at 48 hours after the initial positive culture, followed by one or two sets every 24-48 hours until clearance. Community onset, a positive culture obtained >=48 hours after the first positive culture, and an intracardiac device are the three key increased-risk features. After a good-quality negative TTE, TEE is suggested for intracardiac hardware, predisposing valve disease or prior IE, persistent bacteremia, embolic events, or multiple noncontiguous foci; it may be omitted when none of these features is present. For increased-risk SAB with no source after the usual evaluation, whole-body imaging such as FDG-PET/CT or targeted multimodality imaging is reasonable rather than routine PET/CT for everyone.",
+    takeaway: "Do not translate this into '14 days for complicated SAB.' Use the increased-risk label to intensify the search for occult infection and reassess source control. A 14-day course is reasonable only when the tailored evaluation is convincingly negative, bacteremia clears, symptoms resolve, and ongoing assessment remains reassuring. Count duration from retrospectively confirmed blood-culture clearance, or from later source removal when appropriate.",
+    limitations: "These are consensus statements requiring >75% panel agreement, not GRADE recommendations. The proposed risk framework has not been prospectively validated, direct comparative evidence is sparse, and the increased-risk duration studies were heterogeneous observational cohorts that sometimes included endocarditis or incompletely characterized infection. Part 1 does not address definitive MSSA or MRSA drug selection, persistent-MRSA combination therapy, or oral step-down regimens; those are reserved for future manuscripts.",
+    link: "https://www.idsociety.org/practice-guideline/staphylococcus-aureus-bacteremia/"
+  },
+  {
+    id: "cauris-glove-gown-transfer-2026",
+    date: "2026-09-08",
+    title: "Transfer of Candidozyma auris to healthcare personnel gloves and/or gowns from patients and the environment: A multi-center cohort study of 109 patients",
+    type: "Prospective multicenter cohort",
+    journal: "Open Forum Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Infection prevention", "Candida auris", "Outbreak", "Healthcare epidemiology", "Inpatient ID"],
+    summary: "Across 1,083 routine-care interactions with 109 C. auris-colonized patients, cultures recovered C. auris from healthcare personnel gloves and/or gowns after 29% of interactions. Transfer was more likely for nursing assistants or patient-care technicians (OR 5.2, 95% CI 2.4-11.6), occupational or physical therapists (OR 4.8, 95% CI 1.4-16.7), and respiratory therapists (OR 4.7, 95% CI 1.9-11.7). Touching the patient rather than only the environment increased transfer (OR 3.32, 95% CI 2.3-4.9), and colonization at five body sites versus one was associated with much greater transfer (OR 15.1, 95% CI 7.5-30.5).",
+    change: "The study quantifies how often routine care contaminates gloves or gowns and identifies hands-on, high-contact disciplines as priority targets for competency checks and adherence monitoring. It supports maintaining contact precautions for all room entry involving patient or environmental contact and including nursing assistants, rehabilitation staff, and respiratory therapists in C. auris-specific education rather than focusing only on nurses and physicians.",
+    takeaway: "During C. auris care or outbreak response, audit PPE use across every hands-on discipline and task, especially high-contact care. Treat glove and gown removal plus hand hygiene as a critical transmission-control sequence even when an interaction seems brief. Do not infer that the observed contamination rate equals patient-to-patient transmission.",
+    limitations: "Glove or gown contamination was a surrogate for transmission, not a measured acquisition event. Odds ratios describe associations within observed interactions and may reflect differences in task intensity or duration. The cohort included only known colonized patients in participating acute-care hospitals, so the results do not determine the effectiveness of any specific PPE intervention or the value of universal screening.",
+    link: "https://academic.oup.com/ofid/advance-article/doi/10.1093/ofid/ofag582/8787977",
+    doi: "10.1093/ofid/ofag582"
+  },
+  {
     id: "aha-ie-scientific-statement-2026",
     date: "2026-09-08",
     title: "Infective Endocarditis: Diagnosis, Antibiotic Therapy, and Management: A Scientific Statement From the American Heart Association",
