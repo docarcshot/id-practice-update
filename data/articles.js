@@ -1,5 +1,35 @@
 window.ID_ARTICLES = [
   {
+    id: "pharmacist-pending-tests-discharge-2026",
+    date: "2026-09-12",
+    title: "Pharmacist-led transitions of care intervention to address infectious disease tests pending at discharge (TPAD)",
+    type: "Single-center retrospective pre-post study",
+    journal: "Open Forum Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Antimicrobial stewardship", "Transitions of care", "Diagnostics", "Outpatient ID", "Inpatient ID", "Patient safety"],
+    summary: "A community hospital compared 93 patients discharged with pending infectious-disease tests before a pharmacist-led follow-up service with 98 after implementation. The service reviewed finalized results three times weekly, assessed clinical context, contacted prescribers, changed outpatient prescriptions, and counseled patients. Appropriate antimicrobial therapy 7 days after discharge increased from 69% to 92%; adjusted predicted probability was 21.3 percentage points higher (95% CI 10.6-32.0). Among 63 patients needing a prescription change, median time to appropriate therapy fell from 7 to 4 days, with HR 5.09 (95% CI 2.13-12.18) for reaching appropriate therapy. Thirty-day infection-related outcomes were similar.",
+    change: "The study provides an implementable stewardship model for results that finalize after discharge. A pharmacist-owned queue with scheduled review, authority to assess and coordinate treatment changes, prescriber communication, and direct patient counseling materially improved process reliability and shortened exposure to inappropriate therapy.",
+    takeaway: "Hospitals should assign explicit ownership for infectious-disease tests pending at discharge rather than relying on individual discharging clinicians to notice finalized results. A pharmacist-led workflow is a reasonable model, but this study does not establish the optimal review frequency or prove a reduction in readmissions or other clinical events.",
+    limitations: "This was a small, single-center, retrospective pre-post study without concurrent controls, so temporal changes and unmeasured confounding could contribute. The intervention bundled several components, preventing attribution to any one element. The clinical-outcome analysis was underpowered, and thrice-weekly review still left a median 4-day delay among patients requiring treatment modification.",
+    link: "https://academic.oup.com/ofid/advance-article/doi/10.1093/ofid/ofag585/8792809",
+    doi: "10.1093/ofid/ofag585"
+  },
+  {
+    id: "drc-bundibugyo-ebola-outbreak-2026",
+    date: "2026-09-10",
+    title: "Notes from the Field: Characteristics and Monitoring of the 2026 Outbreak of Ebola Disease Caused by Bundibugyo Virus - Democratic Republic of the Congo, August 2026",
+    type: "CDC outbreak surveillance report",
+    journal: "MMWR",
+    impact: "Worth knowing",
+    tags: ["Ebola", "Viral hemorrhagic fever", "Outbreak", "Infection prevention", "Travel medicine", "Tropical infections", "Public health"],
+    summary: "As of August 21, the DRC had reported 5,458 confirmed Bundibugyo virus disease cases and 2,606 deaths (48% case-fatality), making this the second-largest recorded Ebola outbreak. Cases involved 57 health zones in six provinces; Ituri accounted for 84%. Most response indicators were below target: 82% contact-tracing completeness versus >95%, 72% of validated alerts tested versus >90%, 59% of confirmed deaths occurring outside an Ebola treatment unit versus a target of 0%, and only 49% of affected health zones with a safe-burial team versus a target of 100%.",
+    change: "The report documents uncontrolled geographic expansion and major gaps in case detection, contact tracing, testing, isolation, and safe burial. For clinicians outside the outbreak region, the immediate practice implication is heightened attention to current travel and exposure history in a compatible febrile illness, followed by prompt isolation and public-health notification rather than routine evaluation before Ebola risk is addressed.",
+    takeaway: "Keep the expanding DRC Bundibugyo Ebola outbreak in the differential for compatible illness after relevant travel or exposure. Use current CDC travel and case-definition guidance, isolate first, and involve infection prevention and public health immediately. The counts in this report are a dated snapshot and should not substitute for current outbreak surveillance.",
+    limitations: "This CDC operational surveillance report is descriptive, not a comparative clinical study. Several indicators were missing or outdated, ascertainment was incomplete, and case and fatality counts were reported only through August 21. It does not evaluate a diagnostic or therapeutic intervention, and conditions within affected health zones may have changed after the reporting period.",
+    link: "https://www.cdc.gov/mmwr/volumes/75/wr/mm7535e1.htm",
+    doi: "10.15585/mmwr.mm7535e1"
+  },
+  {
     id: "idsa-escmid-sab-consensus-2026",
     date: "2026-09-09",
     title: "IDSA/ESCMID 2026 Consensus Statements on Staphylococcus aureus Bacteremia: Risk Stratification, Diagnostic Evaluation, and Management of Adults and Children",
