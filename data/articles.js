@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "histoplasmosis-antifungal-discontinuation-2026",
+    date: "2026-09-12",
+    title: "Outcomes After Antifungal Discontinuation in Immunocompromised Patients Treated for Histoplasmosis",
+    type: "Retrospective cohort study",
+    journal: "Open Forum Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Mycology", "Histoplasmosis", "Immunocompromised host", "Antifungal therapy", "Antimicrobial duration", "Transplant ID", "Outpatient ID"],
+    summary: "In a healthcare-system cohort of 106 immunocompromised adults who stopped antifungal therapy after histoplasmosis treatment, 75% had disseminated disease. Relapse occurred in 7/106 (6.6%): 3/28 (11%) treated for <12 months and 4/78 (5.1%) treated for >=12 months. Shorter treatment was not statistically associated with the composite of relapse, histoplasmosis-related hospitalization, or histoplasmosis-related death after inverse-probability weighting (HR 2.34, 95% CI 0.52-10.62), and no death was attributed to histoplasmosis. Lower baseline antigen burden was associated with fewer adverse outcomes.",
+    change: "The cohort provides direct outcome data for immunocompromised patients after antifungal discontinuation and suggests that relapse is not inevitable when therapy must stop early. It also supports considering initial fungal burden when estimating post-treatment risk. The study does not establish that courses shorter than 12 months are equivalent.",
+    takeaway: "When histoplasmosis therapy in an immunocompromised patient must be stopped before 12 months because of intolerance, interactions, or adherence barriers, the available data support individualized risk assessment and close follow-up rather than assuming failure is certain. Do not use this cohort to routinely shorten recommended therapy: relapse was numerically more frequent with <12 months of treatment, and the estimate remains compatible with substantial harm.",
+    limitations: "This was a retrospective, single-system cohort limited to patients who discontinued therapy and had follow-up, creating selection and survivorship bias. Treatment duration was not randomized, reasons for discontinuation and clinical risk likely differed between groups, only seven relapses occurred, and the confidence interval was very wide. The study cannot demonstrate noninferiority of <12 months or define a safe antigen threshold, monitoring schedule, or stopping rule.",
+    link: "https://academic.oup.com/ofid/advance-article/doi/10.1093/ofid/ofag525/8793019",
+    doi: "10.1093/ofid/ofag525"
+  },
+  {
     id: "pharmacist-pending-tests-discharge-2026",
     date: "2026-09-12",
     title: "Pharmacist-led transitions of care intervention to address infectious disease tests pending at discharge (TPAD)",
