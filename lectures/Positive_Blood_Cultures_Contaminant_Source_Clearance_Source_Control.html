@@ -152,6 +152,11 @@
     }
   </style>
 <style>.lecture-site-nav{padding:10px 20px;background:#eef1ed;color:#172019;font:14px system-ui;display:flex;gap:24px;flex-wrap:wrap}.lecture-site-nav a{color:inherit;padding:6px 0}@media print{.lecture-site-nav{display:none}}</style>
+<style id="lecture-full-width">
+/* Lecture pages use the full content width without a teaching sidebar. */
+.layout { grid-template-columns: minmax(0, 1fr); }
+.layout > aside { display: none; }
+</style>
 </head>
 <body>
 <nav class="lecture-site-nav" aria-label="Lecture navigation"><a href="./">All lectures</a><a href="../">ID Practice Update</a></nav>
