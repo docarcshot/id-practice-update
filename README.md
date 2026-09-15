@@ -69,3 +69,7 @@ Then open `index.html` directly, or serve the folder with a static HTTP server. 
 ## GitHub Pages
 
 The GitHub Actions workflow checks out the complete history, generates metadata, validates content and assets, runs the focused behavior checks, generates RSS, and deploys to GitHub Pages whenever `main` changes. No package installation is required. A failed validation leaves the previous deployment in place.
+
+## Lectures
+
+`lectures/index.html` lists the current resident and fellow teaching modules. The homepage sidebar links to this page. Modules retain their source content, review status, self-contained styles, and print behavior; a print-hidden navigation bar links back to the lecture list and digest. Update the corresponding HTML and catalog version date together when a revised lecture is supplied.

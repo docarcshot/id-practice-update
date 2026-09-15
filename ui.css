@@ -56,3 +56,5 @@ button:focus-visible,a:focus-visible,select:focus-visible,summary:focus-visible,
   .search-box input{font-size:16px;min-height:44px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.lecture-sidebar-link{margin-bottom:10px;border:1px solid var(--line);border-radius:11px;background:var(--surface);min-height:54px}.lecture-sidebar-link span{color:var(--accent);font-size:13px}

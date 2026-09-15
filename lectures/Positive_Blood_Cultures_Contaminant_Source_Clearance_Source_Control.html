@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="A case-driven inpatient teaching module on interpreting and managing positive blood cultures.">
+  <title>Positive Blood Cultures: Contaminant, Source, Clearance, and Source Control</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --navy: #102d3f;
+      --navy-2: #17465f;
+      --teal: #087f7b;
+      --coral: #c84e3c;
+      --amber: #a45b05;
+      --green: #2f6b45;
+      --ink: #16242c;
+      --muted: #566870;
+      --paper: #fffdf9;
+      --wash: #edf4f5;
+      --line: #c8d6d9;
+      --focus: #ffbf47;
+      --shadow: 0 10px 28px rgba(16,45,63,.09);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 5.5rem; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.58;
+    }
+    a { color: #075e82; text-decoration-thickness: .08em; text-underline-offset: .16em; }
+    a:hover { text-decoration-thickness: .14em; }
+    :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+    .skip-link { position: fixed; left: .75rem; top: -5rem; z-index: 100; padding: .65rem .85rem; background: #fff; color: #000; border: 2px solid #000; }
+    .skip-link:focus { top: .75rem; }
+    .hero {
+      background: linear-gradient(130deg, var(--navy), var(--navy-2));
+      color: #fff;
+      padding: 2.2rem max(1rem, calc((100vw - 1180px) / 2)) 1.7rem;
+    }
+    .eyebrow { margin: 0 0 .45rem; color: #a7e4df; font-size: .82rem; font-weight: 800; letter-spacing: .11em; text-transform: uppercase; }
+    h1 { max-width: 900px; margin: 0; font-size: clamp(2rem, 5vw, 3.65rem); line-height: 1.03; letter-spacing: -.035em; }
+    .hero-copy { max-width: 780px; margin: 1rem 0 0; font-size: clamp(1rem, 2vw, 1.18rem); color: #edf7fa; }
+    .meta-row { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.2rem; }
+    .meta-chip { display: inline-flex; align-items: center; min-height: 2rem; padding: .28rem .65rem; border: 1px solid rgba(255,255,255,.35); border-radius: 999px; font-size: .86rem; }
+    .top-nav { position: sticky; top: 0; z-index: 40; background: rgba(255,253,249,.96); border-bottom: 1px solid var(--line); backdrop-filter: blur(10px); }
+    .top-nav-inner { width: min(1180px, 100%); margin: auto; display: flex; gap: .35rem; padding: .55rem .75rem; overflow-x: auto; scrollbar-width: thin; }
+    .top-nav a, .top-nav button { flex: 0 0 auto; min-height: 2.6rem; padding: .55rem .75rem; border: 1px solid var(--line); border-radius: .55rem; background: #fff; color: var(--navy); font: inherit; font-size: .86rem; font-weight: 750; text-decoration: none; cursor: pointer; }
+    .top-nav a:hover, .top-nav button:hover { background: var(--wash); }
+    .layout { width: min(1180px, calc(100% - 2rem)); margin: 1.35rem auto 3rem; display: grid; grid-template-columns: minmax(0,1fr) 290px; gap: 1.5rem; align-items: start; }
+    main { min-width: 0; }
+    .rail { position: sticky; top: 5rem; }
+    .rail-card { padding: 1rem; border: 1px solid var(--line); border-radius: .8rem; background: #fff; box-shadow: var(--shadow); }
+    .rail-card + .rail-card { margin-top: 1rem; }
+    .rail h2 { margin: 0 0 .55rem; font-size: 1rem; }
+    .rail ol, .rail ul { margin: 0; padding-left: 1.25rem; }
+    .rail li + li { margin-top: .35rem; }
+    section { margin: 0 0 1.45rem; padding: clamp(1rem, 3vw, 1.65rem); background: #fff; border: 1px solid var(--line); border-radius: .9rem; box-shadow: var(--shadow); }
+    section > h2 { margin: 0 0 .8rem; color: var(--navy); font-size: clamp(1.35rem, 3vw, 1.9rem); line-height: 1.18; }
+    h3 { color: var(--navy); font-size: 1.08rem; line-height: 1.3; }
+    p { margin: .55rem 0; }
+    ul, ol { padding-left: 1.35rem; }
+    li + li { margin-top: .35rem; }
+    .lede { font-size: 1.08rem; }
+    .callout { margin: 1rem 0; padding: .85rem 1rem; border-left: 5px solid var(--teal); background: #edf8f7; border-radius: .3rem .65rem .65rem .3rem; }
+    .callout.alert { border-color: var(--coral); background: #fff1ee; }
+    .callout.caution { border-color: var(--amber); background: #fff7e8; }
+    .callout strong { color: var(--navy); }
+    .moves { display: grid; grid-template-columns: repeat(5, 1fr); gap: .65rem; margin: 1rem 0; counter-reset: move; }
+    .move { min-width: 0; padding: .8rem; background: var(--wash); border-top: 4px solid var(--teal); border-radius: .5rem; }
+    .move::before { counter-increment: move; content: counter(move); display: grid; place-items: center; width: 1.65rem; height: 1.65rem; margin-bottom: .4rem; background: var(--navy); color: #fff; border-radius: 50%; font-weight: 800; }
+    .move b { display: block; color: var(--navy); }
+    .grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: .9rem; }
+    .mini-card { padding: .9rem; border: 1px solid var(--line); border-radius: .65rem; background: #fbfdfd; }
+    .mini-card h3 { margin: 0 0 .35rem; }
+    .signal { display: inline-block; padding: .18rem .48rem; border-radius: 999px; font-size: .76rem; font-weight: 850; letter-spacing: .03em; text-transform: uppercase; }
+    .signal-red { color: #7c2117; background: #ffe1dc; }
+    .signal-amber { color: #704000; background: #ffedc4; }
+    .signal-green { color: #17482b; background: #dff3e5; }
+    .case { border: 1px solid #abc2c7; border-radius: .75rem; overflow: hidden; background: #fff; }
+    .case + .case { margin-top: 1rem; }
+    .case-head { padding: .85rem 1rem; background: var(--navy); color: #fff; }
+    .case-head h3 { margin: 0; color: #fff; }
+    .case-body { padding: 1rem; }
+    .decision { margin-top: .8rem; padding: .8rem; border-left: 4px solid var(--coral); background: #fff5f1; }
+    .discussion { margin: .8rem 0; padding: .75rem .9rem; background: var(--wash); border-radius: .55rem; }
+    .discussion p { margin-top: 0; font-weight: 800; color: var(--navy); }
+    details { margin: .8rem 0; border: 1px solid var(--line); border-radius: .65rem; background: #fff; }
+    summary { padding: .8rem .9rem; color: var(--navy); font-weight: 800; cursor: default; list-style: none; pointer-events: none; }
+    summary::-webkit-details-marker { display: none; }
+    details > div { padding: 0 .9rem .9rem; }
+    table { width: 100%; border-collapse: collapse; margin: .9rem 0; font-size: .94rem; }
+    caption { text-align: left; margin-bottom: .4rem; font-weight: 800; color: var(--navy); }
+    th, td { padding: .68rem; text-align: left; vertical-align: top; border: 1px solid var(--line); }
+    th { background: var(--wash); color: var(--navy); }
+    .table-wrap { overflow-x: auto; }
+    .evidence { display: inline-block; margin-right: .25rem; padding: .08rem .38rem; border: 1px solid currentColor; border-radius: .3rem; font-size: .72rem; font-weight: 800; }
+    .resident, .fellow { padding: .9rem 1rem; border-radius: .65rem; }
+    .resident { background: #eef8f1; border: 1px solid #acd0b8; }
+    .fellow { background: #f4f0fb; border: 1px solid #c6b5df; }
+    .resident h3, .fellow h3 { margin-top: 0; }
+    .template { padding: 1rem; background: #102d3f; color: #f7fbfc; border-radius: .65rem; white-space: pre-wrap; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .88rem; overflow-wrap: anywhere; }
+    .quiz-item { padding: .9rem; border: 1px solid var(--line); border-radius: .65rem; }
+    .quiz-item + .quiz-item { margin-top: .8rem; }
+    .quiz-item h3 { margin-top: 0; }
+    .answer { margin-top: .6rem; }
+    .answer summary { background: var(--wash); border-radius: .5rem; }
+    .cheat { border: 3px solid var(--navy); box-shadow: none; }
+    .cheat-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: .75rem; }
+    .cheat-box { padding: .75rem; border: 1px solid var(--line); border-radius: .5rem; }
+    .cheat-box h3 { margin: 0 0 .3rem; }
+    .references li { overflow-wrap: anywhere; }
+    footer { padding: 1.5rem 1rem 5rem; text-align: center; color: var(--muted); font-size: .88rem; }
+    .mobile-bar { display: none; }
+    @media (max-width: 900px) {
+      .layout { grid-template-columns: 1fr; }
+      .rail { position: static; display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 1rem; }
+      .rail-card + .rail-card { margin-top: 0; }
+      .moves { grid-template-columns: repeat(3, 1fr); }
+    }
+    @media (max-width: 620px) {
+      html { scroll-padding-top: 4.7rem; }
+      .hero { padding-top: 1.5rem; }
+      .layout { width: min(100% - 1rem, 1180px); margin-top: .75rem; }
+      section { border-radius: .7rem; }
+      .grid-2, .cheat-grid, .rail { grid-template-columns: 1fr; }
+      .moves { grid-template-columns: 1fr; }
+      .top-nav-inner { padding-inline: .45rem; }
+      .top-nav a, .top-nav button { min-height: 2.75rem; }
+      th, td { min-width: 10rem; }
+      .mobile-bar { position: fixed; display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; bottom: 0; left: 0; right: 0; z-index: 50; padding: .55rem max(.55rem, env(safe-area-inset-right)) calc(.55rem + env(safe-area-inset-bottom)) max(.55rem, env(safe-area-inset-left)); background: rgba(16,45,63,.97); }
+      .mobile-bar a { display: grid; place-items: center; min-height: 2.8rem; border: 1px solid rgba(255,255,255,.35); border-radius: .55rem; color: #fff; text-decoration: none; font-weight: 800; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    @media print {
+      @page { size: letter; margin: .45in; }
+      body { background: #fff; font-size: 9.5pt; }
+      .hero, .top-nav, .rail, .mobile-bar, footer { display: none !important; }
+      .layout { width: 100%; display: block; margin: 0; }
+      section { box-shadow: none; break-inside: auto; }
+      .case, .mini-card, .quiz-item, table, .callout { break-inside: avoid; }
+      details { break-inside: avoid; }
+      .cheat { display: block !important; margin: 0; padding: .2in; border: 2px solid #000; break-before: page; page-break-inside: avoid; }
+      .cheat h2 { font-size: 16pt; }
+      .cheat-grid { grid-template-columns: 1fr 1fr; gap: .1in; }
+      .cheat-box { padding: .08in; }
+      a { color: #000; text-decoration: none; }
+    }
+  </style>
+<style>.lecture-site-nav{padding:10px 20px;background:#eef1ed;color:#172019;font:14px system-ui;display:flex;gap:24px;flex-wrap:wrap}.lecture-site-nav a{color:inherit;padding:6px 0}@media print{.lecture-site-nav{display:none}}</style>
+</head>
+<body>
+<nav class="lecture-site-nav" aria-label="Lecture navigation"><a href="./">All lectures</a><a href="../">ID Practice Update</a></nav>
+  <a class="skip-link" href="#main">Skip to module</a>
+  <header class="hero">
+    <p class="eyebrow">Shared core module</p>
+    <h1>Positive Blood Cultures</h1>
+    <p class="hero-copy">The lab calls with a positive bottle. What needs to happen now, what can wait, and what information actually changes the plan?</p>
+    <div class="meta-row" aria-label="Module details">
+      <span class="meta-chip">Residents: essentials</span>
+      <span class="meta-chip">Fellows: advanced detail</span>
+      <span class="meta-chip">35–45 minutes</span>
+      <span class="meta-chip">Version September 14, 2026</span>
+      <span class="meta-chip">References reviewed September 13, 2026</span>
+    </div>
+  </header>
+
+  <nav class="top-nav" aria-label="Module navigation">
+    <div class="top-nav-inner">
+      <a href="#start">Start</a>
+      <a href="#framework">Initial approach</a>
+      <a href="#signal">Interpret the result</a>
+      <a href="#cases">Cases</a>
+      <a href="#clearance">Repeat cultures</a>
+      <a href="#source-control">Source control</a>
+      <a href="#consult">Consult communication</a>
+      <a href="#quiz">Knowledge check</a>
+      <a href="#cheat-sheet">Cheat sheet</a>
+      <a href="#references">References</a>
+      <button type="button" onclick="window.print()">Print module</button>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <main id="main">
+      <section id="start">
+        <h2>What you should be able to do</h2>
+        <p class="lede">A positive blood culture is a piece of data, not yet a diagnosis. When the lab calls, I first want to know how sick the patient is, what grew, how the cultures were collected, and whether there is hardware or a source that needs attention. The antibiotic choice matters, but it is rarely the only decision.</p>
+        <ol>
+          <li>Decide whether a positive culture is likely to represent true bloodstream infection, contamination, or an unresolved result.</li>
+          <li>Separate the likely portal of entry from possible endovascular or metastatic infection.</li>
+          <li>Choose when follow-up blood cultures are useful and when they are probably unnecessary.</li>
+          <li>Identify needed source control and determine which date should anchor treatment duration.</li>
+          <li>Give the primary team a clear recommendation, including what could change it.</li>
+        </ol>
+        <div class="callout alert"><strong>A limitation up front.</strong> This is not an antimicrobial order set. Drug and dose still depend on the syndrome, susceptibility results, renal and hepatic function, allergy history, weight, local antibiogram, formulary, pharmacy guidance, and current labeling.</div>
+      </section>
+
+      <section id="framework">
+        <h2>How I approach the initial call</h2>
+        <p>The order varies a little depending on the patient. An unstable patient gets active therapy while the rest of the evaluation is happening. In a stable patient, there is usually time to look at the collection details before adding another drug.</p>
+        <div class="moves" aria-label="Five-step framework">
+          <div class="move"><b>How sick?</b>Is current therapy active, and can anything wait?</div>
+          <div class="move"><b>Is it real?</b>What grew, from how many sets, and from which sites?</div>
+          <div class="move"><b>Where from?</b>What is the likely source, and could another site have been seeded?</div>
+          <div class="move"><b>Repeat?</b>Will another culture establish clearance or change the workup?</div>
+          <div class="move"><b>What needs fixing?</b>Is there a line, device, obstruction, or collection that antibiotics will not solve?</div>
+        </div>
+        <div class="grid-2">
+          <div class="resident">
+            <h3>For residents</h3>
+            <ul>
+              <li>Look at the patient before treating the microbiology report.</li>
+              <li>Count independently collected sets and review where they were drawn. Bottle count alone is not enough.</li>
+              <li>A plausible source may explain entry into the blood, but it does not always explain the full extent of infection.</li>
+              <li>Repeat cultures for a reason, not simply because the first ones were positive.</li>
+              <li>Your plan should address source control and duration, not only antibiotic selection.</li>
+            </ul>
+          </div>
+          <div class="fellow">
+            <h3>Questions for fellows</h3>
+            <ul>
+              <li>Which uncertainty matters enough to change what you do today?</li>
+              <li>Are you applying an organism-specific approach or reflexively using the same workup for every bacteremia?</li>
+              <li>Is a prediction score helping with risk assessment, or are you asking it to exclude disease that it cannot reliably exclude?</li>
+              <li>What does the local rapid panel detect, and what can it miss?</li>
+              <li>If cultures remain positive, is the presumed source wrong, incompletely controlled, or not the whole story?</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="signal">
+        <h2>The organism changes the conversation</h2>
+        <p>Some results should be treated as clinically significant while the workup continues. Others need context before committing the patient to treatment. This is where the species, number of independently drawn sets, and presence of prosthetic material matter much more than a simple count of positive bottles.</p>
+        <div class="table-wrap" role="region" aria-label="Positive blood culture interpretation table" tabindex="0">
+          <table>
+            <caption>What the first result should trigger</caption>
+            <thead><tr><th>Result</th><th>Default interpretation</th><th>Immediate questions</th></tr></thead>
+            <tbody>
+              <tr><td><span class="signal signal-red">Act</span> <em>S. aureus</em> or <em>S. lugdunensis</em></td><td>Treat as clinically significant. A single positive bottle does not make it a contaminant.</td><td>Stability, effective therapy, source, intravascular or prosthetic material, follow-up cultures, echocardiography, focal pain, embolic findings.</td></tr>
+              <tr><td><span class="signal signal-red">Act</span> Yeast</td><td>Assume candidemia while species and susceptibilities are pending.</td><td>Effective antifungal therapy, repeat cultures, lines, recent abdominal pathology, immunosuppression, metastatic complications.</td></tr>
+              <tr><td><span class="signal signal-red">Act</span> Enterobacterales, <em>Pseudomonas</em>, other aerobic gram-negative rods</td><td>Usually true bacteremia, not skin contamination.</td><td>Urinary, biliary, abdominal, pulmonary, vascular-catheter, wound, or device source; obstruction or undrained focus; active empiric therapy.</td></tr>
+              <tr><td><span class="signal signal-amber">Interpret</span> <em>Enterococcus</em>, viridans-group streptococci</td><td>Often clinically significant, but context determines source and endovascular risk.</td><td>Multiple sets, urinary or abdominal source, mucosal injury, valve/device history, persistence, unknown source, endocarditis features.</td></tr>
+              <tr><td><span class="signal signal-amber">Interpret</span> Coagulase-negative staphylococci, <em>Corynebacterium</em>, non-anthracis <em>Bacillus</em>, <em>Cutibacterium</em>, <em>Micrococcus</em></td><td>Common contaminants when isolated from only one set in a low-risk host. They can be true pathogens, especially with intravascular or prosthetic material, immunocompromise, multiple concordant sets, or compatible illness.</td><td>How many independently drawn sets? Same species? Peripheral or line draw? Hardware? Immunosuppression? Compatible syndrome? Need to repeat before committing to treatment?</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="callout caution"><strong>The shortcut that causes trouble.</strong> “One bottle is a contaminant” is not a reliable rule. One bottle can represent true infection. The probability depends on the organism, independently collected sets, blood volume, collection site, time to positivity, host, devices, and clinical course. The 2024 ASM laboratory report uses a common commensal isolated from a single set within a culture series in its contamination definition, but the bedside decision remains clinical.<sup><a href="#ref-3">3</a></sup></div>
+
+        <details open>
+          <summary>How much weight should we give time to positivity?</summary>
+          <div>
+            <p>Rapid growth may support a higher organism burden, but there is no universal time cutoff that separates pathogen from contaminant across organisms, platforms, blood volumes, and prior antibiotics. I would not stop or continue treatment on time to positivity alone.</p>
+            <p>When catheter-related bloodstream infection is suspected and paired peripheral and catheter cultures are drawn simultaneously with comparable volumes, catheter growth at least 2 hours earlier than the peripheral culture supports a catheter source. It does not substitute for the full clinical assessment.<sup><a href="#ref-5">5</a></sup> Apply the local laboratory’s collection and reporting method.</p>
+          </div>
+        </details>
+
+        <details open>
+          <summary>What can we safely do with a rapid panel result?</summary>
+          <div>
+            <p>The rapid panel can move care forward, but only if you know what the local assay detects, what it misses, and how it handles polymicrobial cultures. A resistance gene is not the same thing as a complete susceptibility profile. Conventional identification and phenotypic susceptibility testing still matter. In a systematic review and meta-analysis, rapid diagnostics were associated with lower mortality when paired with active stewardship support, but not when used alone.<sup><a href="#ref-8">8</a></sup></p>
+          </div>
+        </details>
+      </section>
+
+      <section id="cases">
+        <h2>Cases for discussion</h2>
+        <p>For each case, stop before opening the answer. Decide what you think the result means, what you need to do today, and what additional finding would change your mind.</p>
+
+        <article class="case">
+          <div class="case-head"><h3>Case 1: One set, one bottle, coagulase-negative staphylococcus</h3></div>
+          <div class="case-body">
+            <p>A stable patient admitted with a heart-failure exacerbation had one blood-culture set collected for a temperature of 37.9°C. One bottle grows coagulase-negative staphylococcus at 28 hours. There is no central line, prosthetic valve, cardiac device, vascular graft, or orthopedic hardware. Nothing else suggests an infection.</p>
+            <div class="discussion"><p>Before moving on</p><ul><li>Would you call this bacteremia?</li><li>Would you continue vancomycin?</li><li>Do you need another culture?</li></ul></div>
+            <details open>
+              <summary>How I would handle it</summary>
+              <div>
+                <p>This is most likely contamination. I would reassess the patient and make sure there is not a device or clinical finding missing from the initial story. If the probability remains low, I would stop or avoid vancomycin and document why the isolate is not being treated.</p>
+                <p>I would not repeat cultures automatically. I would repeat properly collected peripheral sets if the history is incomplete, a prosthetic device comes to light, or the clinical course makes true infection plausible. When safe, obtain those cultures before giving another antibiotic dose.</p>
+                <p>The error here is allowing the word “positive” to settle the diagnosis. Contaminated cultures lead to unnecessary antibiotics, additional testing, adverse events, and longer hospitalization.<sup><a href="#ref-3">3</a></sup><sup><a href="#ref-4">4</a></sup></p>
+              </div>
+            </details>
+          </div>
+        </article>
+
+        <article class="case">
+          <div class="case-head"><h3>Case 2: One bottle with <em>S. aureus</em> and new back pain</h3></div>
+          <div class="case-body">
+            <p>A patient with no obvious source has one bottle positive for <em>S. aureus</em>. They are afebrile after antibiotics but mention new focal lumbar pain when you examine them.</p>
+            <div class="discussion"><p>What matters now?</p><ul><li>Does one positive bottle change how seriously you take the result?</li><li>What studies need to be ordered today?</li><li>Does becoming afebrile lower the concern?</li></ul></div>
+            <details open>
+              <summary>How I would handle it</summary>
+              <div>
+                <p>I would treat this as <em>S. aureus</em> bacteremia. One positive bottle does not make <em>S. aureus</em> a contaminant. The immediate work includes active therapy, at least two follow-up culture sets at 48 hours after the index sample, TTE, review of all intravascular and prosthetic material, and a careful search for focal symptoms.</p>
+                <p>The back pain changes the case. It needs directed evaluation for vertebral or epidural infection. Defervescence after antibiotics does not answer that question. If cultures remain positive at or beyond 48 hours, the patient moves into an increased-risk pathway and the source and extent of infection need to be reconsidered.<sup><a href="#ref-1">1</a></sup></p>
+                <p><strong>For fellows.</strong> A negative TTE does not end the echocardiographic evaluation in every patient. The 2026 consensus supports TEE when risk remains higher because of an intracardiac device, predisposing valve disease, cultures positive at least 48 hours, embolic events, or more than one noncontiguous focus. Community onset and injection drug use also increase concern.<sup><a href="#ref-1">1</a></sup></p>
+              </div>
+            </details>
+          </div>
+        </article>
+
+        <article class="case">
+          <div class="case-head"><h3>Case 3: <em>E. coli</em> bacteremia with an obstructed ureter</h3></div>
+          <div class="case-body">
+            <p>A patient with pyelonephritis and <em>E. coli</em> bacteremia undergoes ureteral decompression. They are hemodynamically stable and improving on active therapy. There is no prosthetic valve, endovascular graft, severe immunocompromise, or evidence of a deep focus.</p>
+            <div class="discussion"><p>Decisions for rounds</p><ul><li>Do you need daily cultures until negative?</li><li>What made the biggest difference, the antibiotic or decompression?</li><li>When could oral treatment be reasonable?</li></ul></div>
+            <details open>
+              <summary>How I would handle it</summary>
+              <div>
+                <p>The major intervention was decompression. A longer antibiotic course would not have corrected the obstruction. If the patient continues to improve and source control is adequate, I would not routinely repeat blood cultures.</p>
+                <p>Seven days of effective therapy is supported for eligible patients. Oral transition is reasonable when the source is established, the patient is improving, the isolate is susceptible to an oral agent with adequate systemic exposure, and the gastrointestinal tract is functioning.<sup><a href="#ref-6">6</a></sup><sup><a href="#ref-7">7</a></sup></p>
+                <p><strong>For fellows.</strong> Do not stretch the BALANCE result beyond its population. The trial excluded severe immunosuppression, prosthetic heart valves or endovascular grafts, deep foci requiring prolonged therapy, <em>S. aureus</em>, <em>S. lugdunensis</em>, possible contaminants, unusual pathogens requiring prolonged therapy, and fungemia.<sup><a href="#ref-7">7</a></sup></p>
+              </div>
+            </details>
+          </div>
+        </article>
+
+        <article class="case">
+          <div class="case-head"><h3>Case 4: Yeast in blood after abdominal surgery</h3></div>
+          <div class="case-body">
+            <p>A patient with recent bowel surgery, an anastomotic leak, and a central venous catheter has yeast reported from one blood-culture bottle.</p>
+            <div class="discussion"><p>What would you do tonight?</p><ul><li>Could this be dismissed as contamination?</li><li>What has to happen besides starting an antifungal?</li><li>When does the treatment clock begin?</li></ul></div>
+            <details open>
+              <summary>How I would handle it</summary>
+              <div>
+                <p>I would manage this as candidemia while identification is pending. Start active antifungal therapy using current guidance and local pharmacy input. Obtain blood cultures every day or every other day until clearance. The abdomen needs another look for drainage or repair, and the catheter should be addressed early when it is the presumed source and can be removed safely.</p>
+                <p>For candidemia without metastatic complications, the IDSA guideline recommends treatment for 2 weeks after documented clearance and resolution of attributable symptoms. The clock does not start with the first positive bottle.<sup><a href="#ref-2">2</a></sup></p>
+              </div>
+            </details>
+          </div>
+        </article>
+      </section>
+
+      <section id="clearance">
+        <h2>When should the cultures be repeated?</h2>
+        <p>This is organism- and situation-specific. <em>S. aureus</em> bacteremia and candidemia require documented clearance. An improving patient with a controlled gram-negative source usually does not need daily cultures. The useful question is not “Were the cultures positive?” It is “What will another set tell me or change?”</p>
+        <div class="table-wrap" role="region" aria-label="Follow-up blood culture strategy" tabindex="0">
+          <table>
+            <caption>Organism-specific clearance strategy</caption>
+            <thead><tr><th>Situation</th><th>Default strategy</th><th>Why</th></tr></thead>
+            <tbody>
+              <tr><td><em>S. aureus</em> bacteremia</td><td>At least 2 sets at 48 hours after the index sample, then 1 or 2 sets every 24–48 hours until negative. Consider more intensive sampling with ongoing illness, deep or endovascular focus, or persistent positivity.</td><td>Clearance changes risk classification, diagnostic intensity, source-control reassessment, and the treatment clock.<sup><a href="#ref-1">1</a></sup></td></tr>
+              <tr><td>Candidemia</td><td>Every day or every other day until clearance.</td><td>Duration for uncomplicated candidemia is counted from documented clearance plus symptom resolution.<sup><a href="#ref-2">2</a></sup></td></tr>
+              <tr><td>Uncomplicated gram-negative BSI with clinical response and adequate source control</td><td>Usually do not repeat routinely.</td><td>Repeat when there is no appropriate response within 72 hours, endovascular concern, or limited source control.<sup><a href="#ref-6">6</a></sup></td></tr>
+              <tr><td>Possible contaminant</td><td>Repeat properly collected sets when the result could represent true infection because of devices, immunocompromise, compatible illness, multiple concordant positives, or unresolved clinical concern.</td><td>The repeat is diagnostic, not a ritual. Obtain before new antibiotics when clinically safe.</td></tr>
+              <tr><td>Any bacteremia with deterioration, persistent fever, new embolic or focal symptoms, retained infected material, or inactive therapy</td><td>Repeat cultures and reconsider the source.</td><td>The patient is not behaving like someone with a controlled, uncomplicated infection.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="callout"><strong>Put the reason in the plan.</strong> “Repeat cultures to document <em>S. aureus</em> clearance” is useful. So is “repeat because the catheter remains in place.” For an improving patient with uncomplicated gram-negative bacteremia, it may be appropriate to document why cultures are not being repeated.</div>
+      </section>
+
+      <section id="source-control">
+        <h2>What are the antibiotics not going to fix?</h2>
+        <p>On rounds, this is often the most important part of the discussion. If the source is obstructed, walled off, necrotic, leaking, or attached to foreign material, changing antibiotics may accomplish very little.</p>
+        <div class="grid-2">
+          <div class="mini-card"><h3>Remove</h3><p>Is a catheter, cardiac device, vascular graft, or other hardware involved? If removal may be needed, identify who will make that decision and when.</p></div>
+          <div class="mini-card"><h3>Drain</h3><p>Is there an abscess, empyema, infected collection, septic joint, or another closed-space infection? If someone says it is not drainable, clarify whether that conclusion came from the procedural service.</p></div>
+          <div class="mini-card"><h3>Debride</h3><p>Is there necrotic tissue, an infected wound, devitalized bone, or an uncontrolled surgical focus? Antibiotics cannot restore perfusion or remove dead tissue.</p></div>
+          <div class="mini-card"><h3>Decompress or repair</h3><p>Is there urinary or biliary obstruction, a leak, fistula, perforation, or another continuing anatomic problem?</p></div>
+        </div>
+        <div class="callout alert"><strong>If cultures stay positive, stop and reconsider the case.</strong> For <em>S. aureus</em>, a positive follow-up culture at least 48 hours after the first positive culture is a major increased-risk feature. Check whether therapy is active and reaching the patient, but also reconsider the source, every line and device, and occult endovascular or metastatic infection. Broader therapy alone is usually not the answer.<sup><a href="#ref-1">1</a></sup></div>
+        <details open>
+          <summary>When the team thinks the line is the source</summary>
+          <div>
+            <ul>
+              <li>Were peripheral and catheter cultures collected before antibiotics, at the same time, with comparable volumes?</li>
+              <li>Is the line still necessary, and can it be removed now?</li>
+              <li>Is there tunnel, pocket, exit-site, or septic-thrombus disease?</li>
+              <li>Is the organism one for which catheter retention carries a high failure risk?</li>
+              <li>If salvage is attempted, what is the failure threshold and when will cultures be repeated?</li>
+            </ul>
+            <p>The 2009 IDSA catheter guideline remains an older source and should be reconciled with local vascular-access and infection-prevention policy.<sup><a href="#ref-5">5</a></sup></p>
+          </div>
+        </details>
+      </section>
+
+      <section id="consult">
+        <h2>Answer the question the team actually has</h2>
+        <p>A technically correct consult is not very useful if the primary team cannot tell what to do next. The assessment should state whether the culture is significant, where the infection probably came from, what remains unproven, and what needs to happen today.</p>
+        <h3>A practical note structure</h3>
+        <div class="template" aria-label="Consult note template">Positive blood cultures
+
+Blood cultures: [dates, number of sets, collection sites, identification, susceptibilities]
+
+Assessment: This is [true BSI / likely contamination / still uncertain]. The likely source is [ ] because [ ]. We remain concerned about [endovascular, prosthetic, or metastatic site] because [ ].
+
+Plan today
+- Active therapy: [ ]
+- Repeat cultures: [what, when, and why]
+- Source control: [action, responsible service, expected timing]
+- Additional evaluation: [only tests likely to change management]
+
+Duration and follow-through
+- Duration anchor and anticipated stop date: [ ]
+- Pending results and who will review them: [ ]
+- Criteria for narrowing, oral transition, discharge, or reopening the workup: [ ]</div>
+
+        <h3>What I would say to the primary team</h3>
+        <div class="callout">“I think this is true <em>S. aureus</em> bacteremia even though only one bottle is positive. We need two follow-up sets tomorrow at the 48-hour mark and a TTE. His focal back pain also needs directed spine imaging. If the cultures remain positive, we need to assume that the source is not controlled or that there is another endovascular or metastatic focus.”</div>
+
+        <h3>Before the patient leaves the hospital</h3>
+        <ul>
+          <li>“Continue antibiotics per ID” is not a discharge plan. State the drug, dose, route, indication, duration anchor, stop date, and monitoring.</li>
+          <li>List all pending blood cultures and susceptibilities, who will review them, and what result changes the plan.</li>
+          <li>Record source-control completion and any retained material.</li>
+          <li>Specify necessary imaging, specialty follow-up, vascular-access plan, laboratory monitoring, and symptoms requiring urgent reassessment.</li>
+          <li>Use oral therapy when evidence, susceptibility, absorption, adherence, and syndrome permit. Bacteremia alone is not an indication for a PICC.</li>
+        </ul>
+      </section>
+
+      <section id="traps">
+        <h2>Where these cases usually go off track</h2>
+        <div class="grid-2">
+          <div class="mini-card"><h3>Calling it from the bottle count</h3><p>“One bottle means contamination” and “two bottles mean true infection” are unreliable shortcuts. Start with the organism, independently collected sets, collection sites, host, devices, and syndrome.</p></div>
+          <div class="mini-card"><h3>Stopping once a plausible source is found</h3><p>A positive urine culture may explain how bacteremia started. It does not make new back pain, an intracardiac device, persistent cultures, or embolic findings irrelevant.</p></div>
+          <div class="mini-card"><h3>Repeating cultures by habit</h3><p>Follow-up cultures are essential in some infections and low yield in others. Know what question the next set is supposed to answer.</p></div>
+          <div class="mini-card"><h3>Changing antibiotics instead of controlling the source</h3><p>A broader regimen does not drain an abscess, remove an infected line, decompress an obstruction, or debride necrotic tissue.</p></div>
+          <div class="mini-card"><h3>Overreading the rapid panel</h3><p>An organism or resistance gene detected on a panel is not a complete phenotype. Know the local assay and wait for conventional results when they matter.</p></div>
+          <div class="mini-card"><h3>Choosing duration from memory</h3><p>There is no single bacteremia duration. The answer depends on the organism, source, extent, source control, host, response, and the population actually studied.</p></div>
+        </div>
+      </section>
+
+      <section id="quiz">
+        <h2>Knowledge check</h2>
+        <div class="quiz-item">
+          <h3>1. One of four bottles grows <em>S. aureus</em>. The patient looks well. Contaminant?</h3>
+          <details class="answer" open><summary>Answer</summary><div><p>No. Treat as clinically significant and begin the <em>S. aureus</em> bacteremia evaluation. Bottle count does not make <em>S. aureus</em> a contaminant.</p></div></details>
+        </div>
+        <div class="quiz-item">
+          <h3>2. When should adult <em>S. aureus</em> follow-up cultures be obtained?</h3>
+          <details class="answer" open><summary>Answer</summary><div><p>The 2026 IDSA/ESCMID consensus suggests at least two sets at 48 hours after sampling of the first positive culture, then one or two sets every 24 to 48 hours until negative. Intensify for ongoing illness, deep or endovascular infection, or persistence.</p></div></details>
+        </div>
+        <div class="quiz-item">
+          <h3>3. Does every adult with <em>S. aureus</em> bacteremia need TTE?</h3>
+          <details class="answer" open><summary>Answer</summary><div><p>The 2026 consensus suggests routine TTE for all adults with <em>S. aureus</em> bacteremia. TEE is risk-based after TTE, not automatically omitted because TTE is negative.</p></div></details>
+        </div>
+        <div class="quiz-item">
+          <h3>4. An improving patient has <em>E. coli</em> bacteremia from pyelonephritis after ureteral decompression. Repeat daily cultures?</h3>
+          <details class="answer" open><summary>Answer</summary><div><p>Usually no, if this meets uncomplicated gram-negative BSI criteria. Repeat if response is inadequate, an endovascular focus is possible, or source control is limited.</p></div></details>
+        </div>
+        <div class="quiz-item">
+          <h3>5. One set grows <em>Corynebacterium</em> in a patient with a prosthetic valve. Ignore it?</h3>
+          <details class="answer" open><summary>Answer</summary><div><p>No. It may still be contamination, but prosthetic material raises the consequence and probability of true infection. Reassess the syndrome and obtain properly collected repeat sets before dismissing it.</p></div></details>
+        </div>
+        <div class="quiz-item">
+          <h3>6. What does a catheter culture turning positive 2.5 hours before a simultaneous peripheral culture suggest?</h3>
+          <details class="answer" open><summary>Answer</summary><div><p>If collected simultaneously with comparable volumes, a differential time to positivity of at least 2 hours supports a catheter source. It does not prove it and must be interpreted with the organism and clinical context.</p></div></details>
+        </div>
+        <div class="quiz-item">
+          <h3>7. Can the BALANCE trial justify 7 days for candidemia or <em>S. aureus</em> bacteremia?</h3>
+          <details class="answer" open><summary>Answer</summary><div><p>No. The trial excluded fungemia, <em>S. aureus</em>, <em>S. lugdunensis</em>, deep foci requiring prolonged therapy, and other important high-risk groups.</p></div></details>
+        </div>
+        <div class="quiz-item">
+          <h3>8. What is the most useful one-sentence bacteremia recommendation?</h3>
+          <details class="answer" open><summary>Answer</summary><div><p>One that states significance, source, next action, and contingency. Example: “This is true bacteremia from an obstructed urinary source; decompression is complete, repeat cultures are unnecessary if improvement continues, and we will narrow to an active oral option when susceptibilities return.”</p></div></details>
+        </div>
+      </section>
+
+      <section class="cheat" id="cheat-sheet">
+        <h2>Positive blood cultures: one-page rounds sheet</h2>
+        <div class="cheat-grid">
+          <div class="cheat-box"><h3>1. Validate</h3><p>Organism. Independent sets and sites. Blood volume and collection quality. Host and devices. Compatible syndrome. Trajectory.</p></div>
+          <div class="cheat-box"><h3>2. Stabilize</h3><p>Is current therapy active and timely? Do not wait for final susceptibility in an unstable patient. Use local empiric guidance.</p></div>
+          <div class="cheat-box"><h3>3. Localize</h3><p>Portal: urine, biliary/abdomen, lung, skin/wound, catheter. Extent: valve/device, thrombus, spine, joint, bone, abscess, embolic sites.</p></div>
+          <div class="cheat-box"><h3>4. Clear selectively</h3><p><em>S. aureus</em>: 2 sets at 48 h, then q24–48 h until negative. <em>Candida</em>: daily or every other day. Uncomplicated GN BSI: usually no repeat.</p></div>
+          <div class="cheat-box"><h3>5. Control</h3><p>Remove line/device when indicated. Drain. Debride. Decompress. Repair leak or fistula. Name owner and timing.</p></div>
+          <div class="cheat-box"><h3>6. Set the clock</h3><p>Document the duration anchor and stop date. <em>S. aureus</em> and candidemia use documented clearance; later source control may reset the anchor in selected cases.</p></div>
+          <div class="cheat-box"><h3>7. Communicate</h3><p>Significance + source + action + contingency. State what result or clinical change reopens the workup.</p></div>
+          <div class="cheat-box"><h3>8. Handoff safely</h3><p>Drug/dose/route, stop date, pending results and owner, source control, retained material, monitoring, follow-up, return triggers.</p></div>
+        </div>
+        <p><strong>Do not do these:</strong> call <em>S. aureus</em> or yeast a contaminant; use bottle count alone; repeat every culture daily; assume antibiotics replace source control; generalize 7-day data to excluded pathogens or deep foci.</p>
+      </section>
+
+      <section id="references" class="references">
+        <h2>References and evidence notes</h2>
+        <p><span class="evidence">CONSENSUS</span> reflects expert consensus informed by evidence review. <span class="evidence">GUIDELINE</span> reflects a professional-society recommendation. <span class="evidence">RCT</span> reflects randomized trial evidence. <span class="evidence">OBSERVATIONAL</span> reflects nonrandomized data. Evidence labels matter because many bloodstream-infection practices remain consensus-based.</p>
+        <ol>
+          <li id="ref-1"><span class="evidence">CONSENSUS</span> Liu C, Chambers HF, Vandenesch F, Kern WV, et al. IDSA/ESCMID 2026 Consensus Statements on <em>Staphylococcus aureus</em> Bacteremia: Risk Stratification, Diagnostic Evaluation, and Management of Adults and Children. Published and last updated September 9, 2026. <a href="https://www.idsociety.org/practice-guideline/staphylococcus-aureus-bacteremia/">IDSA consensus page</a>. Reviewed September 13, 2026.</li>
+          <li id="ref-2"><span class="evidence">GUIDELINE</span> Pappas PG, Kauffman CA, Andes DR, et al. Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by IDSA. <em>Clin Infect Dis.</em> 2016;62(4):e1-e50. Published online December 16, 2015. doi:10.1093/cid/civ933. <a href="https://www.idsociety.org/practice-guideline/candidiasis/">IDSA guideline</a>. Reviewed September 13, 2026.</li>
+          <li id="ref-3"><span class="evidence">LABORATORY REPORT</span> Palavecino EL, Campigotto A, She RC, et al. Laboratory approaches to determining blood culture contamination rates: an ASM Laboratory Practices Subcommittee report. <em>J Clin Microbiol.</em> 2024;62(1):e01028-23. doi:10.1128/jcm.01028-23. <a href="https://doi.org/10.1128/jcm.01028-23">Article</a>. Reviewed September 13, 2026.</li>
+          <li id="ref-4"><span class="evidence">GUIDELINE / META-ANALYSIS</span> Sautter RL, Parrott JS, Nachamkin I, et al. American Society for Microbiology evidence-based laboratory medicine practice guidelines to reduce blood culture contamination rates: a systematic review and meta-analysis. <em>Clin Microbiol Rev.</em> 2024;37(4). doi:10.1128/cmr.00087-24. <a href="https://doi.org/10.1128/cmr.00087-24">Article</a>. Reviewed September 13, 2026.</li>
+          <li id="ref-5"><span class="evidence">GUIDELINE</span> Mermel LA, Allon M, Bouza E, et al. Clinical Practice Guidelines for the Diagnosis and Management of Intravascular Catheter-Related Infection: 2009 Update by IDSA. <em>Clin Infect Dis.</em> 2009;49(1):1-45. doi:10.1086/599376. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4039170/">Full text</a>. Reviewed September 13, 2026. Older guideline; apply current local vascular-access policy.</li>
+          <li id="ref-6"><span class="evidence">CONSENSUS</span> Heil EL, Bork JT, Abbo LM, et al. Optimizing the Management of Uncomplicated Gram-Negative Bloodstream Infections: Consensus Guidance Using a Modified Delphi Process. <em>Open Forum Infect Dis.</em> 2021;8(10):ofab434. Published October 11, 2021. doi:10.1093/ofid/ofab434. <a href="https://academic.oup.com/ofid/article/8/10/ofab434/6355731">Full text</a>. Reviewed September 13, 2026.</li>
+          <li id="ref-7"><span class="evidence">RCT</span> BALANCE Investigators for the Canadian Critical Care Trials Group, the Association of Medical Microbiology and Infectious Disease Canada Clinical Research Network, the Australian and New Zealand Intensive Care Society Clinical Trials Group, and the Australasian Society for Infectious Diseases Clinical Research Network. Antibiotic Treatment for 7 versus 14 Days in Patients with Bloodstream Infections. <em>N Engl J Med.</em> Published online November 20, 2024; print 2025;392:1065-1078. doi:10.1056/NEJMoa2404991. <a href="https://pubmed.ncbi.nlm.nih.gov/39565030/">PubMed</a>. Reviewed September 13, 2026.</li>
+          <li id="ref-8"><span class="evidence">SYSTEMATIC REVIEW</span> Timbrook TT, Morton JB, McConeghy KW, Caffrey AR, Mylonakis E, LaPlante KL. The Effect of Molecular Rapid Diagnostic Testing on Clinical Outcomes in Bloodstream Infections: A Systematic Review and Meta-analysis. <em>Clin Infect Dis.</em> 2017;64(1):15-23. doi:10.1093/cid/ciw649. <a href="https://pubmed.ncbi.nlm.nih.gov/27678085/">PubMed</a>. Reviewed September 13, 2026.</li>
+        </ol>
+        <div class="callout caution"><strong>Local input required.</strong> Before institutional deployment, reconcile this module with the Missouri Baptist antibiogram, formulary, blood-culture collection policy, rapid-diagnostic panel and reporting, microbiology escalation process, echocardiography access, vascular-access policy, antimicrobial stewardship workflow, pharmacy dosing standards, and OPAT process.</div>
+      </section>
+    </main>
+
+    <aside class="rail" aria-label="Module sidebar">
+      <div class="rail-card">
+        <h2>On every bacteremia round</h2>
+        <ol>
+          <li>Significance</li>
+          <li>Source and extent</li>
+          <li>Clearance strategy</li>
+          <li>Source control</li>
+          <li>Active therapy</li>
+          <li>Clock and stop date</li>
+        </ol>
+      </div>
+      <div class="rail-card">
+        <h2>Reopen the workup</h2>
+        <ul>
+          <li>Positive cultures persist</li>
+          <li>Fever or instability persists</li>
+          <li>New focal pain</li>
+          <li>Embolic findings</li>
+          <li>Retained material</li>
+          <li>No credible source</li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+  <div class="mobile-bar" aria-label="Mobile shortcuts">
+    <a href="#framework">Initial approach</a>
+    <a href="#cheat-sheet">Rounds sheet</a>
+  </div>
+
+  <footer>
+    Educational use only. No patient information is collected or stored. Verify patient-specific management against current primary guidance, product labeling, local policy, and specialist input.
+  </footer>
+</body>
+</html>
