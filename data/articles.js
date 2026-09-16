@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "mpox-environmental-dna-false-positives-2026",
+    date: "2026-09-15",
+    title: "The risk of mpox false positive results in high transmission settings: evidence from a multi-site observational study in DR Congo",
+    type: "Multisite observational diagnostic study",
+    journal: "The Lancet Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Mpox", "Diagnostics", "Molecular diagnostics", "Infection prevention", "Outbreak", "Tropical infections", "Public health"],
+    summary: "Among 2,724 people with mpox-compatible illness tested by qPCR at four treatment centers in the Democratic Republic of the Congo from May 2024 through April 2026, a Bayesian latent-class model estimated that 35% (95% CrI 31%-39%) of positive results using a Ct cutoff <40 reflected environmental MPXV DNA rather than true infection. In the serology subset, 31/35 (88.6%) model-classified false positives lacked orthopoxvirus serologic evidence, whereas 20/30 (66.7%) classified true infections had serologic evidence. Lowering the cutoff to Ct <37 reduced the estimated false-positive proportion to 18% (95% CrI 16%-20%); Ct <34 reduced it to 5% (95% CrI 3%-6%), with only marginal modeled sensitivity loss.",
+    change: "In high-burden mpox settings, a technically positive high-Ct result may represent environmental contamination rather than infection. Laboratories and outbreak programs should validate Ct thresholds locally, strengthen environmental decontamination, and investigate high-Ct positives with clinical trajectory, epidemiologic linkage, specimen quality, and repeat testing rather than treating every result below Ct 40 as equally diagnostic.",
+    takeaway: "Do not apply the proposed Ct cutoffs universally or use Ct alone to rule infection in or out. In a heavily contaminated outbreak environment, review unexpected high-Ct positives with the laboratory and integrate repeat sampling, clinical findings, and exposure history. The study also supports auditing specimen-collection and laboratory decontamination processes when implausible positives cluster.",
+    limitations: "True infection was inferred with a Bayesian latent-class model because no perfect reference standard exists. Serologic validation involved only 65 participants and can misclassify infection because timing and prior orthopoxvirus exposure affect antibody results. Estimated cutoffs and contamination burden are specific to the participating DRC sites, assays, workflows, and outbreak intensity; performance in lower-prevalence settings or other laboratories is unknown. The study did not prospectively test a revised diagnostic algorithm or measure patient outcomes.",
+    link: "https://doi.org/10.1016/S1473-3099(26)00411-1",
+    doi: "10.1016/S1473-3099(26)00411-1"
+  },
+  {
     id: "histoplasmosis-antifungal-discontinuation-2026",
     date: "2026-09-12",
     title: "Outcomes After Antifungal Discontinuation in Immunocompromised Patients Treated for Histoplasmosis",
