@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="High-value infectious diseases literature for inpatient and outpatient practice." />
   <title>ID Practice Update</title>
-  <link rel="stylesheet" href="styles.css?v=20260916T135413Z" />
+  <link rel="stylesheet" href="styles.css?v=20260917T193700Z" />
   <link rel="stylesheet" href="rss.css?v=20260916T135413Z" />
   <link rel="stylesheet" href="ui.css?v=20260916T135413Z" />
   <link rel="alternate" type="application/rss+xml" title="ID Practice Update RSS" href="rss.xml" />
@@ -24,6 +24,7 @@
         <a href="#latest">Latest</a>
         <a href="#archive" data-search-nav>Search</a>
         <a href="#archive">Archive</a>
+        <a href="#email-updates">Email updates</a>
       </nav>
     </div>
   </header>
@@ -86,6 +87,66 @@
             </div>
           </details>
         </aside>
+      </div>
+    </section>
+
+    <section id="email-updates" class="section email-updates-section">
+      <div class="wrap email-updates-grid">
+        <div>
+          <p class="eyebrow">Email updates</p>
+          <h2>Get new ID updates by email</h2>
+          <p class="email-updates-copy">Choose how often you want updates. Weekly is recommended. Emails are sent only when new literature entries have been added.</p>
+        </div>
+        <div class="email-signup-card">
+          <div id="error-message" class="sib-form-message-panel email-message email-message-error" role="status">
+            <span class="sib-form-message-panel__inner-text">Your subscription could not be saved. Please try again.</span>
+          </div>
+          <div id="success-message" class="sib-form-message-panel email-message email-message-success" role="status">
+            <span class="sib-form-message-panel__inner-text">Your subscription has been successful.</span>
+          </div>
+          <form id="sib-form" method="POST" action="https://6e8b4903.sibforms.com/serve/MUIFADBSyQWVyU71COlMQ8W0obJOP7aoHmvDfRW8h6BWdl9j3-O61NzbXHiHVRFqe0jyUVVxNeZxwLwSNVgTohVoAKlvKPGvXeCq3GI0wEFcNNuXF9Io57IVHd8cOb06nGTFlDssQQTJ4U9xRaMGvHrw1Z7_Lc1t5QOGVOE2qb-WWP7qDiz0OKgxOA_e0udzTOiwHQbeKBFIxLSr1w==" data-type="subscription">
+            <div class="sib-input">
+              <div class="form__entry entry_block">
+                <label class="email-field-label" for="EMAIL">Email address</label>
+                <div class="entry__field">
+                  <input class="input email-input" type="email" id="EMAIL" name="EMAIL" autocomplete="email" placeholder="you@example.com" data-required="true" required />
+                </div>
+                <label class="entry__error entry__error--primary email-field-error"></label>
+              </div>
+            </div>
+
+            <div class="sib-checkbox-group" data-required="true">
+              <div class="form__entry entry_mcq">
+                <div class="form__label-row">
+                  <span class="email-field-label">Frequency</span>
+                  <div class="email-frequency-options" role="group" aria-label="Email update frequency">
+                    <label class="email-frequency-option">
+                      <input type="checkbox" class="input_replaced email-frequency-input" name="lists_25[]" data-value="ID Practice Update - Weekly" value="3" data-required="true" checked />
+                      <span><strong>Weekly digest</strong><small>Recommended</small></span>
+                    </label>
+                    <label class="email-frequency-option">
+                      <input type="checkbox" class="input_replaced email-frequency-input" name="lists_25[]" data-value="ID Practice Update - Every Update" value="4" data-required="true" />
+                      <span><strong>Every update</strong><small>When new entries are published</small></span>
+                    </label>
+                    <label class="email-frequency-option">
+                      <input type="checkbox" class="input_replaced email-frequency-input" name="lists_25[]" data-value="ID Practice Update - Monthly" value="5" data-required="true" />
+                      <span><strong>Monthly digest</strong><small>One monthly summary</small></span>
+                    </label>
+                  </div>
+                </div>
+                <label class="entry__error entry__error--primary email-field-error"></label>
+              </div>
+            </div>
+
+            <button class="email-subscribe-button sib-form-block__button sib-form-block__button-with-loader" form="sib-form" type="submit">
+              <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512" aria-hidden="true"><path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z" /></svg>
+              Subscribe
+            </button>
+            <p class="email-privacy-note">You can unsubscribe at any time.</p>
+            <input type="text" name="email_address_check" value="" class="input--hidden" tabindex="-1" autocomplete="off" />
+            <input type="hidden" name="locale" value="en" />
+          </form>
+        </div>
       </div>
     </section>
 
@@ -155,6 +216,34 @@
     </div>
   </footer>
 
+  <script>
+    window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+    window.LOCALE = 'en';
+    window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = 'The information provided is invalid. Please review the field format and try again.';
+    window.REQUIRED_ERROR_MESSAGE = 'This field cannot be left blank.';
+    window.GENERIC_INVALID_MESSAGE = 'The information provided is invalid. Please review the field format and try again.';
+    window.INVALID_NUMBER = 'The information provided is invalid. Please review the field format and try again.';
+    window.INVALID_DATE = 'Please enter a valid date';
+    window.REQUIRED_MULTISELECT_MESSAGE = 'Please select a frequency';
+    window.translation = { common: { selectedList: '{quantity} list selected', selectedLists: '{quantity} lists selected', selectedOption: '{quantity} selected', selectedOptions: '{quantity} selected' } };
+    var AUTOHIDE = Boolean(0);
+
+    document.addEventListener('DOMContentLoaded', function () {
+      var frequencyInputs = document.querySelectorAll('.email-frequency-input');
+      frequencyInputs.forEach(function (input) {
+        input.addEventListener('change', function () {
+          if (input.checked) {
+            frequencyInputs.forEach(function (other) {
+              if (other !== input) other.checked = false;
+            });
+          } else if (!Array.from(frequencyInputs).some(function (item) { return item.checked; })) {
+            input.checked = true;
+          }
+        });
+      });
+    });
+  </script>
+  <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
   <script src="data/articles.js?v=20260916T135413Z"></script>
   <script src="data/backfill-2026-jul.js?v=20260916T135413Z"></script>
   <script src="data/backfill-2026-apr-may.js?v=20260916T135413Z"></script>
