@@ -1,6 +1,6 @@
 # Tuberculosis module review record
 
-Version 1.0, September 15, 2026.
+Version 1.1, September 15, 2026. The original publication record below describes version 1.0. The cross-module clinical and language review is documented in `Lecture_Review_2026-09-15.md`; the current module contains 36 references.
 
 Scope: practical primer for residents and ID fellows, with an attending update pathway. Covers infection versus disease, pulmonary and extrapulmonary diagnostics, test discordance, mimics, latent TB treatment, susceptible and resistant disease, dosing and toxicity, special populations, and selected newer treatment data.
 

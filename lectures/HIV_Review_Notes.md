@@ -1,6 +1,6 @@
 # HIV module review record
 
-Version 1.0, September 15, 2026.
+Version 1.1, September 15, 2026. The original publication record below describes version 1.0. The cross-module clinical and language review is documented in `Lecture_Review_2026-09-15.md`.
 
 Scope: resident primer with fellow/attending evidence discussions. Includes diagnosis, baseline assessment, ART selection and monitoring, resistance, HBV, pregnancy considerations, prevention, long-acting and newer therapies, and longitudinal care. A dedicated OI workshop covers syndrome-directed diagnostic next steps, treatment, ART timing, IRIS, primary prophylaxis, and secondary suppression stopping criteria.
 

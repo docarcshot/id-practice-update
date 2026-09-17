@@ -75,3 +75,5 @@ The GitHub Actions workflow checks out the complete history, generates metadata,
 `lectures/index.html` lists the current resident, fellow and attending teaching modules. The homepage sidebar links to this page. Modules retain their source content, review status, self-contained styles, and print behavior; a print-hidden navigation bar links back to the lecture list and digest. Update the corresponding HTML and catalog version date together when a revised lecture is supplied.
 
 The tuberculosis primer covers diagnosis, mimics, preventive treatment, standard and resistant-TB therapy, and newer treatment evidence. Its source-access and quality-review record is in `lectures/Tuberculosis_Review_Notes.md`.
+
+The September 15 clinical, language, and relevance review of all four published lectures is recorded in `lectures/Lecture_Review_2026-09-15.md`. The lecture catalog reflects the revised versions.
