@@ -1,5 +1,35 @@
 window.ID_ARTICLES = [
   {
+    id: "dalbavancin-dots-economic-outcomes-2026",
+    date: "2026-09-17",
+    title: "Economic Outcomes of Dalbavancin versus Standard Therapy in Staphylococcus aureus Bacteremia in the DOTS Randomized Clinical Trial",
+    type: "Economic analysis of a randomized clinical trial",
+    journal: "Clinical Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Bacteremia", "Staphylococcus aureus", "Dalbavancin", "OPAT", "Long-acting antibiotics", "Antimicrobial therapy", "Health economics", "Inpatient ID"],
+    summary: "This prespecified economic analysis used resource utilization from the 200-participant DOTS trial, in which clinically stable adults with complicated S. aureus bacteremia were randomized after blood-culture clearance to dalbavancin 1,500 mg on days 1 and 8 or 4-8 weeks of standard IV therapy. Dalbavancin was associated with 2.2 fewer SAB-related hospital days (95% CI -5.3 to 1.3) and 24.4 fewer antibiotic days (95% CI -29.0 to -19.9). Drug costs were $2,343 higher (95% CI $1,728-$3,027), but modeled OPAT costs were $2,469 lower with home OPAT and $1,112 lower with clinic OPAT. Estimated net SAB-related costs were $5,931 lower (95% CI -$14,660 to $3,004) under the home-OPAT scenario and $4,574 lower (95% CI -$13,312 to $4,335) under the clinic-OPAT scenario.",
+    change: "The analysis adds an economic and treatment-burden argument to DOTS' clinical finding that two-dose dalbavancin was not superior by DOOR but met the prespecified secondary noninferiority criterion for clinical efficacy. Higher acquisition cost was offset on average by less inpatient and OPAT use; estimated savings among participants with injection drug use were approximately $22,000. The confidence intervals for total savings crossed zero, so the study supports selective pathway development rather than a claim that dalbavancin always saves money.",
+    takeaway: "For a clinically stable patient with complicated S. aureus bacteremia who has cleared blood cultures and resembles the DOTS population, two-dose dalbavancin can be considered as completion therapy when prolonged conventional IV treatment would create substantial hospitalization or OPAT burden. Use local acquisition, infusion, home-health, and hospitalization costs. Do not extrapolate to left-sided endocarditis, retained infected prosthetic material, CNS infection, uncontrolled bacteremia, or severe immunocompromise, which DOTS excluded.",
+    limitations: "This was a secondary economic analysis of a 200-participant open-label trial, not a trial powered for cost differences. Hospital and antibiotic utilization came from the trial, but costs were assigned using generic drug prices and Medicare-based home- and clinic-OPAT scenarios rather than patient-level paid claims. Both confidence intervals for net savings included no difference. Results depend on local drug pricing, discharge practices, OPAT delivery, and ability to avoid hospital days; the injection-drug-use estimate was a subgroup analysis. The underlying trial excluded several high-risk syndromes and did not show dalbavancin superiority on its primary DOOR outcome.",
+    link: "https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciag567/8812159",
+    doi: "10.1093/cid/ciag567"
+  },
+  {
+    id: "cefepime-mortality-bayesian-meta-analysis-2026",
+    date: "2026-09-10",
+    title: "Cefepime and Mortality: A Systematic Review and Bayesian Meta-Analysis",
+    type: "Systematic review and Bayesian meta-analysis of randomized trials",
+    journal: "JAMA Network Open",
+    impact: "Practice informing",
+    tags: ["Antimicrobial therapy", "Antimicrobial safety", "Cefepime", "Gram-negative infections", "Febrile neutropenia", "Dosing", "Stewardship", "Inpatient ID"],
+    summary: "Across 110 randomized trials including 22,608 adults and children, 30-day or nearest reported all-cause mortality was 778/11,726 (6.6%) with cefepime and 674/10,882 (6.2%) with another beta-lactam. The Bayesian pooled OR was 1.10 (95% CrI 0.98-1.24), corresponding to a 94.4% posterior probability of higher mortality and an approximate number needed to harm of 227. Restricting analysis to 73 peer-reviewed trials with 15,411 participants produced OR 1.17 (95% CrI 1.02-1.34), a 98.6% probability of harm, and an approximate number needed to harm of 111. The febrile-neutropenia subgroup had OR 1.19 (95% CrI 0.98-1.45; 96.1% probability of harm).",
+    change: "The analysis revives a longstanding cefepime safety signal but does not establish a causal drug effect or justify routine avoidance. The signal was present in adults, not children, and persisted across indications and reported dose strata. It should increase attention to renal-dose adjustment, neurologic monitoring, pathogen MIC, pharmacodynamic exposure, and prompt de-escalation when cefepime is no longer needed. The result is compatible with a small absolute risk increase, not a 94% increase in mortality.",
+    takeaway: "Continue to use cefepime when it is the best empiric or definitive beta-lactam, but treat its therapeutic window seriously. Reassess kidney function and dose frequently, use optimized infusion when pharmacodynamic target attainment matters, investigate encephalopathy or myoclonus promptly, and de-escalate when culture data permit. This meta-analysis is a safety signal that should inform stewardship and future guidance, not a mandate to substitute piperacillin-tazobactam or a carbapenem in every patient.",
+    limitations: "Most trials were conducted before 2010, febrile neutropenia was the largest indication, regimens and breakpoints often differed from contemporary practice, and patient-level data were unavailable. The 37 unpublished or abstract-only trials, including 25 FDA-provided trials with insufficient methodological detail for risk-of-bias assessment, pointed in the opposite direction from published studies and attenuated the pooled estimate. All-cause mortality was not designed to identify cefepime toxicity, subgroup analyses were trial-level, and heterogeneity plus possible publication bias reduced certainty. Contemporary ACORN trial data did not show a mortality difference versus piperacillin-tazobactam.",
+    link: "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2853883",
+    doi: "10.1001/jamanetworkopen.2026.33017"
+  },
+  {
     id: "mpox-environmental-dna-false-positives-2026",
     date: "2026-09-15",
     title: "The risk of mpox false positive results in high transmission settings: evidence from a multi-site observational study in DR Congo",
