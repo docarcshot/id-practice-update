@@ -1,5 +1,5 @@
 window.ID_STATUS = {
-  lastReviewed: '2026-09-18',
-  lastAttempt: { date: '2026-09-18', result: 'success' },
+  lastReviewed: '2026-09-20',
+  lastAttempt: { date: '2026-09-20', result: 'success' },
   schedule: { anchor: '2026-07-26', intervalDays: 2, timezone: 'America/Chicago' }
 };

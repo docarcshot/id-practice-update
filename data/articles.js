@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "valve-culture-postoperative-ie-duration-2026",
+    date: "2026-09-19",
+    title: "Risk Factors Associated with Positive Intraoperative Valve Tissue Cultures and the Subsequent Impact on Infective Endocarditis Management and Outcomes",
+    type: "Multicenter retrospective cohort study",
+    journal: "Open Forum Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Endocarditis", "Cardiac surgery", "Microbiology", "Antimicrobial duration", "Source control", "Stewardship", "Inpatient ID"],
+    summary: "This multicenter retrospective cohort included 113 patients who underwent valve surgery during the first 42 days of infective-endocarditis therapy. Valve cultures were positive in 36/113 (31.9%). Patients with positive cultures had received a median 6.5 preoperative antibiotic days (IQR 4.0-11.0), compared with 13.0 days (IQR 8.0-21.0) in those with negative cultures. Each additional preoperative treatment day was associated with lower odds of a positive culture (adjusted OR 0.85, 95% CI 0.77-0.91), while enterococcal versus streptococcal IE was associated with higher odds (adjusted OR 4.16, 95% CI 1.07-17.48). Only one relapse occurred in the entire cohort, and it followed a negative valve culture.",
+    change: "Valve-culture positivity was driven partly by how soon surgery occurred and by pathogen, and it did not identify the patient who relapsed. Despite negative valve cultures, 33 patients, reported as 63.2% of the evaluable negative-culture group, received a median 8 additional postoperative IV days (IQR 5-18.5). These data support counting effective preoperative therapy when planning the total course and avoiding an automatic postoperative reset based solely on surgery or valve-culture status, consistent with the 2026 AHA scientific statement. They do not establish a specific shortened postoperative regimen.",
+    takeaway: "After valve surgery for active IE, integrate preoperative effective-therapy days, organism, operative source control, blood-culture clearance, metastatic foci, and any valve-culture result when setting the remaining duration. A positive valve culture should prompt review of microbiology and adequacy of therapy, but this study does not support reflexively restarting a full 4-6-week course; conversely, its single relapse event is far too little evidence to justify aggressive shortening.",
+    limitations: "The study was retrospective, included only 113 surgical patients, and had one relapse, leaving it severely underpowered to compare relapse by valve-culture result or postoperative duration. Timing of surgery, pathogen, illness severity, source control, and clinician-selected treatment duration were not randomized, so confounding by indication is substantial. Postoperative therapy was not standardized, the reported negative-culture treatment subset did not include every negative-culture patient, and the cohort cannot define a safe minimum postoperative duration.",
+    link: "https://academic.oup.com/ofid/advance-article/doi/10.1093/ofid/ofag568/8817487",
+    doi: "10.1093/ofid/ofag568"
+  },
+  {
     id: "dalbavancin-dots-economic-outcomes-2026",
     date: "2026-09-17",
     title: "Economic Outcomes of Dalbavancin versus Standard Therapy in Staphylococcus aureus Bacteremia in the DOTS Randomized Clinical Trial",
