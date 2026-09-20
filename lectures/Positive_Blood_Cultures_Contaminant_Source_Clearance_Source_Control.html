@@ -157,7 +157,23 @@
 .layout { grid-template-columns: minmax(0, 1fr); }
 .layout > aside { display: none; }
 </style>
-</head>
+<style data-fellow-navigation>
+/* Fellow teaching navigation */
+.fellow-jump{display:flex;align-items:center;justify-content:space-between;gap:1rem;max-width:1100px;margin:1.2rem 0 0;padding:1rem 1.15rem;background:#f4eef9;color:#30213f;border:1px solid #cdbadd;border-left:5px solid #654380;border-radius:.65rem;text-align:left;box-sizing:border-box;}
+.fellow-jump .fellow-jump-copy{flex:1;min-width:0;}
+.fellow-jump .fellow-jump-title{margin:0 0 .3rem;color:#4f3269;font-size:1.05rem;font-weight:750;line-height:1.3;letter-spacing:normal;text-transform:none;}
+.fellow-jump .fellow-jump-description{margin:0;color:#44374e;font-size:.93rem;line-height:1.45;max-width:48rem;}
+.fellow-jump .fellow-jump-actions{display:flex;flex-wrap:wrap;gap:.55rem;align-items:center;flex-shrink:0;max-width:25rem;}
+.fellow-jump a.fellow-jump-button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;box-sizing:border-box;padding:.65rem .9rem;border:2px solid #654380;border-radius:.45rem;background:#654380;color:#fff;font-size:.93rem;font-weight:700;line-height:1.3;text-decoration:none;text-align:center;white-space:normal;}
+.fellow-jump a.fellow-jump-secondary{background:#fff;color:#4f3269;}
+.fellow-jump a.fellow-jump-button:hover{background:#4f3269;color:#fff;}
+.fellow-jump a.fellow-jump-button:focus-visible{outline:3px solid #a86700;outline-offset:3px;}
+.fellow-jump-target{scroll-margin-top:6rem;}
+.fellow-jump-target:focus{outline:2px solid #654380;outline-offset:4px;}
+@media(max-width:760px){.fellow-jump{flex-direction:column;align-items:stretch;padding:.9rem;}.fellow-jump .fellow-jump-actions{max-width:none;}.fellow-jump a.fellow-jump-button{flex:1 1 12rem;}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important;}}
+@media print{.fellow-jump{display:none!important;}}
+</style></head>
 <body>
 <nav class="lecture-site-nav" aria-label="Lecture navigation"><a href="./">All lectures</a><a href="../">ID Practice Update</a></nav>
   <a class="skip-link" href="#main">Skip to module</a>
@@ -172,7 +188,7 @@
       <span class="meta-chip">Version September 15, 2026</span>
       <span class="meta-chip">Clinical review September 15, 2026</span>
     </div>
-  </header>
+  <div class="fellow-jump" role="note" aria-label="Fellow teaching"><div class="fellow-jump-copy"><p class="fellow-jump-title">Fellow discussion is included in the cases</p><p class="fellow-jump-description">Jump directly to the advanced discussion of S. aureus or gram-negative bacteremia.</p></div><div class="fellow-jump-actions"><a class="fellow-jump-button" href="#fellow-sab-discussion" data-fellow-jump>Jump to fellow discussion</a><a class="fellow-jump-button fellow-jump-secondary" href="#fellow-gn-discussion" data-fellow-jump>Gram-negative bacteremia</a></div></div></header>
 
   <nav class="top-nav" aria-label="Module navigation">
     <div class="top-nav-inner">
@@ -303,7 +319,7 @@
               <div>
                 <p>I would treat this as <em>S. aureus</em> bacteremia. One positive bottle does not make <em>S. aureus</em> a contaminant. The immediate work includes active therapy, at least two follow-up culture sets at 48 hours after the index sample, TTE, review of all intravascular and prosthetic material, and a careful search for focal symptoms.</p>
                 <p>The back pain changes the case. It needs directed evaluation for vertebral or epidural infection. Defervescence after antibiotics does not answer that question. If cultures remain positive at or beyond 48 hours, the patient moves into an increased-risk pathway and the source and extent of infection need to be reconsidered.<sup><a href="#ref-1">1</a></sup></p>
-                <p><strong>For fellows.</strong> A negative TTE does not end the echocardiographic evaluation in every patient. The 2026 consensus supports TEE when risk remains higher because of an intracardiac device, predisposing valve disease, cultures positive at least 48 hours, embolic events, or more than one noncontiguous focus. Community onset and injection drug use also increase concern.<sup><a href="#ref-1">1</a></sup></p>
+                <p id="fellow-sab-discussion" class="fellow-jump-target" tabindex="-1"><strong>For fellows.</strong> A negative TTE does not end the echocardiographic evaluation in every patient. The 2026 consensus supports TEE when risk remains higher because of an intracardiac device, predisposing valve disease, cultures positive at least 48 hours, embolic events, or more than one noncontiguous focus. Community onset and injection drug use also increase concern.<sup><a href="#ref-1">1</a></sup></p>
               </div>
             </details>
           </div>
@@ -319,7 +335,7 @@
               <div>
                 <p>Active antibiotics and decompression were both necessary. Antibiotics do not relieve an obstructed collecting system. If the patient continues to improve and source control is adequate, I would not routinely repeat blood cultures.</p>
                 <p>Seven total days of effective therapy is supported for eligible patients. Count from the first day of active treatment; if improvement begins only after source control, the 2021 consensus uses the source-control day as day 1. Oral transition is reasonable when the source is established, the patient is improving, the isolate is susceptible to an oral agent with adequate systemic exposure, and the gastrointestinal tract is functioning.<sup><a href="#ref-6">6</a>, <a href="#ref-7">7</a></sup></p>
-                <p><strong>For fellows.</strong> Do not stretch the BALANCE result beyond its population. The trial excluded severe immunosuppression, prosthetic heart valves or endovascular grafts, deep foci requiring prolonged therapy, <em>S. aureus</em>, <em>S. lugdunensis</em>, possible contaminants, unusual pathogens requiring prolonged therapy, and fungemia.<sup><a href="#ref-7">7</a></sup></p>
+                <p id="fellow-gn-discussion" class="fellow-jump-target" tabindex="-1"><strong>For fellows.</strong> Do not stretch the BALANCE result beyond its population. The trial excluded severe immunosuppression, prosthetic heart valves or endovascular grafts, deep foci requiring prolonged therapy, <em>S. aureus</em>, <em>S. lugdunensis</em>, possible contaminants, unusual pathogens requiring prolonged therapy, and fungemia.<sup><a href="#ref-7">7</a></sup></p>
               </div>
             </details>
           </div>
@@ -533,5 +549,31 @@ Duration and follow-through
   <footer>
     Educational use only. No patient information is collected or stored. Verify patient-specific management against current primary guidance, product labeling, local policy, and specialist input.
   </footer>
+
+<script data-fellow-navigation>
+(function () {
+  function revealTarget(id) {
+    var target = document.getElementById(id);
+    if (!target) return;
+    for (var node = target; node; node = node.parentElement) {
+      if (node.tagName === 'DETAILS') node.open = true;
+    }
+  }
+  function revealHash() {
+    var id = window.location.hash.slice(1);
+    if (!id) return;
+    var links = document.querySelectorAll('a[data-fellow-jump]');
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].hash.slice(1) === id) revealTarget(id);
+    }
+  }
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest('a[data-fellow-jump]');
+    if (link) revealTarget(link.hash.slice(1));
+  });
+  window.addEventListener('hashchange', revealHash);
+  revealHash();
+}());
+</script>
 </body>
 </html>

@@ -21,7 +21,23 @@
 @media(max-width:760px){.decision-row{grid-template-columns:1fr}}
 @media print{body.print-core section:not(.core-section):not(#references):not(#cheat-sheet){display:none}body.print-core #references{break-before:page}body.print-core .advanced-section::before{display:none}body.print-full .advanced-section{box-shadow:none}}
 </style>
-</head>
+<style data-fellow-navigation>
+/* Fellow teaching navigation */
+.fellow-jump{display:flex;align-items:center;justify-content:space-between;gap:1rem;max-width:1100px;margin:1.2rem 0 0;padding:1rem 1.15rem;background:#f4eef9;color:#30213f;border:1px solid #cdbadd;border-left:5px solid #654380;border-radius:.65rem;text-align:left;box-sizing:border-box;}
+.fellow-jump .fellow-jump-copy{flex:1;min-width:0;}
+.fellow-jump .fellow-jump-title{margin:0 0 .3rem;color:#4f3269;font-size:1.05rem;font-weight:750;line-height:1.3;letter-spacing:normal;text-transform:none;}
+.fellow-jump .fellow-jump-description{margin:0;color:#44374e;font-size:.93rem;line-height:1.45;max-width:48rem;}
+.fellow-jump .fellow-jump-actions{display:flex;flex-wrap:wrap;gap:.55rem;align-items:center;flex-shrink:0;max-width:25rem;}
+.fellow-jump a.fellow-jump-button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;box-sizing:border-box;padding:.65rem .9rem;border:2px solid #654380;border-radius:.45rem;background:#654380;color:#fff;font-size:.93rem;font-weight:700;line-height:1.3;text-decoration:none;text-align:center;white-space:normal;}
+.fellow-jump a.fellow-jump-secondary{background:#fff;color:#4f3269;}
+.fellow-jump a.fellow-jump-button:hover{background:#4f3269;color:#fff;}
+.fellow-jump a.fellow-jump-button:focus-visible{outline:3px solid #a86700;outline-offset:3px;}
+.fellow-jump-target{scroll-margin-top:6rem;}
+.fellow-jump-target:focus{outline:2px solid #654380;outline-offset:4px;}
+@media(max-width:760px){.fellow-jump{flex-direction:column;align-items:stretch;padding:.9rem;}.fellow-jump .fellow-jump-actions{max-width:none;}.fellow-jump a.fellow-jump-button{flex:1 1 12rem;}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important;}}
+@media print{.fellow-jump{display:none!important;}}
+</style></head>
 <body>
 <a class="skip-link" href="#main">Skip to module</a>
 <nav class="lecture-site-nav" aria-label="Lecture navigation">
@@ -38,7 +54,7 @@
 <span class="meta-chip">Version 1.2 · September 20, 2026</span>
 <span class="meta-chip">Faculty, orthopedic surgery, wound care, and pharmacy review pending</span>
 </div>
-</header>
+<div class="fellow-jump" role="note" aria-label="Fellow teaching"><div class="fellow-jump-copy"><p class="fellow-jump-title">Advanced fellow teaching is below</p><p class="fellow-jump-description">The resident core comes first. Jump directly to the advanced teaching and reference section.</p></div><div class="fellow-jump-actions"><a class="fellow-jump-button" href="#advanced" data-fellow-jump>Jump to fellow section</a></div></div></header>
 <nav class="top-nav" aria-label="Module sections">
 <div class="top-nav-inner">
 <a href="#start">Start</a>
@@ -188,7 +204,7 @@
 <div class="callout"><h3>Closing sentence</h3><p>Name the infected structure, best microbiology, source control completed or impossible, retained material, treatment intent, and the event that determines duration.</p></div>
 </section>
 
-<section id="advanced" class="advanced-intro">
+<section id="advanced" class="advanced-intro fellow-jump-target" tabindex="-1">
 <h2>Advanced and reference material begins here</h2>
 <p>The live 30–45 minute lecture ends above. Use the sections below for fellow-level discussion, organism-specific decisions, uncommon syndromes, evidence review, extra cases, and self-study.</p>
 <div class="grid-3">
@@ -1080,6 +1096,32 @@ Reassess on [date/event] for [clinical response, cultures, wound status, hardwar
 </div>
 <footer>Bone and Joint Infections · ID Lectures · September 20, 2026</footer>
 <script>let printState=[];function preparePrint(){printState=[...document.querySelectorAll("details")].map(x=>[x,x.open]);printState.forEach(([x])=>x.open=true)}function restorePrint(){printState.forEach(([x,v])=>x.open=v);printState=[];document.body.classList.remove("print-core","print-full","print-summary")}function printLecture(mode){document.body.classList.remove("print-core","print-full","print-summary");document.body.classList.add("print-"+mode);window.print()}window.addEventListener("beforeprint",preparePrint);window.addEventListener("afterprint",restorePrint);</script>
+
+<script data-fellow-navigation>
+(function () {
+  function revealTarget(id) {
+    var target = document.getElementById(id);
+    if (!target) return;
+    for (var node = target; node; node = node.parentElement) {
+      if (node.tagName === 'DETAILS') node.open = true;
+    }
+  }
+  function revealHash() {
+    var id = window.location.hash.slice(1);
+    if (!id) return;
+    var links = document.querySelectorAll('a[data-fellow-jump]');
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].hash.slice(1) === id) revealTarget(id);
+    }
+  }
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest('a[data-fellow-jump]');
+    if (link) revealTarget(link.hash.slice(1));
+  });
+  window.addEventListener('hashchange', revealHash);
+  revealHash();
+}());
+</script>
 </body>
 </html>
 
