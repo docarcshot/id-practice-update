@@ -24,19 +24,362 @@
 @media(max-width:760px){.fellow-jump{flex-direction:column;align-items:stretch;padding:.9rem;}.fellow-jump .fellow-jump-actions{max-width:none;}.fellow-jump a.fellow-jump-button{flex:1 1 12rem;}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important;}}
 @media print{.fellow-jump{display:none!important;}}
-</style></head>
+</style>
+<style data-sidechain-matrix>
+#side-chain-matrix{border-top:4px solid var(--short);scroll-margin-top:5rem}
+#side-chain-matrix h2{color:var(--short)}
+.matrix-intro{max-width:52rem}
+.matrix-legend{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.55rem 1.1rem;margin:1rem 0;font-size:.84rem;line-height:1.4}
+.matrix-key{display:flex;gap:.6rem;align-items:flex-start}
+.matrix-swatch{display:inline-flex;align-items:center;justify-content:center;flex:0 0 1.9rem;height:1.65rem;border:1px solid #a9b8c2;border-radius:3px;font-weight:750}
+.matrix-identical{background:#f5c8c6;color:#75251f}
+.matrix-related{background:#ffe5aa;color:#684400}
+.matrix-other{background:#fff;color:#52616b}
+.matrix-carbapenem{background:#e5edf8;color:#294966}
+.matrix-same{background:#52616b;color:#fff}
+.matrix-scroll{overflow-x:auto;border:1px solid #bcc8ce;border-radius:5px;margin:1rem 0;padding-bottom:2px}
+.matrix-scroll:focus-visible{outline:3px solid #a86700;outline-offset:3px}
+table.sidechain-table{table-layout:fixed;width:100%;min-width:790px;border-collapse:separate;border-spacing:0;font-size:.77rem;line-height:1.2}
+.sidechain-table caption{padding:.65rem .6rem;margin:0;font-size:.8rem}
+.sidechain-table .matrix-name-col{width:139px}
+.sidechain-table th,.sidechain-table td{min-width:0;width:auto;border:0;border-right:1px solid #c8d0d5;border-bottom:1px solid #c8d0d5;padding:.4rem .2rem;text-align:center;vertical-align:middle}
+.sidechain-table thead th{height:140px;background:#eaf0f5;color:#233f54;font-weight:650}
+.sidechain-table thead th:not(.matrix-corner) span{writing-mode:vertical-rl;transform:rotate(180deg);display:inline-block;white-space:nowrap}
+.sidechain-table th.matrix-corner{font-size:.72rem;text-align:left;padding:.6rem;position:sticky;left:0;z-index:2;background:#eaf0f5}
+.sidechain-table tbody th{position:sticky;left:0;z-index:1;background:#f0f4f7;text-align:left;padding-left:.65rem;font-weight:600;white-space:nowrap}
+.sidechain-table td{font-weight:700;height:31px}
+.sidechain-table tbody tr:hover td{box-shadow:inset 0 2px #49677a,inset 0 -2px #49677a}
+.matrix-notes{font-size:.88rem;line-height:1.5}
+.matrix-notes h3{font-size:.94rem;margin-top:1rem}
+@media(max-width:620px){.matrix-legend{grid-template-columns:1fr}.matrix-scroll{margin-right:-.3rem;margin-left:-.3rem}}
+@media print{
+ #side-chain-matrix{border-top:2pt solid #245a83;break-before:page}
+ .matrix-legend{grid-template-columns:repeat(2,minmax(0,1fr));font-size:8pt;gap:4pt 8pt}
+ .matrix-swatch{height:14pt;flex-basis:17pt}
+ .matrix-scroll{overflow:visible;border:0;margin:7pt 0;break-inside:avoid}
+ table.sidechain-table{min-width:0;width:100%;font-size:7pt;table-layout:fixed}
+ .sidechain-table .matrix-name-col{width:79pt}
+ .sidechain-table caption{font-size:8pt;padding:3pt 0}
+ .sidechain-table th,.sidechain-table td{padding:3pt 1pt;min-width:0;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+ .sidechain-table thead th{height:85pt}
+ .sidechain-table th.matrix-corner{font-size:6.5pt;padding:4pt;position:static}
+ .sidechain-table tbody th{position:static;padding-left:3pt}
+ .sidechain-table td{height:16pt}
+ .matrix-swatch{print-color-adjust:exact;-webkit-print-color-adjust:exact}
+ .matrix-notes{font-size:9pt}.matrix-notes h3{font-size:10pt}
+}
+</style>
+</head>
 <body><a class="skip" href="#core-1">Skip to teaching content</a>
-<header class="hero"><p class="eyebrow">ID Practice Update</p><p class="format-label">Short lecture / 10-20 minutes</p><h1>Penicillin allergy</h1><p class="intro">Does this history prevent us from using a beta-lactam?</p><p>Assess the reaction, choose an appropriate antibiotic, and identify who needs allergy testing.</p><p class="meta">Resident discussion / Optional fellow section / September 20, 2026</p><div class="fellow-jump" role="note" aria-label="Fellow teaching"><div class="fellow-jump-copy"><p class="fellow-jump-title">Optional fellow discussion is below</p><p class="fellow-jump-description">The short resident lecture comes first. Jump directly to the fellow discussion for additional detail.</p></div><div class="fellow-jump-actions"><a class="fellow-jump-button" href="#fellow" data-fellow-jump>Jump to fellow discussion</a></div></div></header>
-<nav class="nav" aria-label="Lecture navigation"><div class="nav-inner"><a href="index.html">All lectures</a><a href="#core-1">Resident core</a><a href="#take-home">At the bedside</a><a href="#fellow">Fellow discussion</a><a href="#sources">Sources</a><button type="button" onclick="window.print()">Print</button></div></nav>
+<header class="hero"><p class="eyebrow">ID Practice Update</p><p class="format-label">Short lecture / 10-20 minutes</p><h1>Penicillin allergy</h1><p class="intro">Does this history prevent us from using a beta-lactam?</p><p>Assess the reaction, choose an appropriate antibiotic, and identify who needs allergy testing.</p><p class="meta">Resident discussion / Optional fellow section / Updated September 21, 2026</p><div class="fellow-jump" role="note" aria-label="Fellow teaching"><div class="fellow-jump-copy"><p class="fellow-jump-title">Optional fellow discussion is below</p><p class="fellow-jump-description">The short resident lecture comes first. Jump directly to the fellow discussion for additional detail.</p></div><div class="fellow-jump-actions"><a class="fellow-jump-button" href="#fellow" data-fellow-jump>Jump to fellow discussion</a></div></div></header>
+<nav class="nav" aria-label="Lecture navigation"><div class="nav-inner"><a href="index.html">All lectures</a><a href="#core-1">Resident core</a><a href="#side-chain-matrix">Side-chain chart</a><a href="#take-home">At the bedside</a><a href="#fellow">Fellow discussion</a><a href="#sources">Sources</a><button type="button" onclick="window.print()">Print</button></div></nav>
 <main><section id="core-1"><p class="section-label">Resident core / 01</p><h2>The reaction history determines the next step</h2><p>A 52-year-old with a susceptible bacterial infection has an amoxicillin allergy label. At age 8, a rash appeared several days into treatment. There were no mouth sores, blisters, breathing symptoms, or hospitalization. The patient has avoided penicillins since then. <span class="cite"></span></p><div class="callout"><p>Discuss before reading on. What else would you ask, and does this history require avoidance of every beta-lactam? <span class="cite"></span></p></div><p>Record the drug, timing after the dose and after treatment began, symptoms, treatment required, and subsequent tolerated antibiotics. Ask specifically about mucosal injury, skin peeling, hypotension, and organ injury. A label of "rash" is insufficient. <span class="cite"><a href="#source-1" aria-label="Source 1">[1]</a></span></p></section>
 <section id="core-2"><p class="section-label">Resident core / 02</p><h2>Separate intolerance from immediate and severe delayed reactions</h2><div class="table-wrap"><table><caption>Classify the reaction before selecting a test.</caption><thead><tr><th scope="col">History</th><th scope="col">Interpretation and next step</th></tr></thead><tbody><tr><th scope="row">Nausea, diarrhea, headache, or family history alone</th><td>Not evidence of an immune-mediated allergy. Clarify the record and discuss removal of an inaccurate allergy label.</td></tr><tr><th scope="row">Remote, uncomplicated skin eruption</th><td>May qualify for supervised direct oral challenge after risk assessment.</td></tr><tr><th scope="row">Rapid hives, angioedema, wheeze, or hypotension</th><td>Possible immediate allergy. Recent reactions or prior anaphylaxis generally warrant an allergy evaluation that may include skin testing.</td></tr><tr><th scope="row">Blistering, mucosal lesions, systemic rash with organ injury, or immune-mediated kidney, liver, or blood-cell injury</th><td>Avoid the culprit. Obtain specialist advice; do not use the routine low-risk challenge pathway.</td></tr></tbody></table></div><p>Severe delayed reactions include Stevens-Johnson syndrome/toxic epidermal necrolysis and drug reaction with eosinophilia and systemic symptoms (DRESS). Standard immediate penicillin skin testing does not establish safety after these reactions. <span class="cite"><a href="#source-1" aria-label="Source 1">[1]</a> <a href="#source-2" aria-label="Source 2">[2]</a></span></p></section>
 <section id="core-3"><p class="section-label">Resident core / 03</p><h2>Challenge, skin testing, and desensitization answer different questions</h2><div class="table-wrap"><table><caption>A graded challenge does not desensitize the patient.</caption><thead><tr><th scope="col">Approach</th><th scope="col">Purpose</th></tr></thead><tbody><tr><th scope="row">Direct oral challenge</th><td>Tests tolerance in a selected low-risk patient without preceding skin testing. Use the approved protocol, observation, trained staff, and rescue treatment.</td></tr><tr><th scope="row">Penicillin skin testing</th><td>Evaluates immediate sensitization. A negative result is generally followed by an observed oral challenge to complete the assessment.</td></tr><tr><th scope="row">Desensitization</th><td>Creates temporary tolerance when the needed drug has no suitable alternative and immediate allergy is established or strongly suspected. Requires specialist supervision and uninterrupted scheduled exposure.</td></tr></tbody></table></div><p>Desensitization does not remove the allergy label. Do not use routine desensitization for Stevens-Johnson syndrome/toxic epidermal necrolysis, DRESS, or serious immune-mediated organ injury. <span class="cite"><a href="#source-1" aria-label="Source 1">[1]</a> <a href="#source-3" aria-label="Source 3">[3]</a></span></p></section>
 <section id="core-4"><p class="section-label">Resident core / 04</p><h2>A penicillin allergy does not automatically exclude cefazolin</h2><p>Cross-reactivity depends largely on side-chain structure. The 2022 practice parameter permits cefazolin, a non-cross-reactive cephalosporin, in patients with penicillin anaphylaxis without prior penicillin testing. This does not apply to a cefazolin allergy or justify routine use after a severe delayed beta-lactam reaction. <span class="cite"><a href="#source-4" aria-label="Source 4">[4]</a></span></p><p>For the opening case, first confirm the history. A remote benign rash may qualify for direct amoxicillin challenge under the local pathway. If a cephalosporin is the appropriate treatment, a penicillin label alone need not delay its use. Choosing cefazolin and removing a penicillin label are separate decisions. <span class="cite"><a href="#source-2" aria-label="Source 2">[2]</a> <a href="#source-4" aria-label="Source 4">[4]</a></span></p></section>
+
+<section id="side-chain-matrix" aria-labelledby="matrix-title">
+<p class="section-label">Resident reference / Beta-lactam cross-reactivity</p>
+<h2 id="matrix-title">Compare the side chains on both axes</h2>
+<p class="matrix-intro">This selected-drug matrix highlights identical and related R1 side chains that can contribute to allergic cross-reactivity. It supports the reaction history; it does not predict an individual patient's risk or authorize a challenge. R1 relationships are more useful here than cephalosporin generation. <span class="cite"><a href="#source-4">[4]</a> <a href="#source-7">[7]</a></span></p>
+<div class="matrix-legend" id="matrix-legend" aria-label="Matrix legend">
+<div class="matrix-key"><span class="matrix-swatch matrix-identical">I</span><span>Identical R1 side chain. Potential cross-reactivity.</span></div>
+<div class="matrix-key"><span class="matrix-swatch matrix-related">S</span><span>Similar R1 features. Potential cross-reactivity; the entire side chain is not identical.</span></div>
+<div class="matrix-key"><span class="matrix-swatch matrix-other">·</span><span>No highlighted R1 pairing in this selected chart. This does not mean zero allergy risk.</span></div>
+<div class="matrix-key"><span class="matrix-swatch matrix-carbapenem">†</span><span>Carbapenem comparison. Use the clinical note below.</span></div>
+<div class="matrix-key"><span class="matrix-swatch matrix-same">=</span><span>The same antibiotic. This is not an alternative to the culprit.</span></div>
+</div>
+<div class="matrix-scroll" role="region" aria-label="Antibiotic cross-reactivity matrix; scroll horizontally on small screens" tabindex="0">
+<table class="sidechain-table" aria-describedby="matrix-legend matrix-limits">
+<caption>Read across from the suspected culprit to the proposed antibiotic. Both axes show the same 15 drugs.</caption>
+<colgroup><col class="matrix-name-col"><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></colgroup>
+<thead><tr><th scope="col" class="matrix-corner">Proposed antibiotic →<br><br>Suspected culprit ↓</th>
+<th scope="col" id="matrix-col-0"><span>Amoxicillin</span></th>
+<th scope="col" id="matrix-col-1"><span>Ampicillin</span></th>
+<th scope="col" id="matrix-col-2"><span>Cefadroxil</span></th>
+<th scope="col" id="matrix-col-3"><span>Cefprozil</span></th>
+<th scope="col" id="matrix-col-4"><span>Cephalexin</span></th>
+<th scope="col" id="matrix-col-5"><span>Cefaclor</span></th>
+<th scope="col" id="matrix-col-6"><span>Cefazolin</span></th>
+<th scope="col" id="matrix-col-7"><span>Cefuroxime</span></th>
+<th scope="col" id="matrix-col-8"><span>Ceftriaxone</span></th>
+<th scope="col" id="matrix-col-9"><span>Cefotaxime</span></th>
+<th scope="col" id="matrix-col-10"><span>Cefpodoxime</span></th>
+<th scope="col" id="matrix-col-11"><span>Cefepime</span></th>
+<th scope="col" id="matrix-col-12"><span>Ceftazidime</span></th>
+<th scope="col" id="matrix-col-13"><span>Aztreonam</span></th>
+<th scope="col" id="matrix-col-14"><span>Meropenem</span></th>
+</tr></thead><tbody>
+<tr><th scope="row" id="matrix-row-0">Amoxicillin</th>
+<td class="matrix-same" headers="matrix-row-0 matrix-col-0" title="Amoxicillin / Amoxicillin: Same antibiotic; this is not an alternative">=</td>
+<td class="matrix-related" headers="matrix-row-0 matrix-col-1" title="Amoxicillin / Ampicillin: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-identical" headers="matrix-row-0 matrix-col-2" title="Amoxicillin / Cefadroxil: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-identical" headers="matrix-row-0 matrix-col-3" title="Amoxicillin / Cefprozil: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-related" headers="matrix-row-0 matrix-col-4" title="Amoxicillin / Cephalexin: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-related" headers="matrix-row-0 matrix-col-5" title="Amoxicillin / Cefaclor: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-other" headers="matrix-row-0 matrix-col-6" title="Amoxicillin / Cefazolin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-0 matrix-col-7" title="Amoxicillin / Cefuroxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-0 matrix-col-8" title="Amoxicillin / Ceftriaxone: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-0 matrix-col-9" title="Amoxicillin / Cefotaxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-0 matrix-col-10" title="Amoxicillin / Cefpodoxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-0 matrix-col-11" title="Amoxicillin / Cefepime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-0 matrix-col-12" title="Amoxicillin / Ceftazidime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-0 matrix-col-13" title="Amoxicillin / Aztreonam: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-carbapenem" headers="matrix-row-0 matrix-col-14" title="Amoxicillin / Meropenem: Carbapenem comparison; see the carbapenem note below">†</td>
+</tr>
+<tr><th scope="row" id="matrix-row-1">Ampicillin</th>
+<td class="matrix-related" headers="matrix-row-1 matrix-col-0" title="Ampicillin / Amoxicillin: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-same" headers="matrix-row-1 matrix-col-1" title="Ampicillin / Ampicillin: Same antibiotic; this is not an alternative">=</td>
+<td class="matrix-related" headers="matrix-row-1 matrix-col-2" title="Ampicillin / Cefadroxil: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-related" headers="matrix-row-1 matrix-col-3" title="Ampicillin / Cefprozil: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-identical" headers="matrix-row-1 matrix-col-4" title="Ampicillin / Cephalexin: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-identical" headers="matrix-row-1 matrix-col-5" title="Ampicillin / Cefaclor: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-other" headers="matrix-row-1 matrix-col-6" title="Ampicillin / Cefazolin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-1 matrix-col-7" title="Ampicillin / Cefuroxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-1 matrix-col-8" title="Ampicillin / Ceftriaxone: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-1 matrix-col-9" title="Ampicillin / Cefotaxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-1 matrix-col-10" title="Ampicillin / Cefpodoxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-1 matrix-col-11" title="Ampicillin / Cefepime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-1 matrix-col-12" title="Ampicillin / Ceftazidime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-1 matrix-col-13" title="Ampicillin / Aztreonam: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-carbapenem" headers="matrix-row-1 matrix-col-14" title="Ampicillin / Meropenem: Carbapenem comparison; see the carbapenem note below">†</td>
+</tr>
+<tr><th scope="row" id="matrix-row-2">Cefadroxil</th>
+<td class="matrix-identical" headers="matrix-row-2 matrix-col-0" title="Cefadroxil / Amoxicillin: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-related" headers="matrix-row-2 matrix-col-1" title="Cefadroxil / Ampicillin: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-same" headers="matrix-row-2 matrix-col-2" title="Cefadroxil / Cefadroxil: Same antibiotic; this is not an alternative">=</td>
+<td class="matrix-identical" headers="matrix-row-2 matrix-col-3" title="Cefadroxil / Cefprozil: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-related" headers="matrix-row-2 matrix-col-4" title="Cefadroxil / Cephalexin: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-related" headers="matrix-row-2 matrix-col-5" title="Cefadroxil / Cefaclor: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-other" headers="matrix-row-2 matrix-col-6" title="Cefadroxil / Cefazolin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-2 matrix-col-7" title="Cefadroxil / Cefuroxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-2 matrix-col-8" title="Cefadroxil / Ceftriaxone: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-2 matrix-col-9" title="Cefadroxil / Cefotaxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-2 matrix-col-10" title="Cefadroxil / Cefpodoxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-2 matrix-col-11" title="Cefadroxil / Cefepime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-2 matrix-col-12" title="Cefadroxil / Ceftazidime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-2 matrix-col-13" title="Cefadroxil / Aztreonam: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-carbapenem" headers="matrix-row-2 matrix-col-14" title="Cefadroxil / Meropenem: Carbapenem comparison; see the carbapenem note below">†</td>
+</tr>
+<tr><th scope="row" id="matrix-row-3">Cefprozil</th>
+<td class="matrix-identical" headers="matrix-row-3 matrix-col-0" title="Cefprozil / Amoxicillin: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-related" headers="matrix-row-3 matrix-col-1" title="Cefprozil / Ampicillin: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-identical" headers="matrix-row-3 matrix-col-2" title="Cefprozil / Cefadroxil: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-same" headers="matrix-row-3 matrix-col-3" title="Cefprozil / Cefprozil: Same antibiotic; this is not an alternative">=</td>
+<td class="matrix-related" headers="matrix-row-3 matrix-col-4" title="Cefprozil / Cephalexin: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-related" headers="matrix-row-3 matrix-col-5" title="Cefprozil / Cefaclor: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-other" headers="matrix-row-3 matrix-col-6" title="Cefprozil / Cefazolin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-3 matrix-col-7" title="Cefprozil / Cefuroxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-3 matrix-col-8" title="Cefprozil / Ceftriaxone: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-3 matrix-col-9" title="Cefprozil / Cefotaxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-3 matrix-col-10" title="Cefprozil / Cefpodoxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-3 matrix-col-11" title="Cefprozil / Cefepime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-3 matrix-col-12" title="Cefprozil / Ceftazidime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-3 matrix-col-13" title="Cefprozil / Aztreonam: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-carbapenem" headers="matrix-row-3 matrix-col-14" title="Cefprozil / Meropenem: Carbapenem comparison; see the carbapenem note below">†</td>
+</tr>
+<tr><th scope="row" id="matrix-row-4">Cephalexin</th>
+<td class="matrix-related" headers="matrix-row-4 matrix-col-0" title="Cephalexin / Amoxicillin: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-identical" headers="matrix-row-4 matrix-col-1" title="Cephalexin / Ampicillin: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-related" headers="matrix-row-4 matrix-col-2" title="Cephalexin / Cefadroxil: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-related" headers="matrix-row-4 matrix-col-3" title="Cephalexin / Cefprozil: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-same" headers="matrix-row-4 matrix-col-4" title="Cephalexin / Cephalexin: Same antibiotic; this is not an alternative">=</td>
+<td class="matrix-identical" headers="matrix-row-4 matrix-col-5" title="Cephalexin / Cefaclor: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-other" headers="matrix-row-4 matrix-col-6" title="Cephalexin / Cefazolin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-4 matrix-col-7" title="Cephalexin / Cefuroxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-4 matrix-col-8" title="Cephalexin / Ceftriaxone: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-4 matrix-col-9" title="Cephalexin / Cefotaxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-4 matrix-col-10" title="Cephalexin / Cefpodoxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-4 matrix-col-11" title="Cephalexin / Cefepime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-4 matrix-col-12" title="Cephalexin / Ceftazidime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-4 matrix-col-13" title="Cephalexin / Aztreonam: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-carbapenem" headers="matrix-row-4 matrix-col-14" title="Cephalexin / Meropenem: Carbapenem comparison; see the carbapenem note below">†</td>
+</tr>
+<tr><th scope="row" id="matrix-row-5">Cefaclor</th>
+<td class="matrix-related" headers="matrix-row-5 matrix-col-0" title="Cefaclor / Amoxicillin: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-identical" headers="matrix-row-5 matrix-col-1" title="Cefaclor / Ampicillin: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-related" headers="matrix-row-5 matrix-col-2" title="Cefaclor / Cefadroxil: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-related" headers="matrix-row-5 matrix-col-3" title="Cefaclor / Cefprozil: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-identical" headers="matrix-row-5 matrix-col-4" title="Cefaclor / Cephalexin: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-same" headers="matrix-row-5 matrix-col-5" title="Cefaclor / Cefaclor: Same antibiotic; this is not an alternative">=</td>
+<td class="matrix-other" headers="matrix-row-5 matrix-col-6" title="Cefaclor / Cefazolin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-5 matrix-col-7" title="Cefaclor / Cefuroxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-5 matrix-col-8" title="Cefaclor / Ceftriaxone: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-5 matrix-col-9" title="Cefaclor / Cefotaxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-5 matrix-col-10" title="Cefaclor / Cefpodoxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-5 matrix-col-11" title="Cefaclor / Cefepime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-5 matrix-col-12" title="Cefaclor / Ceftazidime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-5 matrix-col-13" title="Cefaclor / Aztreonam: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-carbapenem" headers="matrix-row-5 matrix-col-14" title="Cefaclor / Meropenem: Carbapenem comparison; see the carbapenem note below">†</td>
+</tr>
+<tr><th scope="row" id="matrix-row-6">Cefazolin</th>
+<td class="matrix-other" headers="matrix-row-6 matrix-col-0" title="Cefazolin / Amoxicillin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-6 matrix-col-1" title="Cefazolin / Ampicillin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-6 matrix-col-2" title="Cefazolin / Cefadroxil: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-6 matrix-col-3" title="Cefazolin / Cefprozil: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-6 matrix-col-4" title="Cefazolin / Cephalexin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-6 matrix-col-5" title="Cefazolin / Cefaclor: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-same" headers="matrix-row-6 matrix-col-6" title="Cefazolin / Cefazolin: Same antibiotic; this is not an alternative">=</td>
+<td class="matrix-other" headers="matrix-row-6 matrix-col-7" title="Cefazolin / Cefuroxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-6 matrix-col-8" title="Cefazolin / Ceftriaxone: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-6 matrix-col-9" title="Cefazolin / Cefotaxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-6 matrix-col-10" title="Cefazolin / Cefpodoxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-6 matrix-col-11" title="Cefazolin / Cefepime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-6 matrix-col-12" title="Cefazolin / Ceftazidime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-6 matrix-col-13" title="Cefazolin / Aztreonam: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-carbapenem" headers="matrix-row-6 matrix-col-14" title="Cefazolin / Meropenem: Carbapenem comparison; see the carbapenem note below">†</td>
+</tr>
+<tr><th scope="row" id="matrix-row-7">Cefuroxime</th>
+<td class="matrix-other" headers="matrix-row-7 matrix-col-0" title="Cefuroxime / Amoxicillin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-7 matrix-col-1" title="Cefuroxime / Ampicillin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-7 matrix-col-2" title="Cefuroxime / Cefadroxil: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-7 matrix-col-3" title="Cefuroxime / Cefprozil: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-7 matrix-col-4" title="Cefuroxime / Cephalexin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-7 matrix-col-5" title="Cefuroxime / Cefaclor: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-7 matrix-col-6" title="Cefuroxime / Cefazolin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-same" headers="matrix-row-7 matrix-col-7" title="Cefuroxime / Cefuroxime: Same antibiotic; this is not an alternative">=</td>
+<td class="matrix-related" headers="matrix-row-7 matrix-col-8" title="Cefuroxime / Ceftriaxone: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-related" headers="matrix-row-7 matrix-col-9" title="Cefuroxime / Cefotaxime: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-related" headers="matrix-row-7 matrix-col-10" title="Cefuroxime / Cefpodoxime: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-related" headers="matrix-row-7 matrix-col-11" title="Cefuroxime / Cefepime: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-other" headers="matrix-row-7 matrix-col-12" title="Cefuroxime / Ceftazidime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-7 matrix-col-13" title="Cefuroxime / Aztreonam: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-carbapenem" headers="matrix-row-7 matrix-col-14" title="Cefuroxime / Meropenem: Carbapenem comparison; see the carbapenem note below">†</td>
+</tr>
+<tr><th scope="row" id="matrix-row-8">Ceftriaxone</th>
+<td class="matrix-other" headers="matrix-row-8 matrix-col-0" title="Ceftriaxone / Amoxicillin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-8 matrix-col-1" title="Ceftriaxone / Ampicillin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-8 matrix-col-2" title="Ceftriaxone / Cefadroxil: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-8 matrix-col-3" title="Ceftriaxone / Cefprozil: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-8 matrix-col-4" title="Ceftriaxone / Cephalexin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-8 matrix-col-5" title="Ceftriaxone / Cefaclor: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-8 matrix-col-6" title="Ceftriaxone / Cefazolin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-related" headers="matrix-row-8 matrix-col-7" title="Ceftriaxone / Cefuroxime: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-same" headers="matrix-row-8 matrix-col-8" title="Ceftriaxone / Ceftriaxone: Same antibiotic; this is not an alternative">=</td>
+<td class="matrix-identical" headers="matrix-row-8 matrix-col-9" title="Ceftriaxone / Cefotaxime: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-identical" headers="matrix-row-8 matrix-col-10" title="Ceftriaxone / Cefpodoxime: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-identical" headers="matrix-row-8 matrix-col-11" title="Ceftriaxone / Cefepime: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-other" headers="matrix-row-8 matrix-col-12" title="Ceftriaxone / Ceftazidime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-8 matrix-col-13" title="Ceftriaxone / Aztreonam: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-carbapenem" headers="matrix-row-8 matrix-col-14" title="Ceftriaxone / Meropenem: Carbapenem comparison; see the carbapenem note below">†</td>
+</tr>
+<tr><th scope="row" id="matrix-row-9">Cefotaxime</th>
+<td class="matrix-other" headers="matrix-row-9 matrix-col-0" title="Cefotaxime / Amoxicillin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-9 matrix-col-1" title="Cefotaxime / Ampicillin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-9 matrix-col-2" title="Cefotaxime / Cefadroxil: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-9 matrix-col-3" title="Cefotaxime / Cefprozil: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-9 matrix-col-4" title="Cefotaxime / Cephalexin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-9 matrix-col-5" title="Cefotaxime / Cefaclor: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-9 matrix-col-6" title="Cefotaxime / Cefazolin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-related" headers="matrix-row-9 matrix-col-7" title="Cefotaxime / Cefuroxime: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-identical" headers="matrix-row-9 matrix-col-8" title="Cefotaxime / Ceftriaxone: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-same" headers="matrix-row-9 matrix-col-9" title="Cefotaxime / Cefotaxime: Same antibiotic; this is not an alternative">=</td>
+<td class="matrix-identical" headers="matrix-row-9 matrix-col-10" title="Cefotaxime / Cefpodoxime: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-identical" headers="matrix-row-9 matrix-col-11" title="Cefotaxime / Cefepime: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-other" headers="matrix-row-9 matrix-col-12" title="Cefotaxime / Ceftazidime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-9 matrix-col-13" title="Cefotaxime / Aztreonam: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-carbapenem" headers="matrix-row-9 matrix-col-14" title="Cefotaxime / Meropenem: Carbapenem comparison; see the carbapenem note below">†</td>
+</tr>
+<tr><th scope="row" id="matrix-row-10">Cefpodoxime</th>
+<td class="matrix-other" headers="matrix-row-10 matrix-col-0" title="Cefpodoxime / Amoxicillin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-10 matrix-col-1" title="Cefpodoxime / Ampicillin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-10 matrix-col-2" title="Cefpodoxime / Cefadroxil: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-10 matrix-col-3" title="Cefpodoxime / Cefprozil: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-10 matrix-col-4" title="Cefpodoxime / Cephalexin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-10 matrix-col-5" title="Cefpodoxime / Cefaclor: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-10 matrix-col-6" title="Cefpodoxime / Cefazolin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-related" headers="matrix-row-10 matrix-col-7" title="Cefpodoxime / Cefuroxime: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-identical" headers="matrix-row-10 matrix-col-8" title="Cefpodoxime / Ceftriaxone: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-identical" headers="matrix-row-10 matrix-col-9" title="Cefpodoxime / Cefotaxime: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-same" headers="matrix-row-10 matrix-col-10" title="Cefpodoxime / Cefpodoxime: Same antibiotic; this is not an alternative">=</td>
+<td class="matrix-identical" headers="matrix-row-10 matrix-col-11" title="Cefpodoxime / Cefepime: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-other" headers="matrix-row-10 matrix-col-12" title="Cefpodoxime / Ceftazidime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-10 matrix-col-13" title="Cefpodoxime / Aztreonam: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-carbapenem" headers="matrix-row-10 matrix-col-14" title="Cefpodoxime / Meropenem: Carbapenem comparison; see the carbapenem note below">†</td>
+</tr>
+<tr><th scope="row" id="matrix-row-11">Cefepime</th>
+<td class="matrix-other" headers="matrix-row-11 matrix-col-0" title="Cefepime / Amoxicillin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-11 matrix-col-1" title="Cefepime / Ampicillin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-11 matrix-col-2" title="Cefepime / Cefadroxil: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-11 matrix-col-3" title="Cefepime / Cefprozil: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-11 matrix-col-4" title="Cefepime / Cephalexin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-11 matrix-col-5" title="Cefepime / Cefaclor: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-11 matrix-col-6" title="Cefepime / Cefazolin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-related" headers="matrix-row-11 matrix-col-7" title="Cefepime / Cefuroxime: Similar R1 features; potential cross-reactivity">S</td>
+<td class="matrix-identical" headers="matrix-row-11 matrix-col-8" title="Cefepime / Ceftriaxone: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-identical" headers="matrix-row-11 matrix-col-9" title="Cefepime / Cefotaxime: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-identical" headers="matrix-row-11 matrix-col-10" title="Cefepime / Cefpodoxime: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-same" headers="matrix-row-11 matrix-col-11" title="Cefepime / Cefepime: Same antibiotic; this is not an alternative">=</td>
+<td class="matrix-other" headers="matrix-row-11 matrix-col-12" title="Cefepime / Ceftazidime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-11 matrix-col-13" title="Cefepime / Aztreonam: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-carbapenem" headers="matrix-row-11 matrix-col-14" title="Cefepime / Meropenem: Carbapenem comparison; see the carbapenem note below">†</td>
+</tr>
+<tr><th scope="row" id="matrix-row-12">Ceftazidime</th>
+<td class="matrix-other" headers="matrix-row-12 matrix-col-0" title="Ceftazidime / Amoxicillin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-12 matrix-col-1" title="Ceftazidime / Ampicillin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-12 matrix-col-2" title="Ceftazidime / Cefadroxil: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-12 matrix-col-3" title="Ceftazidime / Cefprozil: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-12 matrix-col-4" title="Ceftazidime / Cephalexin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-12 matrix-col-5" title="Ceftazidime / Cefaclor: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-12 matrix-col-6" title="Ceftazidime / Cefazolin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-12 matrix-col-7" title="Ceftazidime / Cefuroxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-12 matrix-col-8" title="Ceftazidime / Ceftriaxone: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-12 matrix-col-9" title="Ceftazidime / Cefotaxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-12 matrix-col-10" title="Ceftazidime / Cefpodoxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-12 matrix-col-11" title="Ceftazidime / Cefepime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-same" headers="matrix-row-12 matrix-col-12" title="Ceftazidime / Ceftazidime: Same antibiotic; this is not an alternative">=</td>
+<td class="matrix-identical" headers="matrix-row-12 matrix-col-13" title="Ceftazidime / Aztreonam: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-carbapenem" headers="matrix-row-12 matrix-col-14" title="Ceftazidime / Meropenem: Carbapenem comparison; see the carbapenem note below">†</td>
+</tr>
+<tr><th scope="row" id="matrix-row-13">Aztreonam</th>
+<td class="matrix-other" headers="matrix-row-13 matrix-col-0" title="Aztreonam / Amoxicillin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-13 matrix-col-1" title="Aztreonam / Ampicillin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-13 matrix-col-2" title="Aztreonam / Cefadroxil: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-13 matrix-col-3" title="Aztreonam / Cefprozil: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-13 matrix-col-4" title="Aztreonam / Cephalexin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-13 matrix-col-5" title="Aztreonam / Cefaclor: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-13 matrix-col-6" title="Aztreonam / Cefazolin: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-13 matrix-col-7" title="Aztreonam / Cefuroxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-13 matrix-col-8" title="Aztreonam / Ceftriaxone: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-13 matrix-col-9" title="Aztreonam / Cefotaxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-13 matrix-col-10" title="Aztreonam / Cefpodoxime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-other" headers="matrix-row-13 matrix-col-11" title="Aztreonam / Cefepime: No highlighted R1 pairing in this selected chart; tolerance is not guaranteed">·</td>
+<td class="matrix-identical" headers="matrix-row-13 matrix-col-12" title="Aztreonam / Ceftazidime: Identical R1 side chain; potential cross-reactivity">I</td>
+<td class="matrix-same" headers="matrix-row-13 matrix-col-13" title="Aztreonam / Aztreonam: Same antibiotic; this is not an alternative">=</td>
+<td class="matrix-carbapenem" headers="matrix-row-13 matrix-col-14" title="Aztreonam / Meropenem: Carbapenem comparison; see the carbapenem note below">†</td>
+</tr>
+<tr><th scope="row" id="matrix-row-14">Meropenem</th>
+<td class="matrix-carbapenem" headers="matrix-row-14 matrix-col-0" title="Meropenem / Amoxicillin: Carbapenem comparison; see the carbapenem note below">†</td>
+<td class="matrix-carbapenem" headers="matrix-row-14 matrix-col-1" title="Meropenem / Ampicillin: Carbapenem comparison; see the carbapenem note below">†</td>
+<td class="matrix-carbapenem" headers="matrix-row-14 matrix-col-2" title="Meropenem / Cefadroxil: Carbapenem comparison; see the carbapenem note below">†</td>
+<td class="matrix-carbapenem" headers="matrix-row-14 matrix-col-3" title="Meropenem / Cefprozil: Carbapenem comparison; see the carbapenem note below">†</td>
+<td class="matrix-carbapenem" headers="matrix-row-14 matrix-col-4" title="Meropenem / Cephalexin: Carbapenem comparison; see the carbapenem note below">†</td>
+<td class="matrix-carbapenem" headers="matrix-row-14 matrix-col-5" title="Meropenem / Cefaclor: Carbapenem comparison; see the carbapenem note below">†</td>
+<td class="matrix-carbapenem" headers="matrix-row-14 matrix-col-6" title="Meropenem / Cefazolin: Carbapenem comparison; see the carbapenem note below">†</td>
+<td class="matrix-carbapenem" headers="matrix-row-14 matrix-col-7" title="Meropenem / Cefuroxime: Carbapenem comparison; see the carbapenem note below">†</td>
+<td class="matrix-carbapenem" headers="matrix-row-14 matrix-col-8" title="Meropenem / Ceftriaxone: Carbapenem comparison; see the carbapenem note below">†</td>
+<td class="matrix-carbapenem" headers="matrix-row-14 matrix-col-9" title="Meropenem / Cefotaxime: Carbapenem comparison; see the carbapenem note below">†</td>
+<td class="matrix-carbapenem" headers="matrix-row-14 matrix-col-10" title="Meropenem / Cefpodoxime: Carbapenem comparison; see the carbapenem note below">†</td>
+<td class="matrix-carbapenem" headers="matrix-row-14 matrix-col-11" title="Meropenem / Cefepime: Carbapenem comparison; see the carbapenem note below">†</td>
+<td class="matrix-carbapenem" headers="matrix-row-14 matrix-col-12" title="Meropenem / Ceftazidime: Carbapenem comparison; see the carbapenem note below">†</td>
+<td class="matrix-carbapenem" headers="matrix-row-14 matrix-col-13" title="Meropenem / Aztreonam: Carbapenem comparison; see the carbapenem note below">†</td>
+<td class="matrix-same" headers="matrix-row-14 matrix-col-14" title="Meropenem / Meropenem: Same antibiotic; this is not an alternative">=</td>
+</tr>
+</tbody></table>
+</div>
+<div class="matrix-notes">
+<h3>Read the important pairings</h3>
+<p>Amoxicillin shares R1 with cefadroxil and cefprozil; ampicillin shares R1 with cephalexin and cefaclor. These two amino side-chain groups are related, which is why amoxicillin–cephalexin is marked S rather than I. Ceftriaxone, cefotaxime, cefpodoxime, and cefepime share R1; cefuroxime has related methoxyimino features. Ceftazidime and aztreonam share R1. <span class="cite"><a href="#source-4">[4]</a> <a href="#source-7">[7]</a></span></p>
+<h3>Cefazolin and carbapenems</h3>
+<p>Cefazolin has no shared R1 side chain with the other drugs shown. A penicillin allergy alone does not establish cefazolin allergy. For meropenem (†), the 2022 parameter permits a carbapenem in patients with penicillin or cephalosporin allergy, including prior anaphylaxis, without routine preceding testing or additional precautions. That recommendation does not establish tolerance in someone with a carbapenem allergy or a severe delayed reaction. The aztreonam–meropenem cell is outside that specific recommendation. <span class="cite"><a href="#source-4">[4]</a></span></p>
+<div class="callout caution" id="matrix-limits"><p>Do not use this chart to select an unsupervised challenge after anaphylaxis, Stevens-Johnson syndrome/toxic epidermal necrolysis, DRESS, or serious immune-mediated organ injury. A history of cephalosporin anaphylaxis requires a separate evaluation even when the proposed cephalosporin has a different R1 side chain. <span class="cite"><a href="#source-4">[4]</a></span></p></div>
+<p class="note">This is a teaching matrix, not a complete allergy clearance tool. It does not map R2 side chains, beta-lactamase inhibitor allergy, or other penicillins such as penicillin G/V, oxacillin, and piperacillin. Within-penicillin cross-reactivity can involve shared penicillin determinants. Published charts differ in how they classify partial structural similarities; an unmarked pair is not proof of tolerance. <span class="cite"><a href="#source-4">[4]</a> <a href="#source-8">[8]</a></span></p>
+</div></section>
 <section id="core-5"><p class="section-label">Resident core / 05</p><h2>Document what was tested and what the result means</h2><p>After a successful evaluation, update the allergy list as well as the note. Record the drug, dose, date, observation, and outcome; explain the result to the patient and communicate it to the next clinician. Provide instructions for reporting a delayed reaction. An uneventful immediate observation does not guarantee that no later rash will occur. <span class="cite"><a href="#source-2" aria-label="Source 2">[2]</a> <a href="#source-4" aria-label="Source 4">[4]</a></span></p><div class="callout"><p>Discuss a variation. The same patient recalls blistering and oral ulcers. The next step changes to specialist evaluation and avoidance of the culprit, even if the reaction was decades ago. <span class="cite"><a href="#source-1" aria-label="Source 1">[1]</a></span></p></div></section>
 <section class="close" id="take-home"><p class="section-label">Resident core / Close</p><h2>Apply this on the next consult</h2><p>Before prescribing, describe the reaction. Before challenging, check exclusions and the local protocol. After evaluation, correct the allergy record and explain the result.</p></section>
 <section class="fellow fellow-jump-target" id="fellow" tabindex="-1"><p class="section-label">Fellow discussion / Optional</p><h2>PEN-FAST supports risk assessment but does not override exclusions</h2><p>In adults, PEN-FAST assigns 2 points for a reaction within 5 years or an unknown interval, 2 for anaphylaxis/angioedema or a severe cutaneous reaction, and 1 for treatment required. A score below 3 identifies a lower-risk group; it does not itself remove the label. Unknown treatment history should be handled according to the validated tool rather than assumed absent. <span class="cite"><a href="#source-5" aria-label="Source 5">[5]</a></span></p><div class="callout caution"><p>A remote severe cutaneous reaction can produce a deceptively low total. Exclude severe delayed reactions before using a low-risk challenge pathway. <span class="cite"><a href="#source-1" aria-label="Source 1">[1]</a> <a href="#source-5" aria-label="Source 5">[5]</a></span></p></div><p>The PALACE randomized trial supports direct oral challenge for selected adults with PEN-FAST below 3. Its findings should not be extended to excluded high-risk phenotypes or an unmonitored inpatient dose. <span class="cite"><a href="#source-6" aria-label="Source 6">[6]</a></span></p><p>For immediate penicillin or cephalosporin allergy, the 2022 parameter also permits carbapenems without routine preceding testing. Severe delayed reactions require a separate assessment. Aztreonam and ceftazidime share a side chain, so that pairing needs specific attention. <span class="cite"><a href="#source-4" aria-label="Source 4">[4]</a></span></p></section>
-<section class="sources" id="sources"><h2>Sources and further reading</h2><p id="source-1">1. <a href="https://www.cdc.gov/antibiotic-use/hcp/clinical-signs/index.html">CDC. Clinical features of penicillin allergy. 2025.</a></p><p id="source-2">2. <a href="https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/Penicillin-Allergy-Position-Statement_Approved-08-31-2023.pdf">AAAAI. Penicillin allergy evaluation should be performed proactively. 2023 position statement.</a></p><p id="source-3">3. <a href="https://www.cdc.gov/std/treatment-guidelines/penicillin-allergy.htm">CDC. Managing persons who have a history of penicillin allergy. STI Treatment Guidelines.</a></p><p id="source-4">4. <a href="https://doi.org/10.1016/j.jaci.2022.08.028">Khan DA, et al. Drug allergy practice parameter update. J Allergy Clin Immunol. 2022.</a></p><p id="source-5">5. <a href="https://doi.org/10.1001/jamainternmed.2020.0403">Trubiano JA, et al. Development and validation of PEN-FAST. JAMA Intern Med. 2020.</a></p><p id="source-6">6. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10352926/">Copaescu AM, et al. PALACE randomized clinical trial. JAMA Intern Med. 2023.</a></p><p class="note">Teaching cases are fictional. Recommendations are paraphrased from the linked sources. Use current patient-specific guidance and local protocols when prescribing.</p></section></main>
-<footer>AI-assisted educational material. Faculty review pending. Sources checked September 20, 2026. Version 1.0. All content remains visible when printed.</footer>
+<section class="sources" id="sources"><h2>Sources and further reading</h2><p id="source-1">1. <a href="https://www.cdc.gov/antibiotic-use/hcp/clinical-signs/index.html">CDC. Clinical features of penicillin allergy. 2025.</a></p><p id="source-2">2. <a href="https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/Penicillin-Allergy-Position-Statement_Approved-08-31-2023.pdf">AAAAI. Penicillin allergy evaluation should be performed proactively. 2023 position statement.</a></p><p id="source-3">3. <a href="https://www.cdc.gov/std/treatment-guidelines/penicillin-allergy.htm">CDC. Managing persons who have a history of penicillin allergy. STI Treatment Guidelines.</a></p><p id="source-4">4. <a href="https://doi.org/10.1016/j.jaci.2022.08.028">Khan DA, et al. Drug allergy practice parameter update. J Allergy Clin Immunol. 2022.</a></p><p id="source-5">5. <a href="https://doi.org/10.1001/jamainternmed.2020.0403">Trubiano JA, et al. Development and validation of PEN-FAST. JAMA Intern Med. 2020.</a></p><p id="source-6">6. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10352926/">Copaescu AM, et al. PALACE randomized clinical trial. JAMA Intern Med. 2023.</a></p><p id="source-7">7. <a href="https://www.uhn.ca/corporate/AboutUHN/Quality_Patient_Safety/Antimicrobial-Stewardship/Documents/Beta-lactam-Allergy-Cross-Reactivity-Chart.pdf">University Health Network Antimicrobial Stewardship. Public beta-lactam allergy cross-reactivity chart.</a> Used to cross-check related amino and methoxyimino groupings. Identical R1 assignments follow Table XII of source 4. The teaching matrix above uses an original layout and legend.</p><p id="source-8">8. <a href="https://doi.org/10.1111/all.16485">Hutten EM, et al. Discrepancies in beta-lactam antibiotics cross-reactivity: implications for clinical practice. Allergy. 2025;80:3108–3114.</a></p><p class="note">Teaching cases are fictional. Recommendations are paraphrased from the linked sources. Use current patient-specific guidance and local protocols when prescribing.</p></section></main>
+<footer>AI-assisted educational material. Faculty review pending. Lecture sources checked September 20, 2026. Side-chain matrix sources checked September 21, 2026. Version 1.1. All content remains visible when printed.</footer>
 <script data-fellow-navigation>
 (function () {
   function revealTarget(id) {
