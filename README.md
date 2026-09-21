@@ -77,3 +77,5 @@ The GitHub Actions workflow checks out the complete history, generates metadata,
 The tuberculosis primer covers diagnosis, mimics, preventive treatment, standard and resistant-TB therapy, and newer treatment evidence. Its source-access and quality-review record is in `lectures/Tuberculosis_Review_Notes.md`.
 
 The September 15 clinical, language, and relevance review of all four published lectures is recorded in `lectures/Lecture_Review_2026-09-15.md`. The lecture catalog reflects the revised versions.
+
+The September 21 review of all ten published modules is recorded in `lectures/Lecture_Review_2026-09-21.md`. Full lectures now have a 30–45-minute resident core and visible advanced teaching below; short lectures retain a 10–20-minute core. Core, complete-reference, and rounds-sheet print options are available in the full modules.
