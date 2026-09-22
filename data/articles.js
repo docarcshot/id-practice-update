@@ -1,5 +1,35 @@
 window.ID_ARTICLES = [
   {
+    id: "streptococcus-mitis-bacteremia-significance-2026",
+    date: "2026-09-21",
+    title: "The Clinical Significance of Streptococcus mitis bacteremia",
+    type: "Multicenter retrospective cohort study",
+    journal: "Open Forum Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Bacteremia", "Streptococcus mitis", "Viridans streptococci", "Blood cultures", "Microbiology", "Endocarditis", "Neutropenia", "Diagnostic stewardship", "Inpatient ID"],
+    summary: "This retrospective review included 253 adults with Streptococcus mitis group bacteremia at three Texas Medical Center hospitals from 2017 through 2025. Neutropenia-associated bacteremia was the most common syndrome (29.6%), followed by pneumonia (9.5%), infective endocarditis (8.7%), and skin, soft-tissue, or bone infection (7.9%); 9.5% had no identified source. Only 22.9% of episodes were classified as contamination. High-grade bacteremia, defined as at least three positive blood-culture bottles, occurred in 47% of cases, whereas episodes classified as contaminants nearly always involved a single positive bottle.",
+    change: "A blood culture growing S. mitis group should not be dismissed as contamination merely because the organism is an oral commensal or viridans streptococcus. In this cohort, more than three quarters of episodes were treated as clinically significant, and 8.7% were associated with infective endocarditis. The number of positive bottles provided useful context: high-grade bacteremia was common in true infection, while presumed contamination was overwhelmingly limited to one bottle.",
+    takeaway: "When S. mitis group is recovered from blood, assess the number and timing of positive bottles, neutropenia or mucosal injury, symptoms and source, persistence on repeat cultures, prosthetic material, and endocarditis risk before labeling it a contaminant. Multiple positive bottles should substantially lower the threshold for a full bacteremia evaluation. A single positive bottle may support contamination, but it is not sufficient by itself to exclude infection.",
+    limitations: "This was a retrospective chart review from three hospitals in one medical center. Clinical syndromes and contamination were assigned from documentation, imaging, and microbiology rather than a blinded reference standard, so incorporation bias and clinician practice patterns could influence classification. The abstract does not provide adjusted predictors, diagnostic accuracy estimates, treatment comparisons, or outcome data, and the cohort cannot define a validated bottle-count rule or a universal threshold for echocardiography.",
+    link: "https://academic.oup.com/ofid/advance-article/doi/10.1093/ofid/ofag588/8824049",
+    doi: "10.1093/ofid/ofag588"
+  },
+  {
+    id: "tb-preventive-treatment-immunosuppression-safety-2026",
+    date: "2026-09-21",
+    title: "Safety of tuberculosis preventive treatment among people receiving or about to initiate immunosuppressive medications: a systematic review and meta-analysis",
+    type: "Systematic review and meta-analysis",
+    journal: "Clinical Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Tuberculosis", "Latent tuberculosis", "Preventive therapy", "Immunocompromised hosts", "Transplant", "Biologics", "Antimicrobial safety", "Outpatient ID"],
+    summary: "This systematic review included 27 studies and 3,184 participants receiving or preparing to receive biologics, corticosteroids, solid-organ transplantation, or hematopoietic transplantation. In 25 studies with 2,802 participants, adverse-event-related discontinuation was 5.3% (95% CI 3.1%-8.9%; I2=65.4%) with 6-12 months of isoniazid (1,511 participants), 4.4% (95% CI 0.1%-75.4%; I2=86.3%) with four months of rifamycin monotherapy (228 participants), 2.0% (95% CI 1.0%-4.1%; I2=0%) with three months of isoniazid plus a rifamycin (990 participants), and 6.9% (95% CI 0%-92.3%; I2=65.4%) with 6-9 months of fluoroquinolone-based therapy (73 participants).",
+    change: "Preventive-TB treatment discontinuation for toxicity in immunosuppressed or soon-to-be-immunosuppressed patients was broadly similar to rates in general preventive-treatment populations. Rifamycin-containing regimens had the lowest pooled discontinuation estimate, but every rifamycin regimen in the included literature was completed before immunosuppression began. Only isoniazid monotherapy was studied during active immunosuppressive treatment, so the analysis does not establish the safety of coadministering a short rifamycin regimen with immunosuppressants.",
+    takeaway: "Do not withhold indicated TB preventive treatment solely because immunosuppression is planned. When timing allows and drug interactions are manageable, completing a short rifamycin-containing regimen before immunosuppression is supported by the lowest observed discontinuation rates. If immunosuppression has already started, do not extrapolate these pooled rifamycin estimates; review interactions carefully and recognize that the direct safety evidence during immunosuppression was limited to isoniazid.",
+    limitations: "The evidence base consisted of 27 heterogeneous studies rather than direct randomized comparisons among regimens. Immunosuppressive drugs, transplant populations, adverse-event definitions, monitoring, and treatment timing varied. Heterogeneity was substantial for isoniazid and extremely high for the small rifamycin-monotherapy and fluoroquinolone groups, producing very wide confidence intervals. Rifamycin-containing regimens were only used before immunosuppression, leaving the clinically important question of concurrent therapy unanswered.",
+    link: "https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciag584/8824042",
+    doi: "10.1093/cid/ciag584"
+  },
+  {
     id: "valve-culture-postoperative-ie-duration-2026",
     date: "2026-09-19",
     title: "Risk Factors Associated with Positive Intraoperative Valve Tissue Cultures and the Subsequent Impact on Infective Endocarditis Management and Outcomes",
