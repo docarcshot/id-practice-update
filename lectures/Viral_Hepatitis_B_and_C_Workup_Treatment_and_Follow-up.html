@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Resident and fellow lecture on hepatitis B and C workup, interpretation, treatment, immunosuppression-related reactivation risk, and follow-up.">
+<title>Hepatitis B and C: Workup, Treatment, and Follow-up</title>
+<style>
+:root{
+  --primary:#7f1d1d;--secondary:#b91c1c;--accent:#dc2626;
+  --resident:#1d4ed8;--fellow:#6d28d9;--bg:#f8fafc;--card:#ffffff;
+  --text:#1f2937;--muted:#64748b;--line:#e5e7eb;--success:#166534;
+  --warn:#9a3412;--info:#075985;--danger:#991b1b;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.58;color:var(--text);background:var(--bg)}
+header{background:linear-gradient(135deg,#450a0a,#991b1b);color:#fff;padding:3rem 1.5rem}
+header .wrap,main,footer .wrap{max-width:1120px;margin:auto}
+h1{margin:0 0 .5rem;font-size:2.55rem;font-weight:650;letter-spacing:-.03em}
+header p{margin:.35rem 0;max-width:900px;font-size:1.08rem}
+.meta{opacity:.86;font-size:.94rem}
+nav{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 1px 4px rgba(0,0,0,.05)}
+nav .wrap{max-width:1120px;margin:auto;display:flex;gap:.45rem;flex-wrap:wrap;padding:.7rem 1rem}
+nav a{font-size:.85rem;text-decoration:none;color:#fff;background:var(--primary);padding:.42rem .7rem;border-radius:999px}
+main{padding:1.5rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;margin:0 0 1.25rem;overflow:hidden;box-shadow:0 2px 6px rgba(0,0,0,.04)}
+.card h2{margin:0;background:linear-gradient(135deg,#7f1d1d,#b91c1c);color:#fff;padding:1rem 1.25rem;font-size:1.42rem}
+.content{padding:1.2rem 1.35rem}
+h3{margin:1rem 0 .45rem;color:var(--primary)}
+h4{margin:.85rem 0 .35rem}
+p{margin:.45rem 0 .8rem}
+ul,ol{margin:.45rem 0 .9rem 1.25rem;padding-left:.9rem}
+li{margin:.32rem 0}
+table{width:100%;border-collapse:collapse;margin:.8rem 0 1rem;font-size:.94rem}
+th{background:#f1f5f9;text-align:left;padding:.65rem;border:1px solid var(--line)}
+td{padding:.65rem;border:1px solid var(--line);vertical-align:top}
+.badge{display:inline-block;padding:.2rem .58rem;border-radius:999px;color:#fff;font-size:.76rem;font-weight:700;letter-spacing:.02em}
+.resident{background:var(--resident)}.fellow{background:var(--fellow)}.optional{background:#475569}
+.high{background:#991b1b}.moderate{background:#9a3412}.low{background:#166534}
+.box{padding:.9rem 1rem;border-left:4px solid;margin:.85rem 0;border-radius:5px;background:#fff}
+.key{border-color:var(--success);background:#f0fdf4}.warn{border-color:var(--warn);background:#fff7ed}
+.info{border-color:var(--info);background:#f0f9ff}.danger{border-color:var(--danger);background:#fef2f2}
+.fellowbox{border-color:var(--fellow);background:#f5f3ff}.residentbox{border-color:var(--resident);background:#eff6ff}
+.algorithm{counter-reset:step;margin:.8rem 0}.step{position:relative;margin:.55rem 0;padding:.8rem 1rem .8rem 3rem;background:#f8fafc;border:1px solid var(--line);border-radius:8px}
+.step:before{counter-increment:step;content:counter(step);position:absolute;left:.85rem;top:.72rem;background:var(--primary);color:#fff;width:1.45rem;height:1.45rem;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:700}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.small{font-size:.9rem;color:var(--muted)}
+.ref li{margin:.55rem 0}a{color:#0f4c81}code{background:#f1f5f9;padding:.08rem .28rem;border-radius:4px}
+footer{background:#111827;color:#e5e7eb;padding:2rem 1.5rem;margin-top:2rem}
+.fellow-jump{display:flex;align-items:center;justify-content:space-between;gap:1rem;max-width:1100px;margin:1.2rem 0 0;padding:1rem 1.15rem;background:#f4eef9;color:#30213f;border:1px solid #cdbadd;border-left:5px solid #654380;border-radius:.65rem;text-align:left;box-sizing:border-box}
+.fellow-jump-copy{flex:1;min-width:0}.fellow-jump-title{margin:0 0 .3rem;color:#4f3269;font-size:1.05rem;font-weight:750;line-height:1.3;letter-spacing:normal;text-transform:none}.fellow-jump-description{margin:0;color:#44374e;font-size:.93rem;line-height:1.45;max-width:48rem}
+.fellow-jump-actions{display:flex;gap:.55rem;flex-wrap:wrap;align-items:center;flex-shrink:0;max-width:25rem}.fellow-jump-button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;box-sizing:border-box;padding:.65rem .9rem;border:2px solid #654380;border-radius:.45rem;background:#654380;color:#fff;font-size:.93rem;font-weight:700;line-height:1.3;text-decoration:none!important;text-align:center;white-space:normal}
+.fellow-jump-target{scroll-margin-top:6rem}
+@media(max-width:760px){h1{font-size:2rem}.two{grid-template-columns:1fr}table{font-size:.84rem}.content{padding:1rem}nav{position:static}.fellow-jump{flex-direction:column;align-items:stretch;padding:.9rem}.fellow-jump-actions{max-width:none}.fellow-jump-button{flex:1 1 12rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}}
+@media print{nav,.fellow-jump{display:none!important}body{background:#fff}.card{break-inside:avoid;box-shadow:none}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<p style="margin:0 0 .5rem;font-size:.82rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase">ID Practice Update</p>
+<h1>Hepatitis B and C</h1>
+<p>Workup, test interpretation, treatment, immunosuppression planning, and follow-up</p>
+<p class="meta">Resident core 40–45 minutes. Optional fellow-level extension follows. Updated September 2026.</p>
+<div class="fellow-jump" role="note" aria-label="Fellow teaching"><div class="fellow-jump-copy"><p class="fellow-jump-title">Advanced fellow teaching is below</p><p class="fellow-jump-description">The core lecture comes first. The advanced section covers discordant HBV testing, reactivation risk, treatment withdrawal, and complex HCV care.</p></div><div class="fellow-jump-actions"><a class="fellow-jump-button" href="#advanced">Jump to fellow section</a></div></div>
+</div></header>
+
+<nav><div class="wrap">
+<a href="index.html">All lectures</a><a href="#objectives">Objectives</a><a href="#hbv-panel">HBV Panel</a><a href="#hbv-workup">HBV Workup</a><a href="#hbv-treat">HBV Treatment</a><a href="#hbv-follow">HBV Follow-up</a><a href="#immunosuppression">Immunosuppression</a><a href="#hcv">HCV</a><a href="#cases">Cases</a><a href="#advanced">Advanced</a><a href="#references">References</a><a href="#" onclick="window.print(); return false;">Print</a>
+</div></nav>
+
+<main>
+<section class="card" id="objectives"><h2>1. What should learners be able to do?</h2><div class="content">
+<p><span class="badge resident">RESIDENT</span></p>
+<ul>
+<li>Interpret HBsAg, anti-HBs, total anti-HBc, and IgM anti-HBc without calling every positive IgM result acute infection.</li>
+<li>Complete the initial evaluation of HBsAg-positive patients, including fibrosis staging, coinfection testing, and HCC risk assessment.</li>
+<li>Recognize clear HBV treatment indications and choose among entecavir, tenofovir alafenamide, and tenofovir disoproxil fumarate.</li>
+<li>Screen before immunosuppression and distinguish patients who need prophylaxis from those who may be monitored.</li>
+<li>Confirm active HCV with RNA, select a simplified pangenotypic regimen when appropriate, and document cure.</li>
+</ul>
+<p><span class="badge fellow">FELLOW</span></p>
+<ul>
+<li>Resolve isolated core antibody, discordant serologies, possible occult HBV, and indeterminate chronic HBV.</li>
+<li>Manage HBV around B-cell depletion, CAR-T therapy, stem-cell transplantation, checkpoint inhibitors, prolonged corticosteroids, and HCV DAA treatment.</li>
+<li>Know when simplified HCV treatment does not apply and when a protease inhibitor is unsafe.</li>
+</ul>
+</div></section>
+
+<section class="card" id="hbv-panel"><h2>2. Start HBV evaluation with the triple panel</h2><div class="content">
+<p><span class="badge resident">RESIDENT</span></p>
+<div class="box key"><strong>Order HBsAg, anti-HBs, and total anti-HBc together.</strong> Add IgM anti-HBc when acute infection is clinically plausible. HBV DNA is not part of routine population screening, but it is essential once current infection, occult infection, or reactivation risk is suspected.</div>
+<table><thead><tr><th>HBsAg</th><th>Total anti-HBc</th><th>Anti-HBs</th><th>Likely interpretation</th><th>Next step</th></tr></thead><tbody>
+<tr><td>−</td><td>−</td><td>−</td><td>Susceptible if no documented complete vaccine series</td><td>Vaccinate. Do not delay vaccination while awaiting results if testing and vaccination can occur at the same visit.</td></tr>
+<tr><td>−</td><td>−</td><td>+</td><td>Vaccine immunity</td><td>No routine booster for immunocompetent adults with a documented series. Special rules apply to dialysis, occupational exposure, and selected immunocompromised patients.</td></tr>
+<tr><td>−</td><td>+</td><td>+</td><td>Resolved natural infection</td><td>No chronic-HBV treatment. Document reactivation risk before future immunosuppression.</td></tr>
+<tr><td>+</td><td>+</td><td>−</td><td>Current infection</td><td>Use IgM anti-HBc, history, and persistence of HBsAg to distinguish acute from chronic. Obtain HBV DNA, ALT, HBeAg/anti-HBe, and stage liver disease.</td></tr>
+<tr><td>−</td><td>+</td><td>−</td><td>Isolated core antibody</td><td>Could be remote resolved infection with waned anti-HBs, false-positive anti-HBc, window-period acute infection, or occult HBV. See the advanced section.</td></tr>
+<tr><td>+</td><td>+</td><td>+</td><td>Discordant but possible</td><td>Repeat on a new specimen, confirm HBsAg if the assay permits, and obtain HBV DNA. Consider assay interference, recent HBIG, mixed viral subtypes, or escape variants.</td></tr>
+</tbody></table>
+<div class="box warn"><strong>Two common traps:</strong> HBsAg may be transiently positive shortly after hepatitis B vaccination. IgM anti-HBc can also be positive during a severe flare or reactivation of chronic HBV, so it is not proof of a new acute infection by itself.</div>
+
+<h3>Acute versus chronic HBV</h3>
+<div class="two">
+<div class="box residentbox"><strong>Acute infection is supported by</strong><br>Compatible exposure and hepatitis syndrome, HBsAg positivity, and IgM anti-HBc positivity. During the window period, HBsAg may already be negative while IgM anti-HBc remains positive.</div>
+<div class="box residentbox"><strong>Chronic infection is established by</strong><br>HBsAg persisting for at least 6 months, or prior evidence of chronic infection. A single HBsAg-positive result without earlier testing does not date the infection.</div>
+</div>
+</div></section>
+
+<section class="card" id="hbv-workup"><h2>3. Complete the HBV workup before deciding to treat</h2><div class="content">
+<p><span class="badge resident">RESIDENT</span></p>
+<div class="algorithm">
+<div class="step"><strong>Define viral activity.</strong> Quantitative HBV DNA, HBeAg, anti-HBe, ALT, AST, bilirubin, albumin, alkaline phosphatase, and INR.</div>
+<div class="step"><strong>Stage liver disease.</strong> CBC/platelets, FIB-4, and preferably elastography when available. Review imaging for nodularity, splenomegaly, collaterals, or ascites. Biopsy is reserved for cases in which noninvasive assessment and laboratory findings do not settle a treatment decision.</div>
+<div class="step"><strong>Look for coinfection.</strong> HIV Ag/Ab, HCV antibody with reflex RNA, and anti-HDV with reflex HDV RNA if positive. EASL recommends one-time HDV screening for every HBsAg-positive patient; older AASLD guidance uses risk-based testing. Universal one-time testing is a reasonable practical approach because risk histories miss infections.</div>
+<div class="step"><strong>Identify preventable liver injury.</strong> Check HAV immunity and vaccinate if nonimmune. Assess alcohol, metabolic dysfunction/steatotic liver disease, medications and supplements, and iron overload or autoimmune liver disease when the pattern warrants it.</div>
+<div class="step"><strong>Plan drug safety.</strong> Creatinine/eGFR and urinalysis; add phosphorus when considering or using TDF. Review osteoporosis, fragility fracture, pregnancy potential, and prior lamivudine exposure.</div>
+<div class="step"><strong>Address transmission.</strong> Test and vaccinate household and sexual contacts. Counsel on blood exposure, barrier protection until partner immunity is documented, and avoiding shared razors, toothbrushes, or injection equipment.</div>
+</div>
+
+<h3>Who needs HCC surveillance?</h3>
+<p>Use liver ultrasound plus AFP approximately every 6 months when surveillance is indicated. This includes all patients with HBV cirrhosis and selected noncirrhotic patients at increased risk, including men from endemic countries older than 40, women from endemic countries older than 50, people from Africa at an earlier age, those with a first-degree family history of HCC, and patients with PAGE-B ≥10. The 2025 AASLD guidance adds broader surveillance for HBV/HDV coinfection and age/sex-specific surveillance for HBV/HIV coinfection.</p>
+<div class="box info"><strong>Do not use normal ALT or suppressed HBV DNA to cancel HCC surveillance.</strong> Antiviral therapy reduces but does not eliminate HCC risk.</div>
+</div></section>
+
+<section class="card" id="hbv-treat"><h2>4. Who should receive HBV treatment?</h2><div class="content">
+<p><span class="badge resident">RESIDENT</span></p>
+<table><thead><tr><th>Clinical setting</th><th>Treatment direction</th></tr></thead><tbody>
+<tr><td>Acute liver failure or severe/protracted acute hepatitis B</td><td>Start a high-barrier nucleos(t)ide analogue and urgently involve a transplant center. Routine uncomplicated acute HBV is treated supportively.</td></tr>
+<tr><td>Cirrhosis with detectable HBV DNA</td><td>Treat, regardless of ALT. Decompensated cirrhosis requires indefinite nucleos(t)ide therapy and transplant/hepatology management; peginterferon is contraindicated.</td></tr>
+<tr><td>HBeAg-positive immune-active CHB</td><td>Treat when HBV DNA is ≥20,000 IU/mL and ALT is ≥2 times the HBV-specific ULN, or when significant inflammation/fibrosis is present.</td></tr>
+<tr><td>HBeAg-negative immune-active CHB</td><td>Treat when HBV DNA is ≥2,000 IU/mL and ALT is ≥2 times the HBV-specific ULN, or when significant inflammation/fibrosis is present.</td></tr>
+<tr><td>Immune-tolerant CHB</td><td>2025 AASLD suggests treatment when age is over 40 or there is at least F2 fibrosis or grade 2 inflammation. Confirm persistently normal ALT before using this label.</td></tr>
+<tr><td>HBeAg-negative indeterminate CHB</td><td>Use shared decision-making. Treatment is reasonable when risk is higher, including older age, fibrosis, male sex, lower platelets, family history of HCC, or persistent ALT/HBV DNA abnormalities. Evaluate other causes when ALT is elevated but HBV DNA is low.</td></tr>
+<tr><td>Pregnancy with HBV DNA &gt;200,000 IU/mL</td><td>Begin TDF or TAF at gestational week 28 to reduce perinatal transmission. TDF has the longer pregnancy safety record. The infant still needs HBV vaccine and HBIG promptly after birth.</td></tr>
+<tr><td>Immunosuppression or high-risk transmission setting</td><td>Treatment or prophylaxis may be indicated even when ordinary disease-activity thresholds are not met.</td></tr>
+</tbody></table>
+<p class="small">AASLD uses HBV-specific ALT upper limits of 25 U/L for women and 35 U/L for men. Laboratory reference ranges may be higher.</p>
+
+<h3>Preferred oral agents</h3>
+<table><thead><tr><th>Agent</th><th>Best fit</th><th>Important limitations and monitoring</th></tr></thead><tbody>
+<tr><td><strong>Entecavir</strong> (Baraclude)</td><td>High barrier to resistance in nucleoside-naive patients; useful when renal or bone toxicity is a concern</td><td>Dose-adjust for renal function. Take fasting. Avoid monotherapy in untreated HIV because it can select HIV resistance. Prior lamivudine resistance reduces its barrier.</td></tr>
+<tr><td><strong>Tenofovir alafenamide</strong> (Vemlidy for HBV)</td><td>Potent; less renal and bone toxicity than TDF</td><td>Check renal function. Vemlidy is not recommended by its labeling in decompensated Child-Pugh B or C cirrhosis. Review HIV status and drug interactions.</td></tr>
+<tr><td><strong>Tenofovir disoproxil fumarate</strong> (Viread)</td><td>Potent, high barrier; preferred when simultaneous HIV treatment is needed and has the longest pregnancy safety experience</td><td>Monitor creatinine/eGFR, urine protein/glucose, and phosphorus; consider bone density in patients at risk.</td></tr>
+<tr><td><strong>Peginterferon alfa-2a</strong> (Pegasys)</td><td>Finite course in selected noncirrhotic patients who accept toxicity and have favorable predictors</td><td>Avoid in decompensated cirrhosis, pregnancy, major uncontrolled psychiatric disease, cytopenias, and selected autoimmune disease. Requires close CBC, hepatic, thyroid, and clinical monitoring.</td></tr>
+</tbody></table>
+<div class="box danger"><strong>Do not use lamivudine, adefovir, or telbivudine as routine first-line long-term therapy.</strong> Resistance or toxicity makes them inferior to entecavir, TAF, or TDF.</div>
+</div></section>
+
+<section class="card" id="hbv-follow"><h2>5. HBV follow-up depends on phase and treatment status</h2><div class="content">
+<p><span class="badge resident">RESIDENT</span></p>
+<table><thead><tr><th>Patient group</th><th>Practical follow-up</th></tr></thead><tbody>
+<tr><td>Immune-tolerant, untreated</td><td>ALT and HBV DNA every 6 months; reassess fibrosis and treatment need at each visit.</td></tr>
+<tr><td>HBeAg-positive indeterminate, untreated</td><td>ALT and HBV DNA every 3–6 months when near an immune-active transition; otherwise every 6 months. Reassess fibrosis.</td></tr>
+<tr><td>Inactive CHB, HBeAg negative, DNA &lt;2,000, normal ALT</td><td>ALT and HBV DNA every 3–6 months for the first year, then every 6–12 months if stable. Recheck sooner if ALT rises.</td></tr>
+<tr><td>HBeAg-negative indeterminate, untreated</td><td>Usually ALT and HBV DNA every 3–6 months for the first year, then every 6 months; revisit treatment rather than leaving the patient indefinitely in a “gray zone.”</td></tr>
+<tr><td>Receiving entecavir, TAF, or TDF</td><td>Assess adherence, ALT, HBV DNA, and drug-specific renal/bone safety. HBV DNA is commonly checked every 3 months until suppressed and every 3–6 months thereafter. Continue HCC surveillance when indicated.</td></tr>
+<tr><td>After HBsAg loss</td><td>Confirm the result and anti-HBs status. Continue HCC surveillance for cirrhosis, family history of HCC, men losing HBsAg after age 40, and women losing HBsAg after age 50.</td></tr>
+<tr><td>After nucleos(t)ide analogue withdrawal</td><td>This is a specialist decision. If stopped, check ALT and HBV DNA every 1–3 months for 6 months, every 3 months for the next 6–12 months, then every 3–6 months.</td></tr>
+</tbody></table>
+<div class="box warn"><strong>Stopping therapy is not routine.</strong> The 2025 AASLD guideline suggests that HBeAg-negative adults without cirrhosis remain on nucleos(t)ide therapy until HBsAg loss. Never stop in cirrhosis without specialist oversight.</div>
+</div></section>
+
+<section class="card" id="immunosuppression"><h2>6. Screen before immunosuppression and prevent HBV reactivation</h2><div class="content">
+<p><span class="badge resident">RESIDENT</span></p>
+<div class="box key"><strong>Before therapy, order HBsAg, total anti-HBc, and anti-HBs.</strong> If HBsAg or anti-HBc is positive, obtain baseline ALT and HBV DNA. Do this before treatment starts, but do not delay urgent cancer therapy while the evaluation is completed.</div>
+
+<h3>Risk is the combination of serostatus and the planned therapy</h3>
+<p><span class="badge high">HIGH</span> means an estimated reactivation risk of at least 10%. <span class="badge moderate">MODERATE</span> means 1–10%. <span class="badge low">LOW</span> means less than 1%. These estimates generally assume a single agent. Combination chemotherapy, added corticosteroids, detectable baseline HBV DNA, and prolonged treatment can increase risk.</p>
+
+<table><thead><tr><th>Exposure</th><th>HBsAg positive</th><th>HBsAg negative / anti-HBc positive</th></tr></thead><tbody>
+<tr><td>Anti-CD20 or other B-cell depletion, including rituximab and obinutuzumab</td><td><span class="badge high">HIGH</span></td><td><span class="badge high">HIGH</span></td></tr>
+<tr><td>Hematopoietic stem-cell transplantation</td><td><span class="badge high">HIGH</span></td><td><span class="badge high">HIGH</span> in cancer guidance; use prophylaxis</td></tr>
+<tr><td>CAR-T therapy</td><td><span class="badge high">HIGH</span></td><td><span class="badge moderate">MODERATE</span> by AGA single-exposure estimates, but prophylaxis is generally used because of prior B-cell depletion and prolonged immune dysfunction</td></tr>
+<tr><td>Anthracyclines</td><td><span class="badge high">HIGH</span></td><td><span class="badge moderate">MODERATE</span></td></tr>
+<tr><td>Anti-TNF therapy</td><td><span class="badge high">HIGH</span></td><td><span class="badge low">LOW</span></td></tr>
+<tr><td>Immune-checkpoint inhibitors, including PD-1, PD-L1, and CTLA-4 inhibitors</td><td><span class="badge moderate">MODERATE</span></td><td><span class="badge low">LOW</span></td></tr>
+<tr><td>Anti-T-cell therapy such as abatacept</td><td><span class="badge moderate">MODERATE</span></td><td><span class="badge moderate">MODERATE</span></td></tr>
+<tr><td>Tyrosine-kinase inhibitors</td><td><span class="badge high">HIGH</span></td><td><span class="badge moderate">MODERATE</span></td></tr>
+<tr><td>Cytokine or integrin inhibitors such as ustekinumab or secukinumab</td><td><span class="badge high">HIGH</span></td><td><span class="badge moderate">MODERATE</span></td></tr>
+<tr><td>IL-6 inhibitors and JAK inhibitors</td><td>Potentially <span class="badge high">HIGH</span>; evidence is limited</td><td><span class="badge low">LOW</span> to <span class="badge moderate">MODERATE</span>; estimates are imprecise and differ among guidelines</td></tr>
+<tr><td>Prednisone 10–20 mg/day or &gt;20 mg/day for at least 4 weeks</td><td><span class="badge high">HIGH</span></td><td><span class="badge moderate">MODERATE</span></td></tr>
+<tr><td>Prednisone &lt;10 mg/day for at least 4 weeks</td><td><span class="badge moderate">MODERATE</span></td><td><span class="badge low">LOW</span></td></tr>
+<tr><td>Any systemic corticosteroid course shorter than 1 week or intra-articular steroid</td><td><span class="badge low">LOW</span></td><td><span class="badge low">LOW</span></td></tr>
+<tr><td>Methotrexate, azathioprine, or 6-mercaptopurine alone</td><td><span class="badge low">LOW</span></td><td><span class="badge low">LOW</span></td></tr>
+<tr><td>HCV direct-acting antiviral therapy</td><td><span class="badge high">HIGH</span></td><td><span class="badge low">LOW</span></td></tr>
+<tr><td>Transarterial chemoembolization for HCC</td><td><span class="badge high">HIGH</span></td><td><span class="badge moderate">MODERATE</span></td></tr>
+</tbody></table>
+
+<div class="box warn"><strong>Do not overread the table.</strong> For HBsAg-positive patients receiving systemic anticancer therapy, ASCO recommends antiviral prophylaxis regardless of the specific regimen. For resolved HBV, anti-CD20 therapy and stem-cell transplantation require prophylaxis. CAR-T recipients should also generally receive prophylaxis even though the isolated AGA estimate falls in the moderate-risk range.</div>
+
+<table><thead><tr><th>Risk group</th><th>Usual management</th></tr></thead><tbody>
+<tr><td><span class="badge high">HIGH</span></td><td>Start entecavir, TAF, or TDF before or no later than immunosuppression. Do not substitute monitoring alone.</td></tr>
+<tr><td><span class="badge moderate">MODERATE</span></td><td>AGA favors prophylaxis. Monitoring is an alternative only when the patient strongly prefers it and reliable ALT plus HBV DNA testing every 1–3 months is realistic.</td></tr>
+<tr><td><span class="badge low">LOW</span></td><td>Monitor rather than routinely prophylax. Use ALT and HBV DNA every 1–3 months during meaningful ongoing exposure; add HBsAg for patients with resolved infection.</td></tr>
+<tr><td>All HBV markers negative</td><td>Vaccinate. Vaccination does not provide immediate protection and does not replace prophylaxis for someone with prior infection.</td></tr>
+</tbody></table>
+
+<div class="two">
+<div class="box info"><strong>When prophylaxis is used</strong><br>Start before or at immunosuppression. Continue through therapy and generally for at least 6 months afterward; continue at least 12 months after B-cell-depleting therapy. ASCO recommends at least 12 months after systemic anticancer therapy for patients with chronic HBV. CAR-T and stem-cell transplantation may warrant longer individualized prophylaxis and monitoring because immune recovery is delayed.</div>
+<div class="box warn"><strong>When monitoring is used</strong><br>ALT alone is inadequate. The 2025 AGA guideline requires HBV DNA at 1–3 month intervals. Start a high-barrier antiviral promptly if reactivation occurs.</div>
+</div>
+<p class="small">The categories above follow the 2025 AGA framework where a sufficiently stable estimate exists, with ASCO cancer-specific guidance layered on top. Newer agents, especially JAK and IL-6 inhibitors, have limited data and inconsistent placement across guidelines. Confirm the current recommendation when the planned regimen is new, combined, or prolonged.</p>
+</div></section>
+
+<section class="card" id="hcv"><h2>7. Hepatitis C: confirm viremia, stage disease, treat nearly everyone</h2><div class="content">
+<p><span class="badge resident">RESIDENT</span></p>
+<h3>Diagnosis</h3>
+<ul>
+<li>Screen with HCV antibody and automatic reflex quantitative HCV RNA.</li>
+<li>A positive antibody with negative RNA means no current viremia. It may represent resolved infection, successful prior treatment, or a false-positive antibody. Antibody remains positive after cure.</li>
+<li>If exposure was recent, the patient is immunocompromised, or acute HCV is strongly suspected, order HCV RNA even when antibody is negative.</li>
+<li>Do not wait for spontaneous clearance once acute HCV viremia is confirmed. Treat using the same regimens used for chronic infection.</li>
+</ul>
+
+<h3>Pretreatment checklist</h3>
+<div class="algorithm">
+<div class="step"><strong>Confirm infection.</strong> Quantitative HCV RNA. Genotype is unnecessary for most noncirrhotic treatment-naive patients receiving a pangenotypic regimen, but it remains relevant in selected cirrhosis and retreatment pathways.</div>
+<div class="step"><strong>Stage fibrosis.</strong> Calculate FIB-4. Review platelets and imaging; use elastography when needed. Presume cirrhosis when FIB-4 is &gt;3.25 or there is prior elastography, biopsy, imaging, or clinical evidence of cirrhosis.</div>
+<div class="step"><strong>Obtain baseline laboratories.</strong> CBC, hepatic function panel, eGFR, and INR when cirrhosis is possible. Assess Child-Pugh class before any NS3 protease inhibitor.</div>
+<div class="step"><strong>Check coinfections and vaccines.</strong> HIV Ag/Ab and the complete HBV triple panel. Vaccinate against HAV and HBV when nonimmune.</div>
+<div class="step"><strong>Review every medication.</strong> Include OTC products and supplements. Check a current interaction resource. Pay particular attention to acid suppression, anticonvulsants, rifamycins, statins, amiodarone, anticoagulants, and antiretrovirals.</div>
+</div>
+
+<h3>Simplified treatment for treatment-naive adults without cirrhosis</h3>
+<table><thead><tr><th>Regimen</th><th>Brand name</th><th>Duration</th><th>Key point</th></tr></thead><tbody>
+<tr><td>Glecaprevir 300 mg / pibrentasvir 120 mg once daily</td><td><strong>Mavyret</strong></td><td>8 weeks</td><td>Three tablets together once daily with food. Contains an NS3 protease inhibitor and must not be used with current or prior decompensated cirrhosis.</td></tr>
+<tr><td>Sofosbuvir 400 mg / velpatasvir 100 mg once daily</td><td><strong>Epclusa</strong></td><td>12 weeks</td><td>One tablet once daily. Review acid suppression carefully. Avoid coadministration with amiodarone because serious symptomatic bradycardia has been reported with sofosbuvir-containing therapy.</td></tr>
+</tbody></table>
+<div class="box info"><strong>Common HCV brand crosswalk:</strong> glecaprevir/pibrentasvir is <strong>Mavyret</strong>; sofosbuvir/velpatasvir is <strong>Epclusa</strong>; ledipasvir/sofosbuvir is <strong>Harvoni</strong>; sofosbuvir/velpatasvir/voxilaprevir is <strong>Vosevi</strong>; and elbasvir/grazoprevir is <strong>Zepatier</strong>. Mavyret and Vosevi contain protease inhibitors.</div>
+<p>Simplified treatment does not apply to prior HCV treatment, HBsAg positivity, pregnancy, suspected HCC, prior liver transplantation, or other pathway-specific exclusions. Compensated cirrhosis has a separate simplified algorithm; genotype 3 treated with sofosbuvir/velpatasvir requires baseline NS5A Y93H testing.</p>
+<div class="box danger"><strong>No protease inhibitor in decompensated cirrhosis.</strong> Glecaprevir in Mavyret, grazoprevir in Zepatier, and voxilaprevir in Vosevi must not be used with current or prior hepatic decompensation or Child-Pugh B/C disease. Refer for an Epclusa-based specialist regimen and transplant assessment when appropriate.</div>
+
+<h3>Monitoring and follow-up</h3>
+<ul>
+<li>For uncomplicated simplified therapy, routine on-treatment laboratory monitoring is usually unnecessary. Check in for adherence, new medications, and adverse effects.</li>
+<li>Monitor glucose more closely in patients taking diabetes medications and INR in those taking warfarin because control may change as HCV clears.</li>
+<li>Obtain quantitative HCV RNA and a hepatic panel 12 weeks or later after therapy to document sustained virologic response (SVR12).</li>
+<li>After SVR, noncirrhotic patients need no HCV-specific liver follow-up unless liver tests remain abnormal or another liver disease is present.</li>
+<li>With ongoing exposure risk, check HCV RNA, not antibody, at least annually and whenever unexplained liver-test abnormalities occur.</li>
+<li>Cirrhosis remains cirrhosis after cure: continue ultrasound with or without AFP every 6 months and manage portal-hypertension risk.</li>
+</ul>
+
+<div class="box fellowbox"><span class="badge fellow">FELLOW</span> <strong>HBV during HCV treatment:</strong> test the HBV triple panel before DAAs. If HBsAg is positive and HBV treatment criteria are met, start HBV therapy. The 2025 AGA reactivation guideline classifies HBsAg-positive patients receiving HCV DAAs as high risk and favors prophylaxis. AASLD-IDSA HCV Guidance also permits monthly HBV DNA monitoring during and immediately after DAA therapy when baseline HBV DNA is low or undetectable and ordinary HBV treatment criteria are not met. If prophylaxis is chosen under the HCV pathway, continue it through 12 weeks after DAA completion.</div>
+</div></section>
+
+<section class="card" id="cases"><h2>8. Cases for the core lecture</h2><div class="content">
+<h3>Case 1: The positive core antibody</h3>
+<p>A patient scheduled for rituximab has HBsAg negative, total anti-HBc positive, and anti-HBs 42 mIU/mL.</p>
+<p><strong>Answer:</strong> This is resolved HBV, not vaccine immunity. Anti-HBs does not eliminate reactivation risk. Obtain baseline ALT and HBV DNA and begin entecavir, TAF, or TDF prophylaxis before rituximab. Continue for at least 12 months after the final B-cell-depleting dose and monitor after prophylaxis ends.</p>
+
+<h3>Case 2: Normal ALT, very high DNA</h3>
+<p>A 44-year-old man is HBeAg positive, HBV DNA 18 million IU/mL, ALT 31 U/L on repeated measurements, and has no cirrhosis by elastography.</p>
+<p><strong>Answer:</strong> He meets a laboratory immune-tolerant pattern, but age over 40 is now a reason to offer treatment under the 2025 AASLD guideline. The decision should include fibrosis assessment, HCC risk, transmission issues, and patient preference.</p>
+
+<h3>Case 3: HCV antibody positive, RNA negative</h3>
+<p>The patient has no recent exposure and normal liver tests.</p>
+<p><strong>Answer:</strong> There is no active HCV infection and no DAA indication. Determine whether this reflects prior cure, spontaneous clearance, or a false-positive antibody. Repeat RNA only if recent exposure, ongoing risk, immunosuppression, or unexplained hepatitis makes current infection plausible.</p>
+
+<h3>Case 4: HCV with prior ascites</h3>
+<p>A treatment-naive patient with HCV RNA positivity had ascites two years ago but now has normal bilirubin and albumin.</p>
+<p><strong>Answer:</strong> Prior decompensation excludes glecaprevir/pibrentasvir (Mavyret) even if the current Child-Pugh score has improved. Use the decompensated-cirrhosis pathway and specialist management.</p>
+</div></section>
+
+<section class="card fellow-jump-target" id="advanced"><h2>9. Advanced fellow section</h2><div class="content">
+<p><span class="badge fellow">FELLOW</span> <span class="badge optional">OPTIONAL</span></p>
+
+<h3>Isolated anti-HBc: do not force one interpretation</h3>
+<table><thead><tr><th>Possibility</th><th>Clues</th><th>Reasonable next step</th></tr></thead><tbody>
+<tr><td>Remote resolved infection with waned anti-HBs</td><td>Prior risk, birth in an endemic region, old positive results</td><td>Document reactivation risk. HBV DNA before significant immunosuppression.</td></tr>
+<tr><td>False-positive anti-HBc</td><td>Low pretest probability, no risk history, inconsistent repeat result</td><td>Repeat the triple panel on a new specimen, preferably using a different assay when available. Vaccinate if susceptible.</td></tr>
+<tr><td>Window-period acute HBV</td><td>Recent exposure, abrupt hepatitis, IgM anti-HBc positive</td><td>Repeat HBsAg/anti-HBs, obtain HBV DNA, and follow ALT/INR.</td></tr>
+<tr><td>Occult HBV</td><td>HBsAg negative with detectable HBV DNA, especially during immunosuppression or unexplained hepatitis</td><td>Confirm HBV DNA and manage according to clinical setting and reactivation risk.</td></tr>
+</tbody></table>
+<div class="box warn"><strong>A vaccine challenge is not a definitive diagnostic test for isolated anti-HBc.</strong> An anamnestic response can support prior immunity, but a response does not erase documented anti-HBc or remove future reactivation risk.</div>
+
+<h3>Discordant or indeterminate HBV findings</h3>
+<ul>
+<li><strong>New weak HBsAg positivity after vaccination:</strong> repeat after the period of possible transient antigenemia and obtain total anti-HBc/HBV DNA if current infection remains plausible.</li>
+<li><strong>HBsAg and anti-HBs both positive:</strong> confirm results and obtain HBV DNA. Consider assay interference, passive antibody, mixed subtypes, or immune-escape variants.</li>
+<li><strong>IgM anti-HBc positive in known chronic HBV:</strong> assess for flare/reactivation. Do not label acute infection without timing, prior serology, HBV DNA trajectory, and clinical context.</li>
+<li><strong>ALT high with HBV DNA &lt;2,000:</strong> evaluate steatotic liver disease, alcohol, medications, HCV/HDV, autoimmune hepatitis, ischemia, and other causes. Continue serial HBV assessment because phase transition remains possible.</li>
+<li><strong>HBV DNA high with unexpectedly negative HBsAg:</strong> repeat both assays and consider occult infection or an HBsAg escape variant.</li>
+</ul>
+
+<h3>Immunosuppression: where mistakes occur</h3>
+<ul>
+<li>Ordering only HBsAg misses resolved infection and therefore misses most patients at risk during rituximab or CAR-T therapy.</li>
+<li>Using anti-HBs positivity as permission to skip prophylaxis with B-cell depletion is incorrect.</li>
+<li>“Monitor liver enzymes” is not an adequate preemptive plan. HBV DNA must be included every 1–3 months, and the ordering clinician must own the results.</li>
+<li>Stopping prophylaxis when chemotherapy ends ignores delayed reactivation, especially after B-cell depletion, CAR-T therapy, or transplantation.</li>
+<li>New immunotherapies should be checked against current guidance. Checkpoint inhibitors can also cause immune-mediated hepatitis, so ALT elevation requires evaluation for both drug toxicity and HBV reactivation.</li>
+</ul>
+
+<h3>Stopping chronic HBV therapy</h3>
+<p>For HBeAg-negative adults without cirrhosis, 2025 AASLD suggests continuing nucleos(t)ide therapy until HBsAg loss. If a highly selected patient strongly prefers withdrawal, reassess cirrhosis, prior decompensation, HCC, coinfections, extrahepatic disease, duration of suppression, quantitative HBsAg when available, and ability to comply with intensive follow-up. Restart thresholds include clinically significant flare, jaundice or impaired synthetic function, or substantial virologic relapse as defined by the specialist protocol.</p>
+
+<h3>HCV situations outside simplified treatment</h3>
+<table><thead><tr><th>Situation</th><th>Why it changes management</th></tr></thead><tbody>
+<tr><td>Prior DAA exposure</td><td>Regimen history, genotype, cirrhosis, resistance context, and prior failure determine retreatment. Sofosbuvir/velpatasvir/voxilaprevir (Vosevi) is a common salvage backbone, but it contains a protease inhibitor and is not for decompensated cirrhosis.</td></tr>
+<tr><td>Decompensated cirrhosis</td><td>No NS3 protease inhibitor. Use a specialist sofosbuvir/velpatasvir (Epclusa)-based pathway, usually 12 weeks with ribavirin when eligible or 24 weeks without ribavirin.</td></tr>
+<tr><td>HBsAg positive</td><td>Manage HBV treatment or reactivation prevention concurrently.</td></tr>
+<tr><td>Pregnancy</td><td>Routine DAA treatment during pregnancy is not yet a standard simplified pathway; individualize with maternal-fetal medicine and hepatology/ID.</td></tr>
+<tr><td>Solid-organ transplant, HCC, or severe renal complexity</td><td>Drug interactions, graft status, cancer timing, and regimen-specific evidence require specialist selection.</td></tr>
+<tr><td>Persistent ALT elevation after SVR</td><td>SVR does not explain ongoing hepatitis. Evaluate alcohol, MASLD, HBV, autoimmune disease, iron overload, medications, and other causes.</td></tr>
+</tbody></table>
+</div></section>
+
+<section class="card" id="references"><h2>10. Selected references and tools</h2><div class="content">
+<ol class="ref">
+<li>Ghany MG, et al. <a href="https://www.aasld.org/practice-guidelines/hepatitis-b">AASLD Practice Guideline on Treatment of Chronic Hepatitis B</a>. Hepatology. 2025.</li>
+<li>Terrault NA, et al. Update on Prevention, Diagnosis, and Treatment of Chronic Hepatitis B: AASLD 2018 Hepatitis B Guidance. Hepatology. 2018;67:1560–1599.</li>
+<li>Centers for Disease Control and Prevention. <a href="https://www.cdc.gov/mmwr/volumes/72/rr/rr7201a1.htm">Screening and Testing for Hepatitis B Virus Infection: CDC Recommendations, United States, 2023</a>.</li>
+<li>Ali FS, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/39863345/">AGA Clinical Practice Guideline on the Prevention and Treatment of Hepatitis B Virus Reactivation in At-Risk Individuals</a>. Gastroenterology. 2025;168:267–284.</li>
+<li>ASCO. Hepatitis B Virus Screening and Management for Patients With Cancer Prior to Therapy: Provisional Clinical Opinion Update. J Clin Oncol. 2020.</li>
+<li>AASLD-IDSA. <a href="https://www.hcvguidelines.org/">HCV Guidance: Recommendations for Testing, Managing, and Treating Hepatitis C</a>. Living guidance; accessed September 2026.</li>
+<li>University of Liverpool. <a href="https://www.hep-druginteractions.org/">Hepatitis Drug Interactions Checker</a>.</li>
+<li>Singal AG, et al. AASLD Practice Guidance on Prevention, Diagnosis, and Treatment of Hepatocellular Carcinoma. Hepatology. 2023.</li>
+</ol>
+<p class="small">This teaching module supports clinical reasoning and does not replace current prescribing information, local pathways, hepatology consultation, or individualized management.</p>
+</div></section>
+</main>
+<footer><div class="wrap"><p>AI-assisted educational material for internal medicine residents and infectious diseases fellows. Faculty review pending. Verify drug labeling, interactions, and local pathways before clinical use.</p></div></footer>
+</body>
+</html>
