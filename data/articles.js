@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "pacto-score-cons-bacteremia-endocarditis-2026",
+    date: "2026-09-23",
+    title: "External validation of the PACTO risk score for infective endocarditis in patients with coagulase-negative staphylococcal bacteremia: a multicenter cohort study",
+    type: "Multicenter retrospective diagnostic cohort study",
+    journal: "Open Forum Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Bacteremia", "Coagulase-negative staphylococci", "Endocarditis", "Echocardiography", "Diagnostic stewardship", "Cardiac devices", "Prosthetic valves", "Inpatient ID"],
+    summary: "This external validation included 302 adults with true coagulase-negative staphylococcal bacteremia who underwent echocardiography at several Spanish hospitals from 2016 through 2025. Definite infective endocarditis by 2023 Duke-ISCVID criteria was diagnosed in 60/302 (19.9%). The PACTO score assigns four points for a prosthetic valve or pacemaker, two for all blood-culture bottles being positive, two for community-acquired bacteremia, and one for continuous bacteremia with positive cultures 12-72 hours apart. Discrimination was good (AUC 0.828, 95% CI 0.773-0.883). Endocarditis prevalence ranged from 1.6% with 0-1 points to 84.6% with more than seven points; a score below two had 98.3% sensitivity and 98.4% negative predictive value.",
+    change: "PACTO was externally validated across multiple centers and may help separate low-risk true CoNS bacteremia from patients needing prompt endocarditis evaluation. The low-risk threshold missed approximately 1.7% of definite endocarditis cases, while very high scores identified a group with an 84.6% prevalence. This supports using the four early clinical and microbiologic variables to guide the urgency and extent of echocardiography, but it does not yet establish that echocardiography can routinely be omitted.",
+    takeaway: "For true CoNS bacteremia, document prosthetic valve or pacemaker, whether every culture bottle is positive, community versus healthcare acquisition, and persistence on cultures obtained 12-72 hours apart. A PACTO score below two can support a lower suspicion for endocarditis when the rest of the clinical assessment is reassuring. Do not use the score alone to withhold echocardiography when there are embolic findings, persistent bacteremia, valve or device concerns, or another strong clinical reason to suspect endocarditis.",
+    limitations: "This was a retrospective validation restricted to patients already classified as having true CoNS bacteremia and selected for echocardiography, creating selection and verification-spectrum bias. Definite endocarditis was present in 19.9%, so the reported negative predictive value will not transfer directly to settings with a different prevalence. A score below two did not reduce risk to zero, the low-risk estimate was based on very few endocarditis events, and the study did not prospectively test an imaging-deferral pathway or measure outcomes when echocardiography was omitted.",
+    link: "https://academic.oup.com/ofid/advance-article/doi/10.1093/ofid/ofag599/8832539",
+    doi: "10.1093/ofid/ofag599"
+  },
+  {
     id: "streptococcus-mitis-bacteremia-significance-2026",
     date: "2026-09-21",
     title: "The Clinical Significance of Streptococcus mitis bacteremia",
