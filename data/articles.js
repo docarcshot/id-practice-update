@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "cephalexin-severe-infection-pk-dosing-2026",
+    date: "2026-09-26",
+    title: "Cephalexin Model-Informed Dosing Recommendations for Severe Infections: A Pooled Pharmacokinetic Analysis From Infancy to Adulthood",
+    type: "Pooled population pharmacokinetic modeling study",
+    journal: "Open Forum Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Antimicrobial therapy", "Oral antibiotics", "IV-to-oral transition", "Cephalexin", "MSSA", "Enterobacterales", "Pharmacokinetics", "Dosing", "Stewardship", "Inpatient ID"],
+    summary: "Investigators pooled four cephalexin pharmacokinetic datasets comprising 71 participants aged 9 days to 29 years and 360 plasma samples, then simulated target attainment across ages, doses, organisms, and MICs. Cephalexin 25 mg/kg per dose, capped at 1,000 mg, every 8 hours achieved at least 98% probability of the modeled MSSA 1-log-kill target of 35% free-drug time above MIC at an MIC of 4 mg/L; every-6-hour dosing was required at an MIC of 8 mg/L. For Enterobacterales, the prespecified 60% free-time-above-MIC target was achieved only in infants younger than two months. Regimens of 37.5-50 mg/kg per dose, capped at 1,500 mg, every 6 hours achieved cumulative fractional responses above 90% only when a less stringent 40%-50% target was used and cefazolin MICs were 2 mg/L or lower.",
+    change: "The model supplies concrete exposure-based support for cephalexin as oral treatment or transition therapy for selected serious MSSA infections and shows why low-frequency dosing is difficult to defend. For adults with an MSSA isolate expected to have a cephalexin MIC no higher than 4 mg/L, 1,000 mg every 8 hours met the modeled bactericidal target; every 6 hours was needed at an MIC of 8 mg/L. The Enterobacterales simulations are much less reassuring and required substantially higher, off-label regimens to meet relaxed pharmacodynamic targets.",
+    takeaway: "When cephalexin is selected for oral completion of a serious MSSA infection in a patient resembling the modeled population, use a high-dose, frequent regimen rather than 500 mg twice daily; 1,000 mg every 8 hours was the best-supported adult-sized regimen at an MIC of 4 mg/L, and every 6 hours was needed at an MIC of 8 mg/L. Do not extrapolate the Enterobacterales simulations into routine use of 1,500 mg every 6 hours without organism-specific susceptibility, renal and tolerability review, and recognition that clinical efficacy and safety were not tested.",
+    limitations: "This was a pharmacokinetic simulation, not a treatment trial, so it provides no clinical cure, relapse, toxicity, or adherence outcomes. The pooled sample was small, included only 71 participants, extended only to age 29 years, and therefore did not directly represent older adults, frailty, or the full range of renal dysfunction. Conclusions depended on assumed protein binding, MIC distributions, cefazolin as a surrogate for Enterobacterales susceptibility, and pharmacodynamic targets that are not validated clinical thresholds for cephalexin in deep infection. The proposed 1,500-mg every-6-hour Enterobacterales regimens exceed usual labeled adult dosing and were not prospectively evaluated for safety.",
+    link: "https://academic.oup.com/ofid/advance-article/doi/10.1093/ofid/ofag611/8836350",
+    doi: "10.1093/ofid/ofag611"
+  },
+  {
     id: "pacto-score-cons-bacteremia-endocarditis-2026",
     date: "2026-09-23",
     title: "External validation of the PACTO risk score for infective endocarditis in patients with coagulase-negative staphylococcal bacteremia: a multicenter cohort study",
