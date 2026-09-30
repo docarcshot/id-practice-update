@@ -1,5 +1,35 @@
 window.ID_ARTICLES = [
   {
+    id: "melioidosis-eradication-omission-pilot-2026",
+    date: "2026-09-28",
+    title: "Omitting the eradication phase of treatment of adults with melioidosis: a pilot, single-center, randomized control trial",
+    type: "Pilot open-label randomized controlled trial",
+    journal: "Open Forum Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Melioidosis", "Tropical infections", "Burkholderia pseudomallei", "Antimicrobial duration", "Trimethoprim-sulfamethoxazole", "Antimicrobial safety", "Relapse", "Inpatient ID", "Outpatient ID"],
+    summary: "This single-center pilot trial randomized 33 adults with culture-confirmed melioidosis to prolonged intravenous intensive-phase therapy followed by oral trimethoprim-sulfamethoxazole eradication therapy or to prolonged intravenous therapy alone. At two years, culture-confirmed recurrence occurred in 0/16 patients assigned eradication therapy and 5/17 (29%) assigned no eradication therapy. One additional standard-therapy participant had a culture-unconfirmed clinical recurrence. Trimethoprim-sulfamethoxazole adverse reactions occurred in 13/16 (81%); 7/13 stopped the drug, 5/13 required hospitalization, and 1/13 required intensive care.",
+    change: "Despite a longer modern intensive phase, omitting oral eradication therapy produced a clinically important recurrence signal: five culture-confirmed recurrences versus none with standard therapy. The trial is too small to define which patients might safely omit eradication, but it argues against abandoning the eradication phase in routine practice. It also quantifies the competing toxicity burden of high-dose trimethoprim-sulfamethoxazole, supporting close laboratory and clinical monitoring and individualized management when toxicity occurs.",
+    takeaway: "Continue an eradication phase after intensive therapy for culture-confirmed melioidosis unless a specialist-guided exception is necessary. Do not interpret completion of prolonged intravenous therapy as sufficient protection from relapse. Anticipate frequent trimethoprim-sulfamethoxazole toxicity, monitor closely, and manage adverse effects or alternative therapy without assuming that eradication can simply be omitted.",
+    limitations: "This was an open-label pilot trial from one Australian center with only 33 participants and five culture-confirmed recurrences, so estimates are imprecise and subgroup selection is not possible. The study compared complete omission with standard high-dose trimethoprim-sulfamethoxazole rather than testing shorter, lower-dose, or alternative eradication regimens. Treatment was not blinded, one recurrence was clinical rather than culture confirmed, and applicability may differ where intensive-phase duration, disease phenotype, comorbidity, adherence, or access to follow-up differs.",
+    link: "https://academic.oup.com/ofid/advance-article/doi/10.1093/ofid/ofag591/8833201",
+    doi: "10.1093/ofid/ofag591"
+  },
+  {
+    id: "waterborne-mabscessus-outbreak-mitigation-2026",
+    date: "2026-09-29",
+    title: "Waterborne outbreak of Mycobacterium abscessus in a UK specialist heart and lung hospital 2019-2026: patients, mitigations and implications",
+    type: "Genomic outbreak investigation with case-control analysis",
+    journal: "Clinical Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Infection prevention", "Mycobacterium abscessus", "NTM", "Hospital water", "Outbreak investigation", "Whole-genome sequencing", "Lung transplant", "Cystic fibrosis", "Immunocompromised hosts"],
+    summary: "After two M. abscessus cases appeared soon after a cardiothoracic hospital moved into a new building, investigators combined longitudinal patient surveillance, hospital-water sampling, whole-genome sequencing, and a transplant-recipient case-control study. From May 2019 through June 2026, 40 patients had isolates matching the water-system outbreak strain: 11 lung transplant recipients, 11 patients with cystic fibrosis, 14 with non-CF bronchiectasis, and four others; 19/40 met criteria for nontuberculous-mycobacterial pulmonary disease. No specific lung-transplant surgical or bronchoscopy exposure explained acquisition. After point-of-use filters, biocide treatment, and enhanced flushing, incidence fell from 12.8 to 2.2 cases per year, with no new case identified after June 2025, although the strain persisted in hospital water.",
+    change: "The combination of matching patient and water isolates plus the marked incidence decline after water controls supports the hospital plumbing system as the reservoir. In a cluster involving transplant, cystic-fibrosis, or bronchiectasis patients, investigation should extend beyond bronchoscopy and patient-to-patient transmission to sinks, taps, water distribution, flushing, and other water exposures. Control may require layered, sustained engineering and point-of-use measures because biocide treatment did not eradicate the strain.",
+    takeaway: "For unexpected M. abscessus clustering in highly vulnerable respiratory populations, involve infection prevention, facilities, water-management experts, public health, and a reference laboratory early. Use whole-genome sequencing to connect clinical and environmental isolates, minimize avoidable tap-water exposure, and audit flushing and filter programs over time. A temporary negative environmental sample or one-time disinfection should not be assumed to eliminate risk.",
+    limitations: "This was a single-hospital observational outbreak investigation without a concurrent control facility. Screening intensity and eligible patient populations changed over time, and the WGS-based case definition could miss clinically related isolates outside the defined strain. Multiple water-control measures were introduced together, so the effect of any individual intervention cannot be isolated, and the temporal fall in incidence does not by itself prove causality. Findings from a new specialist cardiothoracic building may not transfer directly to other plumbing systems or patient populations.",
+    link: "https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciag609/8844030",
+    doi: "10.1093/cid/ciag609"
+  },
+  {
     id: "cephalexin-severe-infection-pk-dosing-2026",
     date: "2026-09-26",
     title: "Cephalexin Model-Informed Dosing Recommendations for Severe Infections: A Pooled Pharmacokinetic Analysis From Infancy to Adulthood",
