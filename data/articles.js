@@ -1,5 +1,19 @@
 window.ID_ARTICLES = [
   {
+    id: "nih-hiv-art-guidelines-september-2026",
+    date: "2026-09-24",
+    title: "Guidelines for the Use of Antiretroviral Agents in Adults and Adolescents With HIV: September 2026 update",
+    type: "Federal expert-panel clinical guideline update",
+    journal: "NIH ClinicalInfo",
+    impact: "Practice changing",
+    tags: ["HIV", "Antiretroviral therapy", "Dolutegravir", "Lamivudine", "Initial therapy", "Viral load", "Drug resistance", "Hepatitis B", "Guidelines", "Outpatient ID"],
+    summary: "The U.S. Panel on Antiretroviral Guidelines now recommends dolutegravir/lamivudine as initial therapy regardless of baseline HIV RNA when reverse-transcriptase genotype confirms susceptibility and chronic hepatitis B is excluded; it remains inappropriate for rapid start before those results. The change is supported by DOLCE, an open-label phase 4 trial of 229 treatment-naive adults with CD4 counts at or below 200 cells/mm3. At week 48, HIV RNA was below 50 copies/mL in 125/152 (82.2%) receiving dolutegravir/lamivudine and 62/77 (80.5%) receiving dolutegravir plus tenofovir and emtricitabine or lamivudine, adjusted difference 2.0 percentage points (95% CI -8.7 to 12.8). Among 35 dual-therapy participants with baseline HIV RNA above 500,000 copies/mL, 26/35 (74.3%, 95% CI 56%-87%) achieved suppression; no treatment-emergent integrase or NRTI resistance was found among 11 successfully genotyped nonresponses.",
+    change: "Baseline HIV RNA above 500,000 copies/mL is no longer by itself a reason to avoid initial dolutegravir/lamivudine. The update also adds boosted darunavir plus lamivudine or emtricitabine as a two-drug option when tenofovir and abacavir cannot be used, adds doravirine/islatravir as an optimization option for selected suppressed patients, advises against switching to dolutegravir/lamivudine or a boosted protease inhibitor plus lamivudine or emtricitabine when historical M184V/I is present, and recommends hepatitis D testing for people with HIV and chronic hepatitis B.",
+    takeaway: "Dolutegravir/lamivudine can now be offered as initial therapy despite very high baseline HIV RNA, but only after confirming no relevant reverse-transcriptase resistance and excluding chronic hepatitis B. It is still not a rapid-start regimen while genotype and HBV results are pending, and it should not be used as a switch strategy when historical M184V/I is documented. Continue to account for prior long-acting cabotegravir PrEP exposure and obtain integrase resistance testing when indicated.",
+    limitations: "The viral-load expansion rests heavily on DOLCE, a 48-week open-label phase 4 trial that randomized 230 participants for comparative secondary objectives and was not originally designed as a formal noninferiority trial; noninferiority was assessed post hoc. Only 53 participants had baseline HIV RNA at or above 500,000 copies/mL, including 35 assigned dual therapy, so precision in the highest-viremia subgroup is limited. Resistance testing after nonresponse was successful in only 11/27 cases. The recommendation does not apply to chronic HBV, relevant baseline resistance, rapid start before results, or prior long-acting cabotegravir exposure without appropriate integrase resistance assessment.",
+    link: "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-arv/whats-new"
+  },
+  {
     id: "melioidosis-eradication-omission-pilot-2026",
     date: "2026-09-28",
     title: "Omitting the eradication phase of treatment of adults with melioidosis: a pilot, single-center, randomized control trial",
