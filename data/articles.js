@@ -1,5 +1,19 @@
 window.ID_ARTICLES = [
   {
+    id: "who-dr-tb-six-month-regimens-2026",
+    date: "2026-09-25",
+    title: "WHO consolidated guidelines on tuberculosis: module 4: treatment and care, 2nd edition",
+    type: "WHO consolidated clinical guideline",
+    journal: "World Health Organization",
+    impact: "Practice changing",
+    tags: ["Tuberculosis", "Multidrug-resistant tuberculosis", "Rifampicin-resistant tuberculosis", "Antimicrobial therapy", "Antimicrobial duration", "Drug susceptibility testing", "Pregnancy", "HIV", "Guidelines", "Outpatient ID"],
+    summary: "WHO now adds a six-month pretomanid-free strategy based on bedaquiline, delamanid, linezolid, levofloxacin, and clofazimine (BDLLfxC) for eligible multidrug- or rifampicin-resistant TB when BPaLM/BPaL cannot be used, including during pregnancy or breastfeeding. The supporting South African phase 3 open-label noninferiority trial randomized 403 people aged at least six years; successful outcome occurred in 174/202 (86.1%) evaluable participants assigned the six-month strategy and 172/200 (86.0%) assigned the nine-month standard strategy, adjusted risk difference -0.2 percentage points (95% CI -6.9 to 6.5; P=.001 for noninferiority). Grade 3 or higher adverse events occurred in 63/202 (31.2%) versus 74/200 (37.0%), and 10 participants in each group died.",
+    change: "BPaLM remains WHO's preferred initial six-month regimen for eligible adults and adolescents aged at least 14 years. When pretomanid is unavailable, contraindicated, or inappropriate, start BDLLfxC without waiting for fluoroquinolone susceptibility results, then drop clofazimine if the isolate is fluoroquinolone susceptible or drop levofloxacin if it is resistant; if testing is unavailable, continue all five drugs. Treat for at least 24 weeks, with extension to 36 weeks when clinical or bacteriologic response is inadequate by month four. The new pathway broadens six-month treatment to pregnancy, breastfeeding, younger patients, severe pulmonary disease, and pre-XDR-TB, but not CNS, osteoarticular, or disseminated multiorgan TB.",
+    takeaway: "For newly diagnosed MDR/RR-TB, obtain rapid fluoroquinolone and component-drug susceptibility testing but do not delay an effective all-oral regimen. Use BPaLM when eligible; use the pretomanid-free BDLLfxC pathway when pregnancy, breastfeeding, age, access, intolerance, or another contraindication prevents BPaLM. Review susceptibility promptly to simplify to BDLLfx or BDLC, and monitor blood counts, neuropathy and vision, QT interval, hepatic function, adherence, cultures, and drug interactions with TB and HIV experts and public health.",
+    limitations: "The new BDLLfxC recommendation depends mainly on one open-label South African noninferiority trial against the then-current nine-month regimen. Evidence was limited for fluoroquinolone-resistant disease, children, and pregnancy: only 30 participants were aged 8-17 years, 10 pregnancies occurred overall, and four pregnant participants received the study strategy, including one post-treatment relapse. Half the cohort had HIV, but applicability to other resistance patterns, drug access, monitoring systems, and epidemiologic settings requires judgment. The regimen is not recommended for CNS, osteoarticular, or disseminated multiorgan TB, and linezolid toxicity remains substantial.",
+    link: "https://www.who.int/publications/i/item/9789240125124"
+  },
+  {
     id: "nih-hiv-art-guidelines-september-2026",
     date: "2026-09-24",
     title: "Guidelines for the Use of Antiretroviral Agents in Adults and Adolescents With HIV: September 2026 update",
