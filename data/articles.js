@@ -1,5 +1,35 @@
 window.ID_ARTICLES = [
   {
+    id: "urinary-mycomeia-aspergillus-2026",
+    date: "2026-10-07",
+    title: "Performance of the Urinary MycoMEIA Aspergillus Assay as an Aid to Diagnose Invasive Aspergillosis",
+    type: "Case-control diagnostic accuracy study with prospective cohort",
+    journal: "Clinical Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Invasive aspergillosis", "Fungal infections", "Diagnostics", "Urine antigen", "Galactomannan", "Hematologic malignancy", "Transplant", "Immunocompromised hosts", "Inpatient ID"],
+    summary: "This evaluation of the recently FDA-cleared urinary MycoMEIA Aspergillus assay included a case-control study of 50 patients with proven or probable invasive aspergillosis and 240 controls, using 469 urine samples. At an optical-density-index cutoff of 0.6, sensitivity was 92.0% (95% CI 80.8%-97.8%) and specificity 87.6% (95% CI 82.8%-91.8%); the positive and negative likelihood ratios were 7.4 and 0.09. The assay was positive in 19/24 (79.2%) cases diagnosed by BAL or biopsy despite negative serum galactomannan. In a prospective cohort, 4/39 infection-free controls tested falsely positive, for specificity of 89.7% (95% CI 75.8%-97.1%).",
+    change: "A noninvasive urine assay can now provide independent evidence for or against invasive aspergillosis in high-risk adults, including patients with negative serum galactomannan. Modeled negative predictive value was 99.0% at a 10% pretest probability and 96.2% at a 30% pretest probability, but these values depend on prevalence and do not make the test a stand-alone rule-out. Among 21 cases sampled on or before clinical diagnosis, 13 (61.9%) were urine-positive before standard confirmation, with a median five-day lead time. A positive result remains an adjunct to imaging, respiratory sampling, culture, histopathology, and other fungal biomarkers rather than proof of disease.",
+    takeaway: "When the assay is available, consider urinary MycoMEIA as an adjunct in adults at meaningful risk for invasive aspergillosis, especially when serum galactomannan is negative or BAL is unsafe or delayed. Use the result to revise pretest probability rather than to diagnose or exclude infection by itself. Interpret low-positive results cautiously, look for other Ascomycete infection, and do not extrapolate the reported performance to routine screening, lung-transplant recipients, severe structural lung disease, or low-risk populations.",
+    limitations: "Most cases came from a selected case-control analysis using previously frozen urine, and 47/50 had probable rather than proven disease. Serum or BAL galactomannan helped define the reference diagnosis, limiting direct comparison and creating incorporation and spectrum bias. The prospective cohort contained only seven probable cases, so it could confirm specificity but not real-world sensitivity; 28/102 patients classified as possible invasive aspergillosis were urine-positive, but their true infection status was unresolved. Lung-transplant recipients were excluded from prospective analysis, anti-mold prophylaxis was uncommon, cross-reactivity occurred with other Ascomycetes, and the manufacturer funded the study with several authors holding financial interests.",
+    link: "https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciag522/8874132",
+    doi: "10.1093/cid/ciag522"
+  },
+  {
+    id: "teseo-short-course-benznidazole-chagas-2026",
+    date: "2026-09-22",
+    title: "Efficacy and safety of alternative benznidazole and nifurtimox regimens for adults with chronic Trypanosoma cruzi infection (TESEO): an open-label, randomised, non-inferiority phase 2b trial",
+    type: "Open-label randomized noninferiority phase 2b trial",
+    journal: "The Lancet Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Chagas disease", "Trypanosoma cruzi", "Benznidazole", "Nifurtimox", "Antimicrobial duration", "Antimicrobial safety", "Tropical infections", "Outpatient ID"],
+    summary: "TESEO randomized 450 Bolivian adults with qPCR-confirmed chronic indeterminate or early cardiac Trypanosoma cruzi infection across six benznidazole or nifurtimox regimens. Sustained qPCR clearance through 36 months occurred in 69/73 (95%) participants receiving standard benznidazole 150 mg twice daily for 60 days and 68/72 (94%) receiving 150 mg once daily for 30 days. The prespecified longitudinal analysis met the -9.5-percentage-point noninferiority margin: risk difference -2.0 percentage points (97.5% CI -5.41 to 1.45). Drug-related adverse events occurred in 45/75 (60%) versus 28/75 (37%), risk difference -23 percentage points (95% CI -38 to -7; adjusted P=.022).",
+    change: "A 30-day once-daily benznidazole regimen used one quarter of the standard total dose while preserving sustained molecular clearance and reducing drug-related adverse events. Treatment was completed without interruption by 83% of the 30-day group versus 60% with standard therapy. The result is strong evidence that current 60-day twice-daily dosing may be more intensive than necessary, but this phase 2b trial used a parasitologic surrogate and explicitly calls for phase 3 confirmation before guideline incorporation.",
+    takeaway: "For adults with chronic indeterminate or early cardiac Chagas disease, TESEO makes benznidazole 150 mg once daily for 30 days the leading shorter-course strategy for further adoption. It is not yet a universal replacement for guideline-based dosing: until phase 3 or guideline endorsement, use the trial to support specialist-guided shared decisions when toxicity, access, or completion threatens standard therapy, and continue clinical, ECG, laboratory, and post-treatment follow-up rather than treating qPCR clearance as proof that long-term cardiac risk has been eliminated.",
+    limitations: "This was an open-label phase 2b trial at three Bolivian centers in adults aged 18-50 years who weighed 40-90 kg and had indeterminate or early cardiac disease. The primary efficacy endpoint was sustained blood qPCR negativity, not prevention of cardiomyopathy, gastrointestinal disease, stroke, or death. Applicability across Trypanosoma cruzi genotypes, regions, older adults, advanced cardiac disease, pregnancy, immunosuppression, and congenital infection is uncertain. Follow-up was 36 months, and the reduced regimen has not yet been confirmed in a phase 3 trial or incorporated into major treatment guidelines.",
+    link: "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00436-6/abstract",
+    doi: "10.1016/S1473-3099(26)00436-6"
+  },
+  {
     id: "who-dr-tb-six-month-regimens-2026",
     date: "2026-09-25",
     title: "WHO consolidated guidelines on tuberculosis: module 4: treatment and care, 2nd edition",
