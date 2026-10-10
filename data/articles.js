@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "tongue-swab-tb-community-screening-2026",
+    date: "2026-10-09",
+    title: "Tongue Swab Mycobacterium tuberculosis Quantitative Polymerase Chain Reaction for Community Screening of Asymptomatic Tuberculosis Versus Clinic-Based Triage of Symptomatic Tuberculosis",
+    type: "Multicenter diagnostic accuracy study",
+    journal: "Clinical Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Tuberculosis", "Diagnostics", "Tongue swab", "Polymerase chain reaction", "Community screening", "Household contacts", "HIV", "Outpatient ID"],
+    summary: "At six South African sites, investigators compared tongue-swab Mycobacterium tuberculosis qPCR in 180 adult household contacts, including 44 with microbiologically confirmed TB, with testing in 654 symptomatic clinic attendees, including 217 with TB. High-volume qPCR sensitivity was 15/44 (34.1%, 95% CI 20.5%-49.9%) in household contacts versus 67/105 (63.8%, 95% CI 53.9%-73.0%) in a propensity-matched clinic subset (P=.0007); specificity was 125/136 (91.9%) and 201/213 (94.4%), respectively. Among asymptomatic household contacts with TB, sensitivity was 13/37 (35.1%).",
+    change: "Tongue-swab molecular testing cannot be assumed to retain its clinic-triage performance when used for community screening of early, paucibacillary TB. Among household contacts, sensitivity was 52.2% with an abnormal chest radiograph but 15.0% with a normal radiograph (P=.011), and it was only 2/8, 1/9, and 1/8 at low, very-low, and trace sputum Xpert Ultra grades. Adding tongue-swab qPCR to symptom plus chest-radiograph screening increased sensitivity only from 55% to 61%, although adding it to symptom screening when radiography was unavailable increased yield from 16% to 46%.",
+    takeaway: "Do not use a negative tongue-swab qPCR result to exclude TB in asymptomatic household contacts or as a stand-alone community-screening test. The result does not overturn the WHO-endorsed role of tongue swabs with near-point-of-care platforms for selected people unable to produce sputum, but that indication was not tested here. For community case finding, retain radiographic and sputum-based pathways when feasible and require population-specific validation before extrapolating performance from symptomatic clinic cohorts.",
+    limitations: "Only 44 household contacts had microbiologically confirmed TB, including 37 who were asymptomatic, so subgroup estimates were imprecise. Household-contact specimens were tested only with laboratory-based high-volume qPCR, not the newer sequence-specific magnetic-capture or WHO-endorsed near-point-of-care platforms. The two cohorts differed in disease severity and were tested on different instruments; chest radiographs were read once by site investigators. All participants could expectorate sputum, so performance in people unable to produce sputum was not evaluated, and the sputum culture/Xpert reference standard may misclassify some discordant tongue-swab results.",
+    link: "https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciag443/8889072",
+    doi: "10.1093/cid/ciag443"
+  },
+  {
     id: "urinary-mycomeia-aspergillus-2026",
     date: "2026-10-07",
     title: "Performance of the Urinary MycoMEIA Aspergillus Assay as an Aid to Diagnose Invasive Aspergillosis",
