@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "recurrent-relapsing-crbsi-long-term-access-2026",
+    date: "2026-10-10",
+    title: "Recurrent and Relapsing Catheter-Related Bloodstream Infections in Patients Requiring Long-term Vascular Access",
+    type: "State-of-the-art review",
+    journal: "Clinical Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Catheter-related bloodstream infection", "Bacteremia", "Central venous catheter", "Source control", "Antimicrobial lock therapy", "Long-term vascular access", "Diagnostics", "Inpatient ID", "OPAT"],
+    summary: "This state-of-the-art review synthesizes evidence and expert guidance through June 2026 for adults and children with recurrent or relapsing infection involving long-term vascular access. It emphasizes paired peripheral and catheter blood cultures: catheter cultures turning positive at least two hours earlier support catheter-related bloodstream infection, with reported sensitivity and specificity of 98% and 89% in prolonged catheterization, although sensitivity for Staphylococcus aureus was only 42% despite 100% specificity in one port-heavy study. The review recommends catheter removal for S. aureus, Candida species, mycobacteria, persistent bloodstream infection, hemodynamic instability, metastatic infection, suppurative thrombophlebitis, tunnel infection, port-pocket abscess, or relapse after directed therapy.",
+    change: "For a stable patient with a less virulent organism and severely limited access, the authors provide a practical salvage pathway: systemic therapy plus antimicrobial lock therapy for 7-14 days, with lock dwell for at least 12 hours daily, repeat paired cultures by treatment day 3, and cultures 1-2 days after treatment when the catheter is retained or exchanged. If a new long-term catheter is needed after removal, they suggest waiting for day-3 cultures to remain negative for at least three days. For high-risk patients needing repeated access, antibiotic-impregnated PICCs reduced CRBSI in a meta-analysis (RR 0.30, 95% CI 0.19-0.49), whereas antiseptic-coated PICCs did not show a clear benefit (RR 0.61, 95% CI 0.04-8.55).",
+    takeaway: "For recurrent or relapsing CRBSI, first confirm the source with properly timed paired cultures and look for an uncorrected pocket, tunnel, thrombus, endovascular, or metastatic focus. Remove the catheter when the organism or clinical course makes eradication unlikely. Reserve salvage with systemic plus lock therapy for stable patients with less virulent organisms and a compelling access-preservation need, using early and post-treatment cultures to detect failure. Involve vascular access or interventional radiology early rather than losing future venous pathways through serial unplanned replacements.",
+    limitations: "This is a narrative expert review rather than a guideline, systematic review, or new patient cohort. The authors state that few, if any, randomized trials address recurrent or relapsing CRBSI; several management details therefore reflect expert opinion, observational data, in vitro lock studies, or extrapolation from general CRBSI guidance. No prospective study has compared guidewire exchange with catheter retention plus lock therapy or compared standard with antibiotic-impregnated replacement catheters in this setting. The coated-PICC meta-analysis was not specific to adults with recurrent infection, and lock choice, concentration, compatibility, and duration require local pharmacy and catheter expertise.",
+    link: "https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciag559/8899426",
+    doi: "10.1093/cid/ciag559"
+  },
+  {
     id: "tongue-swab-tb-community-screening-2026",
     date: "2026-10-09",
     title: "Tongue Swab Mycobacterium tuberculosis Quantitative Polymerase Chain Reaction for Community Screening of Asymptomatic Tuberculosis Versus Clinic-Based Triage of Symptomatic Tuberculosis",
