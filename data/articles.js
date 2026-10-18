@@ -268,6 +268,21 @@ window.ID_ARTICLES = [
     doi: "10.1093/ofid/ofag568"
   },
   {
+    id: "solario-short-systemic-antibiotics-orthopedics-2026",
+    date: "2026-09-16",
+    title: "Short or Long Antibiotic Regimens in Orthopedics",
+    type: "Multicenter open-label randomized noninferiority trial",
+    journal: "The New England Journal of Medicine",
+    impact: "Practice changing",
+    tags: ["Bone and joint infection", "Orthopedic infection", "Osteomyelitis", "Prosthetic joint infection", "Diabetic foot infection", "Local antibiotics", "Antimicrobial duration", "Source control", "Stewardship", "Inpatient ID"],
+    summary: "SOLARIO randomized 500 adults at 25 European sites after surgery for confirmed orthopedic infection and implantation of a local-antibiotic carrier to no more than 7 days or at least 4 weeks of systemic antibiotics. In the primary analysis of 475 participants, definite treatment failure by 12 months occurred in 26/234 (11.1%) with short therapy and 34/241 (14.1%) with long therapy; the risk difference was -3.0 percentage points (95% CI -9.0 to 3.0), meeting the prespecified 10-point noninferiority margin.",
+    change: "Median systemic-antibiotic duration was 5 days with the short regimen and 37 days with the long regimen. Potential treatment-related symptoms by week 6 occurred in 17.2% versus 45.2%, respectively (risk difference -28.0 percentage points). After adequate orthopedic source control with an implanted local-antibiotic carrier active against the recovered organism, extending systemic therapy for weeks did not improve 12-month treatment failure and caused substantially more treatment burden.",
+    takeaway: "Do not translate this result to '7 days for all prosthetic joint infection or osteomyelitis.' Consider no more than 7 systemic-antibiotic days only after adequate operative source control with an implanted local-antibiotic carrier whose drug or drugs cover the recovered organism, using a multidisciplinary protocol. Continue syndrome-appropriate systemic therapy when infected material is retained, source control is incomplete, local delivery is absent or inactive, or another infection requires systemic treatment.",
+    limitations: "The trial was open-label, included heterogeneous infections, operations, and local carriers, and enrolled more than half of participants at the lead Oxford site. Every participant received an implanted local-antibiotic carrier, organisms resistant to the locally delivered antibiotic were excluded, and the noninferiority margin allowed up to a 10-percentage-point difference. Twelve-month follow-up may miss later relapse. The results cannot be generalized to usual surgery without local antibiotic delivery, retained infected prostheses or hardware, or inadequate source control, and the trial cannot separate the contribution of surgery from that of the carrier.",
+    link: "https://www.nejm.org/doi/full/10.1056/NEJMoa2506756",
+    doi: "10.1056/NEJMoa2506756"
+  },
+  {
     id: "dalbavancin-dots-economic-outcomes-2026",
     date: "2026-09-17",
     title: "Economic Outcomes of Dalbavancin versus Standard Therapy in Staphylococcus aureus Bacteremia in the DOTS Randomized Clinical Trial",
