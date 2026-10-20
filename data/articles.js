@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "minocycline-edta-ethanol-lock-clabsi-rct-2026",
+    date: "2026-10-16",
+    title: "Randomized Trial Comparing Minocycline-EDTA-Ethanol Lock to Standard-of-Care Antibiotic Lock for Management of Central Line-Associated Bloodstream Infection",
+    type: "International multicenter open-label, assessor-blinded randomized superiority trial",
+    journal: "Clinical Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Catheter-related bloodstream infection", "Central venous catheter", "Antimicrobial lock therapy", "Source control", "Bacteremia", "Long-term vascular access", "Hemodialysis", "Oncology", "Inpatient ID"],
+    summary: "At 34 centers in the United States, Puerto Rico, and India, investigators randomized 241 patients aged at least 12 years with CLABSI and a long-term central venous catheter to systemic antibiotics plus minocycline-EDTA-25% ethanol lock therapy or a site-specific standard-of-care antimicrobial lock; 228 received study lock therapy. Catheter retention was 57% with minocycline-EDTA-ethanol versus 38% with standard lock therapy (P=.0025). Median time to catheter failure was not estimable versus 33 days in the intention-to-treat analysis (hazard ratio 0.53; P=.0006) and not estimable versus 35 days in the modified intention-to-treat analysis (hazard ratio 0.50; P=.0005).",
+    change: "Clinical catheter failure, defined by death, infection-related catheter removal, or worsening symptoms, occurred in 13% versus 28% (P=.006), and microbiologic failure, defined by persistent or recurrent infection or a new attributable deep infection, occurred in 5% versus 15% (P=.012). Adverse events, serious adverse events, and mortality were similar, with no drug-related serious adverse events. For selected patients in whom long-term catheter salvage is appropriate, this proprietary lock strategy improved retention and reduced clinical and microbiologic failure compared with locally selected antimicrobial locks.",
+    takeaway: "This trial supports minocycline-EDTA-ethanol lock plus active systemic antibiotics as a promising catheter-salvage strategy when retaining long-term access is clinically appropriate. It does not justify retaining a catheter when there is hemodynamic instability, persistent bloodstream infection, metastatic infection, tunnel or pocket infection, or another organism- or syndrome-specific indication for removal. Mino-Lok remains an investigational product without FDA approval, so the result is practice informing rather than an immediately implementable standard.",
+    limitations: "Treatment was open label, 13/241 randomized patients did not receive lock therapy, and the comparator was a heterogeneous site-specific antimicrobial lock rather than one standardized regimen. The composite primary endpoint included death and clinical deterioration as well as infection-specific events. Generalizability to individual pathogens and high-risk syndromes requiring catheter removal is uncertain. Citius Pharmaceuticals funded the trial, company employees were authors, and the proprietary formulation is still in clinical development rather than commercially approved in the United States.",
+    link: "https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciag660/8931553",
+    doi: "10.1093/cid/ciag660"
+  },
+  {
     id: "linezolid-restriction-vre-resistance-mortality-2026",
     date: "2026-10-16",
     title: "Antibiotic Stewardship, Resistance, and Mortality in Vancomycin-Resistant Enterococcus: A Quasi-Experimental Study of Linezolid Restrictions",
