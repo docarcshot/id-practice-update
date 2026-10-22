@@ -79,3 +79,11 @@ The tuberculosis primer covers diagnosis, mimics, preventive treatment, standard
 The September 15 clinical, language, and relevance review of all four published lectures is recorded in `lectures/Lecture_Review_2026-09-15.md`. The lecture catalog reflects the revised versions.
 
 The September 21 review of all ten published modules is recorded in `lectures/Lecture_Review_2026-09-21.md`. Full lectures now have a 30–45-minute resident core and visible advanced teaching below; short lectures retain a 10–20-minute core. Core, complete-reference, and rounds-sheet print options are available in the full modules.
+
+## Readership analytics
+
+All published HTML pages load `analytics.js` with GA4 measurement ID `G-G7MEM66FN8`. Include the same script in new lecture pages (use `../analytics.js` from `lectures/`). The shared property and default first-party cookie let GA4 estimate distinct browsers across pages and dates. Tracking runs only on the production GitHub Pages host and project path, not downloaded HTML or local previews. Google signals and advertising personalization are disabled.
+
+Report **Total users** over the complete calendar month and separately over January 1 through the end of that month. Do not sum daily or monthly unique-user counts, and do not substitute Active users or Sessions. These are browser-based estimates, not verified people. Collection begins after deployment; earlier readership cannot be recovered.
+
+Monthly email reports still require configuration in the owner's Google Analytics account. The public measurement ID permits collection, not report access or email scheduling. Verify receipt in Realtime, set the property timezone to America/Chicago, then configure reports and recipients in the Analytics interface. See https://support.google.com/analytics/answer/13722168 for scheduled report settings.
