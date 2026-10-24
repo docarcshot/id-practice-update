@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "cefepime-zidebactam-carbapenem-resistant-mbl-phase2-2026",
+    date: "2026-10-23",
+    title: "Cefepime-Zidebactam for Infections Caused by Carbapenem-Resistant Gram-Negative Bacteria, Including Metallo-beta-Lactamase Producers: A Phase 2, Open-Label, Single-Arm, Multicenter Study",
+    type: "Prospective multicenter open-label single-arm phase 2 trial",
+    journal: "Clinical Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Antimicrobial resistance", "Carbapenem-resistant Gram-negative bacteria", "Metallo-beta-lactamase", "NDM", "Cefepime-zidebactam", "Complicated UTI", "Pyelonephritis", "Antimicrobial therapy", "Inpatient ID"],
+    summary: "In this prospective phase 2 study, 72 adults with carbapenem-resistant Gram-negative infections received intravenous cefepime-zidebactam for 7-21 days; 68 entered the microbiologic intention-to-treat population and 60 were clinically and microbiologically evaluable. Metallo-beta-lactamases, predominantly NDM, were present in 56/68 qualifying isolates (82.4%), and 35/60 evaluable infections (58.3%) were complicated UTI or acute pyelonephritis. Investigator-assessed clinical cure at test of cure was 55/60 (91.7%, 95% CI 81.6%-97.2%), with a favorable microbiologic outcome in 54/60 (90.0%).",
+    change: "Among 49 evaluable participants with MBL-producing pathogens, clinical cure occurred in 46/49 (93.9%) and a favorable microbiologic outcome in 45/49 (91.8%). External adjudication was somewhat less favorable than investigator assessment: clinical cure in 52/60 (86.7%) and microbiologic success in 51/60 (85.0%). Two of 72 participants died by day 28 (2.8%); 11/72 (15.3%) had treatment-related adverse events and 2/72 (2.8%) had serious treatment-related adverse events. These data support cefepime-zidebactam as an active option for susceptible carbapenem-resistant isolates, including MBL/NDM producers, while providing only preliminary evidence outside its approved complicated-UTI indication.",
+    takeaway: "For an adult with a susceptible carbapenem-resistant Gram-negative infection, cefepime-zidebactam is now a clinically supported option, with especially relevant activity against MBL/NDM producers. Use the FDA-labeled dose with renal adjustment and organism-specific susceptibility testing. Do not infer comparative superiority or routinely extrapolate the high cure rate to bacteremia, pneumonia, or other non-urinary syndromes, which were represented by small numbers in this uncontrolled study.",
+    limitations: "This was a small, open-label, single-arm phase 2 study without an active comparator, and only 60/72 treated participants met the clinical and microbiologic evaluability criteria. Most evaluable infections were complicated UTI or acute pyelonephritis, leaving limited syndrome-specific evidence for other infection sites. Investigator-assessed outcomes were more favorable than external adjudication, and the selected trial population and short follow-up limit conclusions about comparative effectiveness, resistance emergence, and uncommon harms.",
+    link: "https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciag665/8993844",
+    doi: "10.1093/cid/ciag665"
+  },
+  {
     id: "minocycline-edta-ethanol-lock-clabsi-rct-2026",
     date: "2026-10-16",
     title: "Randomized Trial Comparing Minocycline-EDTA-Ethanol Lock to Standard-of-Care Antibiotic Lock for Management of Central Line-Associated Bloodstream Infection",
