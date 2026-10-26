@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "fda-hibsago-bepirovirsen-chronic-hepatitis-b-2026",
+    date: "2026-10-20",
+    title: "FDA Approves First-of-Its-Kind Chronic Hepatitis B Treatment",
+    type: "FDA regulatory approval supported by two phase 3 randomized double-blind placebo-controlled trials",
+    journal: "U.S. Food and Drug Administration",
+    impact: "Practice changing",
+    tags: ["Hepatitis B", "Bepirovirsen", "Hibsago", "Antiviral therapy", "Functional cure", "Regulatory update", "Monitoring", "Outpatient ID", "HIV / Viral Hepatitis"],
+    summary: "The FDA approved Hibsago (bepirovirsen), the first HBV mRNA-directed antisense oligonucleotide, in combination with nucleos(t)ide analogue reverse-transcriptase inhibitor therapy for selected adults with chronic hepatitis B without cirrhosis. In the identically designed B-Well 1 and B-Well 2 phase 3 trials, 1,834 treated participants had baseline HBsAg greater than 100 to 3,000 IU/mL and suppressed HBV DNA. Twenty-four weeks after eligible participants stopped all HBV therapy, sustained HBV DNA suppression with undetectable HBsAg occurred in 127/650 (20%) versus 0/328 in B-Well 1 and 106/570 (19%) versus 0/286 in B-Well 2; stratified rate differences were 17 percentage points (95% CI 14.6-20.3) and 13 points (95% CI 10.4-16.1), respectively (both P<.0001).",
+    change: "Bepirovirsen creates the first FDA-approved finite-treatment pathway that can permit a subset of carefully selected adults with chronic HBV to stop long-term nucleos(t)ide analogue therapy. The labeled regimen is 300 mg subcutaneously twice weekly during weeks 1-2, then weekly through week 24, while continuing background HBV therapy for at least another 24 weeks. Of 1,220 bepirovirsen recipients across both trials, 295 (24%) met the protocol criteria to stop background therapy; 233/295 (79%) met the primary endpoint 24 weeks later, equivalent to 19% of all bepirovirsen recipients, and 211/233 (91%) maintained the response through week 96.",
+    takeaway: "Consider Hibsago only for adults without cirrhosis who have received stable nucleos(t)ide analogue therapy for at least six months, have suppressed HBV DNA, and have HBsAg no higher than 3,000 IU/mL on an FDA-authorized assay. Before and during therapy, follow HBsAg, HBV DNA, ALT, bilirubin, platelets, eGFR, and urine albumin-creatinine ratio; the label requires at least weekly liver tests through week 12, weekly platelets, and eGFR every other week. Continue background therapy for at least 24 weeks after Hibsago, then stop it only if all label criteria are met and frequent post-treatment monitoring can be assured. Do not stop an HIV-active nucleos(t)ide regimen without HIV-specific review.",
+    limitations: "Only about one in five treated participants achieved the off-treatment primary endpoint. The trials excluded cirrhosis; HIV, HCV, and HDV coinfection; eGFR at or below 60 mL/min/1.73 m2; and platelets below 140 x 10^9/L, limiting generalizability. The endpoint was assessed 24 weeks after treatment cessation rather than over years and does not establish sterilizing cure or prevention of cirrhosis or hepatocellular carcinoma. The label carries boxed warnings for serious hepatic reactions and thrombocytopenia, and injection-site reactions occurred in 57% with Hibsago versus 15% with placebo; intensive laboratory monitoring is required.",
+    link: "https://www.fda.gov/news-events/press-announcements/fda-approves-first-its-kind-chronic-hepatitis-b-treatment",
+    doi: "10.1056/NEJMoa2515131"
+  },
+  {
     id: "cefepime-zidebactam-carbapenem-resistant-mbl-phase2-2026",
     date: "2026-10-23",
     title: "Cefepime-Zidebactam for Infections Caused by Carbapenem-Resistant Gram-Negative Bacteria, Including Metallo-beta-Lactamase Producers: A Phase 2, Open-Label, Single-Arm, Multicenter Study",
