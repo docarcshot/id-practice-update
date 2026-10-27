@@ -57,4 +57,18 @@ button:focus-visible,a:focus-visible,select:focus-visible,summary:focus-visible,
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
-.lecture-sidebar-link{margin-bottom:10px;border:1px solid var(--line);border-radius:11px;background:var(--surface);min-height:54px}.lecture-sidebar-link span{color:var(--accent);font-size:13px}
+/* Keep teaching visible in the header and alongside the literature feed. */
+.nav{align-items:center}
+.nav .nav-lectures{display:inline-flex;align-items:center;justify-content:center;min-height:36px;padding:8px 14px;border-radius:7px;background:var(--accent);color:#fff;font-size:13px;font-weight:750}
+.nav .nav-lectures:hover{background:#154632;color:#fff}
+.lecture-sidebar-link{margin-bottom:10px;border:1px solid #9bbbaa;border-left:4px solid var(--accent);border-radius:9px;background:var(--accent-soft);min-height:64px;padding:12px}
+.lecture-sidebar-link:hover{background:#d5e6dc}
+.lecture-sidebar-link span{color:var(--accent);font-size:16px;font-weight:800}
+.lecture-sidebar-link small{color:#3f594b;font-size:11px}
+@media(max-width:760px){
+  .header-inner{flex-wrap:wrap;padding-top:9px;padding-bottom:6px;gap:5px}
+  .nav{width:100%;justify-content:space-between;gap:2px}
+  .nav .nav-lectures{min-height:44px;padding:7px 10px;font-size:13px}
+  html{scroll-padding-top:110px}
+  .article-card{scroll-margin-top:110px}
+}
