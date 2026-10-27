@@ -61,6 +61,8 @@ From a full checkout containing the committed accepted entries, run:
 node scripts/prepare-site.mjs
 node scripts/validate-site.mjs
 node --test scripts/ui-core.test.mjs
+node scripts/lecture-links.mjs
+node --test scripts/lecture-links.test.mjs
 node scripts/generate-rss.mjs
 ```
 
@@ -71,6 +73,8 @@ Then open `index.html` directly, or serve the folder with a static HTTP server. 
 The GitHub Actions workflow checks out the complete history, generates metadata, validates content and assets, runs the focused behavior checks, generates RSS, and deploys to GitHub Pages whenever `main` changes. No package installation is required. A failed validation leaves the previous deployment in place.
 
 ## Lectures
+
+New and revised modules must follow [the lecture cross-link maintenance protocol](docs/lecture-link-protocol.md). Publication checks reject broken local lecture links, removed anchors, and stale cross-link review records. Editorial review is still required to confirm that links point to the appropriate discussion.
 
 `lectures/index.html` lists the current resident, fellow and attending teaching modules. The homepage sidebar links to this page. Modules retain their source content, review status, self-contained styles, and print behavior; a print-hidden navigation bar links back to the lecture list and digest. Update the corresponding HTML and catalog version date together when a revised lecture is supplied.
 

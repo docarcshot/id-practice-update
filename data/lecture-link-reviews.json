@@ -1,0 +1,262 @@
+{
+  "lectures/Antibiotic_Resistance_and_Resistant_Organisms.html": {
+    "sha256": "0212114ef9133134260b011c19aa87202843e95949db4bd5ae7ff58c15eeeba8",
+    "reviewedOn": "2026-10-27",
+    "relatedModulesReviewed": [
+      "lectures/Antibiotics_Practical_Primer_Inpatient_Resident.html",
+      "lectures/Asymptomatic_Bacteriuria_Short_Module.html",
+      "lectures/Bone_and_Joint_Infections_Septic_Arthritis_PJI_Osteomyelitis.html",
+      "lectures/Gram_Negative_Bacteria_Species_Matter.html",
+      "lectures/Helicobacter_Pylori_Diagnosis_Treatment_and_Resistance.html",
+      "lectures/OPAT_Primer_Short_Module.html",
+      "lectures/Positive_Blood_Cultures_Contaminant_Source_Clearance_Source_Control.html",
+      "lectures/Recurrent_UTI_Evaluation_and_Prevention.html"
+    ],
+    "incomingLinksReviewed": true,
+    "outgoingLinksReviewed": true,
+    "catalogReviewed": true,
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved."
+  },
+  "lectures/Antibiotics_Practical_Primer_Inpatient_Resident.html": {
+    "sha256": "83512c27d6839018885815da9aab5c3e409446dc61d3bbb10d1a2bbe3a1d4cac",
+    "reviewedOn": "2026-10-27",
+    "relatedModulesReviewed": [
+      "lectures/Antibiotic_Resistance_and_Resistant_Organisms.html",
+      "lectures/Bone_and_Joint_Infections_Septic_Arthritis_PJI_Osteomyelitis.html",
+      "lectures/Fever_in_the_Hospitalized_Patient_Short_Module.html",
+      "lectures/Gram_Negative_Bacteria_Species_Matter.html",
+      "lectures/Helicobacter_Pylori_Diagnosis_Treatment_and_Resistance.html",
+      "lectures/OPAT_Primer_Short_Module.html",
+      "lectures/Penicillin_Allergy_Short_Module.html",
+      "lectures/Recurrent_UTI_Evaluation_and_Prevention.html"
+    ],
+    "incomingLinksReviewed": true,
+    "outgoingLinksReviewed": true,
+    "catalogReviewed": true,
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved."
+  },
+  "lectures/Antifungals_Practical_Primer_Resident_Fellow.html": {
+    "sha256": "7ce5c13ed2901895e777c090f1bc1b7bad7caf24c3fc2480ed0e1db2d9778239",
+    "reviewedOn": "2026-10-27",
+    "relatedModulesReviewed": [
+      "lectures/HIV_Diagnosis_ART_Prevention_and_Opportunistic_Infections.html",
+      "lectures/Nontuberculous_Mycobacterial_Infections.html",
+      "lectures/OPAT_Primer_Short_Module.html",
+      "lectures/Positive_Blood_Cultures_Contaminant_Source_Clearance_Source_Control.html",
+      "lectures/Tuberculosis_Standard_Treatment_and_Newer_Avenues.html"
+    ],
+    "incomingLinksReviewed": true,
+    "outgoingLinksReviewed": true,
+    "catalogReviewed": true,
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved."
+  },
+  "lectures/Asymptomatic_Bacteriuria_Short_Module.html": {
+    "sha256": "54a2be6d3e766e8a0ef31ad1aea1851833b9a846ea2c27a09baa9f95442165bb",
+    "reviewedOn": "2026-10-27",
+    "relatedModulesReviewed": [
+      "lectures/Antibiotic_Resistance_and_Resistant_Organisms.html",
+      "lectures/Fever_in_the_Hospitalized_Patient_Short_Module.html",
+      "lectures/Fever_of_Unknown_Origin_Resident_Fellow_Module.html",
+      "lectures/Recurrent_UTI_Evaluation_and_Prevention.html"
+    ],
+    "incomingLinksReviewed": true,
+    "outgoingLinksReviewed": true,
+    "catalogReviewed": true,
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved."
+  },
+  "lectures/Bone_and_Joint_Infections_Septic_Arthritis_PJI_Osteomyelitis.html": {
+    "sha256": "4525b6958d2eda00e03814435fa0304ee29fba57f520bdb2ed4a3b843ae0ac65",
+    "reviewedOn": "2026-10-27",
+    "relatedModulesReviewed": [
+      "lectures/Antibiotic_Resistance_and_Resistant_Organisms.html",
+      "lectures/Antibiotics_Practical_Primer_Inpatient_Resident.html",
+      "lectures/Fever_of_Unknown_Origin_Resident_Fellow_Module.html",
+      "lectures/Gram_Negative_Bacteria_Species_Matter.html",
+      "lectures/Nontuberculous_Mycobacterial_Infections.html",
+      "lectures/OPAT_Primer_Short_Module.html",
+      "lectures/Penicillin_Allergy_Short_Module.html",
+      "lectures/Positive_Blood_Cultures_Contaminant_Source_Clearance_Source_Control.html"
+    ],
+    "incomingLinksReviewed": true,
+    "outgoingLinksReviewed": true,
+    "catalogReviewed": true,
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved."
+  },
+  "lectures/Fever_in_the_Hospitalized_Patient_Short_Module.html": {
+    "sha256": "c09dabcb25d5bca0bf8831e330d7efca935202354d9761d326e94e654559cab1",
+    "reviewedOn": "2026-10-27",
+    "relatedModulesReviewed": [
+      "lectures/Antibiotics_Practical_Primer_Inpatient_Resident.html",
+      "lectures/Asymptomatic_Bacteriuria_Short_Module.html",
+      "lectures/Fever_of_Unknown_Origin_Resident_Fellow_Module.html",
+      "lectures/Positive_Blood_Cultures_Contaminant_Source_Clearance_Source_Control.html"
+    ],
+    "incomingLinksReviewed": true,
+    "outgoingLinksReviewed": true,
+    "catalogReviewed": true,
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved."
+  },
+  "lectures/Fever_of_Unknown_Origin_Resident_Fellow_Module.html": {
+    "sha256": "ce89c70bfc57cc8615ec3d807a1b4d8d9a91083e2b3d1db5bd0e9febbd139fec",
+    "reviewedOn": "2026-10-27",
+    "relatedModulesReviewed": [
+      "lectures/Asymptomatic_Bacteriuria_Short_Module.html",
+      "lectures/Bone_and_Joint_Infections_Septic_Arthritis_PJI_Osteomyelitis.html",
+      "lectures/Fever_in_the_Hospitalized_Patient_Short_Module.html",
+      "lectures/HIV_Diagnosis_ART_Prevention_and_Opportunistic_Infections.html",
+      "lectures/Tuberculosis_Standard_Treatment_and_Newer_Avenues.html"
+    ],
+    "incomingLinksReviewed": true,
+    "outgoingLinksReviewed": true,
+    "catalogReviewed": true,
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved."
+  },
+  "lectures/Gram_Negative_Bacteria_Species_Matter.html": {
+    "sha256": "d64ef0d91b3b89dc0a7d340faa61dd79d404563d0d8d52a1957f2f84930943fe",
+    "reviewedOn": "2026-10-27",
+    "relatedModulesReviewed": [
+      "lectures/Antibiotic_Resistance_and_Resistant_Organisms.html",
+      "lectures/Antibiotics_Practical_Primer_Inpatient_Resident.html",
+      "lectures/Bone_and_Joint_Infections_Septic_Arthritis_PJI_Osteomyelitis.html",
+      "lectures/Positive_Blood_Cultures_Contaminant_Source_Clearance_Source_Control.html",
+      "lectures/Recurrent_UTI_Evaluation_and_Prevention.html"
+    ],
+    "incomingLinksReviewed": true,
+    "outgoingLinksReviewed": true,
+    "catalogReviewed": true,
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Subsequently removed both planned-enteric-lecture references and retained the existing section anchor."
+  },
+  "lectures/HIV_Diagnosis_ART_Prevention_and_Opportunistic_Infections.html": {
+    "sha256": "fc796713b46a5e3fae0c29ae543613715c65c8a5cd72c8a6131bbb27b4117e3d",
+    "reviewedOn": "2026-10-27",
+    "relatedModulesReviewed": [
+      "lectures/Antifungals_Practical_Primer_Resident_Fellow.html",
+      "lectures/Fever_of_Unknown_Origin_Resident_Fellow_Module.html",
+      "lectures/Nontuberculous_Mycobacterial_Infections.html",
+      "lectures/Tuberculosis_Standard_Treatment_and_Newer_Avenues.html",
+      "lectures/Viral_Hepatitis_B_and_C_Workup_Treatment_and_Follow-up.html"
+    ],
+    "incomingLinksReviewed": true,
+    "outgoingLinksReviewed": true,
+    "catalogReviewed": true,
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved."
+  },
+  "lectures/Helicobacter_Pylori_Diagnosis_Treatment_and_Resistance.html": {
+    "sha256": "17e7481109aac03216d8f29f7ef72f1b0060384e5648b1cbf3881472569952dd",
+    "reviewedOn": "2026-10-27",
+    "relatedModulesReviewed": [
+      "lectures/Antibiotic_Resistance_and_Resistant_Organisms.html",
+      "lectures/Antibiotics_Practical_Primer_Inpatient_Resident.html",
+      "lectures/Penicillin_Allergy_Short_Module.html"
+    ],
+    "incomingLinksReviewed": true,
+    "outgoingLinksReviewed": true,
+    "catalogReviewed": true,
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved."
+  },
+  "lectures/Nontuberculous_Mycobacterial_Infections.html": {
+    "sha256": "8fd8db5bb8af2669f2ff17dac2be213b8dfbce8dafde6d4d8b39c5ad0246f726",
+    "reviewedOn": "2026-10-27",
+    "relatedModulesReviewed": [
+      "lectures/Antifungals_Practical_Primer_Resident_Fellow.html",
+      "lectures/Bone_and_Joint_Infections_Septic_Arthritis_PJI_Osteomyelitis.html",
+      "lectures/HIV_Diagnosis_ART_Prevention_and_Opportunistic_Infections.html",
+      "lectures/OPAT_Primer_Short_Module.html",
+      "lectures/Tuberculosis_Standard_Treatment_and_Newer_Avenues.html"
+    ],
+    "incomingLinksReviewed": true,
+    "outgoingLinksReviewed": true,
+    "catalogReviewed": true,
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved."
+  },
+  "lectures/OPAT_Primer_Short_Module.html": {
+    "sha256": "a4806181d864873f28bf4542f53df38d3d7795b556f4417b5db3f455ac012619",
+    "reviewedOn": "2026-10-27",
+    "relatedModulesReviewed": [
+      "lectures/Antibiotic_Resistance_and_Resistant_Organisms.html",
+      "lectures/Antibiotics_Practical_Primer_Inpatient_Resident.html",
+      "lectures/Antifungals_Practical_Primer_Resident_Fellow.html",
+      "lectures/Bone_and_Joint_Infections_Septic_Arthritis_PJI_Osteomyelitis.html",
+      "lectures/Nontuberculous_Mycobacterial_Infections.html",
+      "lectures/Positive_Blood_Cultures_Contaminant_Source_Clearance_Source_Control.html"
+    ],
+    "incomingLinksReviewed": true,
+    "outgoingLinksReviewed": true,
+    "catalogReviewed": true,
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved."
+  },
+  "lectures/Penicillin_Allergy_Short_Module.html": {
+    "sha256": "06271113535f8b9fbd7071f4757b4811d5a86a99fa6540b4cdc0c0b0f1c9f9de",
+    "reviewedOn": "2026-10-27",
+    "relatedModulesReviewed": [
+      "lectures/Antibiotics_Practical_Primer_Inpatient_Resident.html",
+      "lectures/Bone_and_Joint_Infections_Septic_Arthritis_PJI_Osteomyelitis.html",
+      "lectures/Helicobacter_Pylori_Diagnosis_Treatment_and_Resistance.html",
+      "lectures/Recurrent_UTI_Evaluation_and_Prevention.html"
+    ],
+    "incomingLinksReviewed": true,
+    "outgoingLinksReviewed": true,
+    "catalogReviewed": true,
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved."
+  },
+  "lectures/Positive_Blood_Cultures_Contaminant_Source_Clearance_Source_Control.html": {
+    "sha256": "8ab60904fcd5f06a9cc07998cb51e4d2205ab0de0c5b14c099c6ea96c0b7c6f2",
+    "reviewedOn": "2026-10-27",
+    "relatedModulesReviewed": [
+      "lectures/Antibiotic_Resistance_and_Resistant_Organisms.html",
+      "lectures/Antifungals_Practical_Primer_Resident_Fellow.html",
+      "lectures/Bone_and_Joint_Infections_Septic_Arthritis_PJI_Osteomyelitis.html",
+      "lectures/Fever_in_the_Hospitalized_Patient_Short_Module.html",
+      "lectures/Gram_Negative_Bacteria_Species_Matter.html",
+      "lectures/OPAT_Primer_Short_Module.html",
+      "lectures/Recurrent_UTI_Evaluation_and_Prevention.html"
+    ],
+    "incomingLinksReviewed": true,
+    "outgoingLinksReviewed": true,
+    "catalogReviewed": true,
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved."
+  },
+  "lectures/Recurrent_UTI_Evaluation_and_Prevention.html": {
+    "sha256": "88cc0f33faeef1ff8dca02a84a641b9c381f2d45a2716f8b1b397982af814464",
+    "reviewedOn": "2026-10-27",
+    "relatedModulesReviewed": [
+      "lectures/Antibiotic_Resistance_and_Resistant_Organisms.html",
+      "lectures/Antibiotics_Practical_Primer_Inpatient_Resident.html",
+      "lectures/Asymptomatic_Bacteriuria_Short_Module.html",
+      "lectures/Gram_Negative_Bacteria_Species_Matter.html",
+      "lectures/Penicillin_Allergy_Short_Module.html",
+      "lectures/Positive_Blood_Cultures_Contaminant_Source_Clearance_Source_Control.html"
+    ],
+    "incomingLinksReviewed": true,
+    "outgoingLinksReviewed": true,
+    "catalogReviewed": true,
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved."
+  },
+  "lectures/Tuberculosis_Standard_Treatment_and_Newer_Avenues.html": {
+    "sha256": "acf2395411e0a97628ed50ba4040c36121f9b9a5c048268127896ef55de6d405",
+    "reviewedOn": "2026-10-27",
+    "relatedModulesReviewed": [
+      "lectures/Antifungals_Practical_Primer_Resident_Fellow.html",
+      "lectures/Fever_of_Unknown_Origin_Resident_Fellow_Module.html",
+      "lectures/HIV_Diagnosis_ART_Prevention_and_Opportunistic_Infections.html",
+      "lectures/Nontuberculous_Mycobacterial_Infections.html",
+      "lectures/Viral_Hepatitis_B_and_C_Workup_Treatment_and_Follow-up.html"
+    ],
+    "incomingLinksReviewed": true,
+    "outgoingLinksReviewed": true,
+    "catalogReviewed": true,
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved."
+  },
+  "lectures/Viral_Hepatitis_B_and_C_Workup_Treatment_and_Follow-up.html": {
+    "sha256": "c0d5de4e72bbd5614f1cf464d6706d9b2a85a1f59b5fbdaf80fab2178428ff3a",
+    "reviewedOn": "2026-10-27",
+    "relatedModulesReviewed": [
+      "lectures/HIV_Diagnosis_ART_Prevention_and_Opportunistic_Infections.html",
+      "lectures/Tuberculosis_Standard_Treatment_and_Newer_Avenues.html"
+    ],
+    "incomingLinksReviewed": true,
+    "outgoingLinksReviewed": true,
+    "catalogReviewed": true,
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved."
+  }
+}
