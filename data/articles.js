@@ -1,5 +1,19 @@
 window.ID_ARTICLES = [
   {
+    id: "nih-hiv-guidelines-universal-statin-age-40-75-2026",
+    date: "2026-10-27",
+    title: "Guidelines for the Use of Antiretroviral Agents in Adults and Adolescents With HIV: October 27, 2026 Update",
+    type: "Federal expert-panel clinical guideline update",
+    journal: "NIH ClinicalInfo",
+    impact: "Practice changing",
+    tags: ["HIV", "Cardiovascular disease", "ASCVD prevention", "Statin therapy", "Pitavastatin", "Drug interactions", "Primary prevention", "Outpatient ID", "HIV / Viral Hepatitis"],
+    summary: "The NIH Adult and Adolescent Antiretroviral Guidelines now recommend statin therapy for every person with HIV aged 40-75 years, regardless of LDL cholesterol or estimated 10-year ASCVD risk. The recommendation is anchored by REPRIEVE, which randomized 7,769 adults with HIV on ART and low-to-intermediate cardiovascular risk to pitavastatin or placebo. Over a median 5.6 years, major adverse cardiovascular events occurred at 4.95 versus 7.77 per 1,000 person-years (hazard ratio 0.64, 95% CI 0.48-0.84).",
+    change: "This replaces a primarily risk-threshold approach with universal primary-prevention statin therapy for adults with HIV aged 40-75 years. Use at least moderate-intensity therapy: pitavastatin 4 mg daily (AI), atorvastatin 20 mg daily (AII), or rosuvastatin 10 mg daily (AII), then intensify when indicated by LDL goals and overall ASCVD risk. The panel gives no HIV-specific universal recommendation for people younger than 40 or older than 75 years; decisions in those groups remain individualized.",
+    takeaway: "For a patient with HIV aged 40-75 years without a contraindication, initiate at least a moderate-intensity statin even when LDL cholesterol and calculated ASCVD risk are low. Check the complete ART regimen for statin interactions and dose limits, especially with pharmacokinetic boosters, and discuss the small excess risks of diabetes and muscle symptoms. Defer initiation during pregnancy and stop the statin if pregnancy occurs.",
+    limitations: "REPRIEVE enrolled adults aged 40-75 years on stable ART with low-to-intermediate cardiovascular risk and excluded known ASCVD, so it does not directly answer treatment for younger or older patients or secondary prevention. Absolute benefit was greater at higher baseline risk. Incident diabetes was more frequent with pitavastatin (incidence rate ratio 1.29, 95% CI 1.07-1.57), as were grade 3 or higher or treatment-limiting muscle symptoms (incidence rate ratio 1.58, 95% CI 1.14-2.19). Statin choice and dose still require individual assessment of interactions, LDL goals, comorbidity, pregnancy, and patient preference.",
+    link: "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-arv/whats-new?view=full"
+  },
+  {
     id: "fda-hibsago-bepirovirsen-chronic-hepatitis-b-2026",
     date: "2026-10-20",
     title: "FDA Approves First-of-Its-Kind Chronic Hepatitis B Treatment",
