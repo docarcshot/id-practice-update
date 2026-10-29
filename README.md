@@ -74,6 +74,8 @@ The GitHub Actions workflow checks out the complete history, generates metadata,
 
 ## Lectures
 
+Every module includes an unlisted slide presentation and PowerPoint download through its upper-left corner. Follow [presentation maintenance](docs/lecture-presentations.md) when adding or changing a module. Publication checks reject missing or stale presentations.
+
 New and revised modules must follow [the lecture cross-link maintenance protocol](docs/lecture-link-protocol.md). Publication checks reject broken local lecture links, removed anchors, and stale cross-link review records. Editorial review is still required to confirm that links point to the appropriate discussion.
 
 `lectures/index.html` lists the current resident, fellow and attending teaching modules. The homepage sidebar links to this page. Modules retain their source content, review status, self-contained styles, and print behavior; a print-hidden navigation bar links back to the lecture list and digest. Update the corresponding HTML and catalog version date together when a revised lecture is supplied.

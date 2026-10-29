@@ -1,2 +1,5 @@
 data/article-metadata.js
 rss.xml
+
+.presentation-build/
+__pycache__/
