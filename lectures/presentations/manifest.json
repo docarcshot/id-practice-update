@@ -1,0 +1,175 @@
+{
+  "version": 2,
+  "modules": [
+    {
+      "module": "Antibiotic_Resistance_and_Resistant_Organisms.html",
+      "sourceSha256": "1da5207523f4b5787d2d4eb1c47fbb5c2bfa517b711758698b442601a6e15926",
+      "slides": 198,
+      "tracks": {
+        "core": 44,
+        "advanced": 130,
+        "reference": 23
+      }
+    },
+    {
+      "module": "Antibiotics_Practical_Primer_Inpatient_Resident.html",
+      "sourceSha256": "12c30c74ce9f899ad69992be68101eb95ff5e04fee9b341a2da4b6be87cb5adb",
+      "slides": 203,
+      "tracks": {
+        "core": 120,
+        "advanced": 35,
+        "reference": 47
+      }
+    },
+    {
+      "module": "Antifungals_Practical_Primer_Resident_Fellow.html",
+      "sourceSha256": "8aed25f7a797f2fafb5baca00aaf7b574edf0de892d030922afc71c80e7b7ef3",
+      "slides": 205,
+      "tracks": {
+        "core": 99,
+        "advanced": 45,
+        "reference": 60
+      }
+    },
+    {
+      "module": "Asymptomatic_Bacteriuria_Short_Module.html",
+      "sourceSha256": "abb41374c026c2ed3b72dc56ceed365ef4e068fb3cd4b1e9daa9edb19d5c58a5",
+      "slides": 24,
+      "tracks": {
+        "core": 14,
+        "advanced": 2,
+        "reference": 7
+      }
+    },
+    {
+      "module": "Bone_and_Joint_Infections_Septic_Arthritis_PJI_Osteomyelitis.html",
+      "sourceSha256": "caaf3f5c34c7c3b67fe130e88e740a6e3e06a2e4197251f41eeff0b86dcea6bd",
+      "slides": 218,
+      "tracks": {
+        "core": 54,
+        "advanced": 142,
+        "reference": 21
+      }
+    },
+    {
+      "module": "Fever_in_the_Hospitalized_Patient_Short_Module.html",
+      "sourceSha256": "d00d3eb1b66bc46d19a9d0ec2a39f3ef270097ad77310bda9f22eee87d28f2f2",
+      "slides": 31,
+      "tracks": {
+        "core": 21,
+        "advanced": 2,
+        "reference": 7
+      }
+    },
+    {
+      "module": "Fever_of_Unknown_Origin_Resident_Fellow_Module.html",
+      "sourceSha256": "a184740cdb13c90e8fab8488e38e594d81e2b0f58086352100a5f01b06c7f814",
+      "slides": 121,
+      "tracks": {
+        "core": 75,
+        "advanced": 24,
+        "reference": 21
+      }
+    },
+    {
+      "module": "Gram_Negative_Bacteria_Species_Matter.html",
+      "sourceSha256": "0eea40f43d9f7e1ee46fea1c843162026423175c4d6a92ff59bfcd5985bf1b6f",
+      "slides": 90,
+      "tracks": {
+        "core": 56,
+        "advanced": 30,
+        "reference": 3
+      }
+    },
+    {
+      "module": "HIV_Diagnosis_ART_Prevention_and_Opportunistic_Infections.html",
+      "sourceSha256": "4e300585d8ae962e9b2cac0e8f9926835d579de4160e9d4cd899cc6b6c076e68",
+      "slides": 230,
+      "tracks": {
+        "core": 29,
+        "advanced": 149,
+        "reference": 51
+      }
+    },
+    {
+      "module": "Helicobacter_Pylori_Diagnosis_Treatment_and_Resistance.html",
+      "sourceSha256": "90abb39a42de0cbb9df26698c45e81acaa51709d1233d418d3d02fc1bb9e28b3",
+      "slides": 73,
+      "tracks": {
+        "core": 25,
+        "advanced": 45,
+        "reference": 2
+      }
+    },
+    {
+      "module": "Nontuberculous_Mycobacterial_Infections.html",
+      "sourceSha256": "5ce8826bbc9bac9643a45071a05aa1b602017cf3c7241ffa83472ccbb3a108e9",
+      "slides": 154,
+      "tracks": {
+        "core": 85,
+        "advanced": 40,
+        "reference": 28
+      }
+    },
+    {
+      "module": "OPAT_Primer_Short_Module.html",
+      "sourceSha256": "a53c99c342ba312ff6a9053fe3349f6754e2b528f17c356f39471ece0873d502",
+      "slides": 24,
+      "tracks": {
+        "core": 15,
+        "advanced": 2,
+        "reference": 6
+      }
+    },
+    {
+      "module": "Penicillin_Allergy_Short_Module.html",
+      "sourceSha256": "1e9f5a572227c64e2610dfe2da912698235f25fb61c6293f2455d0f271adec05",
+      "slides": 62,
+      "tracks": {
+        "core": 49,
+        "advanced": 3,
+        "reference": 9
+      }
+    },
+    {
+      "module": "Positive_Blood_Cultures_Contaminant_Source_Clearance_Source_Control.html",
+      "sourceSha256": "b461db26115d971e45ff06d7a5e0901dbbf5229bbb4227cd1d19da4263fcc229",
+      "slides": 93,
+      "tracks": {
+        "core": 52,
+        "advanced": 27,
+        "reference": 13
+      }
+    },
+    {
+      "module": "Recurrent_UTI_Evaluation_and_Prevention.html",
+      "sourceSha256": "6012a45a9e224655031fe99c2aa4b452e9b8278c4609f9afee041f36c6a1a0ca",
+      "slides": 76,
+      "tracks": {
+        "core": 58,
+        "advanced": 15,
+        "reference": 2
+      }
+    },
+    {
+      "module": "Tuberculosis_Standard_Treatment_and_Newer_Avenues.html",
+      "sourceSha256": "0f82d781ca54613fe7e89789fd695833256316c72170b49a8ae34942e5334a62",
+      "slides": 231,
+      "tracks": {
+        "core": 27,
+        "advanced": 162,
+        "reference": 41
+      }
+    },
+    {
+      "module": "Viral_Hepatitis_B_and_C_Workup_Treatment_and_Follow-up.html",
+      "sourceSha256": "fd99465bf8f4be47392fcc04509f1aeaf1caf53ea3f6cfe3ec2a4bd59baf24a9",
+      "slides": 105,
+      "tracks": {
+        "core": 86,
+        "advanced": 15,
+        "reference": 3
+      }
+    }
+  ]
+}

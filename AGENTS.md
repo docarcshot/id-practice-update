@@ -12,6 +12,12 @@ For every new or revised lecture, follow `docs/lecture-link-protocol.md`. Review
 
 # Periodic lecture evidence review
 
+## Presentation maintenance for authorized module edits
+
+Follow `docs/lecture-presentations.md` for every new or revised module. Include the hidden corner link, rebuild the browser slide model and PowerPoint from the same source, inspect the presentation, and run both presentation validators. Publish a module and its current presentation together. Do not refresh hashes alone. Private source restrictions apply to slides and speaker notes. Save work to a nonproduction branch before lengthy builds and checkpoint completed decks there.
+
+## Scheduled review
+
 Review the complete current lecture catalog every three weeks. This is separate from the literature-digest update workflow. Include newly published lectures automatically by reading the current catalog at each review, rather than using a fixed module list.
 
 ## Review scope and sources
