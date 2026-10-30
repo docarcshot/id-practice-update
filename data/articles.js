@@ -1,5 +1,49 @@
 window.ID_ARTICLES = [
   {
+      "id": "cefiderocol-game-changer-door-2026",
+      "date": "2026-09-07",
+      "title": "A Randomized Controlled Trial of Cefiderocol Versus Standard Therapy for Gram-negative Bacterial Bloodstream Infections: Benefit and Risk Assessment Using Desirability of Outcome Ranking and Generalized Pairwise Comparisons",
+      "type": "Prespecified composite outcome analysis of randomized trial",
+      "journal": "Clinical Infectious Diseases",
+      "impact": "Practice informing",
+      "tags": [
+          "Cefiderocol",
+          "Gram-negative bacteremia",
+          "Carbapenem resistance",
+          "Antimicrobial resistance",
+          "Antibiotic selection",
+          "Inpatient ID"
+      ],
+      "summary": "In the GAME CHANGER trial's prespecified outcome-ranking analysis, cefiderocol had a 50.4% probability of a more desirable outcome than standard therapy (95% CI 45.6-55.1%) using DOOR, with a generalized pairwise comparison win ratio of 1.04 (95% CI 0.85-1.28). In the carbapenem-resistant subset, DOOR probability was 46.8% (95% CI 37.4-56.1%).",
+      "change": "Composite efficacy and safety assessment did not show superiority of cefiderocol over standard care for Gram-negative bloodstream infections overall or in the carbapenem-resistant subset.",
+      "takeaway": "Do not routinely prefer cefiderocol over an active standard regimen solely for broader spectrum. Select therapy based on organism, resistance mechanism, susceptibility, infection source, and patient factors.",
+      "limitations": "Secondary analysis of an existing randomized trial. Limited carbapenem-resistant subgroup and wide confidence intervals do not exclude benefit in specific resistant organisms.",
+      "link": "https://doi.org/10.1093/cid/ciag538",
+      "doi": "10.1093/cid/ciag538"
+  },
+  {
+      "id": "islend2-weekly-islatravir-lenacapavir-2026",
+      "date": "2026-08-12",
+      "title": "Switch to Once-Weekly, Single-Tablet Islatravir-Lenacapavir From Daily Standard of Care for HIV-1 (ISLEND-2)",
+      "type": "Multicenter open-label randomized phase 3 noninferiority trial",
+      "journal": "The Lancet",
+      "impact": "Practice informing",
+      "tags": [
+          "HIV",
+          "Antiretroviral therapy",
+          "Lenacapavir",
+          "Islatravir",
+          "Long-acting therapy",
+          "Outpatient ID"
+      ],
+      "summary": "ISLEND-2 randomized 634 virologically suppressed adults; 626 received once-weekly oral islatravir-lenacapavir (n=314) or continued daily ART (n=312). At week 48, HIV RNA at least 50 copies/mL occurred in 1/314 (0.3%) versus 4/312 (1.3%), a difference of -1.0 percentage points (95.002% CI -3.0 to 1.1), meeting the 4-point noninferiority margin. Treatment-related adverse events occurred in 18% versus less than 1%.",
+      "change": "Demonstrates noninferior virologic suppression with an investigational once-weekly complete oral regimen in selected adults already suppressed on daily ART.",
+      "takeaway": "Track weekly islatravir-lenacapavir as a potential future switch strategy; verify regulatory status before use and recognize it does not provide HBV-active therapy.",
+      "limitations": "Open-label study with week-48 primary outcome; excluded prior virologic failure. Longer-term safety, resistance outcomes, initial therapy, and HBV coinfection require further evaluation.",
+      "link": "https://doi.org/10.1016/S0140-6736(26)01442-X",
+      "doi": "10.1016/S0140-6736(26)01442-X"
+  },
+  {
       "id": "beat-tb-six-month-rifampicin-resistant-2026",
       "date": "2026-06-24",
       "title": "A Pragmatic Trial of a 6-Month Strategy for Rifampicin-Resistant Tuberculosis",
