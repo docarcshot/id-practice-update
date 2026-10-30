@@ -1,5 +1,28 @@
 window.ID_ARTICLES = [
   {
+      "id": "beat-tb-six-month-rifampicin-resistant-2026",
+      "date": "2026-06-24",
+      "title": "A Pragmatic Trial of a 6-Month Strategy for Rifampicin-Resistant Tuberculosis",
+      "type": "Open-label phase 3 randomized noninferiority trial",
+      "journal": "New England Journal of Medicine",
+      "impact": "Practice informing",
+      "tags": [
+          "Tuberculosis",
+          "Rifampin resistance",
+          "Drug-resistant TB",
+          "Bedaquiline",
+          "Delamanid",
+          "Linezolid",
+          "Antimicrobial duration"
+      ],
+      "summary": "The South African BEAT Tuberculosis trial randomized 403 participants with pulmonary rifampicin-resistant tuberculosis to a six-month strategy including bedaquiline, linezolid, delamanid, and levofloxacin and/or clofazimine, or a nine-month local standard regimen. Treatment success occurred in 174/202 (86.1%) versus 172/200 (86.0%); adjusted difference -0.2 percentage points (95% CI -6.9 to 6.5), meeting the prespecified 10-point noninferiority margin. Grade 3 or higher adverse events occurred in 31.2% versus 37.0%.",
+      "change": "Supports an additional six-month all-oral delamanid-containing strategy for rifampicin-resistant TB when established pretomanid-based short regimens are unsuitable.",
+      "takeaway": "Use this evidence in specialist-directed treatment selection, accounting for drug susceptibility, toxicity, interactions, availability, and public-health guidance.",
+      "limitations": "Open-label South African trial with a local nine-month comparator rather than contemporary BPaL/BPaLM; included some children and pregnant or breastfeeding participants, with limited precision for subgroups.",
+      "link": "https://doi.org/10.1056/NEJMoa2503687",
+      "doi": "10.1056/NEJMoa2503687"
+  },
+  {
       "id": "farthest-mgen-moxifloxacin-azithromycin-2026",
       "date": "2026-05-17",
       "title": "A Randomized Clinical Trial to Compare Moxifloxacin Versus Azithromycin for the Treatment of Mycoplasma genitalium: The FARTHEST Study",
