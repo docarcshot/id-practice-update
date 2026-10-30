@@ -1,5 +1,50 @@
 window.ID_ARTICLES = [
   {
+      "id": "enterococcal-bsi-short-course-target-trial-2026",
+      "date": "2026-07-03",
+      "title": "Antibiotic Treatment Duration for Uncomplicated Monomicrobial Enterococcal Bloodstream Infection: A Multicenter Target Trial Emulation",
+      "type": "Eight-hospital observational target trial emulation",
+      "journal": "Clinical Infectious Diseases",
+      "impact": "Practice informing",
+      "tags": [
+          "Enterococcus",
+          "Bloodstream infection",
+          "Antibiotic duration",
+          "Antimicrobial stewardship",
+          "Bacteremia",
+          "Inpatient ID"
+      ],
+      "summary": "Across eight hospitals, 870 of 3,450 adults with enterococcal bacteremia met criteria for uncomplicated monomicrobial infection; 485 matched the prespecified 7 +/- 2 day (n=283) or 14 +/- 2 day (n=202) strategies. Following clone-censor-weight adjustment, estimated 30-day mortality was 21.6% versus 21.3% (adjusted risk difference 0.3 percentage points, 95% CI -3.7 to 4.2), without a detected difference in recurrent bacteremia or 90-day mortality.",
+      "change": "Provides enterococcus-specific comparative evidence supporting approximately 7 days of therapy in carefully selected uncomplicated bacteremia, rather than routinely prescribing 14 days. This is supportive observational evidence, not randomized proof of noninferiority.",
+      "takeaway": "Consider a 7-day course for uncomplicated monomicrobial E. faecalis or E. faecium bacteremia when the source is controlled, bacteremia clears promptly, and endocarditis, endovascular infection, infected devices, and deep foci have been excluded. Do not extrapolate to complicated bacteremia or prosthetic material infection.",
+      "limitations": "Observational target trial emulation remains vulnerable to residual confounding and treatment-selection bias. Only 485 of 3,450 screened patients matched the analyzed strategies; VRE was rare (2%). The high modeled mortality estimates and reliance on coding and duration-based exclusions for complicated infection warrant caution. The ongoing INTENSE randomized trial is needed for confirmation.",
+      "link": "https://doi.org/10.1093/cid/ciag387",
+      "doi": "10.1093/cid/ciag387"
+  },
+  {
+      "id": "stop-vanc-mrsa-nares-icu-cap-rct-2026",
+      "date": "2026-06-02",
+      "title": "Swab Testing to Optimize Pneumonia Treatment With Empiric Vancomycin: A Randomized Controlled Trial",
+      "type": "Pragmatic single-center randomized controlled trial",
+      "journal": "Clinical Infectious Diseases",
+      "impact": "Practice informing",
+      "tags": [
+          "Antimicrobial stewardship",
+          "Pneumonia",
+          "MRSA",
+          "Vancomycin",
+          "MRSA nares PCR",
+          "ICU",
+          "Inpatient ID"
+      ],
+      "summary": "STOP-Vanc randomized 277 adults in an ICU with suspected community-acquired pneumonia to usual care with or without added MRSA nasal PCR testing and a targeted discontinuation alert for negative results. The negative predictive value of nasal PCR in the intervention arm was 98.9%. Estimated vancomycin-free hours alive over 7 days were 109.7 with testing versus 105.7 with usual care (adjusted difference 4 hours, 95% CI -9.5 to 18.2; P=.458).",
+      "change": "Adding MRSA nasal PCR and an alert did not significantly reduce vancomycin exposure in this ICU despite excellent negative predictive value. The finding distinguishes diagnostic rule-out performance from the effectiveness of a stewardship intervention and supports attention to prescribing behavior and baseline vancomycin use.",
+      "takeaway": "A negative MRSA nasal PCR remains useful evidence against MRSA pneumonia, but ordering the test alone does not ensure earlier vancomycin discontinuation. Pair testing with active stewardship, clear stopping criteria, and review of whether empiric MRSA coverage was indicated initially.",
+      "limitations": "Single-center, unblinded pragmatic trial with clinician-directed discontinuation; control clinicians could order PCR testing. The trial may not generalize to centers with different baseline vancomycin duration or stewardship infrastructure and was not powered to establish a mortality benefit.",
+      "link": "https://doi.org/10.1093/cid/ciag295",
+      "doi": "10.1093/cid/ciag295"
+  },
+  {
     id: "native-joint-septic-arthritis-state-of-art-2026",
     date: "2026-10-27",
     title: "State-of-the-Art Review: Native Joint Septic Arthritis Epidemiology, Pathogenesis, Microbiology, Diagnosis, Management, and Outcomes",
