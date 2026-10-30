@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "duke-criteria-endocarditis-performance-2026",
+    date: "2026-10-29",
+    title: "Performance of the recent Duke criteria versions in patients with suspected infective endocarditis and sufficient cardiac imaging: The more things change, the more they remain the same",
+    type: "Two-center retrospective diagnostic cohort study",
+    journal: "Clinical Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Infective endocarditis", "Duke criteria", "Diagnosis", "Echocardiography", "Multimodality imaging", "Bacteremia", "Clinical decision-making", "Inpatient ID", "Diagnostics / Microbiology"],
+    summary: "Investigators compared the 2015 Duke-ESC, 2023 Duke-ISCVID, and 2023 Duke-ESC criteria with final Endocarditis Team diagnosis in 3,448 suspected infective endocarditis episodes evaluated with guideline-concordant cardiac imaging at two Swiss university hospitals from 2014 through 2025; 1,302/3,448 (38%) were ultimately diagnosed as infective endocarditis. When only definite classification counted as positive, sensitivity increased from 63% (95% CI 60%-66%) with 2015 Duke-ESC to 74% (95% CI 71%-76%) with 2023 Duke-ISCVID and 71% (95% CI 68%-73%) with 2023 Duke-ESC.",
+    change: "The gain in sensitivity did not eliminate diagnostic uncertainty: 29%, 33%, and 29% of episodes, respectively, remained classified as possible infective endocarditis. When definite or possible classification counted as positive, specificity was 72% (95% CI 70%-74%) with 2015 Duke-ESC, 59% (95% CI 57%-61%) with 2023 Duke-ISCVID, and 66% (95% CI 64%-68%) with 2023 Duke-ESC. The updated criteria therefore identify more adjudicated cases as definite, but the sensitivity gain is accompanied by lower specificity and a persistent large possible category.",
+    takeaway: "Use the 2023 criteria to structure evidence, not as a stand-alone clinical diagnosis or rule-out test. A possible classification still requires integration of organism and serial culture data, echocardiography and additional imaging, extracardiac findings, treatment response, and multidisciplinary review. Likewise, counting definite plus possible disease as a positive test can substantially overcall infective endocarditis, especially with the 2023 Duke-ISCVID criteria.",
+    limitations: "This was a retrospective study at two tertiary Swiss centers and included only episodes with guideline-concordant cardiac imaging, limiting generalizability to settings without ready access to transesophageal echocardiography, cardiac CT, or nuclear imaging. Endocarditis Team diagnosis was the clinical reference standard rather than an independent pathologic gold standard and may have incorporated the same clinical and imaging information used by the criteria. Accuracy estimates also depended on how the three diagnostic categories were dichotomized.",
+    link: "https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciag688/9004404",
+    doi: "10.1093/cid/ciag688"
+  },
+  {
     id: "nih-hiv-guidelines-universal-statin-age-40-75-2026",
     date: "2026-10-27",
     title: "Guidelines for the Use of Antiretroviral Agents in Adults and Adolescents With HIV: October 27, 2026 Update",

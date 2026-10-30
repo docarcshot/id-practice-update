@@ -84,6 +84,10 @@ function main() {
   // Compare both the committed change and any local edits with the preceding revision.
   let previousFiles=[];
   try {previousFiles=execFileSync('git',['ls-tree','-r','--name-only','HEAD^','lectures'],{encoding:'utf8',stdio:['ignore','pipe','pipe']}).trim().split('\n').filter(x=>x.endsWith('.html'));} catch {errors.push('Cannot check anchor compatibility: full Git history is required.');}
+  // Shared presentation and compatibility pages can be reached through injected
+  // navigation rather than a static anchor, so include every surviving prior
+  // HTML page before checking whether a page or anchor was removed.
+  for (const file of previousFiles) readPage(file);
   for (const file of previousFiles) {
     if (!pages.has(file)) {errors.push(`${file}: removed page; preserve a compatibility page and its anchors`);continue;}
     const old=parsePage(execFileSync('git',['show',`HEAD^:${file}`],{encoding:'utf8'}));
