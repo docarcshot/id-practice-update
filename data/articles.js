@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "native-joint-septic-arthritis-state-of-art-2026",
+    date: "2026-10-27",
+    title: "State-of-the-Art Review: Native Joint Septic Arthritis Epidemiology, Pathogenesis, Microbiology, Diagnosis, Management, and Outcomes",
+    type: "State-of-the-art clinical review",
+    journal: "Clinical Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Septic arthritis", "Bone and joint infections", "Synovial fluid", "Molecular diagnostics", "Source control", "Oral antibiotics", "Antimicrobial duration", "Inpatient ID"],
+    summary: "This state-of-the-art review synthesizes evidence on native joint septic arthritis, including limitations of synovial leukocyte thresholds and cultures, emerging molecular testing, pathogen-specific empiric treatment, surgical source control, antibiotic duration, and transition to oral therapy. Staphylococcus aureus predominates; the review estimates approximately one-quarter of cases are culture negative across included cohorts.",
+    change: "The authors propose a practical diagnostic and management algorithm. They favor prompt drainage or debridement, ideally within 24 hours when feasible, and suggest 3-4 weeks of treatment for most large-joint infections after adequate source control. Selected small-joint infections may be treated for 2 weeks after surgery; gonococcal arthritis may require 7-10 days. Transition to an active oral agent after approximately 7-10 days of initial IV therapy can be considered in stable, adequately source-controlled patients, but this recommendation extrapolates partly from OVIVA rather than a dedicated native-joint trial.",
+    takeaway: "Obtain blood cultures and synovial sampling before empiric antibiotics when clinically feasible, assess promptly for surgical drainage, and tailor therapy to cultures and host risk factors. Do not use a single synovial WBC cutoff to exclude infection. Consider oral step-down when source control, clinical response, microbiology, oral absorption, and adherence permit; individualize total duration by joint, organism, and complications.",
+    limitations: "Narrative review rather than a systematic comparative effectiveness study. Optimal surgical timing, antibiotic duration, molecular diagnostic utility, and IV-to-oral transition remain inadequately tested in native-joint-specific randomized trials. Short-course and oral-transition recommendations depend on selected cohorts or extrapolation and should not be generalized to complicated infection without assessment.",
+    link: "https://academic.oup.com/cid/article/83/4/499/9004010",
+    doi: "10.1093/cid/ciag473"
+  },
+  {
     id: "duke-criteria-endocarditis-performance-2026",
     date: "2026-10-29",
     title: "Performance of the recent Duke criteria versions in patients with suspected infective endocarditis and sufficient cardiac imaging: The more things change, the more they remain the same",
