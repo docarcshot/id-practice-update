@@ -1,5 +1,49 @@
 window.ID_ARTICLES = [
   {
+      "id": "farthest-mgen-moxifloxacin-azithromycin-2026",
+      "date": "2026-05-17",
+      "title": "A Randomized Clinical Trial to Compare Moxifloxacin Versus Azithromycin for the Treatment of Mycoplasma genitalium: The FARTHEST Study",
+      "type": "Open-label randomized superiority trial",
+      "journal": "Clinical Infectious Diseases",
+      "impact": "Practice informing",
+      "tags": [
+          "Mycoplasma genitalium",
+          "Sexually transmitted infections",
+          "Moxifloxacin",
+          "Azithromycin",
+          "Macrolide resistance",
+          "Outpatient ID"
+      ],
+      "summary": "In 358 adults with Mycoplasma genitalium infection randomized without resistance-guided selection, microbiologic cure was 87.0% with moxifloxacin 400 mg daily for 10 days versus 61.2% with azithromycin 500 mg daily for 6 days (absolute difference 25.8 percentage points, 95% CI 16.5-35.2).",
+      "change": "Provides randomized evidence favoring empiric moxifloxacin over extended-course azithromycin when resistance-guided therapy is unavailable.",
+      "takeaway": "Prefer resistance-guided management where available. Consider moxifloxacin rather than empiric azithromycin when susceptibility is unknown, balancing resistance and fluoroquinolone toxicity.",
+      "limitations": "Single-center unblinded study; local resistance patterns and studied regimens may differ from current guideline algorithms.",
+      "link": "https://doi.org/10.1093/cid/ciag317",
+      "doi": "10.1093/cid/ciag317"
+  },
+  {
+      "id": "snap-cefazolin-mssa-bacteremia-2026",
+      "date": "2026-06-17",
+      "title": "Cefazolin for Methicillin-Susceptible Staphylococcus aureus Bacteremia",
+      "type": "International randomized Bayesian adaptive platform trial",
+      "journal": "New England Journal of Medicine",
+      "impact": "Practice changing",
+      "tags": [
+          "Staphylococcus aureus",
+          "MSSA bacteremia",
+          "Cefazolin",
+          "Antistaphylococcal penicillins",
+          "Acute kidney injury",
+          "Inpatient ID"
+      ],
+      "summary": "SNAP randomized adults with MSSA bacteremia to cefazolin or flucloxacillin/cloxacillin. Ninety-day mortality was 97/645 (15.0%) with cefazolin versus 109/642 (17.0%) with antistaphylococcal penicillins (adjusted odds ratio 0.81, 95% credible interval 0.59-1.12; posterior probability of noninferiority 99.2%). Acute kidney injury occurred in 92/660 (13.9%) versus 127/648 (19.6%).",
+      "change": "Randomized evidence supports cefazolin as first-line definitive therapy for MSSA bacteremia, with noninferior 90-day mortality and less acute kidney injury than the comparator penicillins.",
+      "takeaway": "Cefazolin is an evidence-supported definitive option for MSSA bacteremia. Continue appropriate evaluation for endocarditis, metastatic infection and source control.",
+      "limitations": "Open-label comparison with flucloxacillin/cloxacillin rather than nafcillin/oxacillin. Individualized assessment remains necessary for complicated infection and source control.",
+      "link": "https://doi.org/10.1056/NEJMoa2506905",
+      "doi": "10.1056/NEJMoa2506905"
+  },
+  {
       "id": "enterococcal-bsi-short-course-target-trial-2026",
       "date": "2026-07-03",
       "title": "Antibiotic Treatment Duration for Uncomplicated Monomicrobial Enterococcal Bloodstream Infection: A Multicenter Target Trial Emulation",
