@@ -111,28 +111,6 @@ window.ID_ARTICLES = [
       "doi": "10.1056/NEJMoa2506905"
   },
   {
-      "id": "enterococcal-bsi-short-course-target-trial-2026",
-      "date": "2026-07-03",
-      "title": "Antibiotic Treatment Duration for Uncomplicated Monomicrobial Enterococcal Bloodstream Infection: A Multicenter Target Trial Emulation",
-      "type": "Eight-hospital observational target trial emulation",
-      "journal": "Clinical Infectious Diseases",
-      "impact": "Practice informing",
-      "tags": [
-          "Enterococcus",
-          "Bloodstream infection",
-          "Antibiotic duration",
-          "Antimicrobial stewardship",
-          "Bacteremia",
-          "Inpatient ID"
-      ],
-      "summary": "Across eight hospitals, 870 of 3,450 adults with enterococcal bacteremia met criteria for uncomplicated monomicrobial infection; 485 matched the prespecified 7 +/- 2 day (n=283) or 14 +/- 2 day (n=202) strategies. Following clone-censor-weight adjustment, estimated 30-day mortality was 21.6% versus 21.3% (adjusted risk difference 0.3 percentage points, 95% CI -3.7 to 4.2), without a detected difference in recurrent bacteremia or 90-day mortality.",
-      "change": "Provides enterococcus-specific comparative evidence supporting approximately 7 days of therapy in carefully selected uncomplicated bacteremia, rather than routinely prescribing 14 days. This is supportive observational evidence, not randomized proof of noninferiority.",
-      "takeaway": "Consider a 7-day course for uncomplicated monomicrobial E. faecalis or E. faecium bacteremia when the source is controlled, bacteremia clears promptly, and endocarditis, endovascular infection, infected devices, and deep foci have been excluded. Do not extrapolate to complicated bacteremia or prosthetic material infection.",
-      "limitations": "Observational target trial emulation remains vulnerable to residual confounding and treatment-selection bias. Only 485 of 3,450 screened patients matched the analyzed strategies; VRE was rare (2%). The high modeled mortality estimates and reliance on coding and duration-based exclusions for complicated infection warrant caution. The ongoing INTENSE randomized trial is needed for confirmation.",
-      "link": "https://doi.org/10.1093/cid/ciag387",
-      "doi": "10.1093/cid/ciag387"
-  },
-  {
       "id": "stop-vanc-mrsa-nares-icu-cap-rct-2026",
       "date": "2026-06-02",
       "title": "Swab Testing to Optimize Pneumonia Treatment With Empiric Vancomycin: A Randomized Controlled Trial",
