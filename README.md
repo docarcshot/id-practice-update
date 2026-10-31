@@ -74,7 +74,7 @@ The GitHub Actions workflow checks out the complete history, generates metadata,
 
 ## Lectures
 
-Every module includes an unlisted slide presentation and PowerPoint download through its upper-left corner. Follow [presentation maintenance](docs/lecture-presentations.md) when adding or changing a module. Publication checks reject missing or stale presentations.
+The generated slide presentations, PowerPoints and hidden corner links were retired at the owner's request on October 31, 2026. New or revised modules do not require presentation exports. Future presentations will be developed separately when requested.
 
 New and revised modules must follow [the lecture cross-link maintenance protocol](docs/lecture-link-protocol.md). Publication checks reject broken local lecture links, removed anchors, and stale cross-link review records. Editorial review is still required to confirm that links point to the appropriate discussion.
 

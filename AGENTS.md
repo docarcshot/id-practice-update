@@ -12,9 +12,9 @@ For every new or revised lecture, follow `docs/lecture-link-protocol.md`. Review
 
 # Periodic lecture evidence review
 
-## Presentation maintenance for authorized module edits
+## Teaching presentations
 
-Follow `docs/lecture-presentations.md` for every new or revised module. Include the hidden corner link, rebuild the browser slide model and PowerPoint from the same source, inspect the presentation, and run both presentation validators. Publish a module and its current presentation together. Do not refresh hashes alone. Private source restrictions apply to slides and speaker notes. Save work to a nonproduction branch before lengthy builds and checkpoint completed decks there.
+The owner retired the generated presentations on October 31, 2026. Do not add hidden presentation links or automatically generate slides or PowerPoints for new or revised modules. Future presentations require a separate request and teaching design.
 
 ## Scheduled review
 
