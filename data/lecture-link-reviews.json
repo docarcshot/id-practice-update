@@ -1,6 +1,6 @@
 {
   "lectures/Antibiotic_Resistance_and_Resistant_Organisms.html": {
-    "sha256": "0a1f794150aac136f5db44c0635aa80d0e8ecf1327a43f1b9a5bba07333f0340",
+    "sha256": "9dd030c052ed3f7b37f676368bdf2c31770beddf15e4783978aee25ab2db0617",
     "reviewedOn": "2026-10-31",
     "relatedModulesReviewed": [
       "lectures/Antibiotics_Practical_Primer_Inpatient_Resident.html",
@@ -15,10 +15,10 @@
     "incomingLinksReviewed": true,
     "outgoingLinksReviewed": true,
     "catalogReviewed": true,
-    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed."
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed. October 31 educational disclaimer: compared with the prior version; all existing headings, section targets, incoming/outgoing links, scope and catalog descriptions remain unchanged. Only the educational-use notice and its mobile/print styles were added. Clinical review dates were not advanced."
   },
   "lectures/Antibiotics_Practical_Primer_Inpatient_Resident.html": {
-    "sha256": "3ea876778ad67456ecfec5513549ffe4a6176f6c5e2bb898e4225d9e3d38b2c5",
+    "sha256": "5e40c5529c7ce47f75a307e7c2aba5126bda038ab946f16522d265f1b085c4ba",
     "reviewedOn": "2026-10-31",
     "relatedModulesReviewed": [
       "lectures/Antibiotic_Resistance_and_Resistant_Organisms.html",
@@ -33,10 +33,10 @@
     "incomingLinksReviewed": true,
     "outgoingLinksReviewed": true,
     "catalogReviewed": true,
-    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed."
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed. October 31 educational disclaimer: compared with the prior version; all existing headings, section targets, incoming/outgoing links, scope and catalog descriptions remain unchanged. Only the educational-use notice and its mobile/print styles were added. Clinical review dates were not advanced."
   },
   "lectures/Antifungals_Practical_Primer_Resident_Fellow.html": {
-    "sha256": "00eca907d0ad52decc9e0b58cf338d48c15beee541ce4c6d668d1eca383ab4b8",
+    "sha256": "46b0646c000205673e80fd637dfb62ed043f0ea9e952e15419503adb3484a22f",
     "reviewedOn": "2026-10-31",
     "relatedModulesReviewed": [
       "lectures/HIV_Diagnosis_ART_Prevention_and_Opportunistic_Infections.html",
@@ -48,10 +48,10 @@
     "incomingLinksReviewed": true,
     "outgoingLinksReviewed": true,
     "catalogReviewed": true,
-    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed."
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed. October 31 educational disclaimer: compared with the prior version; all existing headings, section targets, incoming/outgoing links, scope and catalog descriptions remain unchanged. Only the educational-use notice and its mobile/print styles were added. Clinical review dates were not advanced."
   },
   "lectures/Asymptomatic_Bacteriuria_Short_Module.html": {
-    "sha256": "1b9ad9e8f6fbaf783d9a6fb0630a1f20ff0fc82e1fbd40e578a75d873ec89db0",
+    "sha256": "8816b439cdf9df310341f76cf85a61e3808a11c90dde37e57afb47d194057217",
     "reviewedOn": "2026-10-31",
     "relatedModulesReviewed": [
       "lectures/Antibiotic_Resistance_and_Resistant_Organisms.html",
@@ -62,10 +62,10 @@
     "incomingLinksReviewed": true,
     "outgoingLinksReviewed": true,
     "catalogReviewed": true,
-    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed."
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed. October 31 educational disclaimer: compared with the prior version; all existing headings, section targets, incoming/outgoing links, scope and catalog descriptions remain unchanged. Only the educational-use notice and its mobile/print styles were added. Clinical review dates were not advanced."
   },
   "lectures/Bone_and_Joint_Infections_Septic_Arthritis_PJI_Osteomyelitis.html": {
-    "sha256": "d0b9afde0f9cc97f280827b5922e4d58d17ad86deaf9dbf2e30ed535c3fae596",
+    "sha256": "2f341adaeba570e64b0d8d6082d48c30bcc7e6da249df78e6a863e21a7c0d7e7",
     "reviewedOn": "2026-10-31",
     "relatedModulesReviewed": [
       "lectures/Antibiotic_Resistance_and_Resistant_Organisms.html",
@@ -80,10 +80,10 @@
     "incomingLinksReviewed": true,
     "outgoingLinksReviewed": true,
     "catalogReviewed": true,
-    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed."
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed. October 31 educational disclaimer: compared with the prior version; all existing headings, section targets, incoming/outgoing links, scope and catalog descriptions remain unchanged. Only the educational-use notice and its mobile/print styles were added. Clinical review dates were not advanced."
   },
   "lectures/Fever_in_the_Hospitalized_Patient_Short_Module.html": {
-    "sha256": "e741b4436d5e0452a8441df3ee7174ee22b39d69c97294a310ee82fab890b4d4",
+    "sha256": "c7ec013daaa64ce8edda14a13682d2ea36bc59277d82f9294679cb8443c687bc",
     "reviewedOn": "2026-10-31",
     "relatedModulesReviewed": [
       "lectures/Antibiotics_Practical_Primer_Inpatient_Resident.html",
@@ -94,10 +94,10 @@
     "incomingLinksReviewed": true,
     "outgoingLinksReviewed": true,
     "catalogReviewed": true,
-    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed."
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed. October 31 educational disclaimer: compared with the prior version; all existing headings, section targets, incoming/outgoing links, scope and catalog descriptions remain unchanged. Only the educational-use notice and its mobile/print styles were added. Clinical review dates were not advanced."
   },
   "lectures/Fever_of_Unknown_Origin_Resident_Fellow_Module.html": {
-    "sha256": "e6b822a100c747d6bb2e4608da2231be3fe4712cdc7892e7196c980cc820c21c",
+    "sha256": "4253ae4cf8f02d52eaa648e1a27c5969d0d6b55691e7de81d7bfb0714d5b93ae",
     "reviewedOn": "2026-10-31",
     "relatedModulesReviewed": [
       "lectures/Antibiotics_Practical_Primer_Inpatient_Resident.html",
@@ -107,10 +107,10 @@
     "incomingLinksReviewed": true,
     "outgoingLinksReviewed": true,
     "catalogReviewed": true,
-    "note": "New linked tick-borne and Lyme modules. Checked companion testing, treatment, rash, prophylaxis, complications, coinfection and map anchors; added relevant antibiotic primer and FUO reassessment links. FUO exposure history links to acute tick-borne specimens and regional maps. Catalog and mobile/print paths checked. Existing FUO clinical content and date unchanged; its edit adds navigation only."
+    "note": "New linked tick-borne and Lyme modules. Checked companion testing, treatment, rash, prophylaxis, complications, coinfection and map anchors; added relevant antibiotic primer and FUO reassessment links. FUO exposure history links to acute tick-borne specimens and regional maps. Catalog and mobile/print paths checked. Existing FUO clinical content and date unchanged; its edit adds navigation only. October 31 educational disclaimer: compared with the prior version; all existing headings, section targets, incoming/outgoing links, scope and catalog descriptions remain unchanged. Only the educational-use notice and its mobile/print styles were added. Clinical review dates were not advanced."
   },
   "lectures/Gram_Negative_Bacteria_Species_Matter.html": {
-    "sha256": "14c4029195fa70dcd0d9390287d3ffb03a9b7f82aae118fc4159c1feddae4ce8",
+    "sha256": "df604c51065e15748c9195ac318344f8bbc5e856a78f510420b0802142e07a22",
     "reviewedOn": "2026-10-31",
     "relatedModulesReviewed": [
       "lectures/Antibiotic_Resistance_and_Resistant_Organisms.html",
@@ -122,10 +122,10 @@
     "incomingLinksReviewed": true,
     "outgoingLinksReviewed": true,
     "catalogReviewed": true,
-    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Subsequently removed both planned-enteric-lecture references and retained the existing section anchor. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed."
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Subsequently removed both planned-enteric-lecture references and retained the existing section anchor. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed. October 31 educational disclaimer: compared with the prior version; all existing headings, section targets, incoming/outgoing links, scope and catalog descriptions remain unchanged. Only the educational-use notice and its mobile/print styles were added. Clinical review dates were not advanced."
   },
   "lectures/HIV_Diagnosis_ART_Prevention_and_Opportunistic_Infections.html": {
-    "sha256": "c24df25b1b3e70ef13dde1eecb9129742f811448143fd8929316ebe1ee340838",
+    "sha256": "7849ebf650c7bbe977a32b7e139b8e3ec02639517887d53a4e45fefb9ed77f08",
     "reviewedOn": "2026-10-31",
     "relatedModulesReviewed": [
       "lectures/Antifungals_Practical_Primer_Resident_Fellow.html",
@@ -137,10 +137,10 @@
     "incomingLinksReviewed": true,
     "outgoingLinksReviewed": true,
     "catalogReviewed": true,
-    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed."
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed. October 31 educational disclaimer: compared with the prior version; all existing headings, section targets, incoming/outgoing links, scope and catalog descriptions remain unchanged. Only the educational-use notice and its mobile/print styles were added. Clinical review dates were not advanced."
   },
   "lectures/Helicobacter_Pylori_Diagnosis_Treatment_and_Resistance.html": {
-    "sha256": "81d7a6a956f4f6ce04bc7eb25a159b9b9a2cf1547d7dc0159043447d516bf926",
+    "sha256": "c0998b82d644891e52d870c7189c80d20a3db412b459a0cf134686bba5026c58",
     "reviewedOn": "2026-10-31",
     "relatedModulesReviewed": [
       "lectures/Antibiotic_Resistance_and_Resistant_Organisms.html",
@@ -150,10 +150,10 @@
     "incomingLinksReviewed": true,
     "outgoingLinksReviewed": true,
     "catalogReviewed": true,
-    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed."
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed. October 31 educational disclaimer: compared with the prior version; all existing headings, section targets, incoming/outgoing links, scope and catalog descriptions remain unchanged. Only the educational-use notice and its mobile/print styles were added. Clinical review dates were not advanced."
   },
   "lectures/Nontuberculous_Mycobacterial_Infections.html": {
-    "sha256": "92c226cf1ade1553ed5bab067f56d7440d848f5e049f20fede2125aed1421253",
+    "sha256": "55b099a1b65c7da85c558da3647029a2141360e8f99190033183825537307db7",
     "reviewedOn": "2026-10-31",
     "relatedModulesReviewed": [
       "lectures/Antifungals_Practical_Primer_Resident_Fellow.html",
@@ -165,10 +165,10 @@
     "incomingLinksReviewed": true,
     "outgoingLinksReviewed": true,
     "catalogReviewed": true,
-    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed."
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed. October 31 educational disclaimer: compared with the prior version; all existing headings, section targets, incoming/outgoing links, scope and catalog descriptions remain unchanged. Only the educational-use notice and its mobile/print styles were added. Clinical review dates were not advanced."
   },
   "lectures/OPAT_Primer_Short_Module.html": {
-    "sha256": "b8a1affcc6831c02b97c4393e6511f8ede3e9adbf74876bfbbd19fa5b1f65741",
+    "sha256": "b11e98a10f20e5e692d18b2d47030e4530f8551d761682c1c60f6978686920a4",
     "reviewedOn": "2026-10-31",
     "relatedModulesReviewed": [
       "lectures/Antibiotic_Resistance_and_Resistant_Organisms.html",
@@ -181,10 +181,10 @@
     "incomingLinksReviewed": true,
     "outgoingLinksReviewed": true,
     "catalogReviewed": true,
-    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed."
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed. October 31 educational disclaimer: compared with the prior version; all existing headings, section targets, incoming/outgoing links, scope and catalog descriptions remain unchanged. Only the educational-use notice and its mobile/print styles were added. Clinical review dates were not advanced."
   },
   "lectures/Penicillin_Allergy_Short_Module.html": {
-    "sha256": "fb73a34029ae5db1b9015748861cba229faa4b27e2f64cff1566cf3bdbb2f39c",
+    "sha256": "dbbec9d101036ea8232d3f4b7718e844c0f345b2c8b15393e1a8ab65e86149b3",
     "reviewedOn": "2026-10-31",
     "relatedModulesReviewed": [
       "lectures/Antibiotics_Practical_Primer_Inpatient_Resident.html",
@@ -195,10 +195,10 @@
     "incomingLinksReviewed": true,
     "outgoingLinksReviewed": true,
     "catalogReviewed": true,
-    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed."
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed. October 31 educational disclaimer: compared with the prior version; all existing headings, section targets, incoming/outgoing links, scope and catalog descriptions remain unchanged. Only the educational-use notice and its mobile/print styles were added. Clinical review dates were not advanced."
   },
   "lectures/Positive_Blood_Cultures_Contaminant_Source_Clearance_Source_Control.html": {
-    "sha256": "0e3ee3061db332a493e1ef2e06311e44955bc1126193af6a1de2b8338e1d43b1",
+    "sha256": "e20ff7429e4634bb0e47b9c30034b5ccb56f4f8ff42ac0dbe909051f5e6172f0",
     "reviewedOn": "2026-10-31",
     "relatedModulesReviewed": [
       "lectures/Antibiotic_Resistance_and_Resistant_Organisms.html",
@@ -212,10 +212,10 @@
     "incomingLinksReviewed": true,
     "outgoingLinksReviewed": true,
     "catalogReviewed": true,
-    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed."
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed. October 31 educational disclaimer: compared with the prior version; all existing headings, section targets, incoming/outgoing links, scope and catalog descriptions remain unchanged. Only the educational-use notice and its mobile/print styles were added. Clinical review dates were not advanced."
   },
   "lectures/Recurrent_UTI_Evaluation_and_Prevention.html": {
-    "sha256": "de4f9c1d566f427d2420f6898e2346fa62f11f9abe28f0ed8d69158786010a89",
+    "sha256": "e735e08ece7c0e99a25a388af5b44f0d8b5b2566f4d1aefeb0022f7e0e4528f0",
     "reviewedOn": "2026-10-31",
     "relatedModulesReviewed": [
       "lectures/Antibiotic_Resistance_and_Resistant_Organisms.html",
@@ -228,10 +228,10 @@
     "incomingLinksReviewed": true,
     "outgoingLinksReviewed": true,
     "catalogReviewed": true,
-    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed."
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed. October 31 educational disclaimer: compared with the prior version; all existing headings, section targets, incoming/outgoing links, scope and catalog descriptions remain unchanged. Only the educational-use notice and its mobile/print styles were added. Clinical review dates were not advanced."
   },
   "lectures/Tuberculosis_Standard_Treatment_and_Newer_Avenues.html": {
-    "sha256": "61938790c28e9ee8da260eac5396029024121c7ed62cb9cb21b59cdd7eba4650",
+    "sha256": "a51b0202ea121268049dd59959a25277b737011ce4403ba76d095ca3b7ca8c98",
     "reviewedOn": "2026-10-31",
     "relatedModulesReviewed": [
       "lectures/Antifungals_Practical_Primer_Resident_Fellow.html",
@@ -243,10 +243,10 @@
     "incomingLinksReviewed": true,
     "outgoingLinksReviewed": true,
     "catalogReviewed": true,
-    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed."
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed. October 31 educational disclaimer: compared with the prior version; all existing headings, section targets, incoming/outgoing links, scope and catalog descriptions remain unchanged. Only the educational-use notice and its mobile/print styles were added. Clinical review dates were not advanced."
   },
   "lectures/Viral_Hepatitis_B_and_C_Workup_Treatment_and_Follow-up.html": {
-    "sha256": "4bfee6acb31caed232e15db2c5dbee2321cad1019ade2662318d18bc741988ed",
+    "sha256": "c9001e7c51a88e6f557f9f55271ab699393d304c7dfa8700e3253c0045117cf6",
     "reviewedOn": "2026-10-31",
     "relatedModulesReviewed": [
       "lectures/HIV_Diagnosis_ART_Prevention_and_Opportunistic_Infections.html",
@@ -255,10 +255,10 @@
     "incomingLinksReviewed": true,
     "outgoingLinksReviewed": true,
     "catalogReviewed": true,
-    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed."
+    "note": "Baseline from the October 27 contextual cross-link review documented in docs/lecture-crosslinks-2026-10-27.md. Links target the named companion discussions; existing clinical text and clinical review dates were preserved. Presentation navigation review October 28: only a shared corner-link script was added. Existing clinical text, headings, anchors, incoming/outgoing links and catalog descriptions are unchanged; the presentation returns to the module. October 31 presentation removal: removed only the shared hidden-link script. Compared HTML before and after removal; all teaching text, headings, section IDs, static incoming and outgoing links, and the lecture catalog are unchanged. No clinical evidence review was performed. October 31 educational disclaimer: compared with the prior version; all existing headings, section targets, incoming/outgoing links, scope and catalog descriptions remain unchanged. Only the educational-use notice and its mobile/print styles were added. Clinical review dates were not advanced."
   },
   "lectures/Tickborne_Infections_Primer.html": {
-    "sha256": "7a6b40d0599dc342751941f6af8e4ab2a79ac9ece5e322d5a4a47d155b4fdafa",
+    "sha256": "1f71d0d9768e38391fb8544d448605ad8e37b2ea251843c3671427a39545930b",
     "reviewedOn": "2026-10-31",
     "relatedModulesReviewed": [
       "lectures/Lyme_Disease_Primer.html"
@@ -266,10 +266,10 @@
     "incomingLinksReviewed": true,
     "outgoingLinksReviewed": true,
     "catalogReviewed": true,
-    "note": "Reviewed catalog, existing incoming/outgoing destinations, and companion neurologic/testing/treatment sections. Added reciprocal contextual CSF and CNS-treatment links; preserved existing anchors and scope. Added LP indications, specimen limitations and organism-specific neurologic treatment. Catalog description updated. No whole-site clinical review claimed."
+    "note": "Reviewed catalog, existing incoming/outgoing destinations, and companion neurologic/testing/treatment sections. Added reciprocal contextual CSF and CNS-treatment links; preserved existing anchors and scope. Added LP indications, specimen limitations and organism-specific neurologic treatment. Catalog description updated. No whole-site clinical review claimed. October 31 educational disclaimer: compared with the prior version; all existing headings, section targets, incoming/outgoing links, scope and catalog descriptions remain unchanged. Only the educational-use notice and its mobile/print styles were added. Clinical review dates were not advanced."
   },
   "lectures/Lyme_Disease_Primer.html": {
-    "sha256": "087a5a1e2439d12c50605178cd400737af710b7d137a3645047f55ff9e23bf39",
+    "sha256": "b2f1cb3334c1e32928e567ceb97304747e92c6d772721315684da537f825c9f6",
     "reviewedOn": "2026-10-31",
     "relatedModulesReviewed": [
       "lectures/Tickborne_Infections_Primer.html"
@@ -277,6 +277,6 @@
     "incomingLinksReviewed": true,
     "outgoingLinksReviewed": true,
     "catalogReviewed": true,
-    "note": "Reviewed catalog, existing incoming/outgoing destinations, and companion neurologic/testing/treatment sections. Added reciprocal contextual CSF and CNS-treatment links; preserved existing anchors and scope. Added LP indications, specimen limitations and organism-specific neurologic treatment. Catalog description updated. No whole-site clinical review claimed."
+    "note": "Reviewed catalog, existing incoming/outgoing destinations, and companion neurologic/testing/treatment sections. Added reciprocal contextual CSF and CNS-treatment links; preserved existing anchors and scope. Added LP indications, specimen limitations and organism-specific neurologic treatment. Catalog description updated. No whole-site clinical review claimed. October 31 educational disclaimer: compared with the prior version; all existing headings, section targets, incoming/outgoing links, scope and catalog descriptions remain unchanged. Only the educational-use notice and its mobile/print styles were added. Clinical review dates were not advanced."
   }
 }

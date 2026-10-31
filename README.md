@@ -76,6 +76,8 @@ The GitHub Actions workflow checks out the complete history, generates metadata,
 
 The generated slide presentations, PowerPoints and hidden corner links were retired at the owner's request on October 31, 2026. New or revised modules do not require presentation exports. Future presentations will be developed separately when requested.
 
+Every lecture and the lecture catalog include the same visible educational-use disclaimer near the top, including in print. Preserve it in future modules and revisions. Disclaimer or navigation maintenance does not establish a new clinical review date.
+
 New and revised modules must follow [the lecture cross-link maintenance protocol](docs/lecture-link-protocol.md). Publication checks reject broken local lecture links, removed anchors, and stale cross-link review records. Editorial review is still required to confirm that links point to the appropriate discussion.
 
 `lectures/index.html` lists the current resident, fellow and attending teaching modules. The homepage sidebar links to this page. Modules retain their source content, review status, self-contained styles, and print behavior; a print-hidden navigation bar links back to the lecture list and digest. Update the corresponding HTML and catalog version date together when a revised lecture is supplied.
