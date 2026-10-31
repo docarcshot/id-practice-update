@@ -235,6 +235,10 @@ main a{color:var(--lecture-green)}
 p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-width:1100px;margin:16px auto 0;padding:10px 12px;border:1px solid #cbd5d0;border-left:3px solid #215732;border-radius:4px;background:#f5f8f6;color:#33433b;font:400 13px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:normal;text-transform:none;text-align:left;white-space:normal;overflow-wrap:anywhere;opacity:1}
 @media print{p.lecture-disclaimer{display:block!important;visibility:visible!important;color:#000;background:#fff;border-color:#777;font-size:8pt;line-height:1.35;break-inside:avoid}}
 </style>
+<style id="lecture-disclaimer-print-placement">
+@media screen{p.lecture-print-disclaimer{display:none!important}}
+@media print{header p.lecture-disclaimer{display:none!important}main>p.lecture-print-disclaimer{display:block!important;visibility:visible!important;break-inside:avoid;margin:0 0 12pt}}
+</style>
 </head>
 <body>
 <nav aria-label="Lecture navigation" class="lecture-site-nav"><a href="./">All lectures</a><a href="../">ID Practice Update</a></nav>
@@ -253,7 +257,7 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 <div aria-label="Fellow teaching" class="fellow-jump" role="note"><div class="fellow-jump-copy"><p class="fellow-jump-title">Advanced fellow teaching is below</p><p class="fellow-jump-description">Complete the resident core or jump directly to the detailed teaching and reference sections.</p></div><div class="fellow-jump-actions"><a class="fellow-jump-button" data-fellow-jump="" href="#advanced">Jump to fellow section</a></div></div><p class="lecture-disclaimer">These materials are intended for clinician education and do not replace current clinical guidelines, institutional policies, or individualized clinical judgment. Refer to the linked primary sources and official guidance for diagnostic criteria, testing recommendations, and treatment decisions. Recommendations may change after the listed review date.</p></header>
 <nav aria-label="Module navigation" class="review-nav"><div><a href="#start">Start</a><a href="#framework">Framework</a><a href="#signal">Organisms</a><a href="#cases">Cases</a><a href="#clearance">Clearance</a><a href="#source-control">Source control</a><a href="#advanced">Advanced</a><a href="#references">Sources</a><button onclick="printReviewedLecture('core')" type="button">Print core</button><button onclick="printReviewedLecture('full')" type="button">Print all</button><button onclick="printReviewedLecture('summary')" type="button">Print rounds sheet</button></div></nav>
 <div class="layout">
-<main id="main">
+<main id="main"><p class="lecture-disclaimer lecture-print-disclaimer">These materials are intended for clinician education and do not replace current clinical guidelines, institutional policies, or individualized clinical judgment. Refer to the linked primary sources and official guidance for diagnostic criteria, testing recommendations, and treatment decisions. Recommendations may change after the listed review date.</p>
 <section class="core-section" id="start">
 <h2>What you should be able to do</h2><p class="core-label">Resident core · 30–45 minutes with discussion</p>
 <p class="lede">A positive blood culture is a piece of data, not yet a diagnosis. When the lab calls, I first want to know how sick the patient is, what grew, how the cultures were collected, and whether there is hardware or a source that needs attention. The antibiotic choice matters, but it is rarely the only decision.</p>
