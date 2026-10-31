@@ -80,6 +80,8 @@ Every lecture and the lecture catalog include the same visible educational-use d
 
 The owner-approved October 31 clinical corrections and their scope are recorded in [the correction release notes](docs/lecture-corrections-2026-10-31.md).
 
+New and clinically revised modules, including separate drafts, must follow [the clinical verification and release protocol](docs/lecture-clinical-quality-protocol.md). It requires claim-specific source checks, a separate search for clinical exceptions, reconciliation of repeated teaching, and final save/deployment verification for every target. These are editorial requirements; automated checks do not certify medical accuracy.
+
 New and revised modules must follow [the lecture cross-link maintenance protocol](docs/lecture-link-protocol.md). Publication checks reject broken local lecture links, removed anchors, and stale cross-link review records. Editorial review is still required to confirm that links point to the appropriate discussion.
 
 `lectures/index.html` lists the current resident, fellow and attending teaching modules. The homepage sidebar links to this page. Modules retain their source content, review status, self-contained styles, and print behavior; a print-hidden navigation bar links back to the lecture list and digest. Update the corresponding HTML and catalog version date together when a revised lecture is supplied.

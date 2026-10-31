@@ -10,6 +10,10 @@ Clinical teaching may remain consistent with the user's stated local practice. T
 
 For every new or revised lecture, follow `docs/lecture-link-protocol.md`. Review relevant existing modules for incoming and outgoing links, including potential relationships not yet linked. Preserve existing URLs and section IDs or provide meaningful compatibility targets. Do not publish planned/future-lecture placeholders. Complete the per-module editorial record in `data/lecture-link-reviews.json` after the review. Never refresh hashes as a substitute for checking link relevance. Run the lecture link validator and its tests before publishing; report unavailable browser checks honestly.
 
+# Clinical verification and release
+
+For every new lecture, clinical revision, separate draft, or approved correction, follow `docs/lecture-clinical-quality-protocol.md`. Keep a claim-level evidence record for consequential statements, reopen primary sources during a separate exception-focused review, reconcile tables/cases/print summaries and companion modules, and verify the result for each exact saved target/version before reporting completion. Source lists, another AI pass, file hashes and a successful deployment are not clinical validation. Do not report intended draft writes as completed saves. These requirements also apply outside scheduled reviews and do not change the approval boundary below.
+
 # Periodic lecture evidence review
 
 ## Teaching presentations
