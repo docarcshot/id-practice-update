@@ -1,5 +1,13 @@
 # Publication restrictions
 
+## Proprietary source exclusion
+
+At the owner's request on October 31, 2026, do not use proprietary clinical reference services as sources for lecture creation, verification, revision, or publication, including through the owner's login or uploaded PDFs. Do not copy, closely paraphrase, redraw, translate, embed, or adapt its text, tables, figures, algorithms, screenshots, or distinctive teaching structure. This applies to separate drafts as well as published modules.
+
+Use independently retrieved issuing-organization guidance, regulatory labeling, and original studies. Write the teaching text and tables independently. A replacement citation alone does not establish independent authorship or remove copied expression. When previous reliance on a proprietary clinical reference is known or suspected, independently verify the affected claims and reconstruct the affected passage from the permitted sources; omit material that cannot be independently supported. Preserve necessary clinical qualifications.
+
+For source-origin reviews, inspect text, references, links, figures, embedded assets, tables, and available provenance. Distinguish "no identifiable proprietary source material found" from a complete authorship or rights clearance. A keyword scan cannot establish the origin of every sentence. Do not delete the owner's uploaded source files unless explicitly requested.
+
 Do not publish internal WashU or BJC documents, institutional consensus documents, screenshots, tables, or reproduced passages from them. Do not upload or embed Google Drive board-preparation materials, commercial course files, slide decks, question banks, or their copied text or figures. Access to a private file is not authorization to redistribute it.
 
 Public teaching modules must use original wording and public guideline, journal, or regulatory sources. Check every added file, attachment, embed, and link before publication. Keep private source materials out of the repository, build output, and deployment artifacts.
