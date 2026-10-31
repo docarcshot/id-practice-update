@@ -89,7 +89,8 @@ function main() {
   for (const file of previousFiles) readPage(file);
   for (const file of previousFiles) {
     if (!pages.has(file)) {errors.push(`${file}: removed page; preserve a compatibility page and its anchors`);continue;}
-    const old=parsePage(execFileSync('git',['show',`HEAD^:${file}`],{encoding:'utf8'}));
+    // Embedded maps and clinical images can exceed Node's default 1 MiB buffer.
+    const old=parsePage(execFileSync('git',['show',`HEAD^:${file}`],{encoding:'utf8',maxBuffer:32*1024*1024}));
     for (const id of removedAnchors(old,pages.get(file))) errors.push(`${file}: removed anchor #${id}; keep an alias at the equivalent section`);
   }
   if(errors.length) {console.error(errors.join('\n'));process.exitCode=1;}
