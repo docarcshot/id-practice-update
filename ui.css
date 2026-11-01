@@ -72,3 +72,10 @@ button:focus-visible,a:focus-visible,select:focus-visible,summary:focus-visible,
   html{scroll-padding-top:110px}
   .article-card{scroll-margin-top:110px}
 }
+
+/* Keep the full archive searchable without a single long results list. */
+.archive-pagination{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px;margin:8px 0 18px}
+.archive-pagination:last-child{margin:18px 0 0}
+.archive-pagination button{min-height:44px;padding:9px 16px;border:1px solid #cbd2cc;border-radius:8px;background:var(--surface);color:var(--text);font:inherit;font-size:13px;cursor:pointer}
+.archive-pagination button:disabled{opacity:.45;cursor:default}
+.archive-pagination span{font-size:13px;color:var(--muted)}

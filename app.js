@@ -18,6 +18,8 @@
   const newCount = previousIds ? articles.filter(a => !previousIds.includes(a.id)).length : 0;
   const filters = {area:'All', type:'All', impact:'All', time:'all', sort:'added', query:''};
   let latestExpanded = false;
+  const archivePageSize = 10;
+  let archivePage = 0;
   let feedbackTimer;
   let hyvorScriptPromise = null;
   const esc = s => String(s ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -156,10 +158,19 @@
     $('latest-all').hidden = recent.length <= 10;
   }
 
-  function renderArchive() {
+  function renderArchive(reset = true) {
+    if (reset) archivePage = 0;
     const filtered = ui.filterArticles(articles, filters, metadata, previousIds, today);
-    $('result-count').textContent = `${filtered.length} ${filtered.length === 1 ? 'entry' : 'entries'}`;
-    $('archive-list').innerHTML = filtered.length ? filtered.map(a => card(a,false,true)).join('') : '<div class="empty-state">No entries match these filters. <button type="button" data-clear-filters>Clear filters</button></div>';
+    const pages = Math.ceil(filtered.length / archivePageSize);
+    archivePage = Math.max(0, Math.min(archivePage, pages - 1));
+    const start = archivePage * archivePageSize;
+    $('result-count').textContent = filtered.length ? `${start + 1}-${Math.min(start + archivePageSize, filtered.length)} of ${filtered.length} entries` : '0 entries';
+    const pager = position => pages > 1 ? `<nav class="archive-pagination" aria-label="Archive pages ${position}">
+      <button type="button" data-archive-page="${archivePage - 1}" ${archivePage === 0 ? 'disabled' : ''}>Previous</button>
+      <span role="status">Page ${archivePage + 1} of ${pages}</span>
+      <button type="button" data-archive-page="${archivePage + 1}" ${archivePage === pages - 1 ? 'disabled' : ''}>Next</button>
+    </nav>` : '';
+    $('archive-list').innerHTML = filtered.length ? pager('top') + filtered.slice(start, start + archivePageSize).map(a => card(a,false,true)).join('') + pager('bottom') : '<div class="empty-state">No entries match these filters. <button type="button" data-clear-filters>Clear filters</button></div>';
   }
 
   function setTime(value) {
@@ -176,7 +187,15 @@
 
   function openSummary(id) {
     if (!byId.has(id)) return;
-    if (!$(id)) clearFilters();
+    if (!$(id)) {
+      let filtered = ui.filterArticles(articles, filters, metadata, previousIds, today);
+      if (!filtered.some(article => article.id === id)) {
+        clearFilters();
+        filtered = ui.filterArticles(articles, filters, metadata, previousIds, today);
+      }
+      archivePage = Math.floor(filtered.findIndex(article => article.id === id) / archivePageSize);
+      renderArchive(false);
+    }
     const element = $(id);
     element.querySelectorAll('details').forEach(detail => { detail.open = true; });
     element.focus({preventScroll:true});
@@ -201,6 +220,13 @@
   document.addEventListener('click', event => {
     const button = event.target.closest('button, a');
     if (!button) return;
+    if (button.hasAttribute('data-archive-page')) {
+      archivePage = Number(button.dataset.archivePage);
+      renderArchive(false);
+      $('archive').scrollIntoView({block:'start', behavior:'auto'});
+      $('search-input').focus({preventScroll:true});
+      return;
+    }
     if (button.hasAttribute('data-time-filter')) return setTime(button.dataset.timeFilter);
     if (button.hasAttribute('data-clear-filters')) return clearFilters();
     if (button.hasAttribute('data-search-nav')) {
