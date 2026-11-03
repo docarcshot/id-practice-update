@@ -1,5 +1,35 @@
 window.ID_ARTICLES = [
   {
+    id: "ertapenem-resistant-higher-order-carbapenems-2026",
+    date: "2026-11-03",
+    title: "Are Higher-Order Carbapenems Effective Therapy for Patients with Ertapenem-Resistant Enterobacterales Invasive Infections?",
+    type: "Multicenter prospective cohort study",
+    journal: "Clinical Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Carbapenem-resistant Enterobacterales", "Ertapenem resistance", "Meropenem", "Imipenem", "Antimicrobial resistance", "Bacteremia", "Antibiotic selection", "Inpatient ID"],
+    summary: "This multicenter prospective cohort included 374 hospitalized patients with invasive ceftriaxone-resistant Enterobacterales infections who received more than 72 hours of definitive imipenem or meropenem. All isolates were susceptible to the administered higher-order carbapenem by broth microdilution and lacked carbapenemase genes; 136/374 (36%) were ertapenem resistant and 238/374 (64%) were ertapenem susceptible. Ertapenem resistance was associated with higher 30-day mortality after inverse-probability weighting (odds ratio 2.24, 95% CI 1.26-3.98; P=.006).",
+    change: "Ertapenem resistance may identify clinically important reduced carbapenem activity even when imipenem or meropenem tests susceptible and no carbapenemase is detected. Mortality was also higher at 14 days and during hospitalization, and the highest mortality occurred when isolates were resistant to two carbapenems. Genomic analysis found enrichment of porin alterations and additional non-carbapenemase beta-lactamases in ertapenem-resistant isolates.",
+    takeaway: "For a serious invasive Enterobacterales infection that is ertapenem resistant but imipenem or meropenem susceptible, do not treat the higher-order carbapenem result as automatically reassuring. Confirm the MIC and carbapenemase result, review the resistance mechanism when available, optimize dosing, and consider an active newer agent with ID and stewardship input when illness severity and the full susceptibility profile justify it. This observational study does not establish which alternative is superior.",
+    limitations: "Treatment was not randomized, so ertapenem resistance may partly mark more complex patients, pathogens, or infections despite weighting. Eligibility required more than 72 hours of definitive carbapenem therapy, creating potential survivor and selection bias. The study compared resistance phenotypes rather than alternative treatment strategies and cannot prove that partial carbapenem hydrolysis caused the mortality difference.",
+    link: "https://doi.org/10.1093/cid/ciag696",
+    doi: "10.1093/cid/ciag696"
+  },
+  {
+    id: "impala-long-acting-hiv-adherence-challenges-2026",
+    date: "2026-10-14",
+    title: "Long-Acting HIV Therapy in African Adults with Adherence Challenges",
+    type: "Multicenter open-label randomized phase 3b noninferiority trial",
+    journal: "New England Journal of Medicine",
+    impact: "Practice informing",
+    tags: ["HIV", "Cabotegravir", "Rilpivirine", "Long-acting antiretroviral therapy", "Adherence", "Virologic failure", "Drug resistance", "Outpatient ID"],
+    summary: "IMPALA randomized 540 adults in Kenya, South Africa, and Uganda who had HIV-1 RNA below 200 copies/mL but suboptimal oral-treatment adherence or care engagement; 537 were included in the primary analysis. At week 48, HIV-1 RNA was below 50 copies/mL in 244/268 (91.0%) assigned injectable cabotegravir-rilpivirine every 8 weeks and 240/269 (89.2%) continuing oral dolutegravir-based therapy (risk difference 1.9 percentage points, 95% CI -3.1 to 6.9), meeting the 10-point noninferiority margin.",
+    change: "Long-acting cabotegravir-rilpivirine maintained suppression as effectively as daily dolutegravir-based therapy in selected adults with documented adherence or engagement challenges. Confirmed virologic failure occurred in 5/268 (1.9%) with long-acting therapy versus 0/269 with oral therapy (risk difference 1.9 points, 95% CI 0.3-3.5). Serious adverse events occurred in 11/271 (4.1%) versus 8/269 (3.0%).",
+    takeaway: "Adherence challenges alone should not exclude a virologically suppressed patient from long-acting cabotegravir-rilpivirine when reliable injection follow-up can be built. Review prior resistance and HBV status, confirm suppression, and establish a missed-injection and viral-load monitoring plan. The five virologic failures reinforce the need for prompt resistance testing and regimen reassessment if viremia develops.",
+    limitations: "The trial was open label, followed participants for 48 weeks, and enrolled people already suppressed below 200 copies/mL rather than those with uncontrolled viremia. Baseline resistance testing was not performed, injection delivery required trial infrastructure, and results may not generalize to settings with less reliable visit support. The study was industry funded.",
+    link: "https://doi.org/10.1056/NEJMoa2518753",
+    doi: "10.1056/NEJMoa2518753"
+  },
+  {
       "id": "cefiderocol-game-changer-door-2026",
       "date": "2026-09-07",
       "title": "A Randomized Controlled Trial of Cefiderocol Versus Standard Therapy for Gram-negative Bacterial Bloodstream Infections: Benefit and Risk Assessment Using Desirability of Outcome Ranking and Generalized Pairwise Comparisons",
