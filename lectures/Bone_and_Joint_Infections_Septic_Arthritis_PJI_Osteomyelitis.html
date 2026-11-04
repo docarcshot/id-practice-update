@@ -97,12 +97,12 @@ main a{color:var(--lecture-green)}
 @media print{body>header,body>header.hero{background:#fff!important;color:#111!important}body>header *{color:#111!important}.fellow{background:#fff}}
 </style><script defer src="../analytics.js?v=20261022analytics1"></script>
 <style id="lecture-disclaimer-style">
-p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-width:1100px;margin:16px auto 0;padding:10px 12px;border:1px solid #cbd5d0;border-left:3px solid #215732;border-radius:4px;background:#f5f8f6;color:#33433b;font:400 13px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:normal;text-transform:none;text-align:left;white-space:normal;overflow-wrap:anywhere;opacity:1}
+p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-width:1100px;margin:16px auto 0;padding:10px 12px;border:1px solid #cbd5d0;border-left:3px solid #215732;border-radius:4px;background:#f5f8f6;color:#33433b;font:400 13px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:normal;text-transform:none;text-align:left;white-space:normal;overflow-wrap:anywhere;opacity:1}p.lecture-disclaimer a{color:inherit;text-decoration:underline}
 @media print{p.lecture-disclaimer{display:block!important;visibility:visible!important;color:#000;background:#fff;border-color:#777;font-size:8pt;line-height:1.35;break-inside:avoid}}
 </style>
 <style id="lecture-disclaimer-print-placement">
 @media screen{p.lecture-print-disclaimer{display:none!important}}
-@media print{header p.lecture-disclaimer{display:none!important}main>p.lecture-print-disclaimer{display:block!important;visibility:visible!important;break-inside:avoid;margin:0 0 12pt}}
+@media print{.skip,.skip-link{display:none!important}header p.lecture-disclaimer{display:none!important}main>p.lecture-print-disclaimer{display:block!important;visibility:visible!important;break-inside:avoid;margin:0 0 12pt}}
 </style>
 </head>
 <body>
@@ -118,16 +118,17 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 <div class="meta-row">
 <span class="meta-chip">Core 30–45 min</span>
 <span class="meta-chip">Advanced section optional</span>
-<span class="meta-chip">Version 1.3 · September 21, 2026</span>
+<span class="meta-chip">Version 1.3 · Edited November 4, 2026</span>
 <span class="meta-chip">Specialty review pending</span>
 </div>
-<div aria-label="Fellow teaching" class="fellow-jump" role="note"><div class="fellow-jump-copy"><p class="fellow-jump-title">Advanced fellow teaching is below</p><p class="fellow-jump-description">Complete the resident core or jump directly to the detailed teaching and reference sections.</p></div><div class="fellow-jump-actions"><a class="fellow-jump-button" data-fellow-jump="" href="#advanced">Jump to fellow section</a></div></div><p class="lecture-disclaimer">These materials are intended for clinician education and do not replace current clinical guidelines, institutional policies, or individualized clinical judgment. Refer to the linked primary sources and official guidance for diagnostic criteria, testing recommendations, and treatment decisions. Recommendations may change after the listed review date.</p></header>
+<div aria-label="Fellow teaching" class="fellow-jump" role="note"><div class="fellow-jump-copy"><p class="fellow-jump-title">Advanced fellow teaching is below</p><p class="fellow-jump-description">Complete the resident core or jump directly to the detailed teaching and reference sections.</p></div><div class="fellow-jump-actions"><a class="fellow-jump-button" data-fellow-jump="" href="#advanced">Jump to fellow section</a></div></div><p class="lecture-disclaimer">Independent clinician education, not institutional policy or patient-specific prescribing instructions. Treatment examples require assessment of the stated population, current guidance, susceptibility, organ function, interactions, and local policy. No Washington University or BJC HealthCare endorsement is implied. See the <a href="https://github.com/docarcshot/id-practice-update/blob/main/docs/clinical-review-2026-11-04/README.md">clinical review record</a> for verified scope and unresolved questions.</p></header>
 <nav aria-label="Module sections" class="review-nav"><div><a href="#start">Start</a><a href="#core-septic">Septic arthritis</a><a href="#core-pji">PJI</a><a href="#core-osteomyelitis">Osteomyelitis</a><a href="#core-dfo">Diabetic foot</a><a href="#core-pressure">Sacral wounds</a><a href="#core-cases">Cases</a><a href="#advanced">Advanced</a><a href="#references">Sources</a><button onclick="printReviewedLecture('core')" type="button">Print core</button><button onclick="printReviewedLecture('full')" type="button">Print all</button><button onclick="printReviewedLecture('summary')" type="button">Print rounds sheet</button></div></nav>
 <div class="layout">
-<main id="main"><p class="lecture-disclaimer lecture-print-disclaimer">These materials are intended for clinician education and do not replace current clinical guidelines, institutional policies, or individualized clinical judgment. Refer to the linked primary sources and official guidance for diagnostic criteria, testing recommendations, and treatment decisions. Recommendations may change after the listed review date.</p>
+<main id="main"><p class="lecture-disclaimer lecture-print-disclaimer">Independent clinician education, not institutional policy or patient-specific prescribing instructions. Treatment examples require assessment of the stated population, current guidance, susceptibility, organ function, interactions, and local policy. No Washington University or BJC HealthCare endorsement is implied. See the <a href="https://github.com/docarcshot/id-practice-update/blob/main/docs/clinical-review-2026-11-04/README.md">clinical review record</a> for verified scope and unresolved questions.</p>
 <section class="core-section" id="start">
 <h2>Define what remains infected before choosing the treatment duration</h2>
 <p class="lede">Bone and joint infection is easiest to manage when the anatomy, microbiology, source-control plan, and treatment intent are named explicitly. Acute, subacute, and chronic describe tempo. They do not, by themselves, determine antibiotic duration.</p>
+<p>The treatment examples concern adults with pyogenic bacterial infection. Mycobacterial, fungal, and Brucella infection require distinct regimens and durations. Pregnancy, major organ dysfunction, and concurrent bacteremia or endocarditis can change drug selection, route, and follow-up.</p>
 <div class="callout"><h3>Scope for the live session</h3><p>Teach through the core sections and three cases, then stop. The advanced section is a post-lecture reference for fellows, attendings, and questions that arise on service.</p></div>
 <h3>Learning objectives</h3>
 <ol>
@@ -156,11 +157,11 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 <h2>A hot native joint requires aspiration, drainage, and active antibiotics</h2>
 <div class="decision-row">
 <div><h3>Diagnose</h3><p>Aspirate promptly if feasible. Send bacterial culture, cell count with differential, and crystals. Obtain blood cultures when febrile, systemically ill, or bacteremia is plausible. Crystals do not exclude infection, and no single synovial WBC cutoff proves or excludes it.</p></div>
-<div><h3>Treat now</h3><p>After sampling, vancomycin plus ceftriaxone is a common empiric regimen. Substitute an antipseudomonal beta-lactam when resistant gram-negative risk is meaningful. Narrow once cultures return.</p></div>
+<div><h3>Treat now</h3><p>After sampling, cover staphylococci and streptococci and add gram-negative coverage according to Gram stain, host factors, and source. Vancomycin plus ceftriaxone is an example when MRSA coverage is warranted. Cefazolin plus ceftriaxone is a SANJO option with a negative Gram stain and no resistant-organism risk. Use an antipseudomonal beta-lactam only when that risk is credible; narrow to cultures.</p></div>
 <div><h3>Control the source</h3><p>Large-joint infection usually requires urgent orthopedic drainage. Failure to improve should prompt reassessment of drainage, adjacent osteomyelitis, and the diagnosis before automatic broadening or extension.</p></div>
 </div>
 <div aria-label="Let the syndrome modify the empiric start" class="table-wrap" role="region" tabindex="0"><table><caption>Let the syndrome modify the empiric start</caption><thead><tr><th scope="col">Clinical setting</th><th scope="col">Common pathogens</th><th scope="col">Practical implication</th></tr></thead><tbody>
-<tr><td>Typical adult native-joint infection</td><td><em>S. aureus</em> and streptococci</td><td>Vancomycin plus ceftriaxone is a common initial regimen after cultures.</td></tr>
+<tr><td>Typical adult native-joint infection</td><td><em>S. aureus</em> and streptococci</td><td>Select antistaphylococcal coverage from MRSA risk and local epidemiology; add gram-negative coverage according to Gram stain, host, and source.</td></tr>
 <tr><td>Older, immunocompromised, or suspected urinary/intra-abdominal source</td><td>Enteric gram-negative bacilli in addition to staphylococci and streptococci</td><td>Ensure gram-negative coverage and investigate the bloodstream source.</td></tr>
 <tr><td>Injection drug use, healthcare exposure, or penetrating/water exposure</td><td><em>S. aureus</em>; consider <em>Pseudomonas</em> according to exposure and local epidemiology</td><td>Use an antipseudomonal beta-lactam only when the risk is credible.</td></tr>
 <tr><td>Migratory polyarthralgia, tenosynovitis, or pustules</td><td><em>Neisseria gonorrhoeae</em></td><td>Obtain NAAT from exposed mucosal sites and culture purulent material; treat with ceftriaxone.</td></tr>
@@ -200,7 +201,7 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 </tbody></table></div>
 <div class="decision-row">
 <div><h3>Source</h3><p>Prefer blood cultures when hematogenous disease is plausible and bone or deep operative specimens when available. A superficial swab usually reflects colonizing flora.</p></div>
-<div><h3>Duration</h3><p>With adequate source control and no retained implant, treatment generally does not exceed 6 weeks. Complete resection of infected bone may require no osteomyelitis course. Residual soft-tissue infection is treated separately.</p></div>
+<div><h3>Duration</h3><p>For usual pyogenic bacterial osteomyelitis with adequate source control and no retained implant, treatment generally does not exceed 6 weeks. Complete resection of infected bone may require no osteomyelitis course. Residual soft-tissue infection is treated separately.</p></div>
 <div><h3>Route</h3><p>Osteomyelitis does not automatically require a PICC. An active, well-absorbed oral regimen is reasonable when the patient is stable, source control is adequate, absorption is reliable, and adherence and interactions have been addressed.</p></div>
 </div>
 <p class="small">Common anchors: most bacterial vertebral osteomyelitis, 6 weeks; diabetic foot osteomyelitis without resection, 6 weeks; minor amputation with a positive bone margin, up to 3 weeks. These are syndrome-specific anchors, not a universal rule.</p>
@@ -330,13 +331,13 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 <tbody>
 <tr>
 <td>Unstable, sepsis, or septic shock</td>
-<td>Obtain blood cultures and aspirate if this will not meaningfully delay therapy. A common US empiric regimen is vancomycin plus ceftriaxone; use cefepime or another antipseudomonal beta-lactam when resistant gram-negative/Pseudomonas risk is substantial.</td>
+<td>Obtain blood cultures and aspirate if this will not meaningfully delay therapy. Vancomycin plus ceftriaxone is an empiric example when MRSA coverage is warranted; use cefepime or another antipseudomonal beta-lactam when resistant gram-negative/Pseudomonas risk is substantial. Tailor coverage to prior isolates and the local antibiogram.</td>
 <td>Urgent orthopedic evaluation and lavage/drainage.</td>
 <td>Define after organism, drainage, bacteremia, and adjacent infection are known.</td>
 </tr>
 <tr>
 <td>Stable, no resistant gram-negative risk</td>
-<td>Aspirate first. Empiric vancomycin plus ceftriaxone is reasonable pending Gram stain and cultures, then narrow promptly.</td>
+<td>Aspirate first. If Gram stain is negative and resistant-organism risk is absent, SANJO suggests cefazolin (or an antistaphylococcal penicillin) plus ceftriaxone, or amoxicillin-clavulanate. Use vancomycin when MRSA risk or local epidemiology warrants it; narrow promptly.</td>
 <td>Arthroscopic lavage is commonly preferred for large joints; open debridement may be needed for advanced disease, adhesions, or bone/cartilage destruction.</td>
 <td>SANJO suggests 1–2 weeks IV followed by 2–4 weeks oral when improving. Evidence is low. Shorter total courses are best supported for hand/wrist infection after adequate drainage.</td>
 </tr>
@@ -372,7 +373,7 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 </tr>
 <tr>
 <td>Gonococcal arthritis / arthritis-dermatitis</td>
-<td>Ceftriaxone 1 g IV or IM every 24 hours. Treat chlamydia with doxycycline 100 mg twice daily for 7 days if not excluded.</td>
+<td>Ceftriaxone 1 g IV or IM every 24 hours. If chlamydia has not been excluded, add doxycycline 100 mg PO twice daily for 7 days in nonpregnant adults. During pregnancy, CDC recommends azithromycin 1 g PO once for chlamydia, with pregnancy-specific follow-up.</td>
 <td>Purulent joints may require serial aspiration or operative drainage.</td>
 <td>After substantial improvement, susceptibility-guided oral transition can occur at 24–48 hours; total treatment is at least 7 days.</td>
 </tr>
@@ -470,12 +471,12 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 </table>
 </div>
 <div class="callout">
-<h3>Local standard for DAIR</h3>
+<h3>Published DAIR regimens and duration evidence</h3>
 <p>For susceptible staphylococcal DAIR treated with a rifampin-based regimen, IDSA recommends 3 months for hip and 6 months for knee. DATIPO did not establish noninferiority of 6 versus 12 weeks across surgically managed PJI. Duration for other organisms and regimens needs case-specific review.</p>
 </div>
 <div class="callout caution">
 <h3>Do not overgeneralize SOLARIO</h3>
-<p>SOLARIO found that no more than 7 days of systemic antibiotics was noninferior to at least 4 weeks after definitive curative surgery plus a local antibiotic carrier. DAIR and suppressive procedures were excluded, and the PJI subgroup was small and not independently powered. The trial is practice-informing for carefully selected definitive surgery, but it does not shorten the local DAIR, one-stage, or two-stage pathways.</p>
+<p>SOLARIO found that no more than 7 days of systemic antibiotics was noninferior to at least 4 weeks after definitive curative surgery plus a licensed local-antibiotic carrier with at least 4 weeks of elution. DAIR, suppressive procedures, and infections with bacteria fully resistant to the local antibiotics were excluded. The PJI subgroup was small and not independently powered. The result may inform selected definitive operations with the same local-antibiotic and closure conditions. It does not support short systemic therapy after DAIR, and it does not independently establish an optimal course for every one-stage or two-stage exchange.</p>
 </div>
 <h3>Rifampin rules</h3>
 <ul>
@@ -488,7 +489,7 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 </p>
 </section>
 <section class="advanced-section" id="osteomyelitis">
-<h2>Osteomyelitis without a retained implant usually does not need more than six weeks</h2>
+<h2>Usual pyogenic osteomyelitis without a retained implant usually does not need more than six weeks</h2>
 <p>First define the route and anatomy: hematogenous, contiguous/post-traumatic, diabetic foot, vertebral, pressure-injury pelvic osteomyelitis, or hardware-associated infection. Chronic osteomyelitis with a sequestrum behaves differently from acute hematogenous disease even if the same organism is isolated.</p>
 <div aria-label="Management by source-control state" class="table-wrap" role="region" tabindex="0">
 <table>
@@ -506,7 +507,7 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 <td>Acute hematogenous osteomyelitis</td>
 <td>Blood cultures; MRI when needed; tissue diagnosis if blood cultures do not establish the pathogen and biopsy will change management.</td>
 <td>Drain abscess; debride necrotic tissue when present. Evaluate endovascular source for S. aureus bacteremia.</td>
-<td>Generally up to 6 weeks when no retained implant and source control is adequate. Oral therapy can be used when criteria are met.</td>
+<td>For usual pyogenic bacterial disease, generally up to 6 weeks when no retained implant and source control is adequate. Oral therapy can be used when criteria are met.</td>
 </tr>
 <tr>
 <td>Subacute osteomyelitis / Brodie abscess</td>
@@ -518,7 +519,7 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 <td>Chronic contiguous or post-traumatic osteomyelitis with sequestrum</td>
 <td>Deep bone/tissue culture and histology at debridement. Surface swabs are weak etiologic specimens.</td>
 <td>Remove necrotic bone, drain abscess, manage dead space, remove infected hardware when feasible, stabilize bone, and obtain durable vascularized soft-tissue coverage.</td>
-<td>Usually no more than 6 weeks after adequate source control. Three to four weeks may be adequate after debridement in selected cases, but confirmatory evidence is limited.</td>
+<td>For usual pyogenic bacterial disease without retained hardware, usually no more than 6 weeks after adequate source control. Three to four weeks may be adequate after debridement in selected cases, but confirmatory evidence is limited.</td>
 </tr>
 <tr>
 <td>Complete resection of infected bone</td>
@@ -551,7 +552,7 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 <div class="grid-2">
 <div class="mini-card">
 <h3>Medical treatment</h3>
-<p>For most bacterial native vertebral osteomyelitis, use 6 weeks of parenteral or highly bioavailable oral therapy. Routine extension beyond 6 weeks because MRI still looks abnormal is not supported.</p>
+<p>For most pyogenic bacterial native vertebral osteomyelitis, use 6 weeks of parenteral or highly bioavailable oral therapy. Brucella, mycobacteria, and fungi need separate regimens. Some experts extend treatment for extensive infection or other high-risk circumstances, but evidence of benefit is limited. Persistent MRI abnormalities alone do not justify extension.</p>
 </div>
 <div class="mini-card">
 <h3>Call spine surgery early for</h3>
@@ -719,7 +720,7 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 <ul>
 <li>Hemodynamics and local infection are stable.</li>
 <li>No undrained abscess or source-control procedure remains immediately necessary.</li>
-<li>No persistent bacteremia.</li>
+<li>No persistent bacteremia. OVIVA excluded S. aureus bacteremia or bacterial endocarditis present at enrollment or within the preceding month; clearance alone does not make those infections eligible for an OVIVA-based oral strategy.</li>
 <li>The oral drug is active and has adequate systemic/site exposure at the intended dose.</li>
 <li>GI absorption and adherence are reliable, and drug interactions are addressed.</li>
 <li>Monitoring is practical. TMP-SMX requires K+, creatinine, and CBC; linezolid requires CBC and longer-course toxicity review; rifampin has major interaction potential.</li>
@@ -777,7 +778,7 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 <h2>The highest-value studies change route and duration, but not the need for source control</h2>
 <div class="study">
 <h3>OVIVA: oral treatment can replace prolonged IV therapy</h3>
-<p>In 1,054 adults with complex orthopedic infection, definitive treatment failure occurred in 14.6% assigned to IV therapy and 13.2% assigned to oral therapy during the first 6 weeks. Oral therapy met noninferiority criteria. Catheter complications were more common with IV treatment, 9.4% versus 1.0%. This supports carefully selected oral regimens. It does not mean every oral drug is adequate or that source control can be omitted.</p>
+<p>OVIVA randomized 1,054 adults to IV or oral therapy for the first 6 weeks; the primary endpoint was definitive treatment failure within 1 year. Failure occurred in 74/506 (14.6%) assessed in the IV group and 67/509 (13.2%) in the oral group. Oral therapy met the prespecified noninferiority criterion. Catheter complications occurred in 9.4% versus 1.0%. Specialist-selected active regimens and suitable source control remain essential. S. aureus bacteremia or endocarditis at presentation or within the previous month was excluded.</p>
 </div>
 <div class="study">
 <h3>DATIPO: six weeks was not enough for all surgically managed PJI</h3>
@@ -785,7 +786,7 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 </div>
 <div class="study">
 <h3>SOLARIO: very short systemic therapy after definitive surgery plus local antibiotics</h3>
-<p>In 475 eligible adults who underwent definitive curative surgery, received a local antibiotic carrier eluting for at least 4 weeks, and achieved primary closure, no more than 7 days of systemic therapy was noninferior to at least 4 weeks for definite failure at 12 months (11.1% versus 14.1%). Antibiotic-related symptoms were less frequent with the short course. DAIR and suppressive procedures were excluded, the cohort combined several orthopedic syndromes, and the PJI subgroups were not separately powered. Do not apply this result to retained prostheses or surgery without the same local-antibiotic and closure conditions.</p>
+<p>SOLARIO randomized 500 adults after definitive curative surgery, implantation of a licensed local-antibiotic carrier with at least 4 weeks of elution, and primary closure; 475 contributed to the primary analysis. Culture-negative cases were eligible, but patients with operative isolates fully resistant to the local antibiotics were excluded from the eligible population. Definite failure at 12 months occurred in 26/234 (11.1%) assigned no more than 7 days of systemic therapy and 34/241 (14.1%) assigned at least 4 weeks (difference −3.0 percentage points; 95% CI −9.0 to 3.0). The prespecified noninferiority margin was 10 percentage points. Antibiotic-related symptoms were less frequent with the short course. DAIR and suppressive procedures were excluded, the cohort combined several orthopedic syndromes, and the PJI subgroups were not separately powered. Do not apply this result to retained infected prostheses or surgery without the same local-antibiotic and closure conditions.</p>
 </div>
 <div class="study">
 <h3>Two versus four weeks after native-joint drainage: useful but anatomically narrow</h3>
@@ -827,7 +828,7 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 <div class="teaching-answer">
 <h3>Discuss the decision</h3>
 <div>
-<p>Evaluate for disseminated gonococcal infection. Obtain NAAT from exposed mucosal sites, culture of purulent material when possible, and blood cultures when appropriate. Treat with ceftriaxone 1 g every 24 hours; treat chlamydia if not excluded. Total therapy is at least 7 days, with susceptibility-guided oral transition after substantial improvement.</p>
+<p>Evaluate for disseminated gonococcal infection. Obtain NAAT from exposed mucosal sites, culture of purulent material when possible, and blood cultures when appropriate. Treat with ceftriaxone 1 g IV or IM every 24 hours; treat chlamydia if not excluded using the pregnancy-appropriate regimen. Total therapy is at least 7 days, with susceptibility-guided oral transition after substantial improvement.</p>
 </div>
 </div>
 </div>
@@ -1052,13 +1053,13 @@ Reassess on [date/event] for [clinical response, cultures, wound status, hardwar
 <span class="evidence">Randomized trial</span> <a href="https://ard.bmj.com/content/78/8/1114">Gjika et al. Two weeks versus four weeks after surgical drainage for native joint bacterial arthritis. Ann Rheum Dis. 2019;78:1114–1121.</a>
 </li>
 <li id="ref-cdcgono">
-<span class="evidence">Guideline</span> <a href="https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm">CDC. Gonococcal infections among adolescents and adults.</a>
+<span class="evidence">Guideline</span> <a href="https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm">CDC. Gonococcal infections among adolescents and adults.</a> <a href="https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm">Chlamydial infections, including pregnancy treatment and follow-up.</a>
 </li>
 <li id="ref-pji2013">
 <span class="evidence">Archived guideline</span> <a href="https://academic.oup.com/cid/article/56/1/e1/415705">Osmon et al. IDSA Diagnosis and Management of Prosthetic Joint Infection. Clin Infect Dis. 2013;56:e1–e25.</a>
 </li>
 <li id="ref-pjireview">
-<span class="evidence">Contemporary review</span> <a href="https://academic.oup.com/cid/article/77/7/939/7289507">Nelson et al. Periprosthetic Joint Infection: Current Clinical Challenges. Clin Infect Dis. 2023;77:939–946.</a>
+<span class="evidence">Contemporary review</span> <a href="https://academic.oup.com/cid/article/77/7/939/7289507">Nelson et al. Executive Summary: Periprosthetic Joint Infection—Current Clinical Challenges. Clin Infect Dis. 2023;77:939–940.</a> <a href="https://academic.oup.com/cid/article/77/7/e34/7222985">Full review, 77:e34–e45.</a>
 </li>
 <li id="ref-datipo">
 <span class="evidence">Randomized trial</span> <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2020198">Bernard et al. Antibiotic Therapy for 6 or 12 Weeks for Prosthetic Joint Infection. N Engl J Med. 2021;384:1991–2001.</a>
@@ -1067,10 +1068,10 @@ Reassess on [date/event] for [clinical response, cultures, wound status, hardwar
 <span class="evidence">Systematic review + consensus</span> <a href="https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciag251/8653227">Hanssen et al. Suppressive Antimicrobial Therapy for Prosthetic Joint Infections. Clin Infect Dis. Published April 13, 2026.</a>
 </li>
 <li id="ref-oviva">
-<span class="evidence">Randomized trial</span> <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1710926">Li et al. Oral versus Intravenous Antibiotics for Bone and Joint Infection (OVIVA). N Engl J Med. 2019;380:425–436.</a>
+<span class="evidence">Randomized trial</span> <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1710926">Li et al. Oral versus Intravenous Antibiotics for Bone and Joint Infection (OVIVA). N Engl J Med. 2019;380:425–436.</a> <a href="https://link.springer.com/article/10.1186/s13063-015-1098-y">Trial protocol and eligibility criteria.</a>
 </li>
 <li id="ref-solario">
-<span class="evidence">Randomized trial</span> <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2506756">McNally et al. Short or Long Antibiotic Regimens in Orthopedics (SOLARIO). N Engl J Med. Published September 16, 2026.</a>
+<span class="evidence">Randomized trial</span> <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2506756">McNally et al. Short or Long Antibiotic Regimens in Orthopedics (SOLARIO). N Engl J Med. Published September 16, 2026.</a> <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7619510/">Author manuscript.</a> <a href="https://link.springer.com/article/10.1186/s13063-019-3832-3">Trial protocol and surgical exclusions.</a>
 </li>
 <li id="ref-wiki">
 <span class="evidence">Systematic review + consensus</span> <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2792124">Spellberg et al. WikiGuidelines consensus statement for pyogenic osteomyelitis in adults. JAMA Netw Open. 2022;5:e2211321.</a>
@@ -1098,7 +1099,7 @@ Reassess on [date/event] for [clinical response, cultures, wound status, hardwar
 <div class="cheat-grid">
 <div class="cheat-box">
 <h3>Native septic arthritis</h3>
-<p>Aspirate before antibiotics if stable. Send culture, WBC/diff, crystals. Crystals do not exclude infection. Drain the joint. Empiric vancomycin + ceftriaxone is a common US starting point; use antipseudomonal coverage when risk warrants.</p>
+<p>Aspirate before antibiotics if stable. Send culture, WBC/diff, crystals. Crystals do not exclude infection. Drain the joint. Choose empiric staphylococcal and gram-negative coverage from Gram stain, MRSA risk, host factors, and local epidemiology; add antipseudomonal coverage when risk warrants.</p>
 </div>
 <div class="cheat-box">
 <h3>PJI diagnosis</h3>
@@ -1114,7 +1115,7 @@ Reassess on [date/event] for [clinical response, cultures, wound status, hardwar
 </div>
 <div class="cheat-box">
 <h3>Osteomyelitis, no implant</h3>
-<p>Culture meaningful tissue, drain abscess, remove necrotic bone. With adequate source control, generally ≤6 weeks. After complete resection without residual infection, diabetes-related foot guidance lists 2–5 days; general pyogenic osteomyelitis guidance permits no further course in selected cases.</p>
+<p>Culture meaningful tissue, drain abscess, remove necrotic bone. Usual pyogenic disease without retained hardware and with adequate source control generally needs ≤6 weeks. After complete resection without residual infection, diabetes-related foot guidance lists 2–5 days; general pyogenic osteomyelitis guidance permits no further course in selected cases.</p>
 </div>
 <div class="cheat-box">
 <h3>Vertebral osteomyelitis</h3>

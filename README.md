@@ -99,3 +99,7 @@ All published HTML pages load `analytics.js` with GA4 measurement ID `G-G7MEM66F
 Report **Total users** over the complete calendar month and separately over January 1 through the end of that month. Do not sum daily or monthly unique-user counts, and do not substitute Active users or Sessions. These are browser-based estimates, not verified people. Collection begins after deployment; earlier readership cannot be recovered.
 
 Monthly email reports still require configuration in the owner's Google Analytics account. The public measurement ID permits collection, not report access or email scheduling. Verify receipt in Realtime, set the property timezone to America/Chicago, then configure reports and recipients in the Analytics interface. See https://support.google.com/analytics/answer/13722168 for scheduled report settings.
+
+## November 2026 lecture review
+
+The November 4, 2026 [clinical, editorial and safety review](docs/clinical-review-2026-11-04/README.md) documents verified corrections across the catalog, three completed short-module clinical reviews and the explicit source-audit gaps in the other sixteen modules. Editing dates do not imply complete clinical verification.

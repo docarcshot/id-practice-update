@@ -20,9 +20,9 @@ Remove or qualify unconditional imperatives such as "always treat," "use X," or 
 
 ## Current implementation and remaining work
 
-As of this editorial update, the lecture catalog and individual lecture templates already display an educational-use notice, including a print-visible notice in the reviewed modules. This update clarifies the catalog's description of treatment content; it does not independently certify the accuracy of every treatment statement.
+The November 4, 2026 [catalog review](clinical-review-2026-11-04/README.md) records a whole-content reading of all 19 modules and a verified correction batch. ASB, inpatient fever and OPAT passed verification of their published teaching scope. Sixteen modules retain partial source-audit status. The detailed records identify actual primary-source access, independent verification of changed claims, cross-module decisions and unfinished clinical questions.
 
-A preliminary spot check of the bone/joint, antibiotic, HIV, and H. pylori modules found numerous dosing, duration, and directive statements requiring line-by-line primary-source reconciliation. Those modules have not been certified by this policy update. A full source-level audit of all 19 teaching modules, including the oversized tick-borne atlas, is still required before claiming complete verification. Record findings and corrections individually, with evidence and dates; obtain institutional legal/risk review if the owner wants a legal risk assessment.
+The catalog and each lecture consistently identify independent clinician education and no implied Washington University or BJC HealthCare endorsement, including in print. Editing dates are separate from complete clinical-review dates. These notices and technical checks do not certify unresolved treatment claims or provide legal protection. Faculty review remains pending; institutional legal/risk-management assessment has not been obtained.
 
 ## Publication safeguards
 
