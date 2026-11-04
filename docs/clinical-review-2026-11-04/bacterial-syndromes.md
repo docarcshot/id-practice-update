@@ -600,3 +600,233 @@ This later change supersedes the temporary omission of the four-week local-carri
 The author manuscript has visible editorial-query artifacts. Unrelated secondary numeric outcomes from that version were not added to the teaching module. Primary numbers used in the module agree with the published NEJM abstract. The original manuscript was found in the Oxford Research Archive as well (https://ora.ox.ac.uk/objects/uuid%3Ae6091ee6-2e9b-4e02-896e-4c863f446067), but the file itself was not successfully downloaded.
 
 The independent lead reviewer separately retrieved the original indexed PMC manuscript and verified the licensed-carrier minimum four-week elution, new-implant versus retained-infected-implant distinction, and fully resistant local-agent exclusion. C46 passed this narrow second source check. Final typeset full text and the supplement remain outside verified access.
+
+
+## Recurrent UTI continuation after published commit 8e6f6b1
+
+This continuation was performed on November 4, 2026 against the published rUTI content at `8e6f6b1`. Before editing, the context command was run again and identified SHA-256 `ac43cda24d409d8a2b7bdf0832c7af61891cafdaeabb1eb992da35061712761e`. The reviewer reread every published sentence, all table cells, all three discussion cases and answers, the acute cUTI table, all fellow sections, references and print markup. The unchanged companion links were reassessed for audience and destination. Only the rUTI lecture and this appended record were edited by this reviewer in this continuation.
+
+The access updates below supersede the earlier rUTI access-gap list where explicitly stated. They do not retroactively turn an earlier abstract-only review into a full-text review. Whole-module clinical verification remains incomplete. No clinical review date, catalog, link-review manifest or release metadata was changed.
+
+### Additional primary-source record
+
+All sources in this continuation were accessed on November 4, 2026. Original indexed passages are identified separately from directly retrieved full reports. No secondary summary was substituted for an inaccessible primary report.
+
+| Key | Source, version and actual access | Scope and limitations |
+|---|---|---|
+| S27 | [ALTAR original BMJ report, March 9, 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC8905684/), DOI 10.1136/bmj-2021-0068229. Full main report, Methods, analysis, all outcome tables, Results and Discussion read. [Original 2018 protocol](https://link.springer.com/article/10.1186/s13063-018-2998-4), relevant eligibility, intervention, monitoring and sample-size sections read directly. [NIHR original Methods](https://www.ncbi.nlm.nih.gov/books/NBK580164/) exclusion section read as original indexed text; direct access challenged. | Main-report access gap closed. The 240 randomized women yielded 205 in the primary modified ITT population with at least six months of observations. Retained rates 1.38 versus 0.89 episodes/person-year and difference 0.49 (90% CI 0.15–0.84) are correct. Outcome required symptoms and antibiotic treatment, not positive culture. Correctable contributory abnormalities, neurogenic lower-tract dysfunction and persistent Proteus applicability were checked. Protocol/NIHR eGFR exclusion was below 10; this is not a US-label permission threshold. The full BMJ supplement and complete NIHR monograph were not audited. |
+| S28 | [Cochrane cranberry review, November 10, 2023, pub7](https://pmc.ncbi.nlm.nih.gov/articles/PMC10636779/), DOI 10.1002/14651858.CD001321.pub7. Original indexed Methods, relevant subgroup Results, summary-of-findings table, bias/heterogeneity discussion and update history read. Direct publisher page returned 403 and direct PMC intermittently challenged. | Relevant recurrent-women estimate remains eight trials/1,555 participants, RR 0.74 (95% CI 0.55–0.99), moderate certainty and substantial heterogeneity (I² 54%). Products, definitions and PAC doses vary. The November correction reclassified a control/dose comparison and a PAC category without changing the review conclusions. This does not represent a read of all 50 primary trial reports or every review appendix. |
+| S29 | [AUA/CUA/SUFU rUTI guideline, amended 2025](https://www.auanet.org/documents/Guidelines/PDF/2025%20Guidelines/rUTI%20Update/rUTI%202025%20Unabridged%20Final.pdf) and its [original algorithm](https://www.auanet.org/documents/Guidelines/PDF/2025%20Guidelines/rUTI%20Update/rUTI%202025%20Algorithm%20Updates%20rUTI%20updated%208.13-1.pdf). Direct full PDF remained blocked. Expanded original indexed passages were read for scope, evaluation statements 1–5, self-start treatment, prophylaxis statement 12/dose-duration lists, cranberry, D-mannose, methenamine/hydration, follow-up statements 17–19 and vaginal estrogen statement 20. | Confirms culture/pyuria interpretation, selective evaluation, all published continuous/postcoital examples, 6–12-month study durations versus practical 3–6-month reassessment, no asymptomatic test of cure, repeat culture for persistent symptoms, alternate diagnoses after microbiological cure and peri/postmenopausal estrogen scope. No claim that the complete unabridged PDF or every evidence table was read. |
+| S30 | Current DailyMed [trimethoprim original manufacturer label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=95a1572c-6109-4d1f-bf92-262015a7654e), updated August 2, 2022, and [matching repackaged label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f756f4be-3cda-ab98-e053-6294a90a1424), updated March 20, 2023; full relevant clinical sections read. [Cephalexin label, revised October 2026](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c0ca008e-0e28-412e-a58f-70f63817713b), clinical sections 1–8 and 12 read directly. | TMP-alone folate-deficiency contraindication, marrow toxicity, CrCl below 15 exclusion, renal/hepatic caution, phenytoin interaction and potassium/renal surveillance checked. Dofetilide prohibition is independently supported by S10. Cephalexin renal dose/interval table, toxicity monitoring, hypersensitivity, metformin and probenecid checked. Neither acute label establishes a renal-adjusted low-dose prophylaxis schedule. Doses in the table remain AUA examples for the stated adult population. Packaging/nonclinical sections and any local product availability are not claimed verified. |
+| S31 | [Fisher et al., AnTIC, Lancet Infect Dis 2018](https://eprints.ncl.ac.uk/249450), DOI 10.1016/S1473-3099(18)30279-2. Full original published PDF retrieved from the Newcastle author repository; entire Methods, Results, tables and Discussion read. [AUA/SUFU NLUTD treatment guideline, 2021](https://www.auajournals.org/doi/10.1097/JU.0000000000002239) and [issuing PDF](https://www.auanet.org/documents/Guidelines/PDF/NLUTD.pdf), original indexed statements 23–31 and 37–39 read. | AnTIC randomized 404 adults using clean intermittent catheterization; 361 with at least six months' follow-up contributed to primary analysis. Antibiotic-treated symptomatic episodes were 1.3 versus 2.6/person-year (IRR 0.52, 95% CI 0.44–0.61); resistance increased. Febrile-UTI reduction was not established (IRR 0.71, 95% CI 0.40–1.26). Open-label design, incomplete primary follow-up and 12-month horizon limit inference. The 2018 correction changed correspondence following an author's death, not these results. AUA's selected recurrent-UTI/CIC oral prophylaxis recommendation is conditional, grade C; instillations are expert opinion. No routine indwelling-catheter prophylaxis or healthy-women regimen extrapolation is implied. Full supplement not audited. |
+| S32 | [EAU Urolithiasis, 2026, infection stones](https://uroweb.org/guidelines/urolithiasis/chapter/metabolic-evaluation-and-recurrence-prevention), section 4.8; [infected obstruction](https://uroweb.org/guidelines/urolithiasis/chapter/guidelines), section 3.4.2; full relevant issuing sections read. [AUA/SUFU Microhematuria, amended 2025](https://www.auanet.org/documents/Guidelines/PDF/2025%20Guidelines/MH%20Unabridged%2002.2025FINAL3-1.pdf), original indexed statements 1–10 and follow-up recommendations read. | Complete infection-stone removal where feasible reduces persistence; antibiotics do not replace urgent decompression of infected obstruction. Repeat microscopic urinalysis after UTI-associated hematuria and risk-based further evaluation are supported. No numerical malignancy probability, universal immediate cystoscopy mandate, stone-removal antibiotic duration or fixed timing for repeat microscopy was added. |
+| S33 | [Abdul et al., 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC2518459/), DOI 10.1038/bjp.2008.210; full main Methods, Results/tables and Discussion read directly after earlier access failures. [Ansell et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19553405/), DOI 10.1177/0091270009337510; full original published seven-page article read from a [Cranberry Institute-hosted copy](https://www.cranberryinstitute.org/sites/default/files/files/document/absence-interaction-between-warfarin-cranberry-juice.pdf), including Methods, results, limitations and industry funding. [Current warfarin label](https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=8ad881e0-ca41-42ad-9d7d-eb85b3a30af0&type=display), revised August 2022, sections 7.1–7.5 read. | Evidence conflicts across formulations/populations. Abdul: 16 randomized healthy men, 12 completed, a single warfarin dose after concentrate exposure increased INR-time AUC, not a trial of chronically anticoagulated patients. Ansell: 30 stable-warfarin patients received juice or placebo for two weeks; no sustained difference, with a single elevated time-point comparison and small sample. Neither proves all products harmless or uniformly dangerous. Current labeling calls for closer INR monitoring when starting/stopping botanicals. |
+| S34 | Original abstracts read for [Terris 2001](https://pubmed.ncbi.nlm.nih.gov/11164137/), [Gettman 2005](https://pubmed.ncbi.nlm.nih.gov/16006907/), [McHarg 2003](https://pubmed.ncbi.nlm.nih.gov/14616463/), [Baxmann 2003 vitamin C](https://pubmed.ncbi.nlm.nih.gov/12631089/) and [Traxer 2003 vitamin C](https://pubmed.ncbi.nlm.nih.gov/12853784/). Relevant original Methods/Results are available in these abstracts; full main reports were not recovered. | Small short-term metabolic studies, not clinical stone-event prevention trials. Cranberry concentrate and some juice studies increased oxalate/supersaturation; another juice study found the opposite direction. High-dose vitamin C can increase urinary oxalate without reliably acidifying urine. The revised text states uncertainty and avoids an invented clinical event risk, universal cranberry contraindication or a product-equivalence assumption. Full methods, formulations, collection artifacts and raw tables remain a verification gap. |
+| S35 | [Huttner et al., JAMA 2018](https://jamanetwork.com/journals/jama/fullarticle/2679131), DOI 10.1001/jama.2018.3627. Full original Methods, outcome tables, Results and Discussion read. | Randomized 513 nonpregnant adult women; the studied nitrofurantoin was macrocrystalline 100 mg three times daily for five days, versus fosfomycin 3 g once. Clinical resolution at day 28 was 171/244 versus 139/241, difference 12 percentage points (95% CI 4–21). Baseline culture confirmation was incomplete; complicated UTI, CrCl below 30 and pregnancy were excluded. The published standard monohydrate/macrocrystal 100 mg twice-daily regimen is guideline-supported, but is not the trial intervention. Supplements not audited. |
+| S36 | [NICE NG109 lower UTI guidance, 2018, current issuing recommendations](https://www.nice.org.uk/guidance/ng109/chapter/Recommendations), original indexed recommendations 1.1.3 and 1.1.14–1.1.15; direct page returned 403. AUA follow-up source is S29; systemic-UTI follow-up source is S5. | Reassess failure to start improving within 48 hours or worsening at any time. This is distinct from AUA's expected complete symptom resolution over 3–7 days and culture-guided reassessment for persistent symptoms after treatment. |
+| S37 | S5, EAU 2026 sections 3.5.3.c.8 and 3.5.4, read directly. [Damiano et al., 2011](https://pubmed.ncbi.nlm.nih.gov/21272992/), original abstract read; full report inaccessible. | EAU weakly supports hyaluronic acid with or without chondroitin sulfate instillation after less invasive prevention fails, while calling for confirmation. The small 57-woman placebo-controlled study is not grounds for a universal instillation schedule. No numeric efficacy estimate or dose from its abstract was added. Separate AUA NLUTD/CIC instillation advice is expert opinion (S31). |
+| S38 | [FDA current menopausal-hormone label update list](https://www.fda.gov/drugs/drug-safety-and-availability/menopausal-hormone-therapies-updated-prescribing-information), full issuing page, and [Estring 2026 FDA label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/020472s022lbl.pdf), relevant indication, PK, contraindication and warning sections read. Vagifem source/dose remain S11. [Ferrante et al., 2021](https://pubmed.ncbi.nlm.nih.gov/31232721/) and [TAPER, 2026](https://pubmed.ncbi.nlm.nih.gov/42492951/) original abstracts read; full reports not retrieved. | Vaginal-estrogen class prevention recommendation is supported by S29/S5; the 10-microgram tablet example is the labeled atrophy regimen used off-label for rUTI, not a claim that Ferrante studied that tablet. Updated estrogen labeling was checked by specific product, not presumed uniform. Ferrante randomized 35 women and had nine dropouts. TAPER compared two cream application approaches in 114 women over six months using a 25-percentage-point NI margin; it was online July 27 and in the November 2026 issue. No new periurethral regimen or narrow equivalence claim was inferred from that abstract. |
+| S39 | Original [AUA OAB 2024](https://www.auanet.org/documents/Guidelines/PDF/2024%20Guidelines/OAB%202024%20Unabridgedv2.pdf) statements 3–4 and [AUA IC/BPS 2022](https://www.auajournals.org/doi/full/10.1097/JU.0000000000002756) statements 1 and 3 read as original indexed sections. [CDC vaginal-discharge](https://www.cdc.gov/std/treatment-guidelines/vaginal-discharge.htm) and [cervicitis](https://www.cdc.gov/std/treatment-guidelines/urethritis-and-cervicitis.htm) diagnostic sections read. Original [ASCRS diverticulitis update, October 2026](https://doi.org/10.1097/DCR.0000000000004382), indexed evaluation/imaging and fistula recommendations read; direct publisher fetch failed. | Supports retained differential clues, PVR when retention is plausible, voiding diary, IC/BPS symptoms for at least six weeks with infection excluded, selective cystoscopy, targeted vaginitis/STI tests and CT/urology-colorectal evaluation for possible enterovesical fistula. No new diagnostic performance estimate or detailed surgical recommendation was introduced. |
+| S40 | [MV140 original randomized report abstract](https://pubmed.ncbi.nlm.nih.gov/38319200/), DOI 10.1056/EVIDoa2100018, and [original correction metadata](https://pubmed.ncbi.nlm.nih.gov/38319208/), DOI 10.1056/EVIDx2200081. Full main report and correction body remained blocked. [Original secondary analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC10995795/), Methods and relevant Results read. | The main abstract supports only a promising selected-women signal. The secondary analysis does not substitute for full primary methods/results or correction content. No dose, numerical vaccine efficacy, universal regulatory availability or routine vaccine recommendation was added. EAU 2026 limits immunomodulatory prevention to a well-regulated clinical trial. Current US local availability was not verified. |
+
+### Claim-by-claim coverage of the published educational scope
+
+| Published section | Disposition after source comparison |
+|---|---|
+| Definition and scope | Entire section checked against S5/S7/S29. Recurrence definition, otherwise-healthy-women prevention scope and the separate IDSA 2025 bladder-versus-beyond-bladder classification retained. The acute cUTI guideline is not represented as a prophylaxis guideline. |
+| Symptoms, pyuria and ASB | Every row and the final paragraph checked against S1/S3/S5/S29. Resistant isolates, urine odor, falls or delirium alone do not create a treatment indication. New SCI symptoms warrant assessment in context; the text does not equate any single atypical symptom with proven UTI. |
+| Alternative diagnoses | Entire table compared with S29/S39. No diagnostic claim was contradicted by the retrieved original recommendations. Specialist diagnosis and selective tests remain appropriate; no invented prevalence or sensitivity is supplied. |
+| Reservoir/source evaluation | Every row and source-control warning compared with S5/S7/S32/S39. C47 replaces the unsupported sterilization-frequency wording; C48 makes post-infection hematuria follow-up explicit. Device necessity, retention, relapse, obstruction and fistula evaluation remain supported. |
+| Preventive options | Every option and numerical result reviewed. Hooton and Hayward full reports were already read (S12); ALTAR main access is now closed (S27). Cochrane relevant subgroup and update history verified (S28). Estrogen and methenamine remain scoped to the populations in guidance, with current label cautions. Warfarin and stone uncertainty are corrected; full metabolic and estrogen trial reports remain gaps. |
+| Suppression regimens | All listed doses and postcoital options rechecked in the original AUA dosing section; TMP-alone and cephalexin label gaps materially closed (S30). Renal cutoffs remain drug- and source-specific. Low-dose prophylaxis is not converted into a universal renal prescription. Quantitative long-term toxicity incidence was not added and was not independently established. |
+| Acute treatment and follow-up | Guideline doses retained; Huttner's actual formulation/frequency now distinguished (S35). C54 separates early improvement from complete cure. No automatic second antibiotic or escalation for positive culture alone is taught. |
+| Three cases and answers | All read against S1/S5/S7/S29/S32. ASB case, uncomplicated postcoital pattern, and febrile Proteus/stone source evaluation remain internally consistent with the amended text. |
+| Acute cUTI table | All rows reread and compared with the previously retrieved full IDSA source (S7). Effective-therapy clock, route criteria, drug-exposure history, trial exclusions and prostatitis qualification retained. No new cUTI regimen was inferred from prophylaxis studies. |
+| Advanced special populations | Entire section read; C55 adds the supported selected-CIC recurrent-UTI exception and distinguishes it from routine indwelling-catheter prophylaxis and ASB treatment (S31). Healthy-women evidence is not generalized to neurogenic bladder or pregnancy. |
+| Stones, pH and methenamine | Entire section read. Exact ALTAR renal and persistent-Proteus exclusions identified; no trial cutoff overrides US labeling. C58 distinguishes urinary metabolic surrogates from clinical stone events. Full metabolic-study methods remain an explicit gap. |
+| Emerging therapies | Every row read. Prior full Pivya/Orlynvah/Blujepa label checks remain applicable (S11/S24/S25). C56 separates a weakly recommended specialist instillation option from broadly investigational approaches. MV140 main report/correction remain unverified beyond abstract and secondary-analysis scope. |
+| Evidence interpretation and references | All references and outcome descriptions inspected. ALTAR endpoint/exclusion language corrected; Cochrane pub6 replaced by corrected pub7 after reading update history. No unsupported new TAPER regimen added. Original section IDs and companion links retained. |
+
+### Exact corrections saved in this continuation
+
+These are evidence and scope corrections, not claims that every prior sentence was clinically wrong. “Pending independent review” below concerns this new batch only; it does not supersede the peer review already recorded for the published first batch.
+
+### C47
+
+| Field | Record |
+|---|---|
+| Original | Urology for infected stone or staghorn calculus management. Antibiotics alone rarely sterilize a retained infected stone. |
+| Revised | Urology for infected stone or staghorn calculus management. For infection stones, pursue as complete a stone clearance as feasible; retained infected material can sustain recurrence. |
+| Sources | S32 |
+| Reason and scope | Preserves source control without an unsupported frequency assertion about sterilization. |
+| Disposition | Saved; separate author exception pass and independent peer review recorded below when completed. |
+
+### C48
+
+| Field | Record |
+|---|---|
+| Original | Risk-based hematuria workup including cystoscopy and upper tract imaging when indicated Rule out malignancy rather than attributing all bleeding to UTI. |
+| Revised | Repeat microscopic urinalysis after treatment of presumed UTI-associated bleeding. Persistent microscopic or unexplained gross hematuria warrants urologic evaluation, with risk-based cystoscopy and upper-tract imaging when indicated. Evaluate persistent bleeding for other causes, including malignancy. |
+| Sources | S32 |
+| Reason and scope | Makes the post-infection hematuria check explicit without requiring immediate imaging for every low-risk microscopic result. |
+| Disposition | Saved; separate author exception pass and independent peer review recorded below when completed. |
+
+### C49.1
+
+| Field | Record |
+|---|---|
+| Original | Modest preventive benefit in women with recurrent UTI; 2023 Cochrane estimate RR 0.74 (95% CI 0.55–0.99) for symptomatic culture-verified UTI in this subgroup. |
+| Revised | Modest preventive benefit in women with recurrent UTI; the updated 2023 Cochrane review pooled eight trials with 1,555 women in this subgroup: RR 0.74 (95% CI 0.55–0.99) for symptomatic culture-verified UTI. |
+| Sources | S28 |
+| Reason and scope | Identifies the relevant subgroup denominator and current November 2023 review edition; the effect estimate is unchanged. |
+| Disposition | Saved; separate author exception pass and independent peer review recorded below when completed. |
+
+### C49.2
+
+| Field | Record |
+|---|---|
+| Original | Juice sugar/calories, GI symptoms, inconsistent proanthocyanidin content; optimal product and dose not firmly established. Caution with warfarin interactions and stone history, especially concentrated high-oxalate products. |
+| Revised | Juice sugar/calories, GI symptoms, inconsistent proanthocyanidin content; optimal product and dose are not established. Warfarin interaction studies conflict; arrange closer INR monitoring when starting or stopping cranberry supplements. Review stone history and product composition; clinical stone-risk evidence is limited. |
+| Sources | S28, S33, S34 |
+| Reason and scope | Separates conflicting interaction studies and urinary metabolic surrogates from proven clinical harm while retaining monitoring and stone-history cautions. |
+| Disposition | Saved; separate author exception pass and independent peer review recorded below when completed. |
+
+### C50
+
+| Field | Record |
+|---|---|
+| Original | Continuous low-dose antibiotic, usually trial 3–6 months then reassess Strong reduction in recurrences while taking therapy; recurrence often returns after discontinuation. |
+| Revised | Continuous low-dose antibiotic with planned reassessment at 3–6 months Reduces recurrences during use; most prophylaxis trials studied 6–12 months. Recurrence often returns after discontinuation. |
+| Sources | S29 |
+| Reason and scope | Distinguishes a practical reassessment interval from durations actually studied. |
+| Disposition | Saved; separate author exception pass and independent peer review recorded below when completed. |
+
+### C51
+
+| Field | Record |
+|---|---|
+| Original | Hyperkalemia, marrow effects, renal adjustment, and drug interactions. Concurrent dofetilide is contraindicated; US availability varies. |
+| Revised | Hyperkalemia and marrow toxicity. Contraindicated with dofetilide or documented folate-deficiency megaloblastic anemia. The US label does not recommend use at CrCl <15 mL/min; individualize prophylaxis dosing in CKD. Review potassium-raising drugs and phenytoin; monitor creatinine, potassium and CBC during prolonged use. |
+| Sources | S10, S30 |
+| Reason and scope | Adds the relevant standalone-trimethoprim contraindication, renal exclusion and interaction; does not convert acute-treatment renal doses into a validated prophylactic regimen. |
+| Disposition | Saved; separate author exception pass and independent peer review recorded below when completed. |
+
+### C52
+
+| Field | Record |
+|---|---|
+| Original | GI effects, candidiasis, C. difficile, selection of resistant flora; renal dose adjustment in CKD. |
+| Revised | GI effects, candidiasis, C. difficile and selection of resistant flora. Adjust dose or interval and monitor renal function in CKD. Review cephalosporin hypersensitivity and metformin exposure; probenecid coadministration is not recommended by the US label. |
+| Sources | S30 |
+| Reason and scope | Adds current cephalexin label interactions and monitoring to the retained prophylaxis examples. |
+| Disposition | Saved; separate author exception pass and independent peer review recorded below when completed. |
+
+### C53
+
+| Field | Record |
+|---|---|
+| Original | Single-dose fosfomycin has lower efficacy than five-day nitrofurantoin in comparative trial evidence. |
+| Revised | In the 2018 randomized comparison, single-dose fosfomycin produced lower clinical resolution than five-day nitrofurantoin. That trial used nitrofurantoin macrocrystals 100 mg three times daily, a different regimen from the guideline example above. |
+| Sources | S35 |
+| Reason and scope | Prevents the adjacent guideline twice-daily formulation from being mistaken for the actual trial intervention; retains the guideline regimen. |
+| Disposition | Saved; separate author exception pass and independent peer review recorded below when completed. |
+
+### C54
+
+| Field | Record |
+|---|---|
+| Original | Persistent symptoms after 48–72 hours, relapse within days, fever, flank pain, or progressive illness should prompt reassessment of culture, antibiotic exposure, alternative diagnoses, and source control. Treat infected obstruction as urgent. |
+| Revised | Reassess if symptoms fail to begin improving within 48 hours, recur soon after therapy, or worsen at any time. New fever, flank pain or systemic illness warrants prompt assessment for upper-tract infection or obstruction. For uncomplicated cystitis, AUA expects symptom resolution within 3–7 days; persistent symptoms after treatment warrant repeat culture before another antibiotic and consideration of alternative diagnoses. Treat infected obstruction as urgent. |
+| Sources | S29, S32, S36 |
+| Reason and scope | Distinguishes lack of early improvement from incomplete symptom resolution; preserves urgent deterioration and source-control advice. |
+| Disposition | Saved; separate author exception pass and independent peer review recorded below when completed. |
+
+### C55
+
+| Field | Record |
+|---|---|
+| Original | In indwelling-catheter or intermittent-catheter users, avoid routine prophylaxis and surveillance cultures as a default. Assess obstruction, catheter necessity and technique, bladder pressures/emptying, and stone burden. Evidence from uncomplicated women is not directly applicable. In neurogenic bladder, distinguish individual baseline symptoms and true new changes; specialist evaluation may be necessary. Pregnancy has different screening, treatment and prophylaxis decisions. |
+| Revised | Avoid routine prophylaxis in indwelling-catheter users and in intermittent-catheter users without recurrent symptomatic UTI. In selected adults using clean intermittent catheterization with recurrent UTI, AnTIC found fewer antibiotic-treated symptomatic episodes but increased resistance. AUA conditionally permits oral prophylaxis in neurogenic lower urinary tract dysfunction with intermittent catheterization and recurrent UTI after shared discussion of these tradeoffs. Bladder instillations in that population are an expert-opinion option with limited evidence. Do not perform surveillance cultures in otherwise stable asymptomatic catheter users. Assess obstruction, catheter necessity and technique, bladder pressures/emptying, and stone burden. Evidence from uncomplicated women is not directly applicable. In neurogenic bladder, distinguish baseline symptoms from true new changes and involve the relevant specialists. Pregnancy has different screening, treatment and prophylaxis decisions. |
+| Sources | S31, S5, S1 |
+| Reason and scope | Adds the evidence-supported selected CIC exception while preserving the distinction from indwelling-catheter prophylaxis and treatment of ASB. |
+| Disposition | Saved; separate author exception pass and independent peer review recorded below when completed. |
+
+### C56
+
+| Field | Record |
+|---|---|
+| Original | Other bacterial vaccines, microbiome approaches, intravesical agents, phage therapy Investigational or variably available outside the US Not routine substitutes for culture-based diagnosis and correction of structural problems. |
+| Revised | Intravesical hyaluronic acid, with or without chondroitin sulfate Selected specialist prevention option; EAU recommendation is weak Consider only after less invasive preventive measures have failed. Small trials require confirmation; product availability and regimens vary. Other bacterial vaccines, microbiome approaches, phage therapy Investigational or variably available outside the US Not routine substitutes for culture-based diagnosis and correction of structural problems. |
+| Sources | S5, S31, S37 |
+| Reason and scope | Removes an overbroad investigational label from all intravesical agents; retains the weak evidence and specialist scope without adding an unverified instillation dose. |
+| Disposition | Saved; separate author exception pass and independent peer review recorded below when completed. |
+
+### C57.1
+
+| Field | Record |
+|---|---|
+| Original | Some trials excluded advanced CKD, so extrapolation is unsafe. |
+| Revised | ALTAR excluded eGFR <10 mL/min/1.73 m². That trial eligibility threshold does not override US labeling or establish safety across CKD stages. |
+| Sources | S27, S11 |
+| Reason and scope | Replaces a vague trial-exclusion claim with the original ALTAR report threshold and explicitly prevents using it as a US prescribing cutoff. |
+| Disposition | Saved; separate author exception pass and independent peer review recorded below when completed. |
+
+### C57.2
+
+| Field | Record |
+|---|---|
+| Original | ALTAR was open-label and used episodes requiring antibiotics as its principal outcome; its noninferiority margin allowed as many as one additional UTI per person-year with methenamine. Patients need the absolute event rates, not just the word “noninferior.” Long-term antibiotic prevention works during exposure but may select resistant flora. Trials frequently exclude significant urinary tract abnormalities and advanced CKD. |
+| Revised | ALTAR was open-label and used symptomatic episodes treated with antibiotics as its principal outcome, without requiring culture confirmation. Its noninferiority margin allowed as many as one additional episode per person-year with methenamine. Patients need the absolute event rates, not just the word “noninferior.” The trial excluded correctable contributory urinary tract abnormalities and neurogenic lower urinary tract dysfunction; its protocol also excluded consistently recurrent Proteus infection. Long-term antibiotic prevention works during exposure but may select resistant flora. |
+| Sources | S27 |
+| Reason and scope | Names the actual endpoint and key exclusions rather than implying microbiological equivalence or generalizability to infected stones, neurogenic bladder or persistent Proteus. |
+| Disposition | Saved; separate author exception pass and independent peer review recorded below when completed. |
+
+### C58
+
+| Field | Record |
+|---|---|
+| Original | Cranberry products are not proven to prevent stones and concentrated products may add oxalate; the magnitude of stone risk varies by formulation and evidence is limited. |
+| Revised | Cranberry products are not proven to prevent stones. Small metabolic studies report conflicting changes in urinary stone-risk factors, and some concentrated products increase urinary oxalate; their effect on clinical stone events remains uncertain. |
+| Sources | S34 |
+| Reason and scope | Separates surrogate urine chemistry from actual stone recurrence and acknowledges conflicting original studies. |
+| Disposition | Saved; separate author exception pass and independent peer review recorded below when completed. |
+
+### C59.1
+
+| Field | Record |
+|---|---|
+| Original | https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD001321.pub6/full">Cochrane cranberry review, 2023 |
+| Revised | https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD001321.pub7/full">Cochrane cranberry review, updated November 2023 |
+| Sources | S28 |
+| Reason and scope | Updates the cited review edition after checking the correction history; no silent substitution of a different clinical estimate. |
+| Disposition | Saved; separate author exception pass and independent peer review recorded below when completed. |
+
+### C59.2. Direct source additions
+
+The prior closing teaching-dose sentence was preserved. Immediately before it, direct links were added for TMP-alone and cephalexin labels, warfarin botanical interactions, AnTIC and AUA NLUTD, the original ALTAR protocol, AUA microhematuria, EAU infection stones, NICE reassessment, both conflicting cranberry-warfarin studies and three cranberry/stone metabolic studies. The exact link labels and URLs are in the saved HTML and source ledger S27–S36. No pre-existing reference or section anchor was removed. Independent review pending.
+
+### Remaining rUTI verification boundaries
+
+Full original ALTAR and AnTIC main articles, the relevant original ALTAR protocol sections, the Huttner acute comparison, two conflicting cranberry-warfarin primary reports and the relevant TMP-alone/cephalexin label sections have now been read. Those earlier access gaps are closed to the stated scope.
+
+The following are not closed: the complete AUA 2025 PDF/evidence tables, despite broad retrieval of the actual recommendation passages; MV140 full main report, supplement and correction body; Ferrante and TAPER full reports; complete cranberry review appendices and every underlying trial; full Terris/Gettman/McHarg and vitamin-C metabolic-study methods; the complete ALTAR/AnTIC/Huttner supplements and NIHR monograph; all historical prophylaxis efficacy trials underlying each guideline example; detailed long-term toxicity incidence and every product-specific exposure issue outside the cited label sections. The full Damiano instillation report remains inaccessible; only its abstract and the current EAU recommendation were read. There was no formulary, insurance/access, institutional legal or risk-management review. These limits prevent claiming complete primary-source verification of the lecture.
+
+The practical claims retained are qualified to the retrieved guidelines and label restrictions. No new periurethral estrogen, MV140 vaccine dose, intravesical antibiotic dose, methenamine CKD permission threshold or infection-stone postoperative antibiotic duration was invented. The lecture remains clinical-partial pending faculty review of the documented gaps and the independent review of this correction batch.
+
+### Author exception pass and structural check for the rUTI continuation
+
+After saving C47–C59, the author reopened the original AUA NLUTD statements 37–39, EAU 2026 instillation and catheter-prevention sections, Huttner's Intervention and Outcomes passages, the standalone TMP renal/interaction sections, cephalexin renal and contraindication sections, and the ALTAR original protocol/NIHR exclusion passages. The check specifically considered routine versus selected catheter prophylaxis, conditional recommendation versus expert opinion, guideline versus trial formulation/frequency, eGFR versus CrCl, a trial eligibility threshold versus a US contraindication, and early improvement versus complete cure. No further clinical error was identified in the saved changes. This is an author exception pass, not the separate independent reviewer.
+
+`git diff --check` passed for the two owned files. A read-only HTML-parser comparison with `HEAD` confirmed that all original IDs and all local/companion hrefs were unchanged, all local destinations/fragments resolved, the three discussion details/summary elements remained, and table rows retained their expected column counts. No CSS, print rule, navigation control or disclaimer was changed. This is structural validation; root will perform exact-version rendering, repository-wide validation, manifest updates and deployment. The reviewed rUTI HTML checkpoint SHA-256 is `331d7fcc3c288318968dafbbd977d4b508b93860939360178128c9a78e760ba7`.
+
+The new batch is ready for independent clinical and editorial verification. Until that review is recorded, its independent-review disposition remains pending. The complete lecture remains clinical-partial for the source-access and primary-methods gaps above.
+
+### Integrating independent review of rUTI continuation
+
+The integrating reviewer independently compared the complete saved C47–C59 changes with the original sources on November 4, 2026. The original ALTAR main report's eligibility, outcome definition, analysis population and Table 2 were checked directly, together with the original protocol exclusions and intervention. The trial threshold is not a US methenamine prescribing threshold. AnTIC's original published PDF was separately opened from Newcastle, and the eligibility, randomized versus analyzed populations, symptomatic outcomes and resistance results were checked against the selected-CIC paragraph. The AUA NLUTD statements 37–38 were retrieved as original issuing-journal text and support the distinction between a conditional oral-prophylaxis recommendation and expert opinion for instillation.
+
+The relevant current TMP-alone and October 2026 cephalexin label sections were opened directly, including contraindications, renal limitations, phenytoin/metformin/probenecid and monitoring. No acute-treatment renal schedule was represented as a validated prophylaxis schedule. Huttner's original Methods and Table 3 confirm macrocrystalline nitrofurantoin 100 mg three times daily in that trial, distinct from the twice-daily guideline example. The AUA 2025 prophylaxis and follow-up passages were independently retrieved as original indexed text; NICE's original recommendation distinguishes failure to begin improving within 48 hours from complete symptom resolution. The AUA 2025 microhematuria statement and EAU 2026 infection-stone and HA/CS recommendation sections support C47, C48 and C56.
+
+The corrected November 2023 Cochrane recurrent-women subgroup, denominator and uncertainty were read in original indexed review text. The reviewer directly read the relevant methods and results in the original Abdul and Ansell cranberry–warfarin reports, and the warfarin label's botanical-monitoring section. Original Terris, Gettman and McHarg abstracts were separately read; those short metabolic studies support uncertainty about clinical stone events, not a quantified clinical risk or a uniform product effect. Direct access failures to some full AUA/PMC pages were not described as full-text retrieval.
+
+No additional dosing error, unsupported expansion of the studied population or new cross-module contradiction was identified in this saved continuation. The clinical and editorial disposition for C47–C59 is passed; this does not advance the entire lecture beyond clinical-partial. The remaining source and methods gaps listed above remain open. Faculty review remains pending. Exact-version structural, browser and deployment checks are recorded in the release validation record.

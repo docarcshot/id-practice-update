@@ -20,7 +20,7 @@ Remove or qualify unconditional imperatives such as "always treat," "use X," or 
 
 ## Current implementation and remaining work
 
-The November 4, 2026 [catalog review](clinical-review-2026-11-04/README.md) records a whole-content reading of all 19 modules and a verified correction batch. ASB, inpatient fever and OPAT passed verification of their published teaching scope. Sixteen modules retain partial source-audit status. The detailed records identify actual primary-source access, independent verification of changed claims, cross-module decisions and unfinished clinical questions.
+The November 4, 2026 [catalog review](clinical-review-2026-11-04/README.md) records a whole-content reading of all 19 modules and a verified correction batch. ASB, inpatient fever, OPAT, penicillin allergy and hepatitis B/C passed verification of their published teaching scope. Fourteen modules retain partial source-audit status. The detailed records identify actual primary-source access, independent verification of changed claims, cross-module decisions and unfinished clinical questions.
 
 The catalog and each lecture consistently identify independent clinician education and no implied Washington University or BJC HealthCare endorsement, including in print. Editing dates are separate from complete clinical-review dates. These notices and technical checks do not certify unresolved treatment claims or provide legal protection. Faculty review remains pending; institutional legal/risk-management assessment has not been obtained.
 
