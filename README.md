@@ -76,7 +76,7 @@ The GitHub Actions workflow checks out the complete history, generates metadata,
 
 The generated slide presentations, PowerPoints and hidden corner links were retired at the owner's request on October 31, 2026. New or revised modules do not require presentation exports. Future presentations will be developed separately when requested.
 
-Every lecture and the lecture catalog include the same visible educational-use disclaimer near the top, including in print. A print-only copy inside the main content preserves the notice when the header is hidden. Preserve it in future modules and revisions. Disclaimer or navigation maintenance does not establish a new clinical review date.
+Use the intended-use sentence in [the clinical teaching scope](docs/clinical-teaching-scope.md) near the top of every lecture and the catalog, including in print. Keep source-audit and faculty-review status in the editorial review record. Notice or navigation maintenance does not establish a new clinical review date.
 
 The owner-approved October 31 clinical corrections and their scope are recorded in [the correction release notes](docs/lecture-corrections-2026-10-31.md).
 
@@ -84,7 +84,7 @@ New and clinically revised modules, including separate drafts, must follow [the 
 
 New and revised modules must follow [the lecture cross-link maintenance protocol](docs/lecture-link-protocol.md). Publication checks reject broken local lecture links, removed anchors, and stale cross-link review records. Editorial review is still required to confirm that links point to the appropriate discussion.
 
-`lectures/index.html` lists the current resident, fellow and attending teaching modules. The homepage sidebar links to this page. Modules retain their source content, review status, self-contained styles, and print behavior; a print-hidden navigation bar links back to the lecture list and digest. Update the corresponding HTML and catalog version date together when a revised lecture is supplied.
+`lectures/index.html` lists the current resident, fellow and attending teaching modules. The homepage sidebar links to this page. Modules retain their source content, self-contained styles, and print behavior; a print-hidden navigation bar links back to the lecture list and digest. Update the corresponding HTML and catalog version date together when a revised lecture is supplied.
 
 The tuberculosis primer covers diagnosis, mimics, preventive treatment, standard and resistant-TB therapy, and newer treatment evidence. Its source-access and quality-review record is in `lectures/Tuberculosis_Review_Notes.md`.
 

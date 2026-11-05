@@ -4,7 +4,7 @@ Updated November 4, 2026. Applies to the public lectures. This is an editorial s
 
 ## Purpose and audience
 
-These modules teach clinical reasoning to healthcare professionals. They are not institutional policies, standing orders, prescribing instructions, or substitutes for patient-specific assessment. No WashU Medicine or BJC endorsement is implied unless separately authorized. Retain precise, useful treatment information where supported, but identify the population, source, limitations, and decision factors.
+These modules teach clinical reasoning to healthcare professionals. They are not institutional policies, standing orders, prescribing instructions, or substitutes for patient-specific assessment. Retain precise, useful treatment information where supported, but identify the population, source, limitations, and decision factors.
 
 ## Three levels of treatment content
 
@@ -22,7 +22,7 @@ Remove or qualify unconditional imperatives such as "always treat," "use X," or 
 
 The November 4, 2026 [catalog review](clinical-review-2026-11-04/README.md) records a whole-content reading of all 19 modules and a verified correction batch. ASB, inpatient fever, OPAT, penicillin allergy and hepatitis B/C passed verification of their published teaching scope. Fourteen modules retain partial source-audit status. The detailed records identify actual primary-source access, independent verification of changed claims, cross-module decisions and unfinished clinical questions.
 
-The catalog and each lecture consistently identify independent clinician education and no implied Washington University or BJC HealthCare endorsement, including in print. Editing dates are separate from complete clinical-review dates. These notices and technical checks do not certify unresolved treatment claims or provide legal protection. Faculty review remains pending; institutional legal/risk-management assessment has not been obtained.
+Use this sentence on screen and in print: “This lecture is intended as a supplementary resource for clinicians and trainees to review evidence and discuss clinical cases.” On the catalog page use the plural: “These lectures are intended as supplementary resources for clinicians and trainees to review evidence and discuss clinical cases.” Keep editorial review status in the review record rather than on catalog cards, lecture headers, or teaching sheets. Maintain source citations, clinical limitations and required asset credits. Editing dates remain separate from clinical review dates; the notice does not signify institutional or faculty approval.
 
 ## Publication safeguards
 
