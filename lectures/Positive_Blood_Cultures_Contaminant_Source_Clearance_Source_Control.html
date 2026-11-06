@@ -251,8 +251,7 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 <span class="meta-chip">Residents: essentials</span>
 <span class="meta-chip">Fellows: advanced detail</span>
 <span class="meta-chip">Core 30–45 min</span>
-<span class="meta-chip">Edited November 4, 2026</span>
-<span class="meta-chip">Clinical review September 21, 2026</span>
+<span class="meta-chip">Edited November 5, 2026</span>
 </div>
 <div aria-label="Fellow teaching" class="fellow-jump" role="note"><div class="fellow-jump-copy"><p class="fellow-jump-title">Advanced fellow teaching is below</p><p class="fellow-jump-description">Complete the resident core or jump directly to the detailed teaching and reference sections.</p></div><div class="fellow-jump-actions"><a class="fellow-jump-button" data-fellow-jump="" href="#advanced">Jump to fellow section</a></div></div><p class="lecture-disclaimer">This lecture is intended as a supplementary resource for clinicians and trainees to review evidence and discuss clinical cases.</p></header>
 <nav aria-label="Module navigation" class="review-nav"><div><a href="#start">Start</a><a href="#framework">Framework</a><a href="#signal">Organisms</a><a href="#cases">Cases</a><a href="#clearance">Clearance</a><a href="#source-control">Source control</a><a href="#advanced">Advanced</a><a href="#references">Sources</a><button onclick="printReviewedLecture('core')" type="button">Print core</button><button onclick="printReviewedLecture('full')" type="button">Print all</button><button onclick="printReviewedLecture('summary')" type="button">Print rounds sheet</button></div></nav>
@@ -260,7 +259,7 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 <main id="main"><p class="lecture-disclaimer lecture-print-disclaimer">This lecture is intended as a supplementary resource for clinicians and trainees to review evidence and discuss clinical cases.</p>
 <section class="core-section" id="start">
 <h2>What you should be able to do</h2><p class="core-label">Resident core · 30–45 minutes with discussion</p>
-<p class="lede">A positive blood culture is a piece of data, not yet a diagnosis. When the lab calls, I first want to know how sick the patient is, what grew, how the cultures were collected, and whether there is hardware or a source that needs attention. The antibiotic choice matters, but it is rarely the only decision.</p>
+<p class="lede">When the laboratory calls about a positive blood culture, the first questions are how ill the patient is, what grew, and where the samples came from. The answers help distinguish contamination from infection and identify a source that needs more than antibiotics.</p>
 <ol>
 <li>Decide whether a positive culture is likely to represent true bloodstream infection, contamination, or an unresolved result.</li>
 <li>Separate the likely portal of entry from possible endovascular or metastatic infection.</li>
@@ -268,11 +267,11 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 <li>Identify needed source control and determine which date should anchor treatment duration.</li>
 <li>Give the primary team a clear recommendation, including what could change it.</li>
 </ol>
-<div class="callout alert"><strong>A limitation up front.</strong> This is not an antimicrobial order set. Drug and dose still depend on the syndrome, susceptibility results, renal and hepatic function, allergy history, weight, local antibiogram, formulary, pharmacy guidance, and current labeling.</div>
+
 </section>
 <section class="core-section" id="framework">
-<h2>How I approach the initial call</h2>
-<p>The order varies a little depending on the patient. An unstable patient gets active therapy while the rest of the evaluation is happening. In a stable patient, there is usually time to look at the collection details before adding another drug.</p>
+<h2>Interpreting the initial call</h2>
+<p>In an unstable patient, active empiric therapy and evaluation of the source proceed together. In a stable patient with a possible skin contaminant, reviewing the collection sites and devices may spare unnecessary treatment.</p>
 <div aria-label="Five-step framework" class="moves">
 <div class="move"><b>How sick?</b>Is current therapy active, and can anything wait?</div>
 <div class="move"><b>Is it real?</b>What grew, from how many sets, and from which sites?</div>
@@ -284,11 +283,11 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 <div class="resident">
 <h3>For residents</h3>
 <ul>
-<li>Look at the patient before treating the microbiology report.</li>
-<li>Count independently collected sets and review where they were drawn. Bottle count alone is not enough.</li>
+<li>Clinical stability determines how urgently empiric therapy is needed.</li>
+<li>Aerobic and anaerobic bottles from one draw form a set. A second draw provides independent evidence.</li>
 <li>A plausible source may explain entry into the blood, but it does not always explain the full extent of infection.</li>
-<li>Repeat cultures for a reason, not simply because the first ones were positive.</li>
-<li>Your plan should address source control and duration, not only antibiotic selection.</li>
+<li>Follow-up cultures can establish clearance, test a suspected contaminant or point to an uncontrolled source.</li>
+<li>The source and extent of infection influence both the need for a procedure and the length of treatment.</li>
 </ul>
 </div>
 </div>
@@ -296,32 +295,33 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 <section class="core-section" id="signal">
 <h2>The organism changes the conversation</h2>
 <p class="lecture-crosslinks"><a href="Gram_Negative_Bacteria_Species_Matter.html#organism-focused-exceptions">Gram-negative species characteristics</a> &middot; <a href="Antibiotic_Resistance_and_Resistant_Organisms.html#laboratory">Resistance-panel and susceptibility interpretation</a></p>
-<p>Some results should be treated as clinically significant while the workup continues. Others need context before committing the patient to treatment. This is where the species, number of independently drawn sets, and presence of prosthetic material matter much more than a simple count of positive bottles.</p>
+<p>Species, the number of independently drawn sets that agree, collection sites, devices and the clinical course all affect interpretation. Two positive bottles from one venipuncture carry different weight from recovery of the same organism at two separate draws.</p>
 <div aria-label="Positive blood culture interpretation table" class="table-wrap" role="region" tabindex="0">
 <table>
 <caption>What the first result should trigger</caption>
 <thead><tr><th scope="col">Result</th><th scope="col">Default interpretation</th><th scope="col">Immediate questions</th></tr></thead>
 <tbody>
-<tr><td><span class="signal signal-red">Act</span> <em>S. aureus</em> or <em>S. lugdunensis</em></td><td>Treat as clinically significant. A single positive bottle does not make it a contaminant.</td><td>Stability, effective therapy, source, intravascular or prosthetic material, follow-up cultures, echocardiography, focal pain, embolic findings.</td></tr>
-<tr><td><span class="signal signal-red">Act</span> Yeast</td><td>Assume candidemia while species and susceptibilities are pending.</td><td>Effective antifungal therapy, repeat cultures, lines, recent abdominal pathology, immunosuppression, metastatic complications.</td></tr>
+<tr><td><span class="signal signal-red">Act</span> <em>S. aureus</em></td><td>Even one positive bottle usually represents bloodstream infection.</td><td>Is therapy active? What do the exam, devices, follow-up cultures and echocardiography suggest about the source and extent?<sup><a href="#ref-1">1</a></sup></td></tr>
+<tr><td><span class="signal signal-amber">Interpret</span> <em>S. lugdunensis</em></td><td>This coagulase-negative species can cause invasive infection. A single positive set can also reflect contamination.</td><td>Which independently drawn sets agree? Are there signs of endocarditis, an intravascular device or another focus? These findings guide repeat cultures and evaluation.<sup><a href="#ref-10">10</a></sup></td></tr>
+<tr><td><span class="signal signal-red">Act</span> Yeast</td><td>Yeast in blood warrants prompt evaluation for fungemia. <em>Candida</em> is a leading concern; identification may reveal a different yeast.</td><td>How ill is the patient? What therapy is likely to be active? Is there a catheter, abdominal leak or another focus?<sup><a href="#ref-2">2</a>, <a href="#ref-9">9</a></sup></td></tr>
 <tr><td><span class="signal signal-red">Act</span> Enterobacterales, <em>Pseudomonas</em>, other aerobic gram-negative rods</td><td>Usually true bacteremia, not skin contamination.</td><td>Urinary, biliary, abdominal, pulmonary, vascular-catheter, wound, or device source; obstruction or undrained focus; active empiric therapy.</td></tr>
 <tr><td><span class="signal signal-amber">Interpret</span> <em>Enterococcus</em>, viridans-group streptococci</td><td>Often clinically significant, but context determines source and endovascular risk.</td><td>Multiple sets, urinary or abdominal source, mucosal injury, valve/device history, persistence, unknown source, endocarditis features.</td></tr>
 <tr><td><span class="signal signal-amber">Interpret</span> Coagulase-negative staphylococci, <em>Corynebacterium</em>, non-anthracis <em>Bacillus</em>, <em>Cutibacterium</em>, <em>Micrococcus</em></td><td>Common contaminants when isolated from only one set in a low-risk host. They can be true pathogens, especially with intravascular or prosthetic material, immunocompromise, multiple concordant sets, or compatible illness.</td><td>How many independently drawn sets? Same species? Peripheral or line draw? Hardware? Immunosuppression? Compatible syndrome? Need to repeat before committing to treatment?</td></tr>
 </tbody>
 </table>
 </div>
-<div class="callout caution"><strong>The shortcut that causes trouble.</strong> “One bottle is a contaminant” is not a reliable rule. One bottle can represent true infection. The probability depends on the organism, independently collected sets, blood volume, collection site, time to positivity, host, devices, and clinical course. The 2024 ASM laboratory report uses a common commensal isolated from a single set within a culture series in its contamination definition, but the bedside decision remains clinical.<sup><a href="#ref-3">3</a></sup></div>
+<div class="callout caution"><strong>One positive bottle.</strong> A common skin commensal growing in one of several independent sets is often a contaminant. If only one set was collected, that comparison is unavailable. Neither a laboratory contamination metric nor the number of positive bottles settles the diagnosis in a patient with a compatible illness or an implanted device.<sup><a href="#ref-3">3</a></sup></div>
 <div class="teaching-answer">
 <h3>How much weight should we give time to positivity?</h3>
 <div>
-<p>Rapid growth may support a higher organism burden, but there is no universal time cutoff that separates pathogen from contaminant across organisms, platforms, blood volumes, and prior antibiotics. I would not stop or continue treatment on time to positivity alone.</p>
-<p>When catheter-related bloodstream infection is suspected and paired peripheral and catheter cultures are drawn simultaneously with comparable volumes, catheter growth at least 2 hours earlier than the peripheral culture supports a catheter source. It does not substitute for the full clinical assessment.<sup><a href="#ref-5">5</a></sup> Apply the local laboratory’s collection and reporting method.</p>
+<p>Time to positivity depends on organism burden, blood volume, prior therapy and the culture system. By itself, rapid or delayed growth cannot distinguish a pathogen from a contaminant.</p>
+<p>A paired comparison answers a different question. If the same organism grows from catheter and peripheral samples drawn at the same time, with equal volumes and before antimicrobial therapy, growth from the catheter at least two hours earlier supports a catheter source.<sup><a href="#ref-5">5</a></sup></p>
 </div>
 </div>
 <div class="teaching-answer">
 <h3>What can we safely do with a rapid panel result?</h3>
 <div>
-<p>The rapid panel can move care forward, but only if you know what the local assay detects, what it misses, and how it handles polymicrobial cultures. A resistance gene is not the same thing as a complete susceptibility profile. Conventional identification and phenotypic susceptibility testing still matter. In a systematic review and meta-analysis, rapid diagnostics paired with active stewardship were associated with lower mortality. Studies without stewardship did not show a statistically significant mortality reduction; that result does not establish absence of benefit.<sup><a href="#ref-8">8</a></sup></p>
+<p>A rapid panel identifies only its listed organisms and resistance markers. A negative marker does not establish susceptibility, and in a mixed culture a detected gene may not identify which isolate carries it. Conventional culture and susceptibility testing resolve these questions. In a randomized trial, rapid testing reduced treatment of contaminants; real-time stewardship feedback shortened the time to narrowing therapy. The trial did not show a mortality difference.<sup><a href="#ref-8">8</a>, <a href="#ref-11">11</a></sup></p>
 </div>
 </div>
 </section>
@@ -334,10 +334,10 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 <p>A stable patient admitted with a heart-failure exacerbation had one blood-culture set collected for a temperature of 37.9°C. One bottle grows coagulase-negative staphylococcus at 28 hours. There is no central line, prosthetic valve, cardiac device, vascular graft, or orthopedic hardware. Nothing else suggests an infection.</p>
 <div class="discussion"><p>Before moving on</p><ul><li>Would you call this bacteremia?</li><li>Would you continue vancomycin?</li><li>Do you need another culture?</li></ul></div>
 <div class="teaching-answer">
-<h3>How I would handle it</h3>
+<h3>Case discussion</h3>
 <div>
-<p>This is most likely contamination. I would reassess the patient and make sure there is not a device or clinical finding missing from the initial story. If the probability remains low, I would stop or avoid vancomycin and document why the isolate is not being treated.</p>
-<p>I would not repeat cultures automatically. I would repeat properly collected peripheral sets if the history is incomplete, a prosthetic device comes to light, or the clinical course makes true infection plausible. When safe, obtain those cultures before giving another antibiotic dose.</p>
+<p>Contamination is the most likely explanation if the isolate is a common skin commensal and the history and examination confirm the absence of hardware or a compatible illness. Only one set was collected, so there is no independent sample for comparison. In this setting, withholding or discontinuing vancomycin is reasonable.</p>
+<p>New focal symptoms, an intravascular device or an uncertain history would make independently drawn peripheral sets useful. Sampling before additional antibiotics improves interpretation when the patient is stable enough.</p>
 <p>The error here is allowing the word “positive” to settle the diagnosis. Contaminated cultures lead to unnecessary antibiotics, additional testing, adverse events, and longer hospitalization.<sup><a href="#ref-3">3</a>, <a href="#ref-4">4</a></sup></p>
 </div>
 </div>
@@ -350,10 +350,10 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 <p>A patient with no obvious source has one bottle positive for <em>S. aureus</em>. They are afebrile after antibiotics but mention new focal lumbar pain when you examine them.</p>
 <div class="discussion"><p>What matters now?</p><ul><li>Does one positive bottle change how seriously you take the result?</li><li>What studies need to be ordered today?</li><li>Does becoming afebrile lower the concern?</li></ul></div>
 <div class="teaching-answer">
-<h3>How I would handle it</h3>
+<h3>Case discussion</h3>
 <div>
-<p>I would treat this as <em>S. aureus</em> bacteremia. One positive bottle does not make <em>S. aureus</em> a contaminant. The immediate work includes active therapy, at least two follow-up culture sets at 48 hours after the index sample, TTE, review of all intravascular and prosthetic material, and a careful search for focal symptoms.</p>
-<p>The back pain changes the case. It needs directed evaluation for vertebral or epidural infection. Defervescence after antibiotics does not answer that question. If cultures remain positive at or beyond 48 hours, the patient moves into an increased-risk pathway and the source and extent of infection need to be reconsidered.<sup><a href="#ref-1">1</a></sup></p>
+<p>A single bottle growing <em>S. aureus</em> warrants evaluation for bacteremia. Active therapy, follow-up cultures and transthoracic echocardiography (TTE) help while examination and device history localize infection.</p>
+<p>Focal lumbar pain raises concern for vertebral or epidural infection even after fever resolves; MRI of the symptomatic spine can identify either. Follow-up cultures still positive at least 48 hours after collection of the index sample raise concern for an uncontrolled or additional focus.<sup><a href="#ref-1">1</a></sup></p>
 </div>
 </div>
 </div>
@@ -364,10 +364,10 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 <p>A patient with pyelonephritis and <em>E. coli</em> bacteremia undergoes ureteral decompression. They are hemodynamically stable and improving on active therapy. There is no prosthetic valve, endovascular graft, severe immunocompromise, or evidence of a deep focus.</p>
 <div class="discussion"><p>Decisions for rounds</p><ul><li>Do you need daily cultures until negative?</li><li>Why were both active antibiotics and decompression necessary?</li><li>When could oral treatment be reasonable?</li></ul></div>
 <div class="teaching-answer">
-<h3>How I would handle it</h3>
+<h3>Case discussion</h3>
 <div>
-<p>Active antibiotics and decompression were both necessary. Antibiotics do not relieve an obstructed collecting system. If the patient continues to improve and source control is adequate, I would not routinely repeat blood cultures.</p>
-<p>Seven total days of effective therapy is supported for eligible patients. Count from the first day of active treatment; if improvement begins only after source control, the 2021 consensus uses the source-control day as day 1. Oral transition is reasonable when the source is established, the patient is improving, the isolate is susceptible to an oral agent with adequate systemic exposure, and the gastrointestinal tract is functioning.<sup><a href="#ref-6">6</a>, <a href="#ref-7">7</a></sup></p>
+<p>Decompression relieved the obstruction; antibiotics alone could not restore urinary drainage. With adequate drainage and prompt clinical improvement on active therapy, repeat blood cultures are usually unnecessary.</p>
+<p>For an adult with this controlled source and prompt response, seven total days of effective therapy is supported. The 2021 consensus counts from the first effective day, or from decompression if improvement began only then. Oral treatment is an option once the source is confirmed, the patient is improving and can absorb the drug, and susceptibility and systemic exposure are adequate. A susceptible fluoroquinolone or trimethoprim-sulfamethoxazole may meet these conditions.<sup><a href="#ref-6">6</a>, <a href="#ref-7">7</a></sup></p>
 </div>
 </div>
 </div>
@@ -376,13 +376,13 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 <div class="case-head"><h3>Case 4: Yeast in blood after abdominal surgery</h3>
 <p class="lecture-crosslinks"><a href="Antifungals_Practical_Primer_Resident_Fellow.html#echino">Echinocandins and initial candidemia therapy</a></p></div>
 <div class="case-body">
-<p>A patient with recent bowel surgery, an anastomotic leak, and a central venous catheter has yeast reported from one blood-culture bottle.</p>
+<p>A patient develops shock after bowel surgery. An anastomotic leak is present, a central catheter is in place and one blood-culture bottle grows yeast.</p>
 <div class="discussion"><p>What would you do tonight?</p><ul><li>Could this be dismissed as contamination?</li><li>What has to happen besides starting an antifungal?</li><li>When does the treatment clock begin?</li></ul></div>
 <div class="teaching-answer">
-<h3>How I would handle it</h3>
+<h3>Case discussion</h3>
 <div>
-<p>I would manage this as candidemia while identification is pending. Start active antifungal therapy using current guidance and local pharmacy input. Obtain blood cultures every day or every other day until clearance. The abdomen needs another look for drainage or repair, and the catheter should be addressed early when it is the presumed source and can be removed safely.</p>
-<p>For candidemia without metastatic complications, the IDSA guideline recommends treatment for 2 weeks after documented clearance and resolution of attributable symptoms. For a patient with neutropenia, neutropenia must also resolve before this uncomplicated stopping rule applies. The clock does not start with the first positive bottle.<sup><a href="#ref-2">2</a></sup></p>
+<p>Yeast in blood with shock and a postoperative leak is an urgent finding. An echinocandin such as micafungin is a usual initial choice for suspected candidemia while the laboratory identifies the organism. Species and susceptibility may change that choice. Drainage or repair addresses the leak. Early catheter removal is favored when safe, particularly if the catheter is a likely source; during neutropenia the source and removal decision are more individualized.<sup><a href="#ref-2">2</a>, <a href="#ref-9">9</a></sup></p>
+<p>For confirmed candidemia without an organ focus, the 2025 global guideline counts 14 days from the first of three consecutive days of negative blood cultures. Attributable symptoms must also have resolved; IDSA additionally requires recovery from neutropenia when present. Endocarditis, ocular disease or another deep focus requires a site-specific course.<sup><a href="#ref-2">2</a>, <a href="#ref-9">9</a></sup></p>
 </div>
 </div>
 </div>
@@ -390,49 +390,49 @@ p.lecture-disclaimer{box-sizing:border-box;display:block;position:static;max-wid
 </section>
 <section class="core-section" id="clearance">
 <h2>When should the cultures be repeated?</h2>
-<p>This is organism- and situation-specific. <em>S. aureus</em> bacteremia and candidemia require documented clearance. An improving patient with a controlled gram-negative source usually does not need daily cultures. The useful question is not “Were the cultures positive?” It is “What will another set tell me or change?”</p>
+<p>Follow-up cultures document clearance in <em>S. aureus</em> bacteremia and candidemia. With uncomplicated gram-negative bacteremia, a controlled source and prompt clinical improvement usually make repeat cultures unnecessary.</p>
 <div aria-label="Follow-up blood culture strategy" class="table-wrap" role="region" tabindex="0">
 <table>
 <caption>Organism-specific clearance strategy</caption>
 <thead><tr><th scope="col">Situation</th><th scope="col">Default strategy</th><th scope="col">Why</th></tr></thead>
 <tbody>
-<tr><td><em>S. aureus</em> bacteremia</td><td>At least 2 sets at 48 hours after the index sample, then 1 or 2 sets every 24–48 hours until negative. Consider more intensive sampling with ongoing illness, deep or endovascular focus, or persistent positivity.</td><td>Clearance changes risk classification, diagnostic intensity, source-control reassessment, and the treatment clock.<sup><a href="#ref-1">1</a></sup></td></tr>
-<tr><td>Candidemia</td><td>Every day or every other day until clearance.</td><td>Duration for uncomplicated candidemia is counted from documented clearance, with resolution of attributable symptoms and, when present, neutropenia.<sup><a href="#ref-2">2</a></sup></td></tr>
-<tr><td>Uncomplicated gram-negative BSI with clinical response and adequate source control</td><td>Usually do not repeat routinely.</td><td>Repeat when there is no appropriate response within 72 hours, endovascular concern, or limited source control.<sup><a href="#ref-6">6</a></sup></td></tr>
-<tr><td>Possible contaminant</td><td>Repeat properly collected sets when the result could represent true infection because of devices, immunocompromise, compatible illness, multiple concordant positives, or unresolved clinical concern.</td><td>The repeat is diagnostic, not a ritual. Obtain before new antibiotics when clinically safe.</td></tr>
-<tr><td>Any bacteremia with deterioration, persistent fever, new embolic or focal symptoms, retained infected material, or inactive therapy</td><td>Repeat cultures and reconsider the source.</td><td>The patient is not behaving like someone with a controlled, uncomplicated infection.</td></tr>
+<tr><td>Adult <em>S. aureus</em> bacteremia</td><td>The consensus suggests at least two sets 48 hours after the index sample was drawn, then one or two sets every 24–48 hours until clearance. Ongoing illness, a suspected deep focus or persistent growth may warrant closer sampling.</td><td>The clearance date is the first negative draw after which <em>S. aureus</em> does not grow again. Persistence prompts a renewed search for the source.<sup><a href="#ref-1">1</a></sup></td></tr>
+<tr><td>Candidemia</td><td>The 2025 global guideline favors daily cultures until three consecutive days are negative. IDSA 2016 recommends daily or alternate-day sampling until clearance.</td><td>Without organ involvement, the global guideline counts 14 days from the first persistently negative day. Symptoms and any neutropenia must also resolve before an uncomplicated course ends.<sup><a href="#ref-2">2</a>, <a href="#ref-9">9</a></sup></td></tr>
+<tr><td>Uncomplicated gram-negative bacteremia</td><td>Repeat cultures are usually unnecessary when active therapy and source control lead to prompt improvement.</td><td>Lack of improvement within 72 hours of effective therapy, limited source control or suspected endovascular infection warrants reassessment and repeat sampling.<sup><a href="#ref-6">6</a></sup></td></tr>
+<tr><td>Possible contaminant</td><td>New peripheral sets can clarify whether an organism is present on independent draws, particularly with compatible illness, immunocompromise or a device.</td><td>Sampling before new antibiotics, when safe, improves interpretation.</td></tr>
+<tr><td>Bacteremia with deterioration, new focal symptoms or persistent fever</td><td>Repeat cultures help assess ongoing infection.</td><td>Inactive therapy, retained infected material and an undetected deep focus may explain failure to improve.</td></tr>
 </tbody>
 </table>
 </div>
-<div class="callout"><strong>Put the reason in the plan.</strong> “Repeat cultures to document <em>S. aureus</em> clearance” is useful. So is “repeat because the catheter remains in place.” For an improving patient with uncomplicated gram-negative bacteremia, it may be appropriate to document why cultures are not being repeated.</div>
+<div class="callout"><strong>Why repeat?</strong> A positive culture after attempted catheter salvage can change a decision about line removal. A negative culture in an otherwise improving patient after relief of urinary obstruction may add little.<sup><a href="#ref-5">5</a>, <a href="#ref-6">6</a></sup></div>
 </section>
 <section class="core-section" id="source-control">
 <h2>What are the antibiotics not going to fix?</h2>
 <p>On rounds, this is often the most important part of the discussion. Obstruction, an undrained collection, necrosis, a leak, or infected foreign material may require source control despite active antimicrobial therapy.</p>
 <div class="grid-2">
 <div class="mini-card"><h3>Remove</h3><p>Is a catheter, cardiac device, vascular graft, or other hardware involved? If removal may be needed, identify who will make that decision and when.</p></div>
-<div class="mini-card"><h3>Drain</h3><p>Is there an abscess, empyema, infected collection, septic joint, or another closed-space infection? If someone says it is not drainable, clarify whether that conclusion came from the procedural service.</p></div>
+<div class="mini-card"><h3>Drain</h3><p>An abscess, empyema or infected joint can sustain bacteremia. The location and accessibility of the collection determine how drainage can be achieved.</p></div>
 <div class="mini-card"><h3>Debride</h3><p>Is there necrotic tissue, an infected wound, devitalized bone, or an uncontrolled surgical focus? Antibiotics cannot restore perfusion or remove dead tissue.</p></div>
 <div class="mini-card"><h3>Decompress or repair</h3><p>Is there urinary or biliary obstruction, a leak, fistula, perforation, or another continuing anatomic problem?</p></div>
 </div>
-<div class="callout alert"><strong>If cultures stay positive, stop and reconsider the case.</strong> For <em>S. aureus</em>, a positive follow-up culture at least 48 hours after the first positive culture is a major increased-risk feature. Check whether therapy is active and reaching the patient, but also reconsider the source, every line and device, and occult endovascular or metastatic infection. Broader therapy alone is usually not the answer.<sup><a href="#ref-1">1</a></sup></div>
+<div class="callout alert"><strong>Persistent <em>S. aureus</em> bacteremia.</strong> Growth in a follow-up sample drawn at least 48 hours after the index sample raises the risk of deep or metastatic infection. Persistent bacteremia despite active treatment prompts another examination for infected lines or devices, endocarditis and undrained foci.<sup><a href="#ref-1">1</a></sup></div>
 <div class="teaching-answer">
 <h3>When the team thinks the line is the source</h3>
 <div>
 <ul>
-<li>Were peripheral and catheter cultures collected before antibiotics, at the same time, with comparable volumes?</li>
+<li>Were peripheral and catheter samples drawn together before antibiotics with equal blood volumes? Did the same organism grow from both?</li>
 <li>Is the line still necessary, and can it be removed now?</li>
 <li>Is there tunnel, pocket, exit-site, or septic-thrombus disease?</li>
 <li>Is the organism one for which catheter retention carries a high failure risk?</li>
-<li>If salvage is attempted, what is the failure threshold and when will cultures be repeated?</li>
+<li>If salvage is attempted, are cultures drawn 72 hours after active treatment began still positive? This finding generally favors removal.</li>
 </ul>
-<p>The 2009 IDSA catheter guideline remains an older source and should be reconciled with local vascular-access and infection-prevention policy.<sup><a href="#ref-5">5</a></sup></p>
+<p>Catheter retention is particularly hazardous in confirmed catheter-related infection due to <em>S. aureus</em>, <em>P. aeruginosa</em>, fungi or mycobacteria. Other organisms, the type of catheter, ongoing bacteremia and the feasibility of alternative access can change whether salvage is reasonable.<sup><a href="#ref-5">5</a></sup></p>
 </div>
 </div>
 </section>
 <section class="core-section" id="consult">
 <h2>Answer the question the team actually has</h2>
-<p>A technically correct consult is not very useful if the primary team cannot tell what to do next. The assessment should state whether the culture is significant, where the infection probably came from, what remains unproven, and what needs to happen today.</p>
+<p>A useful consult explains what the isolate means, which source is most likely and what finding would change that assessment. The same reasoning helps the next clinician interpret pending results.</p>
 <h3>A practical note structure</h3>
 <p class="lecture-crosslinks"><a href="OPAT_Primer_Short_Module.html#core-5">Outpatient treatment and follow-up handoff</a></p>
 <div aria-label="Consult note template" class="template">Positive blood cultures
@@ -451,18 +451,18 @@ Duration and follow-through
 - Duration anchor and anticipated stop date: [ ]
 - Pending results and who will review them: [ ]
 - Criteria for narrowing, oral transition, discharge, or reopening the workup: [ ]</div>
-<h3>What I would say to the primary team</h3>
-<div class="callout">“I think this is true <em>S. aureus</em> bacteremia even though only one bottle is positive. We need two follow-up sets tomorrow at the 48-hour mark and a TTE. His focal back pain also needs directed spine imaging. If the cultures remain positive, we need to reassess source control, confirm active drug delivery, and investigate an endovascular or metastatic focus.”</div>
+<h3>Explaining the <em>S. aureus</em> case</h3>
+<div class="callout">“Even with one positive bottle, <em>S. aureus</em> is likely to be significant. Follow-up sets at 48 hours from the first draw help establish clearance; TTE assesses the valves. The new focal pain warrants spine MRI regardless of fever or culture clearance. Continued growth would raise concern for an uncontrolled focus.”</div>
 <h3>Before the patient leaves the hospital</h3>
 <ul>
-<li>“Continue antibiotics per ID” is not a discharge plan. State the drug, dose, route, indication, duration anchor, stop date, and monitoring.</li>
-<li>List all pending blood cultures and susceptibilities, who will review them, and what result changes the plan.</li>
-<li>Record source-control completion and any retained material.</li>
-<li>Specify necessary imaging, specialty follow-up, vascular-access plan, laboratory monitoring, and symptoms requiring urgent reassessment.</li>
-<li>Use oral therapy when evidence, susceptibility, absorption, adherence, and syndrome permit. Bacteremia alone is not an indication for a PICC.</li>
+<li>A useful handoff identifies the treatment, route, monitoring, duration anchor and anticipated stop date.</li>
+<li>Pending cultures and susceptibilities need an identified clinician who will act on the results.</li>
+<li>The receiving team needs to know what was drained or removed and what material remains.</li>
+<li>New focal pain, recurrent fever or instability after discharge warrants prompt reassessment.</li>
+<li>When susceptibility, clinical response, absorption and adherence support an oral option, bacteremia alone does not require a central line.</li>
 </ul>
 </section>
-<section class="advanced-intro fellow-jump-target" id="advanced" tabindex="-1"><h2>Advanced fellow discussion begins here</h2><p>Use these questions to examine risk stratification, evidence boundaries, and uncertainty after the resident cases.</p><div class="fellow">
+<section class="advanced-intro fellow-jump-target" id="advanced" tabindex="-1"><h2>Advanced fellow discussion begins here</h2><p>The following questions explore when additional testing changes the interpretation of a positive culture.</p><div class="fellow">
 <h3>Questions for fellows</h3>
 <ul>
 <li>Which uncertainty matters enough to change what you do today?</li>
@@ -471,8 +471,9 @@ Duration and follow-through
 <li>What does the local rapid panel detect, and what can it miss?</li>
 <li>If cultures remain positive, is the presumed source wrong, incompletely controlled, or not the whole story?</li>
 </ul>
-</div><p class="fellow-jump-target" id="fellow-sab-discussion" tabindex="-1"><strong>For fellows.</strong> A negative TTE does not end the echocardiographic evaluation in every patient. The 2026 consensus supports TEE when risk remains higher because of an intracardiac device, predisposing valve disease, cultures positive at least 48 hours, embolic events, or more than one noncontiguous focus. Community onset and injection drug use also increase concern.<sup><a href="#ref-1">1</a></sup></p><p class="fellow-jump-target" id="fellow-gn-discussion" tabindex="-1"><strong>For fellows.</strong> Do not stretch the BALANCE result beyond its population. The trial excluded severe immunosuppression, prosthetic heart valves or endovascular grafts, deep foci requiring prolonged therapy, <em>S. aureus</em>, <em>S. lugdunensis</em>, possible contaminants, unusual pathogens requiring prolonged therapy, and fungemia.<sup><a href="#ref-7">7</a></sup></p></section><section class="advanced-section" id="traps">
-<h2>Where these cases usually go off track</h2>
+</div><p class="fellow-jump-target" id="fellow-sab-discussion" tabindex="-1"><strong>For fellows.</strong> In adult <em>S. aureus</em> bacteremia, the consensus suggests routine TTE. After a negative TTE, it suggests transesophageal echocardiography (TEE) for an intracardiac device, predisposing valve disease, positive follow-up cultures sampled at least 48 hours after the index culture, embolic events, or multiple noncontiguous foci. Community onset or injection drug use also merits consideration of TEE. The decision depends on TTE quality, clinical response and how a TEE result would change management. If signs and symptoms resolve and an adequate evaluation finds no deep or metastatic focus, the consensus suggests 14 days, including for selected increased-risk patients. The clock starts at clearance; removal of the focus later can serve as day one. Prolonged bacteremia, especially with an incomplete evaluation, may justify more than 14 days. A proven deep focus has its own treatment duration.<sup><a href="#ref-1">1</a></sup></p><p class="fellow-jump-target" id="fellow-gn-discussion" tabindex="-1"><strong>For fellows.</strong> BALANCE found seven days noninferior to 14 for 90-day mortality among eligible hospitalized patients with bloodstream infection. The trial excluded severe immunosuppression, prosthetic heart valves or endovascular grafts, deep foci requiring prolonged therapy, <em>S. aureus</em>, <em>S. lugdunensis</em>, possible contaminants, unusual pathogens requiring prolonged therapy, and fungemia.<sup><a href="#ref-7">7</a></sup></p></section><section class="advanced-section" id="traps">
+<h2>When findings change the workup</h2>
+<div class="teaching-answer"><h3>Who needs an eye examination in candidemia?</h3><p>New visual symptoms warrant prompt ophthalmologic assessment. Guidance differs for screening. IDSA 2016 recommends a dilated examination in the first week for nonneutropenic patients, and in the first week after neutrophil recovery for neutropenic patients. The American Academy of Ophthalmology advises against routine consultation for an asymptomatic positive culture alone. The 2025 global guideline favors fundoscopy with ocular symptoms, persistent candidemia, immunosuppression or inability to report symptoms.<sup><a href="#ref-2">2</a>, <a href="#ref-9">9</a>, <a href="#ref-12">12</a></sup></p></div>
 <div class="grid-2">
 <div class="mini-card"><h3>Calling it from the bottle count</h3><p>“One bottle means contamination” and “two bottles mean true infection” are unreliable shortcuts. Start with the organism, independently collected sets, collection sites, host, devices, and syndrome.</p></div>
 <div class="mini-card"><h3>Stopping once a plausible source is found</h3><p>A positive urine culture may explain how bacteremia started. It does not make new back pain, an intracardiac device, persistent cultures, or embolic findings irrelevant.</p></div>
@@ -486,11 +487,11 @@ Duration and follow-through
 <h2>Knowledge check</h2>
 <div class="quiz-item">
 <h3>1. One of four bottles grows <em>S. aureus</em>. The patient looks well. Contaminant?</h3>
-<div class="answer teaching-answer"><h3>Answer</h3><div><p>No. Treat as clinically significant and begin the <em>S. aureus</em> bacteremia evaluation. Bottle count does not make <em>S. aureus</em> a contaminant.</p></div></div>
+<div class="answer teaching-answer"><h3>Answer</h3><div><p>A single positive bottle usually represents true <em>S. aureus</em> bacteremia. A well appearance does not exclude endocarditis or another focus; the result warrants evaluation.</p></div></div>
 </div>
 <div class="quiz-item">
 <h3>2. When should adult <em>S. aureus</em> follow-up cultures be obtained?</h3>
-<div class="answer teaching-answer"><h3>Answer</h3><div><p>The 2026 IDSA/ESCMID consensus suggests at least two sets at 48 hours after sampling of the first positive culture, then one or two sets every 24 to 48 hours until negative. Intensify for ongoing illness, deep or endovascular infection, or persistence.</p></div></div>
+<div class="answer teaching-answer"><h3>Answer</h3><div><p>The 2026 IDSA/ESCMID consensus suggests at least two sets at 48 hours after sampling of the first positive culture, then one or two sets every 24 to 48 hours until negative. Ongoing illness, a deep or endovascular focus, or persistent growth may justify closer sampling.</p></div></div>
 </div>
 <div class="quiz-item">
 <h3>3. Does every adult with <em>S. aureus</em> bacteremia need TTE?</h3>
@@ -498,7 +499,7 @@ Duration and follow-through
 </div>
 <div class="quiz-item">
 <h3>4. An improving patient has <em>E. coli</em> bacteremia from pyelonephritis after ureteral decompression. Repeat daily cultures?</h3>
-<div class="answer teaching-answer"><h3>Answer</h3><div><p>Usually no, if this meets uncomplicated gram-negative BSI criteria. Repeat if response is inadequate, an endovascular focus is possible, or source control is limited.</p></div></div>
+<div class="answer teaching-answer"><h3>Answer</h3><div><p>Usually no, given effective drainage and a prompt response to active therapy. Limited source control, failure to improve or suspected endovascular infection changes that assessment.</p></div></div>
 </div>
 <div class="quiz-item">
 <h3>5. One set grows <em>Corynebacterium</em> in a patient with a prosthetic valve. Ignore it?</h3>
@@ -506,7 +507,7 @@ Duration and follow-through
 </div>
 <div class="quiz-item">
 <h3>6. What does a catheter culture turning positive 2.5 hours before a simultaneous peripheral culture suggest?</h3>
-<div class="answer teaching-answer"><h3>Answer</h3><div><p>If collected simultaneously with comparable volumes, a differential time to positivity of at least 2 hours supports a catheter source. It does not prove it and must be interpreted with the organism and clinical context.</p></div></div>
+<div class="answer teaching-answer"><h3>Answer</h3><div><p>If the same organism grew from catheter and peripheral samples drawn simultaneously before antibiotics with equal blood volumes, catheter growth at least two hours earlier supports a catheter source. Without those conditions, the interval is difficult to interpret.</p></div></div>
 </div>
 <div class="quiz-item">
 <h3>7. Can the BALANCE trial justify 7 days for candidemia or <em>S. aureus</em> bacteremia?</h3>
@@ -514,37 +515,41 @@ Duration and follow-through
 </div>
 <div class="quiz-item">
 <h3>8. What is the most useful one-sentence bacteremia recommendation?</h3>
-<div class="answer teaching-answer"><h3>Answer</h3><div><p>One that states significance, source, next action, and contingency. Example: “This is true bacteremia from an obstructed urinary source; decompression is complete, repeat cultures are unnecessary if improvement continues, and we will narrow to an active oral option when susceptibilities return.”</p></div></div>
+<div class="answer teaching-answer"><h3>Answer</h3><div><p>One that states significance, source, next action, and contingency. Example: “This is true bacteremia from an obstructed urinary source; decompression is complete, repeat cultures are unnecessary if improvement continues, and oral treatment may be feasible if susceptibility, absorption and systemic exposure are adequate.”</p></div></div>
 </div>
 </section>
 <section class="cheat" id="cheat-sheet">
 <h2>Positive blood cultures: one-page rounds sheet</h2>
 <div class="cheat-grid">
 <div class="cheat-box"><h3>1. Validate</h3><p>Organism. Independent sets and sites. Blood volume and collection quality. Host and devices. Compatible syndrome. Trajectory.</p></div>
-<div class="cheat-box"><h3>2. Stabilize</h3><p>Is current therapy active and timely? Do not wait for final susceptibility in an unstable patient. Use local empiric guidance.</p></div>
+<div class="cheat-box"><h3>2. Stabilize</h3><p>In suspected septic shock, active empiric treatment cannot wait for final identification or susceptibility.</p></div>
 <div class="cheat-box"><h3>3. Localize</h3><p>Portal: urine, biliary/abdomen, lung, skin/wound, catheter. Extent: valve/device, thrombus, spine, joint, bone, abscess, embolic sites.</p></div>
-<div class="cheat-box"><h3>4. Clear selectively</h3><p><em>S. aureus</em>: 2 sets at 48 h, then q24–48 h until negative. <em>Candida</em>: daily or every other day. Uncomplicated GN BSI: usually no repeat.</p></div>
-<div class="cheat-box"><h3>5. Control</h3><p>Remove line/device when indicated. Drain. Debride. Decompress. Repair leak or fistula. Name owner and timing.</p></div>
-<div class="cheat-box"><h3>6. Set the clock</h3><p>Document the duration anchor and stop date. <em>S. aureus</em>: clearance or later focus removal. Candidemia: clearance plus symptom resolution; deep foci change duration.</p></div>
+<div class="cheat-box"><h3>4. Clear selectively</h3><p><em>S. aureus</em>: ≥2 sets 48 h after index draw, then 1–2 sets every 24–48 h until clear. Candidemia: daily to 3 negative days (2025 global). Controlled, improving uncomplicated GN infection: usually no repeat.</p></div>
+<div class="cheat-box"><h3>5. Control</h3><p>Is there an infected device, abscess, obstruction, leak or necrotic focus that requires a procedure?</p></div>
+<div class="cheat-box"><h3>6. Set the clock</h3><p><em>S. aureus</em>: clearance, or later focus removal. Candidemia without organ disease: 14 days from sustained clearance; symptoms and any neutropenia must resolve.</p></div>
 <div class="cheat-box"><h3>7. Communicate</h3><p>Significance + source + action + contingency. State what result or clinical change reopens the workup.</p></div>
-<div class="cheat-box"><h3>8. Handoff safely</h3><p>Drug/dose/route, stop date, pending results and owner, source control, retained material, monitoring, follow-up, return triggers.</p></div>
+<div class="cheat-box"><h3>8. Handoff safely</h3><p>Treatment and stop date; pending results and who will act; retained material, monitoring and symptoms needing reassessment.</p></div>
 </div>
-<p><strong>Do not do these:</strong> call <em>S. aureus</em> or yeast a contaminant; use bottle count alone; repeat every culture daily; assume antibiotics replace source control; generalize 7-day data to excluded pathogens or deep foci.</p>
+<p><strong>Pitfalls:</strong> dismissing <em>S. aureus</em> or yeast on bottle count alone; repeating cultures without a question; relying on antibiotics for an obstructed or undrained focus; applying seven-day data to an excluded infection.</p>
 </section>
 <section class="references" id="references">
 <h2>References and evidence notes</h2>
 <p><span class="evidence">CONSENSUS</span> reflects expert consensus informed by evidence review. <span class="evidence">GUIDELINE</span> reflects a professional-society recommendation. <span class="evidence">RCT</span> reflects randomized trial evidence. <span class="evidence">OBSERVATIONAL</span> reflects nonrandomized data. Evidence labels matter because many bloodstream-infection practices remain consensus-based.</p>
 <ol>
-<li id="ref-1"><span class="evidence">CONSENSUS</span> Liu C, Chambers HF, Vandenesch F, Kern WV, et al. IDSA/ESCMID 2026 Consensus Statements on <em>Staphylococcus aureus</em> Bacteremia: Risk Stratification, Diagnostic Evaluation, and Management of Adults and Children. Published and last updated September 9, 2026. <a href="https://www.idsociety.org/practice-guideline/staphylococcus-aureus-bacteremia/">IDSA consensus page</a>. Reviewed September 13, 2026.</li>
-<li id="ref-2"><span class="evidence">GUIDELINE</span> Pappas PG, Kauffman CA, Andes DR, et al. Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by IDSA. <em>Clin Infect Dis.</em> 2016;62(4):e1-e50. Published online December 16, 2015. doi:10.1093/cid/civ933. <a href="https://www.idsociety.org/practice-guideline/candidiasis/">IDSA guideline</a>. Reviewed September 13, 2026.</li>
-<li id="ref-3"><span class="evidence">LABORATORY REPORT</span> Palavecino EL, Campigotto A, She RC, et al. Laboratory approaches to determining blood culture contamination rates: an ASM Laboratory Practices Subcommittee report. <em>J Clin Microbiol.</em> 2024;62(1):e01028-23. doi:10.1128/jcm.01028-23. <a href="https://doi.org/10.1128/jcm.01028-23">Article</a>. Reviewed September 13, 2026.</li>
-<li id="ref-4"><span class="evidence">GUIDELINE / META-ANALYSIS</span> Sautter RL, Parrott JS, Nachamkin I, et al. American Society for Microbiology evidence-based laboratory medicine practice guidelines to reduce blood culture contamination rates: a systematic review and meta-analysis. <em>Clin Microbiol Rev.</em> 2024;37(4). doi:10.1128/cmr.00087-24. <a href="https://doi.org/10.1128/cmr.00087-24">Article</a>. Reviewed September 13, 2026.</li>
-<li id="ref-5"><span class="evidence">GUIDELINE</span> Mermel LA, Allon M, Bouza E, et al. Clinical Practice Guidelines for the Diagnosis and Management of Intravascular Catheter-Related Infection: 2009 Update by IDSA. <em>Clin Infect Dis.</em> 2009;49(1):1-45. doi:10.1086/599376. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4039170/">Full text</a>. Reviewed September 13, 2026. Archived guideline; IDSA lists an update in progress. Apply current local vascular-access policy. <a href="https://www.idsociety.org/practice-guideline/iv-catheter/">Issuing organization and update status</a>.</li>
-<li id="ref-6"><span class="evidence">CONSENSUS</span> Heil EL, Bork JT, Abbo LM, et al. Optimizing the Management of Uncomplicated Gram-Negative Bloodstream Infections: Consensus Guidance Using a Modified Delphi Process. <em>Open Forum Infect Dis.</em> 2021;8(10):ofab434. Published October 11, 2021. doi:10.1093/ofid/ofab434. <a href="https://academic.oup.com/ofid/article/8/10/ofab434/6355731">Full text</a>. Reviewed September 13, 2026.</li>
-<li id="ref-7"><span class="evidence">RCT</span> BALANCE Investigators for the Canadian Critical Care Trials Group, the Association of Medical Microbiology and Infectious Disease Canada Clinical Research Network, the Australian and New Zealand Intensive Care Society Clinical Trials Group, and the Australasian Society for Infectious Diseases Clinical Research Network. Antibiotic Treatment for 7 versus 14 Days in Patients with Bloodstream Infections. <em>N Engl J Med.</em> Published online November 20, 2024; print 2025;392:1065-1078. doi:10.1056/NEJMoa2404991. <a href="https://pubmed.ncbi.nlm.nih.gov/39565030/">PubMed</a>. Reviewed September 13, 2026.</li>
-<li id="ref-8"><span class="evidence">SYSTEMATIC REVIEW</span> Timbrook TT, Morton JB, McConeghy KW, Caffrey AR, Mylonakis E, LaPlante KL. The Effect of Molecular Rapid Diagnostic Testing on Clinical Outcomes in Bloodstream Infections: A Systematic Review and Meta-analysis. <em>Clin Infect Dis.</em> 2017;64(1):15-23. doi:10.1093/cid/ciw649. <a href="https://pubmed.ncbi.nlm.nih.gov/27678085/">PubMed</a>. Reviewed September 13, 2026.</li>
+<li id="ref-1"><span class="evidence">CONSENSUS</span> Liu C, Chambers HF, Vandenesch F, Kern WV, et al. IDSA/ESCMID 2026 Consensus Statements on <em>Staphylococcus aureus</em> Bacteremia: Risk Stratification, Diagnostic Evaluation, and Management of Adults and Children. Published and last updated September 9, 2026. <a href="https://www.idsociety.org/practice-guideline/staphylococcus-aureus-bacteremia/">IDSA consensus page</a>.</li>
+<li id="ref-2"><span class="evidence">GUIDELINE</span> Pappas PG, Kauffman CA, Andes DR, et al. Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by IDSA. <em>Clin Infect Dis.</em> 2016;62(4):e1-e50. Published online December 16, 2015. doi:10.1093/cid/civ933. <a href="https://www.idsociety.org/practice-guideline/candidiasis/">IDSA guideline</a>.</li>
+<li id="ref-3"><span class="evidence">LABORATORY REPORT</span> Palavecino EL, Campodónico VL, She RC. Laboratory approaches to determining blood culture contamination rates: an ASM Laboratory Practices Subcommittee report. <em>J Clin Microbiol.</em> 2024;62(2):e01028-23. doi:10.1128/jcm.01028-23. <a href="https://doi.org/10.1128/jcm.01028-23">Article</a>.</li>
+<li id="ref-4"><span class="evidence">GUIDELINE / META-ANALYSIS</span> Sautter RL, Parrott JS, Nachamkin I, et al. American Society for Microbiology evidence-based laboratory medicine practice guidelines to reduce blood culture contamination rates: a systematic review and meta-analysis. <em>Clin Microbiol Rev.</em> 2024;37(4). doi:10.1128/cmr.00087-24. <a href="https://doi.org/10.1128/cmr.00087-24">Article</a>.</li>
+<li id="ref-5"><span class="evidence">GUIDELINE</span> Mermel LA, Allon M, Bouza E, et al. Clinical Practice Guidelines for the Diagnosis and Management of Intravascular Catheter-Related Infection: 2009 Update by IDSA. <em>Clin Infect Dis.</em> 2009;49(1):1-45. doi:10.1086/599376. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4039170/">Full text</a>. Archived guideline; IDSA lists an update in progress. <a href="https://www.idsociety.org/practice-guideline/iv-catheter/">Issuing organization and update status</a>.</li>
+<li id="ref-6"><span class="evidence">CONSENSUS</span> Heil EL, Bork JT, Abbo LM, et al. Optimizing the Management of Uncomplicated Gram-Negative Bloodstream Infections: Consensus Guidance Using a Modified Delphi Process. <em>Open Forum Infect Dis.</em> 2021;8(10):ofab434. Published October 11, 2021. doi:10.1093/ofid/ofab434. <a href="https://academic.oup.com/ofid/article/8/10/ofab434/6355731">Full text</a>.</li>
+<li id="ref-7"><span class="evidence">RCT</span> BALANCE Investigators for the Canadian Critical Care Trials Group, the Association of Medical Microbiology and Infectious Disease Canada Clinical Research Network, the Australian and New Zealand Intensive Care Society Clinical Trials Group, and the Australasian Society for Infectious Diseases Clinical Research Network. Antibiotic Treatment for 7 versus 14 Days in Patients with Bloodstream Infections. <em>N Engl J Med.</em> Published online November 20, 2024; print 2025;392:1065-1078. doi:10.1056/NEJMoa2404991. <a href="https://pubmed.ncbi.nlm.nih.gov/39565030/">PubMed</a>.</li>
+<li id="ref-8"><span class="evidence">SYSTEMATIC REVIEW</span> Timbrook TT, Morton JB, McConeghy KW, Caffrey AR, Mylonakis E, LaPlante KL. The Effect of Molecular Rapid Diagnostic Testing on Clinical Outcomes in Bloodstream Infections: A Systematic Review and Meta-analysis. <em>Clin Infect Dis.</em> 2017;64(1):15-23. doi:10.1093/cid/ciw649. <a href="https://pubmed.ncbi.nlm.nih.gov/27678085/">PubMed</a>.</li>
+<li id="ref-9"><span class="evidence">GUIDELINE</span> Cornely OA, Sprute R, Bassetti M, et al. Global guideline for the diagnosis and management of candidiasis. ECMM, ISHAM and ASM. <em>Lancet Infect Dis.</em> 2025. <a href="https://doi.org/10.1016/S1473-3099(24)00749-7">Guideline</a>.</li>
+<li id="ref-10"><span class="evidence">COHORT</span> Yogo A, Krishnan J, Lewin GR, et al. Clinical implications of a single <em>Staphylococcus lugdunensis</em>-positive blood culture. <em>J Clin Microbiol.</em> 2026. <a href="https://doi.org/10.1128/jcm.00475-26">Study</a>.</li>
+<li id="ref-11"><span class="evidence">RCT</span> Banerjee R, Teng CB, Cunningham SA, et al. Randomized trial of rapid multiplex PCR for positive blood cultures. <em>Clin Infect Dis.</em> 2015. <a href="https://doi.org/10.1093/cid/civ447">Trial</a>.</li>
+<li id="ref-12"><span class="evidence">SOCIETY STATEMENT</span> Breazzano MP, Bond JB, Bearelly S, et al. American Academy of Ophthalmology recommendations on screening for endogenous <em>Candida</em> endophthalmitis. <em>Ophthalmology.</em> 2022. <a href="https://doi.org/10.1016/j.ophtha.2021.07.015">Statement</a>.</li>
 </ol>
-<div class="callout caution"><strong>For clinical use.</strong> Check current site microbiology, antibiogram, formulary, diagnostic access, pharmacy dosing, and OPAT processes.</div>
+
 </section>
 </main>
 <aside aria-label="Module sidebar" class="rail">
@@ -577,7 +582,7 @@ Duration and follow-through
 <a href="#cheat-sheet">Rounds sheet</a>
 </div>
 <footer>
-    Educational use only. No patient information is collected or stored. Verify patient-specific management against current primary guidance, product labeling, local policy, and specialist input.
+
   </footer>
 <script data-fellow-navigation="">
 (function () {
