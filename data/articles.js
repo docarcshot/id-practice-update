@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "funobactam-habp-vabp-phase3-2026",
+    date: "2026-11-04",
+    title: "Imipenem-cilastatin-funobactam versus imipenem-cilastatin-relebactam in patients with hospital-acquired bacterial pneumonia or ventilator-associated bacterial pneumonia: a phase 3, double-blind, non-inferiority randomised trial",
+    type: "Multinational double-blind phase 3 randomized noninferiority trial",
+    journal: "The Lancet Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Hospital-acquired pneumonia", "Ventilator-associated pneumonia", "Funobactam", "Beta-lactamase inhibitors", "Antimicrobial resistance", "Antibiotic selection", "Inpatient ID"],
+    summary: "This multinational phase 3 trial randomized 450 adults with clinically documented or suspected Gram-negative HABP/VABP at 62 hospitals; 449 were included in the modified intention-to-treat analysis. Fourteen-day mortality was 9/299 (3.0%) with imipenem-cilastatin-funobactam and 4/150 (2.7%) with imipenem-cilastatin-relebactam (difference 0.2 percentage points, 95% CI -3.5 to 4.0), meeting the prespecified 10-point noninferiority margin.",
+    change: "A novel serine-beta-lactamase inhibitor combination met phase 3 noninferiority versus imipenem-cilastatin-relebactam. Grade 3 or higher treatment-related adverse events occurred in 22/299 (7%) versus 16/150 (11%), with no drug-related deaths.",
+    takeaway: "Track regulatory status and susceptibility data rather than using this investigational regimen now. The trial supports a potential future HABP/VABP option but does not establish superiority or efficacy for specific CRAB, CRE, or DTR Pseudomonas subgroups.",
+    limitations: "Fifty-eight of 62 hospitals were in China, limiting generalizability. Mortality was unusually low, the noninferiority margin was 10 percentage points, and missing mortality data were counted as survival. The comparator was another beta-lactam/beta-lactamase inhibitor regimen, and the abstract does not report resistant-pathogen subgroup outcomes. The trial was industry funded.",
+    link: "https://doi.org/10.1016/S1473-3099(26)00520-7",
+    doi: "10.1016/S1473-3099(26)00520-7"
+  },
+  {
     id: "ertapenem-resistant-higher-order-carbapenems-2026",
     date: "2026-11-03",
     title: "Are Higher-Order Carbapenems Effective Therapy for Patients with Ertapenem-Resistant Enterobacterales Invasive Infections?",
@@ -892,6 +907,21 @@ window.ID_ARTICLES = [
     limitations: "Antibiotic choice was not randomized. Residual confounding is plausible, and the mortality association should not be interpreted as proof that appropriate anaerobic therapy is harmful.",
     link: "https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciag460/8750794",
     doi: "10.1093/cid/ciag460"
+  },
+  {
+    id: "opti-dor-initial-hiv-weight-2026",
+    date: "2026-07-31",
+    title: "Initial HIV Therapy for Adults and Treatment-Associated Weight Gain: The Opti-DOR Randomized Clinical Trial",
+    type: "Two-site open-label randomized noninferiority trial",
+    journal: "JAMA",
+    impact: "Practice informing",
+    tags: ["HIV", "Initial antiretroviral therapy", "Doravirine", "Dolutegravir", "Weight gain", "Bone mineral density", "Drug resistance", "Outpatient ID"],
+    summary: "Opti-DOR randomized 600 ART-naive adults at two South African sites to doravirine-lamivudine-tenofovir disoproxil fumarate or dolutegravir-emtricitabine-tenofovir alafenamide. At week 48, HIV RNA was below 50 copies/mL in 266/299 (89.0%) versus 273/301 (90.7%); the difference was -1.7 percentage points (95% CI -6.6 to 3.1), meeting the -10-point noninferiority margin. Median weight gain was 3.0 versus 5.0 kg (difference -2.0 kg, 95% CI -3.0 to -1.0; P<.001).",
+    change: "The doravirine-based regimen reduced weight gain but caused greater bone mineral density loss: hip -2.1% versus -0.5% and spine -3.2% versus -1.3% (P<.001 for both comparisons). Protocol-defined virologic failure occurred in 9/299 versus 6/301, and doravirine resistance emerged in 7/9 doravirine-group failures.",
+    takeaway: "Doravirine-lamivudine-tenofovir disoproxil fumarate is a reasonable alternative initial regimen when limiting weight gain is a priority and baseline resistance, renal and bone health, HBV status, and follow-up support are suitable. It is not simply superior to dolutegravir-emtricitabine-tenofovir alafenamide; the regimen components changed together, and rapid viral-load and resistance assessment is important if viremia develops.",
+    limitations: "The trial was open label, lasted 48 weeks, and was conducted at two South African sites; 597/600 participants were Black African and 413/600 were assigned female at birth. Baseline high-level doravirine resistance was excluded. Because both the anchor drug and tenofovir formulation differed, the trial cannot attribute weight or bone effects to doravirine versus dolutegravir alone. Few pregnancies occurred.",
+    link: "https://doi.org/10.1001/jama.2026.14762",
+    doi: "10.1001/jama.2026.14762"
   },
   {
     id: "dfO-clean-margin-2026",
