@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "hbv-tenofovir-sparing-art-cfarnet-2026",
+    date: "2026-11-07",
+    title: "Hepatitis B Reactivation and Infection in People with HIV on Tenofovir-Sparing Antiretroviral Therapy",
+    type: "Multicenter retrospective cohort study",
+    journal: "Open Forum Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["HIV", "Hepatitis B", "Tenofovir-sparing ART", "Antiretroviral therapy", "Vaccination", "Monitoring", "Outpatient ID"],
+    summary: "The U.S. CFAR Network cohort included 5,776 people with HIV without active HBV infection who received at least one tenofovir-sparing ART regimen after May 2014. Over a median 5.3 years of follow-up, 17 HBV infections or reactivations were identified; incident infection occurred at 3.9 per 10,000 person-years and reactivation at 6.0 per 10,000 person-years. ALT of at least 100 U/L within three months occurred in only one incident-infection case.",
+    change: "HBV infection or reactivation was uncommon after transition to tenofovir-sparing ART, but events occurred even in some people with previously documented hepatitis B surface antibody. The observed risk was possibly higher among those who were HBsAb negative at cohort entry and those receiving no ART drug with anti-HBV activity.",
+    takeaway: "Before starting tenofovir-sparing ART, document HBsAg, anti-HBc, and anti-HBs; vaccinate or revaccinate when indicated and retain a monitoring plan for incident HBV or reactivation. The low observed rate supports use of tenofovir-sparing regimens in appropriately selected patients, but prior HBsAb positivity should not be treated as a guarantee of zero risk.",
+    limitations: "This was a retrospective clinical cohort without a tenofovir-containing control group. Only 17 events occurred, limiting risk-factor estimates, and HBV serology, HBV DNA, and ALT testing were performed through routine care rather than a uniform surveillance schedule, so asymptomatic events could have been missed. The report is an accepted manuscript and may undergo copyediting.",
+    link: "https://doi.org/10.1093/ofid/ofag731",
+    doi: "10.1093/ofid/ofag731"
+  },
+  {
     id: "funobactam-habp-vabp-phase3-2026",
     date: "2026-11-04",
     title: "Imipenem-cilastatin-funobactam versus imipenem-cilastatin-relebactam in patients with hospital-acquired bacterial pneumonia or ventilator-associated bacterial pneumonia: a phase 3, double-blind, non-inferiority randomised trial",
