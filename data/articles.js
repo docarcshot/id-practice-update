@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "native-septic-knee-debridement-timing-2026",
+    date: "2026-11-10",
+    title: "Does the Timing of Surgical Debridement Affect Outcomes in Septic Arthritis of the Native Hip and Knee? A Propensity-weighted Analysis",
+    type: "Statewide retrospective propensity-weighted cohort study",
+    journal: "Clinical Orthopaedics and Related Research",
+    impact: "Practice informing",
+    tags: ["Native joint septic arthritis", "Knee", "Hip", "Source control", "Surgical debridement", "Mortality", "Bone and joint infection", "Inpatient ID"],
+    summary: "This Florida all-payer cohort analyzed 3,545 adult admissions for surgically treated native hip or knee septic arthritis. For septic knee arthritis, initial debridement on hospital day 2 or later versus days 0 to 1 was associated with more repeat debridement (133/1,034 [13%] versus 72/1,510 [5%]; adjusted risk ratio 2.40, 95% CI 1.81-3.19; P<.001) and higher 1-year mortality (118/1,034 [11%] versus 88/1,510 [6%]; adjusted risk ratio 1.54, 95% CI 1.17-2.02; P=.002).",
+    change: "The association was specific to the knee cohort. In septic hip arthritis, delayed debridement was not significantly associated with repeat surgery (55/495 [11%] versus 37/506 [7%]; adjusted risk ratio 1.43, 95% CI 0.95-2.15) or 1-year mortality (43/495 [9%] versus 35/506 [7%]; adjusted risk ratio 1.19, 95% CI 0.77-1.85).",
+    takeaway: "Once native-knee septic arthritis is established and operative source control is indicated, prioritize debridement on the day of admission or the next hospital day and use a coordinated pathway to avoid preventable delay. The study does not define an hour-level deadline, prove causality, or support a timing recommendation for septic hip arthritis.",
+    limitations: "This was a retrospective administrative-database study, so residual confounding and confounding by diagnostic complexity remain despite weighting. Hospital day is an imprecise timing measure, and the database lacked symptom-onset time, aspiration and antibiotic timing, detailed microbiology, physiologic severity, reasons for delay, and operative findings. Results may not generalize beyond the Florida cohort, and patients first debrided after day 10 were excluded.",
+    link: "https://doi.org/10.1097/CORR.0000000000004199",
+    doi: "10.1097/CORR.0000000000004199"
+  },
+  {
     id: "hbv-tenofovir-sparing-art-cfarnet-2026",
     date: "2026-11-07",
     title: "Hepatitis B Reactivation and Infection in People with HIV on Tenofovir-Sparing Antiretroviral Therapy",
