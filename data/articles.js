@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "mrna1283-bnt162b2-veterans-2026",
+    date: "2026-11-11",
+    title: "Estimation of mRNA-1283 vs BNT162b2 COVID-19 Vaccine Effectiveness in Older US Veterans",
+    type: "National retrospective matched active-comparator cohort study",
+    journal: "JAMA Network Open",
+    impact: "Worth knowing",
+    tags: ["COVID-19", "Vaccination", "Older adults", "Comparative effectiveness", "Prevention", "Outpatient ID"],
+    summary: "This target-trial emulation compared LP.8.1-formulated mRNA-1283 with BNT162b2 in 294,499 matched U.S. veterans aged at least 65 years during the 2025-2026 respiratory-virus season. Over 150 days, medically attended COVID-19 occurred in 86/55,349 (0.16%) mRNA-1283 recipients versus 672/239,150 (0.28%) BNT162b2 recipients (adjusted relative vaccine effectiveness 35.9%, 95% credible interval 20.4-49.7%; adjusted risk difference -10.0, 95% credible interval -14.3 to -5.6 events per 10,000 vaccinated people).",
+    change: "COVID-19-associated hospitalization occurred in 11/55,349 (0.02%) versus 114/239,150 (0.05%), corresponding to adjusted relative vaccine effectiveness of 47.0% (95% credible interval 5.4-74.8%) and an adjusted risk difference of -2.2 (95% credible interval -3.8 to -0.2) hospitalizations per 10,000 people. The comparative association favored mRNA-1283, but the absolute event reduction was small.",
+    takeaway: "For an older, high-risk adult choosing between available current-season mRNA COVID-19 vaccines, these data support considering mRNA-1283 when product choice is otherwise unconstrained. Do not delay or forgo vaccination to obtain a specific brand, and do not interpret this observational study as proving causal superiority across future formulations, variants, or populations.",
+    limitations: "This was an observational study in a predominantly male VHA population, with possible outcome misclassification and residual confounding from testing behavior, undocumented infection, vaccine availability, and other unmeasured factors. Several negative-control outcomes still differed after adjustment. Hospitalizations were rare, the absolute difference was 2.2 per 10,000, and the result is specific to the 2025-2026 formulations, circulating variants, and 150-day follow-up. Moderna supported the study and participated in study design, interpretation, and manuscript preparation and approval.",
+    link: "https://doi.org/10.1001/jamanetworkopen.2026.44727",
+    doi: "10.1001/jamanetworkopen.2026.44727"
+  },
+  {
     id: "native-septic-knee-debridement-timing-2026",
     date: "2026-11-10",
     title: "Does the Timing of Surgical Debridement Affect Outcomes in Septic Arthritis of the Native Hip and Knee? A Propensity-weighted Analysis",
