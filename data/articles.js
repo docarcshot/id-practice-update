@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "oral-iv-antibiotics-complicated-appendicitis-2026",
+    date: "2026-11-13",
+    title: "Oral versus intravenous postoperative antibiotics after laparoscopic appendectomy following complicated appendicitis: an open-label cluster-randomized cluster-crossover multiperiod non-inferiority study",
+    type: "Multicenter open-label cluster-randomized crossover noninferiority trial",
+    journal: "BJS",
+    impact: "Practice informing",
+    tags: ["Complicated appendicitis", "Intra-abdominal infection", "Oral antibiotics", "IV-to-oral transition", "Source control", "Antimicrobial stewardship", "Hospital length of stay", "Inpatient ID"],
+    summary: "This pragmatic trial allocated 1,021 adults at 12 Danish hospitals to three days of oral or intravenous antibiotics after laparoscopic appendectomy for complicated appendicitis. Intra-abdominal abscess occurred in 39/567 oral-therapy patients and 22/454 IV-therapy patients; weighted 30-day incidences were 6.8% versus 4.9% (risk difference 1.9 percentage points, 90% CI -0.4 to 4.2), meeting the prespecified 5-point noninferiority margin. The per-protocol analysis also met noninferiority (4.9% versus 3.0%; risk difference 1.8 points, 90% CI -0.3 to 3.9).",
+    change: "For clinically stable adults after laparoscopic source control of complicated appendicitis, a three-day oral regimen produced abscess outcomes within the trial's noninferiority margin and shortened hospital stay by 41.1 hours (95% CI 35.6-46.7 hours). This benefit was offset by a 4.7-percentage-point increase in 30-day readmission (95% CI 0.5-8.9), so the findings support an oral option rather than automatic early discharge for every patient.",
+    takeaway: "Consider oral postoperative therapy instead of continued IV therapy when laparoscopic source control is adequate, the patient is clinically stable, an active and absorbable oral regimen is available, and follow-up and return precautions are reliable. Incorporate the higher readmission signal into discharge planning; the study does not support oral therapy for uncontrolled infection, hemodynamic instability, impaired absorption, or patients outside the studied postoperative setting.",
+    limitations: "The trial was open label and randomized hospital-period clusters rather than individual patients. It was conducted in Denmark, excluded most screened patients, and evaluated three-day regimens after laparoscopic appendectomy, limiting extrapolation to open surgery, inadequate source control, severe sepsis, immunocompromised patients, or different resistance patterns and oral agents. The 5-point noninferiority margin allows some excess abscess risk, and readmission was significantly more frequent with oral therapy.",
+    link: "https://doi.org/10.1093/bjs/znag141",
+    doi: "10.1093/bjs/znag141"
+  },
+  {
     id: "mrna1283-bnt162b2-veterans-2026",
     date: "2026-11-11",
     title: "Estimation of mRNA-1283 vs BNT162b2 COVID-19 Vaccine Effectiveness in Older US Veterans",
