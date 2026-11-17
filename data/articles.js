@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "early-kidney-transplant-asb-treatment-2026",
+    date: "2026-11-16",
+    title: "Chasing Shadows? Antibiotic Treatment for Asymptomatic Bacteriuria in the First 30 Days Post Kidney Transplant",
+    type: "Single-center retrospective cohort study with propensity-adjusted analyses",
+    journal: "Open Forum Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Kidney transplant", "Asymptomatic bacteriuria", "Urinary tract infection", "Antimicrobial stewardship", "Antibiotic treatment", "Graft rejection", "Transplant ID", "Outpatient ID"],
+    summary: "Among 1,851 adult kidney-transplant recipients at one U.S. center, 359 developed 620 asymptomatic-bacteriuria episodes during the first 30 days after transplantation. Antibiotics were given to 72 patients for 112 episodes; 287 patients with 508 episodes were not treated. Treatment was not associated with lower one-year biopsy-proven rejection in propensity-adjusted analysis (hazard ratio 1.26, 95% CI 0.44-3.56) or inverse-probability-weighted analysis (hazard ratio 1.03, 95% CI 0.34-3.19).",
+    change: "Antibiotic treatment was associated with higher odds of symptomatic UTI within two weeks after asymptomatic bacteriuria (adjusted odds ratio 6.5, 95% CI 1.5-33.4). One-month and one-year estimated GFR, multidrug-resistant organism isolation, and C. difficile infection did not differ significantly. These data argue against reflexively treating every positive urine culture during the guideline evidence gap in the first post-transplant month, but they do not establish that treatment is harmful or never indicated.",
+    takeaway: "For a kidney-transplant recipient within 30 days of surgery, confirm that bacteriuria is truly asymptomatic before prescribing and review the result with the transplant team rather than treating automatically. Consider symptoms that may be muted, graft tenderness, fever or systemic findings, upcoming urologic manipulation, urinary obstruction, catheters or stents, and the organism. This observational study supports stewardship review; it is not a randomized basis for universally withholding antibiotics or abandoning local transplant protocols.",
+    limitations: "Treatment was not randomized at this single center, so confounding by indication is a major concern: clinicians may have treated patients or episodes they considered higher risk. Only 72 patients were treated, confidence intervals were wide, and recurrent episodes, screening intensity, prophylaxis, urologic devices, local treatment thresholds, and antimicrobial choices may limit generalizability. The report is an accepted manuscript and may change during copyediting.",
+    link: "https://doi.org/10.1093/ofid/ofag750",
+    doi: "10.1093/ofid/ofag750"
+  },
+  {
     id: "oral-iv-antibiotics-complicated-appendicitis-2026",
     date: "2026-11-13",
     title: "Oral versus intravenous postoperative antibiotics after laparoscopic appendectomy following complicated appendicitis: an open-label cluster-randomized cluster-crossover multiperiod non-inferiority study",
