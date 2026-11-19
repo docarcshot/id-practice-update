@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "coccidioidomycosis-community-acquired-pneumonia-endemic-areas-2026",
+    date: "2026-11-19",
+    title: "Primary Pulmonary Coccidioidomycosis in Persons with Community Acquired Pneumonia in Endemic Areas",
+    type: "Prospective multicenter observational cohort study",
+    journal: "Open Forum Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Coccidioidomycosis", "Community-acquired pneumonia", "Endemic mycoses", "Fungal infection", "Diagnostic testing", "Serology", "Pneumonia", "Outpatient ID"],
+    summary: "Among 496 participants aged at least 14 years who presented with community-acquired pneumonia at Arizona and California sites, 23.4% had primary pulmonary coccidioidomycosis (95% CI 19.9%-27.3%). The adjusted odds of coccidioidomycosis decreased with each year of age (odds ratio 0.98, 95% CI 0.97-1.00), were lower in females than males (odds ratio 0.55, 95% CI 0.33-0.93), and were higher among Hispanic than non-Hispanic participants (odds ratio 1.98, 95% CI 1.08-3.64).",
+    change: "Primary pulmonary coccidioidomycosis accounted for nearly one-quarter of CAP presentations in the studied endemic settings, supporting earlier exposure assessment and Coccidioides testing rather than waiting for antibacterial treatment failure. Among 215 participants with primary pulmonary coccidioidomycosis, 67% achieved at least a 50% reduction in the study symptom score by day 85. An adjusted longitudinal model found no significant symptom-score difference between participants who did and did not receive antifungal therapy (parameter estimate 0.79, 95% CI -0.09 to 1.67), but treatment was not randomized.",
+    takeaway: "For pneumonia after residence in or travel to a Coccidioides-endemic area, especially Arizona or California, include primary pulmonary coccidioidomycosis in the initial differential and obtain appropriate serologic testing when the exposure and syndrome fit. Do not use sex or ethnicity as stand-alone testing rules, and do not interpret this study as support for empiric fluconazole in every endemic-area CAP case; treatment still depends on illness severity, host risk, extent of disease, and guideline-based clinical judgment.",
+    limitations: "The prevalence estimate comes from selected sites in Arizona and California and may not generalize to other regions, referral settings, or unselected CAP populations. Participants could be as young as 14 years. Serologic timing and case ascertainment can affect recognition of early coccidioidomycosis. The antifungal comparison was observational and vulnerable to confounding by indication, so it cannot determine whether treatment improves outcomes. The report is an accepted manuscript and may change during copyediting.",
+    link: "https://doi.org/10.1093/ofid/ofag749",
+    doi: "10.1093/ofid/ofag749"
+  },
+  {
     id: "early-kidney-transplant-asb-treatment-2026",
     date: "2026-11-16",
     title: "Chasing Shadows? Antibiotic Treatment for Asymptomatic Bacteriuria in the First 30 Days Post Kidney Transplant",
