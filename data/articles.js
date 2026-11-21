@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "idsa-invasive-aspergillosis-prophylaxis-liver-kidney-pancreas-transplant-2026",
+    date: "2026-11-20",
+    title: "2026 IDSA Clinical Practice Guidelines on Prevention of Invasive Aspergillosis in Adult Solid Organ Transplant Recipients – Liver, Kidney and Pancreas Transplant Recipients",
+    type: "IDSA clinical practice guideline with systematic and mapping reviews",
+    journal: "Clinical Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Invasive aspergillosis", "Solid organ transplant", "Liver transplant", "Kidney transplant", "Pancreas transplant", "Antifungal prophylaxis", "Transplant ID", "Antifungal stewardship", "Immunocompromised hosts"],
+    summary: "The evidence review found proven or probable invasive aspergillosis in 305/14,385 liver-transplant recipients not receiving anti-Aspergillus prophylaxis (pooled incidence 1.9%, 95% CI 1.4%-2.5%), 328/35,240 kidney-transplant recipients (0.8%, 95% CI 0.6%-1.2%), and 10/1,234 pancreas-transplant recipients (0.8%, 95% CI 0.3%-1.7%). Six randomized trials in unselected liver-transplant recipients found no clear benefit from universal prophylaxis for invasive aspergillosis (risk ratio 1.11, 95% CI 0.23-5.45; 640 participants) or all-cause mortality (risk ratio 1.06, 95% CI 0.67-1.69; 828 participants).",
+    change: "IDSA conditionally suggests against universal anti-Aspergillus prophylaxis after liver transplantation and suggests targeted prophylaxis for patients at high risk because of peri-transplant renal replacement therapy, re-transplantation, or transplantation for fulminant hepatic failure. In three retrospective before-and-after studies including 145 high-risk recipients, targeted prophylaxis was associated with less invasive aspergillosis than no prophylaxis (risk ratio 0.19, 95% CI 0.06-0.66; modeled absolute risk 16.9% versus 3.2%), but certainty was very low. The guideline also concludes that available evidence does not support universal prophylaxis after kidney or pancreas transplantation.",
+    takeaway: "Use a risk-targeted rather than universal mold-prophylaxis strategy after liver transplantation, incorporating the center's epidemiology and transplant protocol. When prophylaxis is indicated, the guideline conditionally favors an echinocandin or a newer mold-active triazole (voriconazole, posaconazole, or isavuconazole) over amphotericin B formulations or itraconazole; choose among them by organ function, drug interactions, absorption, and monitoring needs. The reviewed regimens typically continued through discharge or up to 28 days. Do not routinely add universal anti-Aspergillus prophylaxis after kidney or pancreas transplantation solely because a transplant occurred.",
+    limitations: "Most evidence was observational, retrospective, single-center, and heterogeneous, and the targeted-prophylaxis studies were before-and-after cohorts conducted from 1990 through 2017 with few events and serious risk of confounding. Recommendations for targeted liver-transplant prophylaxis and agent selection are conditional and based on very-low-certainty evidence; no peer-reviewed liver-transplant prophylaxis study directly evaluated posaconazole or isavuconazole. The mapping reviews mixed diagnostic eras and occasionally included small numbers of pediatric recipients. The journal version is an accepted manuscript and may change during copyediting.",
+    link: "https://doi.org/10.1093/cid/ciag433",
+    doi: "10.1093/cid/ciag433"
+  },
+  {
     id: "coccidioidomycosis-community-acquired-pneumonia-endemic-areas-2026",
     date: "2026-11-19",
     title: "Primary Pulmonary Coccidioidomycosis in Persons with Community Acquired Pneumonia in Endemic Areas",
