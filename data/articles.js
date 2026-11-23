@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "idsa-invasive-aspergillosis-prophylaxis-lung-heart-transplant-2026",
+    date: "2026-11-20",
+    title: "2026 IDSA Clinical Practice Guidelines on Prevention of Invasive Aspergillosis in Adult Solid Organ Transplant Recipients – Lung and Heart Transplant Recipients",
+    type: "IDSA clinical practice guideline with systematic and mapping reviews",
+    journal: "Clinical Infectious Diseases",
+    impact: "Practice informing",
+    tags: ["Invasive aspergillosis", "Solid organ transplant", "Lung transplant", "Heart transplant", "Antifungal prophylaxis", "Preemptive therapy", "Transplant ID", "Antifungal stewardship", "Immunocompromised hosts"],
+    summary: "For lung transplantation, four retrospective before-and-after studies included 656 recipients and were too biased and heterogeneous to establish whether universal prophylaxis improves outcomes. A separate mapping review estimated invasive aspergillosis incidence without anti-Aspergillus prophylaxis at 19.0% (95% CI 8.4%-37.2%), with individual cohorts ranging from 11/242 (4.5%) to 8/11 (73%). For heart transplantation, 16 observational studies identified 232 proven or probable cases among 6,005 recipients without routine mold-active prophylaxis; pooled incidence was 3.8% (95% CI 2.5%-5.7%).",
+    change: "IDSA makes no recommendation for or against universal anti-Aspergillus prophylaxis after lung transplantation and no recommendation for or against targeted prophylaxis or preemptive therapy rather than universal prophylaxis, explicitly identifying a knowledge gap. If a lung-transplant prevention strategy is used, agent selection should be individualized by toxicity, drug interactions, tolerability, administration, resources, and local epidemiology. For heart transplantation, the guideline concludes that available evidence does not support routine universal prophylaxis.",
+    takeaway: "Do not present one lung-transplant prophylaxis strategy as an evidence-mandated standard. Follow a center-specific protocol informed by local invasive-aspergillosis incidence, colonization and surveillance practices, immunosuppression, drug interactions, breakthrough infections, and toxicity. After heart transplantation, avoid routine universal mold prophylaxis solely because a transplant occurred; discuss individualized prevention for higher-risk patients, including those with postoperative renal replacement therapy, reoperation, CMV infection, or augmented immunosuppression for rejection.",
+    limitations: "No randomized trial compared lung-transplant prevention strategies. The available lung studies were retrospective before-and-after cohorts spanning different eras, diagnostic methods, transplant types, surveillance protocols, agents, and prophylaxis durations; the extreme incidence heterogeneity makes a single pooled baseline difficult to apply. Heart-transplant evidence was also observational, mostly retrospective and single-center, with variable definitions and possible outbreak-related publication bias. The literature search ended in April 2025, and the journal report is an accepted manuscript that may change during copyediting.",
+    link: "https://doi.org/10.1093/cid/ciag432",
+    doi: "10.1093/cid/ciag432"
+  },
+  {
     id: "idsa-invasive-aspergillosis-prophylaxis-liver-kidney-pancreas-transplant-2026",
     date: "2026-11-20",
     title: "2026 IDSA Clinical Practice Guidelines on Prevention of Invasive Aspergillosis in Adult Solid Organ Transplant Recipients – Liver, Kidney and Pancreas Transplant Recipients",
