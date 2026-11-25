@@ -1,5 +1,20 @@
 window.ID_ARTICLES = [
   {
+    id: "prehospital-antibiotics-suspected-sepsis-pitstop-2026",
+    date: "2026-11-24",
+    title: "Prehospital Antibiotics for Patients With Suspected Sepsis: The PITSTOP-Antibiotics Factorial Randomized Clinical Trial",
+    type: "Multicenter factorial randomized placebo-controlled trial",
+    journal: "JAMA",
+    impact: "Practice informing",
+    tags: ["Sepsis", "Prehospital care", "Emergency medicine", "Antibiotic timing", "Empiric antibiotics", "Ceftriaxone", "Antimicrobial stewardship", "Randomized trial"],
+    summary: "Among 2,048 eligible adults with suspected infection, fever, and prehospital systolic blood pressure below 100 mm Hg, paramedic-administered intramuscular ceftriaxone 1 g did not reduce hospital mortality compared with placebo: 182/1,009 (18.0%) versus 186/1,011 (18.4%; risk ratio 0.97, 95% CI 0.81-1.17; P=.77; risk difference -0.4%, 95% CI -3.7% to 3.0%). Ninety-day mortality was also similar at 273/1,009 (27.1%) versus 255/1,011 (25.2%; risk ratio 1.07, 95% CI 0.93-1.24).",
+    change: "The trial does not support routine ceftriaxone administration in the ambulance for this broad suspected-sepsis phenotype. Ceftriaxone was given about 3 hours earlier than hospital antibiotics, yet all 17 secondary outcomes were similar. It also reduced subsequent culture positivity (40.1% versus 52.7%) and increased drug-administration adverse events (64/1,026 [6.2%] versus 15/1,022 [1.5%]), mostly injection-site pain, without demonstrating clinical benefit.",
+    takeaway: "Do not treat this as evidence that prompt antibiotics are unimportant after sepsis is recognized or in septic shock. It specifically argues against a routine prehospital intramuscular ceftriaxone protocol based only on suspected infection, fever, and hypotension when hospital evaluation and definitive therapy are available within several hours. Obtain cultures before antibiotics when feasible and choose empiric therapy after evaluating likely source, severity, allergy history, and resistance risk.",
+    limitations: "The EMS definition of suspected sepsis was broad and did not use point-of-care biomarkers or a more specific organ-dysfunction assessment. Only a single ceftriaxone dose and route were tested in four Ontario paramedic systems, limiting applicability to other drugs, settings, delayed transport, or patients with an established source requiring broader coverage. Prehospital blood cultures were not obtained, prior antibiotic exposure and symptom trajectory were not recorded, and the trial was underpowered to exclude small but potentially important mortality effects.",
+    link: "https://doi.org/10.1001/jama.2026.25627",
+    doi: "10.1001/jama.2026.25627"
+  },
+  {
     id: "idsa-invasive-aspergillosis-prophylaxis-lung-heart-transplant-2026",
     date: "2026-11-20",
     title: "2026 IDSA Clinical Practice Guidelines on Prevention of Invasive Aspergillosis in Adult Solid Organ Transplant Recipients – Lung and Heart Transplant Recipients",
