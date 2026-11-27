@@ -1,5 +1,33 @@
 window.ID_ARTICLES = [
   {
+    id: "who-zoliflodacin-uncomplicated-urogenital-gonorrhoea-2026",
+    date: "2026-11-25",
+    title: "Additional treatment options for gonorrhoea",
+    type: "WHO interim guideline with evidence-to-decision assessment",
+    journal: "World Health Organization",
+    impact: "Practice informing",
+    tags: ["Gonorrhoea", "Sexually transmitted infections", "Zoliflodacin", "Ceftriaxone", "Antimicrobial resistance", "Oral antibiotics", "Guideline", "Outpatient ID"],
+    summary: "WHO conditionally added single-dose oral zoliflodacin for uncomplicated urogenital gonorrhoea in adults and adolescents aged at least 12 years and weighing at least 35 kg. In the single supporting phase 3 trial, microbiologic cure occurred in 460/506 (90.9%) zoliflodacin recipients versus 229/238 (96.2%) given ceftriaxone 500 mg plus azithromycin 1 g (risk ratio 0.94, 95% CI 0.91-0.98; 58 fewer cures per 1,000 treated; low-certainty evidence). Severe adverse events occurred in 3.4% versus 5.8% (risk ratio 0.58, 95% CI 0.31-1.07).",
+    change: "Zoliflodacin 3 g orally once is now a WHO-supported additional option when an oral regimen is needed, available, and appropriate; it does not replace WHO's unchanged first-line regimen of ceftriaxone 1 g intramuscularly once. WHO suggests against general use of two-dose gepotidacin: although urogenital cure was similar to the trial comparator (92.6% versus 91.2%; risk ratio 1.01, 95% CI 0.95-1.07; 406 participants), mild-to-moderate adverse events occurred in 74.4% versus 32.9% (risk ratio 2.26, 95% CI 1.90-2.68).",
+    takeaway: "Limit zoliflodacin to uncomplicated urogenital infection in the population covered by the recommendation; the guidance does not cover pharyngeal, anorectal, complicated or disseminated infection, pregnancy, children under 12 years, or patients under 35 kg. Exclude or separately treat chlamydia, check for interacting CYP3A4 inducers such as rifampicin or efavirenz, and support susceptibility or resistance surveillance when the drug is introduced. Follow the locally applicable guideline and product availability rather than treating this WHO option as universal first-line therapy.",
+    limitations: "The recommendation is conditional and based on low-certainty evidence from one open-label phase 3 trial; fewer than 10% of participants were women. Zoliflodacin was not compared with WHO's current ceftriaxone 1 g first-line regimen, cure varied by country, and data are inadequate for extragenital disease, pregnancy, reproductive safety, ceftriaxone-resistant infection, resistance emergence, and cost-effectiveness. WHO's full guideline and web annex are still being prepared; the current technical page summarizes the approved interim recommendations.",
+    link: "https://www.who.int/teams/global-hiv-hepatitis-and-stis-programmes/stis/treatment-care/additional-treatment-options-for-gonorrhoea"
+  },
+  {
+    id: "fda-bacfenssi-colorectal-surgical-site-infection-2026",
+    date: "2026-11-24",
+    title: "FDA Approves First Locally Applied Treatment to Reduce Surgical Site Infections After Colorectal Surgery",
+    type: "FDA regulatory approval supported by a phase 3 randomized double-blind trial",
+    journal: "U.S. Food and Drug Administration",
+    impact: "Practice changing",
+    tags: ["Surgical site infection", "Colorectal surgery", "Doxycycline", "Bacfenssi", "Antibacterial prophylaxis", "Infection prevention", "Source control", "Regulatory update"],
+    summary: "The FDA approved Bacfenssi, an extended-release doxycycline paste applied once to the abdominal wall incision before closure in addition to standard perioperative prophylaxis. In the pivotal phase 3 trial of 798 colorectal-surgery patients with incisions longer than 20 cm, 30-day treatment failure (surgical-site infection, death, or surgical reintervention) occurred in 44/405 (10.9%) with Bacfenssi plus standard care versus 71/393 (18.1%) with standard care alone (P=.004). Surgical-site infection occurred in 15/391 (3.8%) versus 36/377 (9.5%; P=.001).",
+    change: "Bacfenssi is the first FDA-approved locally applied antibacterial intervention for reducing surgical-site infections after colorectal surgery. The label is restricted to adults and pediatric patients weighing at least 45 kg whose abdominal incision is longer than 20 cm; it supplements rather than replaces standard systemic perioperative prophylaxis and other infection-prevention measures.",
+    takeaway: "Consider Bacfenssi only through a colorectal-surgery, pharmacy, and antimicrobial-stewardship protocol that confirms weight, final incision length, tetracycline allergy, and continued use of standard perioperative prophylaxis. Apply the reconstituted three-vial dose once to the fascia and abdominal-wall tissues before closure. Do not extrapolate the result to incisions 20 cm or shorter, other operations, treatment of an established infection, or substitution for systemic prophylaxis.",
+    limitations: "The approved subgroup was defined by incision length after the broader development program did not establish efficacy for incisions 20 cm or shorter. The pivotal endpoint was a 30-day composite, and the FDA summary does not provide longer-term comparative outcomes, organism-specific effects, resistance selection, or independent cost-effectiveness data. Common adverse reactions included incision-site reactions, procedural pain, anemia, and wound dehiscence; tetracycline-class warnings apply, and breastfeeding is not recommended for 40 days after administration.",
+    link: "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-first-locally-applied-treatment-reduce-surgical-site-infections-after-colorectal"
+  },
+  {
     id: "prehospital-antibiotics-suspected-sepsis-pitstop-2026",
     date: "2026-11-24",
     title: "Prehospital Antibiotics for Patients With Suspected Sepsis: The PITSTOP-Antibiotics Factorial Randomized Clinical Trial",
